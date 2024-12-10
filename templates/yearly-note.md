@@ -1,0 +1,100 @@
+---
+title: "{{date:YYYY}}"
+categories:
+  - yearly
+---
+
+<%"```calendar-timeline"%>
+<%"```"%>
+
+## Projects
+
+## Goals
+
+- …
+
+^goals-link
+
+## Heatmap
+
+## Books Read
+
+<%"```dataview"%>
+LIST WITHOUT ID
+"So far in {{date:YYYY}}, I've read " + length(rows) + " books."
+FROM "40-49 Sources/41 Books/41.03 Read"
+WHERE contains(string(readdates.finished), "{{date:YYYY}}")
+GROUP BY dateformat(finished, "yyyy")
+<%"```"%>
+
+### Favorites
+
+<%"```dataview"%>
+LIST WITHOUT ID
+title + " (" + author + ")"
+FROM "40-49 Sources/41 Books/41.03 Read"
+WHERE rating=5 AND contains(string(readdates.finished), "{{date:YYYY}}")
+<%"```"%>
+
+### All Books
+
+<%"```dataviewjs"%>
+function renderReadDates(readdates) {
+	let str = '';
+	str += new Date(readdates.started).toLocaleDateString('en-us', { month:"short", day:"numeric"});
+	str += ' - ';
+	str += new Date(readdates.finished).toLocaleDateString('en-us', { month:"short", day:"numeric"});
+	return str;
+}
+
+function fullBookList(dvarr, year) {
+	const retArr = [];
+
+    // Get only books read during the specified year
+    // But if a book was reread during the year, list it twice
+	dvarr.map(b => {
+		if(b.readdates) {
+			b.readdates.map(d => {
+				if(new Date(d.finished).getFullYear() === year) {
+					const book = Object.assign({}, b);
+					book.readdates = d;
+					retArr.push(book);
+				}
+				return d;
+			});
+		}
+		return b;
+	});
+
+    // Sort by date finished
+	retArr.sort((a,b) => {
+		let ret = 0;
+		if(a.readdates.finished.toString() > b.readdates.finished.toString()) {
+			ret = 1;
+		} else if(a.readdates.finished.toString() < b.readdates.finished.toString()) {
+			ret = -1;
+		}
+		return ret;
+	});
+	
+	return retArr;
+}
+
+// Function definitions finished, kick it off here and set your year:
+
+const year = {{date:YYYY}};
+const pages = dv.pages('"40-49 Sources/41 Books/41.03 Read"');
+const expandedPages = dv.array(fullBookList(pages, year));
+
+dv.table(
+	["cover", "title", "author", "series", "read", "rating"],
+	expandedPages.map(b => [
+		"![" + b.cover + "|80](" + b.cover + ")",
+		b.title,
+		b.author,
+		b.series,
+		renderReadDates(b.readdates),
+		"⭐".repeat(b.rating)
+	])
+);
+<%"```"%>

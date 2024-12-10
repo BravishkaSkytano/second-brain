@@ -1,0 +1,90 @@
+---
+title: "{{date:[Week] WW YYYY}}"
+categories:
+  - weekly
+---
+
+```calendar-timeline
+```
+
+## Projects
+
+## Goals
+
+> [!info] Goals for this Month
+> ![[{{date:YYYY-MM}}#^goals-link]]
+
+^goals-link
+
+## Tasks Log
+
+<%"```todoist"%>
+filter: "due after: {{start_date:MMM DD YYYY}} & due before: {{end_date:MMM DD YYYY}}"
+groupBy: project
+<%"```"%>
+
+## Journal
+
+### Memos
+
+<%*
+tR += '- [[' + moment(tp.file.title, "[W]WW gggg").startOf("week").format("YYYY-MM-DD|dddd") + ']]'
+tR += '\n	';
+tR += '![[' + moment(tp.file.title, "[W]WW gggg").startOf("week").format("YYYY-MM-DD") + '#^memo-link]]'
+tR += '\n';
+tR += '- [[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(1, "days").format("YYYY-MM-DD|dddd") + ']]'
+tR += '\n	';
+tR += '![[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(1, "days").format("YYYY-MM-DD") + '#^memo-link]]'
+tR += '\n';
+tR += '- [[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(2, "days").format("YYYY-MM-DD|dddd") + ']]'
+tR += '\n	';
+tR += '![[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(2, "days").format("YYYY-MM-DD") + '#^memo-link]]'
+tR += '\n';
+tR += '- [[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(3, "days").format("YYYY-MM-DD|dddd") + ']]'
+tR += '\n	';
+tR += '![[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(3, "days").format("YYYY-MM-DD") + '#^memo-link]]'
+tR += '\n';
+tR += '- [[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(4, "days").format("YYYY-MM-DD|dddd") + ']]'
+tR += '\n	';
+tR += '![[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(4, "days").format("YYYY-MM-DD") + '#^memo-link]]'
+tR += '\n';
+tR += '- [[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(5, "days").format("YYYY-MM-DD|dddd") + ']]'
+tR += '\n	';
+tR += '![[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(5, "days").format("YYYY-MM-DD") + '#^memo-link]]'
+tR += '\n';
+tR += '- [[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(6, "days").format("YYYY-MM-DD|dddd") + ']]'
+tR += '\n	';
+tR += '![[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(6, "days").format("YYYY-MM-DD") + '#^memo-link]]'
+%>
+
+### Work Log
+
+<%*
+tR += '- [[' + moment(tp.file.title, "[W]WW gggg").startOf("week").format("YYYY-MM-DD|dddd") + ']]'
+tR += '\n	';
+tR += '![[' + moment(tp.file.title, "[W]WW gggg").startOf("week").format("YYYY-MM-DD") + '#^work-log]]'
+tR += '\n';
+tR += '- [[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(1, "days").format("YYYY-MM-DD|dddd") + ']]'
+tR += '\n	';
+tR += '![[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(1, "days").format("YYYY-MM-DD") + '#^work-log]]'
+tR += '\n';
+tR += '- [[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(2, "days").format("YYYY-MM-DD|dddd") + ']]'
+tR += '\n	';
+tR += '![[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(2, "days").format("YYYY-MM-DD") + '#^work-log]]'
+tR += '\n';
+tR += '- [[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(3, "days").format("YYYY-MM-DD|dddd") + ']]'
+tR += '\n	';
+tR += '![[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(3, "days").format("YYYY-MM-DD") + '#^work-log]]'
+tR += '\n';
+tR += '- [[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(4, "days").format("YYYY-MM-DD|dddd") + ']]'
+tR += '\n	';
+tR += '![[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(4, "days").format("YYYY-MM-DD") + '#^work-log]]'
+tR += '\n';
+tR += '- [[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(5, "days").format("YYYY-MM-DD|dddd") + ']]'
+tR += '\n	';
+tR += '![[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(5, "days").format("YYYY-MM-DD") + '#^work-log]]'
+tR += '\n';
+tR += '- [[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(6, "days").format("YYYY-MM-DD|dddd") + ']]'
+tR += '\n	';
+tR += '![[' + moment(tp.file.title, "[W]WW gggg").startOf("week").add(6, "days").format("YYYY-MM-DD") + '#^work-log]]'
+%>
