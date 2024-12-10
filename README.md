@@ -8,6 +8,7 @@ My Second Brain, managed with Obsidian.
 	-  [catppuccin/obsidian: 💎 Soothing pastel theme for Obsidian](https://github.com/catppuccin/obsidian)
 	- [mgmeyers/obsidian-style-settings: A dynamic user interface for adjusting theme, plugin, and snippet CSS variables within Obsidian](https://github.com/mgmeyers/obsidian-style-settings)
 	- [jparkerweb/pixel-banner: 🚩 Plugin for Obsidian that allows you to automatically add beautiful banner images to your notes from various sources.](https://github.com/jparkerweb/pixel-banner)
+	- [ozntel/file-explorer-note-count: Obsidian Plugin for viewing the number of elements under each folder within the file explorer](https://github.com/ozntel/file-explorer-note-count)
 - Typography
 	- [tadashi-aikawa/obsidian-various-complements-plugin: This plugin for Obsidian enables you complete words like the auto-completion of IDE.](https://github.com/tadashi-aikawa/obsidian-various-complements-plugin)
 	- [zolrath/obsidian-auto-link-title: Automatically fetch the titles of pasted links](https://github.com/zolrath/obsidian-auto-link-title)
@@ -15,6 +16,7 @@ My Second Brain, managed with Obsidian.
 - Organization
 	- [IdreesInc/Waypoint: Obsidian plugin that gives you the power to generate dynamic MOCs in your folder notes. Enables folders to show up in the graph view and removes the need for messy tags!](https://github.com/IdreesInc/Waypoint)
 	- [AlexW00/obsidian-note-linker: 🔗 Automatically link your Obsidian notes.](https://github.com/AlexW00/obsidian-note-linker)
+	- [LostPaul/obsidian-folder-notes: Create notes within folders that can be accessed without collapsing the folder, similar to the functionality offered in Notion.](https://github.com/LostPaul/obsidian-folder-notes)
 - Settings
 	- [SilentVoid13/Templater: A template plugin for obsidian](https://github.com/SilentVoid13/Templater)
 	- [scambier/obsidian-omnisearch: A search engine that "just works" for Obsidian. Supports OCR and PDF indexing.](https://github.com/scambier/obsidian-omnisearch)
