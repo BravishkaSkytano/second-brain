@@ -1,7 +1,8 @@
 ---
-lastmod: 2024-12-11T11:05:33
+lastmod: 2024-12-11T11:25:27
 cssclasses:
   - dashboard
+obsidianUIMode: preview
 ---
 
 Short-term efforts in your work or personal life with a specific goal.
@@ -22,3 +23,15 @@ Short-term efforts in your work or personal life with a specific goal.
 - [[The Soul of Science_ Christian Faith and Natural Philosophy.pdf]]
 
 %% End Waypoint %%
+
+ 5d
+ 6a
+ 7d
+ 8d
+ 9c
+ 10b
+ 11b
+ 12d
+ 13d
+ 14b
+ 15a
