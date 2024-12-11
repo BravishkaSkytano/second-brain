@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-12-10T20:10:14
+lastmod: 2024-12-10T20:15:45
 banner: "https://images.unsplash.com/photo-1585036156171-384164a8c675?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHw5fHxpc2xhbSUyMHBoaWxvc29waHl8ZW58MHwwfHx8MTczMzg3OTEyOHww&ixlib=rb-4.0.3&q=80&w=1080"
 ---
 

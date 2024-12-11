@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-12-10T19:40:55
+lastmod: 2024-12-10T20:22:24
 ---
 
 ## Second Brain
@@ -31,3 +31,10 @@ My Second Brain, managed with Obsidian.
 	- [joshuakto/fit: File gIT (FIT) to sync your files across mobile and desktop devices using GitHub.](https://github.com/joshuakto/fit)
 	- [Xallt/sync-graph-settings: This is a plugin for syncing graph settings (Color Groups and Search Filters) to Local Graphs](https://github.com/Xallt/sync-graph-settings)
 	- ~~[codeonquer/obsidian-sync-config-folder-to-common-folder](https://github.com/codeonquer/obsidian-sync-config-folder-to-common-folder)~~ currently won’t restore config folder
+
+## Index
+
+- [[1 - Projects]]
+- [[2 - Areas]]
+- [[3 - Resources]]
+- [[4 - Archives]]
