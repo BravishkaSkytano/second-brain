@@ -9,7 +9,7 @@ My Second Brain, managed with Obsidian.
 ### Plugins Used
 
 - Appearance
-	- [catppuccin/obsidian: 💎 Soothing pastel theme for Obsidian](https://github.com/catppuccin/obsidian)
+	- [catppuccin: 💎 Soothing pastel theme for Obsidian](https://github.com/catppuccin/obsidian)
 	- [mgmeyers/obsidian-style-settings: A dynamic user interface for adjusting theme, plugin, and snippet CSS variables within Obsidian](https://github.com/mgmeyers/obsidian-style-settings)
 	- [ozntel/file-explorer-note-count: Obsidian Plugin for viewing the number of elements under each folder within the file explorer](https://github.com/ozntel/file-explorer-note-count)
 	- [noatpad/obsidian-banners: An Obsidian plugin that adds banners to your notes](https://github.com/noatpad/obsidian-banners)
@@ -23,7 +23,7 @@ My Second Brain, managed with Obsidian.
 	- [AlexW00/obsidian-note-linker: 🔗 Automatically link your Obsidian notes.](https://github.com/AlexW00/obsidian-note-linker)
 	- [LostPaul/obsidian-folder-notes: Create notes within folders that can be accessed without collapsing the folder, similar to the functionality offered in Notion.](https://github.com/LostPaul/obsidian-folder-notes)
 - Settings
-	- [SilentVoid13/Templater: A template plugin for obsidian](https://github.com/SilentVoid13/Templater)
+	- Templater: A template plugin for obsidian - [GitHub](https://github.com/SilentVoid13/Templater) | [Obsidian](obsidian://show-plugin?id=templater-obsidian)
 	- [scambier/obsidian-omnisearch: A search engine that "just works" for Obsidian. Supports OCR and PDF indexing.](https://github.com/scambier/obsidian-omnisearch)
 	- [javalent/settings-search: Adds a search bar to Obsidian.md's settings](https://github.com/javalent/settings-search)
 	- [swar8080/obsidian-plugin-update-tracker: Know when installed obsidian plugins have updates and evaluate the risk of upgrading](https://github.com/swar8080/obsidian-plugin-update-tracker)
