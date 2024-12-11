@@ -24,7 +24,7 @@ Short-term efforts in your work or personal life with a specific goal.
 
 %% End Waypoint %%
 
- 5d
+ 5d 
  6a
  7d
  8d
