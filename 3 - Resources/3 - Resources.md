@@ -10,5 +10,6 @@ Topics or interests that may be useful in the future. This could be notes from a
 	- [[Crusades From the Muslim Perspective - Medieval History DOCUMENTARY]]
 	- [[History of the Crusades - All Facts You Need To Know]]
 	- [[How to Build a Second Brain Another Way to Organise Your Notes]]
+	- [[What is Sufism]]
 
 %% End Waypoint %%
