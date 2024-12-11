@@ -1,7 +1,8 @@
 ---
 title: README
-lastmod: 2024-12-10T19:21:21
+lastmod: 2024-12-10T19:40:55
 ---
+
 ## Second Brain
 
 My Second Brain, managed with Obsidian.
