@@ -11,8 +11,9 @@ My Second Brain, managed with Obsidian.
 - Appearance
 	- [catppuccin/obsidian: 💎 Soothing pastel theme for Obsidian](https://github.com/catppuccin/obsidian)
 	- [mgmeyers/obsidian-style-settings: A dynamic user interface for adjusting theme, plugin, and snippet CSS variables within Obsidian](https://github.com/mgmeyers/obsidian-style-settings)
-	- [jparkerweb/pixel-banner: 🚩 Plugin for Obsidian that allows you to automatically add beautiful banner images to your notes from various sources.](https://github.com/jparkerweb/pixel-banner)
 	- [ozntel/file-explorer-note-count: Obsidian Plugin for viewing the number of elements under each folder within the file explorer](https://github.com/ozntel/file-explorer-note-count)
+	- [noatpad/obsidian-banners: An Obsidian plugin that adds banners to your notes](https://github.com/noatpad/obsidian-banners)
+	- [cloudy9101/obsidian-image-inserter: An Obsidian plugin helps users easily search and insert images to editors from Unsplash.](https://github.com/cloudy9101/obsidian-image-inserter)
 - Typography
 	- [tadashi-aikawa/obsidian-various-complements-plugin: This plugin for Obsidian enables you complete words like the auto-completion of IDE.](https://github.com/tadashi-aikawa/obsidian-various-complements-plugin)
 	- [zolrath/obsidian-auto-link-title: Automatically fetch the titles of pasted links](https://github.com/zolrath/obsidian-auto-link-title)
