@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-12-11T11:03:41
+lastmod: 2024-12-11T11:16:30
 ---
 
 ## Second Brain
@@ -16,6 +16,7 @@ My Second Brain, managed with Obsidian.
 - 🖌️ **Appearance**
 	- ⭐ ***Style Settings:*** A dynamic user interface for adjusting theme, plugin, and snippet CSS variables within Obsidian | [GitHub](https://github.com/mgmeyers/obsidian-style-settings) | [Obsidian](obsidian://show-plugin?id=obsidian-style-settings)
 	- ⭐ ***Supercharged Links:*** Obsidian plugin to add attributes and context menu options to internal links | [GitHub](https://github.com/mdelobelle/obsidian_supercharged_links) | [Obsidian](obsidian://show-plugin?id=supercharged-links-obsidian)
+	- ⭐ ***Graph Banner:*** An Obsidian plugin to display a relation graph view on the note header | [GitHub](https://github.com/ras0q/obsidian-graph-banner) | [Obsidian](obsidian://show-plugin?id=graph-banner)
 	- ***File Explorer Note Count:*** Obsidian Plugin for viewing the number of elements under each folder within the file explorer | [GitHub](https://github.com/ozntel/file-explorer-note-count) | [Obsidian](obsidian://show-plugin?id=file-explorer-note-count)
 	- ***Banners:*** An Obsidian plugin that adds banners to your notes | [GitHub](https://github.com/noatpad/obsidian-banners) | [Obsidian](obsidian://show-plugin?id=obsidian-banners)
 	- ***Image Inserter:*** An Obsidian plugin helps users easily search and insert images to editors from Unsplash | [GitHub](https://github.com/cloudy9101/obsidian-image-inserter) | [Obsidian](obsidian://show-plugin?id=insert-unsplash-image)
@@ -38,8 +39,9 @@ My Second Brain, managed with Obsidian.
 	- ⭐ ***Fit:*** File gIT (FIT) to sync your files across mobile and desktop devices using GitHub | [GitHub](https://github.com/joshuakto/fit) | [Obsidian](obsidian://show-plugin?id=fit)
 	- ***Settings Search:*** Adds a search bar to Obsidian.md's settings | [Obsidian](https://github.com/javalent/settings-search) | [Obsidian](obsidian://show-plugin?id=settings-search)
 	- ***Sync Graph Settings:*** This is a plugin for syncing graph settings (Color Groups and Search Filters) to Local Graphs | [GitHub](https://github.com/Xallt/sync-graph-settings) | [Obsidian](obsidian://show-plugin?id=sync-graph-settings)
+	- ***Force Note View Mode*** | [GitHub](https://github.com/bwydoogh/obsidian-force-view-mode-of-note) | [Obsidian](obsidian://show-plugin?id=obsidian-view-mode-by-frontmatter)
 	- ~~***Sync Config Folder to Common Folder:***~~ Sync contents from config folder to common folder for backup or other purposes | [GitHub](https://github.com/codeonquer/obsidian-sync-config-folder-to-common-folder) | [Obsidian](obsidian://show-plugin?id=sync-config-folder-to-common-folder)
-		- currently won’t restore config folder, error with ‘internal/fs’
+		- currently won’t restore config folder, error with ‘original-fs/promises’
 
 ## Index
 

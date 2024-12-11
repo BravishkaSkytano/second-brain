@@ -8,7 +8,6 @@ Short-term efforts in your work or personal life with a specific goal.
 
 %% Begin Waypoint %%
 - **[[APO391 Introduction to Islam]]**
-	- [[A New Introduction to Islam -- Brown, Daniel W -- Anna’s Archive.epub]]
 	- [[APO391 Syllabus 2024.pdf]]
 	- [[New Introduction to Islam, A.pdf]]
 	- [[The Integration of Islam Thought and Greek Philosophy - A Cultural Revolution]]

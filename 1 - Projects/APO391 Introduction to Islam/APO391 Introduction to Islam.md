@@ -12,7 +12,6 @@ This course will introduce the student primarily to the history and theology of 
 ---
 
 %% Begin Landmark %%
-- [[A New Introduction to Islam -- Brown, Daniel W -- Anna’s Archive.epub]]
 - [[APO391 Syllabus 2024.pdf]]
 - [[New Introduction to Islam, A.pdf]]
 - [[The Integration of Islam Thought and Greek Philosophy - A Cultural Revolution]]
