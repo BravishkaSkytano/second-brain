@@ -1,6 +1,6 @@
 ---
 description: There are two different types of philosophy---analytic philosophy and speculative philosophy. What do each of these mean and what are the differences?
-date: 2024-11-08T18:14:19
+created: 2024-11-08T18:14:19
 lastmod: 2024-11-08T18:24:25
 banner: 
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Week 1 Lecture
 description: 
-date: 2024-10-29T12:40:03
+created: 2024-10-29T12:40:03
 lastmod: 2024-10-29T23:09:03
 banner: 
 tags: 

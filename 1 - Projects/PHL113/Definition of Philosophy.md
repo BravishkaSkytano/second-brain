@@ -1,6 +1,6 @@
 ---
 description: How would you define philosophy? Well, even philosophers struggle with this question so it's a bit difficult to define philosophy in a way that everyone agrees with...
-date: 2024-09-23T14:24:42
+created: 2024-09-23T14:24:42
 lastmod: 2024-11-08T18:14:33
 banner: 
 tags:

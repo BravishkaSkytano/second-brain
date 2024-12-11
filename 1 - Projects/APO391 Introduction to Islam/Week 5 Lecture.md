@@ -1,7 +1,7 @@
 ---
 title: Week 5 Lecture
 description: 
-date: 2024-11-22T14:26:24
+created: 2024-11-22T14:26:24
 lastmod: 2024-11-25T13:41:45
 banner: 
 tags: 
