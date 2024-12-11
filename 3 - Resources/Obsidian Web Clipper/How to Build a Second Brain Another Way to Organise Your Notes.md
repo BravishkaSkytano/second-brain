@@ -15,14 +15,16 @@ created: 2024-12-10
 description: "A second brain is a system to organise and manage information. Discover how building a second brain can revolutionize your approach to studying."
 tags:
   - "clippings"
+lastmod: 2024-12-10T20:39:04
 ---
+
 *This post may contain affiliate links. When you buy through links on our site, we may earn a small commission at no additional cost to you*
 
 ## What is a Second Brain?
 
 A second brain refers to a **system** or method of organising and managing information to enhance learning, productivity, and personal growth. It is a concept coined by **Tiago Forte,** a productivity expert, to describe a digital or analogue system that **extends your mind**, capturing and storing knowledge, ideas, and insights. But you may be asking yourself:
 
-## How to build a second brain?
+## How to Build a Second Brain?
 
 Forte based the second brain on four elements:
 
