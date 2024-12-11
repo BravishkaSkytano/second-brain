@@ -29,4 +29,4 @@ My Second Brain, managed with Obsidian.
 	- [pjeby/hotkey-helper: Easily see and access any Obsidian plugin's options pane or hotkey assignments (including conflicts) from the Community Plugins tab](https://github.com/pjeby/hotkey-helper)
 	- [joshuakto/fit: File gIT (FIT) to sync your files across mobile and desktop devices using GitHub.](https://github.com/joshuakto/fit)
 	- [Xallt/sync-graph-settings: This is a plugin for syncing graph settings (Color Groups and Search Filters) to Local Graphs](https://github.com/Xallt/sync-graph-settings)
-	- [codeonquer/obsidian-sync-config-folder-to-common-folder](https://github.com/codeonquer/obsidian-sync-config-folder-to-common-folder)
+	- ~~[codeonquer/obsidian-sync-config-folder-to-common-folder](https://github.com/codeonquer/obsidian-sync-config-folder-to-common-folder)~~ currently won’t restore config folder
