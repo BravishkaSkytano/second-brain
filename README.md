@@ -1,15 +1,19 @@
 ---
-lastmod: 2024-12-11T10:23:32
+lastmod: 2024-12-11T10:35:44
 ---
 
 ## Second Brain
 
 My Second Brain, managed with Obsidian.
 
-### Plugins Used
+## Themes
+
+- ***Catppuccin:*** 💎 Soothing pastel theme for Obsidian | [GitHub](https://github.com/catppuccin/obsidian)
+- ***Sanctum:*** A minimalist theme for Obsidian.md, with the aim of creating a serene space of retreat, for thought and uninterrupted work | [GitHub](https://github.com/jdanielmourao/obsidian-sanctum)
+
+## Plugins
 
 - **Appearance**
-	- ***Catppuccin:*** 💎 Soothing pastel theme for Obsidian | [GitHub](https://github.com/catppuccin/obsidian) | [Obsidian]()
 	- ***Style Settings:*** A dynamic user interface for adjusting theme, plugin, and snippet CSS variables within Obsidian | [GitHub](https://github.com/mgmeyers/obsidian-style-settings) | [Obsidian](obsidian://show-plugin?id=obsidian-style-settings)
 	- ***File Explorer Note Count:*** Obsidian Plugin for viewing the number of elements under each folder within the file explorer | [GitHub](https://github.com/ozntel/file-explorer-note-count) | [Obsidian](obsidian://show-plugin?id=file-explorer-note-count)
 	- ***Banners:*** An Obsidian plugin that adds banners to your notes | [GitHub](https://github.com/noatpad/obsidian-banners) | [Obsidian](obsidian://show-plugin?id=obsidian-banners)

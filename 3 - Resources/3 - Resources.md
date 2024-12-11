@@ -6,6 +6,7 @@ Topics or interests that may be useful in the future. This could be notes from a
 
 %% Begin Waypoint %%
 - **Obsidian Web Clipper**
+	- [[10 Golden Age Philosophers, and Why You Should Know Them]]
 	- [[Building a Second Brain The Definitive Introductory Guide]]
 	- [[Crusades From the Muslim Perspective - Medieval History DOCUMENTARY]]
 	- [[History of the Crusades - All Facts You Need To Know]]
