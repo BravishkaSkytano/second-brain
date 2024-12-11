@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-12-11T10:48:16
+lastmod: 2024-12-11T11:03:41
 ---
 
 ## Second Brain
@@ -8,7 +8,7 @@ My Second Brain, managed with Obsidian.
 
 ## Themes
 
-- ***Catppuccin:*** 💎 Soothing pastel theme for Obsidian | [GitHub](https://github.com/catppuccin/obsidian)
+- ⭐ ***Catppuccin:*** 💎 Soothing pastel theme for Obsidian | [GitHub](https://github.com/catppuccin/obsidian)
 - ***Sanctum:*** A minimalist theme for Obsidian.md, with the aim of creating a serene space of retreat, for thought and uninterrupted work | [GitHub](https://github.com/jdanielmourao/obsidian-sanctum)
 
 ## Plugins
@@ -30,13 +30,13 @@ My Second Brain, managed with Obsidian.
 	- ⭐ ***Note Linker:*** 🔗 Automatically link your Obsidian notes | [GitHub](https://github.com/AlexW00/obsidian-note-linker) | [Obsidian](obsidian://show-plugin?id=obisidian-note-linker)**
 	- ***Waypoint:*** Obsidian plugin that gives you the power to generate dynamic MOCs in your folder notes. Enables folders to show up in the graph view and removes the need for messy tags! | [GitHub](https://github.com/IdreesInc/Waypoint) | [Obsidian](obsidian://show-plugin?id=waypoint)
 	- ***Folder Notes:*** Create notes within folders that can be accessed without collapsing the folder, similar to the functionality offered in Notion | [GitHub](https://github.com/LostPaul/obsidian-folder-notes) | [Obsidian](obsidian://show-plugin?id=folder-notes)
-- **Settings**
+- ⚙️ **Settings**
 	- ⭐ ***Templater:*** A template plugin for obsidian | [GitHub](https://github.com/SilentVoid13/Templater) | [Obsidian](obsidian://show-plugin?id=templater-obsidian)
 	- ⭐ ***Omnisearch:*** A search engine that "just works" for Obsidian. Supports OCR and PDF indexing | [GitHub](https://github.com/scambier/obsidian-omnisearch) | [Obsidian](obsidian://show-plugin?id=omnisearch)
+	- ⭐ ***Plugin Update Tracker:*** Know when installed obsidian plugins have updates and evaluate the risk of upgrading | [GitHub](https://github.com/swar8080/obsidian-plugin-update-tracker) | [Obsidian](obsidian://show-plugin?id=obsidian-plugin-update-tracker)
+	- ⭐ ***Hotkey Helper:*** Easily see and access any Obsidian plugin's options pane or hotkey assignments (including conflicts) from the Community Plugins tab | [GitHub](https://github.com/pjeby/hotkey-helper) | [Obsidian](obsidian://show-plugin?id=hotkey-helper)
+	- ⭐ ***Fit:*** File gIT (FIT) to sync your files across mobile and desktop devices using GitHub | [GitHub](https://github.com/joshuakto/fit) | [Obsidian](obsidian://show-plugin?id=fit)
 	- ***Settings Search:*** Adds a search bar to Obsidian.md's settings | [Obsidian](https://github.com/javalent/settings-search) | [Obsidian](obsidian://show-plugin?id=settings-search)
-	- ***Plugin Update Tracker:*** Know when installed obsidian plugins have updates and evaluate the risk of upgrading | [GitHub](https://github.com/swar8080/obsidian-plugin-update-tracker) | [Obsidian](obsidian://show-plugin?id=obsidian-plugin-update-tracker)
-	- ***Hotkey Helper:*** Easily see and access any Obsidian plugin's options pane or hotkey assignments (including conflicts) from the Community Plugins tab | [GitHub](https://github.com/pjeby/hotkey-helper) | [Obsidian](obsidian://show-plugin?id=hotkey-helper)
-	- ***Fit:*** File gIT (FIT) to sync your files across mobile and desktop devices using GitHub | [GitHub](https://github.com/joshuakto/fit) | [Obsidian](obsidian://show-plugin?id=fit)
 	- ***Sync Graph Settings:*** This is a plugin for syncing graph settings (Color Groups and Search Filters) to Local Graphs | [GitHub](https://github.com/Xallt/sync-graph-settings) | [Obsidian](obsidian://show-plugin?id=sync-graph-settings)
 	- ~~***Sync Config Folder to Common Folder:***~~ Sync contents from config folder to common folder for backup or other purposes | [GitHub](https://github.com/codeonquer/obsidian-sync-config-folder-to-common-folder) | [Obsidian](obsidian://show-plugin?id=sync-config-folder-to-common-folder)
 		- currently won’t restore config folder, error with ‘internal/fs’

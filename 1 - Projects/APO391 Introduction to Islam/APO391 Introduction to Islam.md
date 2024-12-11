@@ -11,7 +11,7 @@ This course will introduce the student primarily to the history and theology of 
 
 ---
 
-%% Begin Waypoint %%
+%% Begin Landmark %%
 - [[A New Introduction to Islam -- Brown, Daniel W -- Anna’s Archive.epub]]
 - [[APO391 Syllabus 2024.pdf]]
 - [[New Introduction to Islam, A.pdf]]
@@ -19,7 +19,7 @@ This course will introduce the student primarily to the history and theology of 
 - [[Week 1 Lecture]]
 - [[Week 5 Lecture]]
 
-%% End Waypoint %%
+%% End Landmark %%
 
 ---
 
