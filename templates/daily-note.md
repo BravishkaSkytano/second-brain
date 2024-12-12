@@ -2,10 +2,8 @@
 title: "{{date:dddd, MMMM DD, YYYY}}"
 categories:
   - day
+lastmod: 2024-12-12T15:56:13
 ---
-
-```calendar-nav
-```
 
 <% tp.web.daily_quote() %>
 
@@ -22,19 +20,7 @@ filter: "{{date:MMM DD YYYY}}"
 
 ## Journal
 
-Mood::
-
 Today, I am grateful for:
 1. 
 
-### Memos
-
-- ….
-
-^memo-link
-
-### Work Log
-
-- …
-
-^work-log
+<% tp.file.cursor(1) %>
