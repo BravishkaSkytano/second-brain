@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-12-11T11:16:30
+lastmod: 2024-12-12T14:12:30
 ---
 
 ## Second Brain
@@ -24,9 +24,13 @@ My Second Brain, managed with Obsidian.
 	- ⭐ ***Linter:*** An Obsidian plugin that formats and styles your notes with a focus on configurability and extensibility | [GitHub](https://github.com/platers/obsidian-linter) | [Obsidian](obsidian://show-plugin?id=obsidian-linter)
 	- ⭐ ***Various Complements:*** This plugin for Obsidian enables you complete words like the auto-completion of IDE | [GitHub](https://github.com/tadashi-aikawa/obsidian-various-complements-plugin) | [Obsidian](obsidian://show-plugin?id=various-complements)
 	- ⭐ ***Emoji Autocomplete:*** Emoji Shortcodes Autocomplete for Obsidian | [GitHub](https://github.com/KraXen72/obsidian-emoji-autocomplete) | [Obsidian](obsidian://show-plugin?id=emoji-autocomplete)
+	- ⭐ ***Diarian:*** All-in-one journaling toolkit | [GitHub](https://github.com/Erallie/diarian) | [Obsidian](obsidian://show-plugin?id=diarian)
 	- ***Auto Link Title:*** Automatically fetch the titles of pasted links | [GitHub](https://github.com/zolrath/obsidian-auto-link-title) | [Obsidian](obsidian://show-plugin?id=obsidian-auto-link-title)
 	- ***Smart Typography:*** Converts quotes to curly quotes, dashes to em dashes, and periods to ellipses | [GitHub](https://github.com/mgmeyers/obsidian-smart-typography) | [Obsidian](obsidian://show-plugin?id=obsidian-smart-typography)
 	- ***Enhanced Symbols Prettifier:*** Symbols that prettify your knowledge base | [GitHub](https://github.com/noam-sc/obsidian-enhanced-symbols-prettifier) | [Obsidian](obsidian://show-plugin?id=enhanced-symbols-prettifier)
+	- ***Journal Folder:*** Utilities for folder-based journaling | [GitHub](https://github.com/chfourie/obsidian-journal-folder) | [Obsidian](obsidian://show-plugin?id=journal-folder)
+	- ~~***Yesterday:***~~ Obsidian plugin providing [Yesterday](https://yesterday.md/) journaling support | [GitHub](https://github.com/dominikmayer/obsidian-yesterday) | [Obsidian](obsidian://show-plugin?id=yesterday)
+		- Using Diarian now
 - 🗃️ **Organization**
 	- ⭐ ***Note Linker:*** 🔗 Automatically link your Obsidian notes | [GitHub](https://github.com/AlexW00/obsidian-note-linker) | [Obsidian](obsidian://show-plugin?id=obisidian-note-linker)
 	- ***Waypoint:*** Obsidian plugin that gives you the power to generate dynamic MOCs in your folder notes. Enables folders to show up in the graph view and removes the need for messy tags! | [GitHub](https://github.com/IdreesInc/Waypoint) | [Obsidian](obsidian://show-plugin?id=waypoint)
@@ -42,7 +46,7 @@ My Second Brain, managed with Obsidian.
 	- ***Force Note View Mode*** | [GitHub](https://github.com/bwydoogh/obsidian-force-view-mode-of-note) | [Obsidian](obsidian://show-plugin?id=obsidian-view-mode-by-frontmatter)
 	- ~~***Sync Config Folder to Common Folder:***~~ Sync contents from config folder to common folder for backup or other purposes | [GitHub](https://github.com/codeonquer/obsidian-sync-config-folder-to-common-folder) | [Obsidian](obsidian://show-plugin?id=sync-config-folder-to-common-folder)
 		- currently won’t restore config folder, error with ‘original-fs/promises’
-		- Doesn’t support 
+		- Doesn’t support
 
 ## Index
 
