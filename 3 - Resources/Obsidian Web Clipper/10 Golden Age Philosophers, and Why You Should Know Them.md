@@ -7,7 +7,7 @@ created: 2024-12-11
 description: "We can all rattle off a few Greek philosophers to win a trivia prize, but how many Golden Age philosophers are you familiar with? Here's a primer."
 tags:
   - "clippings"
-lastmod: 2024-12-11T10:38:58
+lastmod: 2024-12-12T13:28:20
 ---
 
 If challenged to name ten #philosophers in ten seconds, some of us might make it to ten. Most of us could possibly hit seven. Of those, the majority are likely to be ancient Greek figures with the remainder more modern, western ones. If a non-western name is to be offered it is likely to be one of the extremely famous thinkers of Asia, such as Confucius, the Buddha, Lao Tzu, or Sun Tzu. How many of us would produce an Islamic or Arabic thinker as an example?
@@ -22,7 +22,7 @@ Here are ten of the most underrated and under-appreciated philosophers from the 
 
 Famed doctor, chemist, and philosopher. First person to describe smallpox and measles as separate diseases. Developed a metaphysical system, based on Plato, which described the universe as consisting of five elements; God, time, place, soul, and matter. Author of the first book on pediatrics.
 
-“**I have written 20,000 pages (in small print), moreover I spent fifteen years of my life – night and day – writing the big collection entitled Al Hawi****. It was during this time that I lost my eyesight, my hand became paralyzed, with the result that I am now deprived of reading and writing. Nonetheless, I’ve never given up.**“
+“**I have written 20,000 pages (in small print), moreover I spent fifteen years of my life – night and day – writing the big collection entitled Al Hawi. It was during this time that I lost my eyesight, my hand became paralyzed, with the result that I am now deprived of reading and writing. Nonetheless, I’ve never given up.**“
 
 ![](https://bigthink.com/wp-content/uploads/2016/11/18606402.jpg?w=335)
 
@@ -30,11 +30,11 @@ Famed doctor, chemist, and philosopher. First person to describe smallpox and me
 
 Rabbi who lived during the golden age of Islam in the various centers of the Abbasid Caliphate. Known for work on Hebrew Linguistics, translations of hebrew texts into Arabic, Jewish law, and preventing a schism in Judaism by means of simple argument. Appointed as the first foreign head of an Academy in Sura. Combined Hebrew and Greek thought.
 
-**“T****he composition of poems remind(s) man of his state of frailty, wretchedness and toil.”**
+**“The composition of poems remind(s) man of his state of frailty, wretchedness and toil.”**
 
 ![](https://bigthink.com/wp-content/uploads/2016/11/18606403.jpg?w=335)
 
-**3. [Yahya ibn Adi](https://www.jstor.org/stable/2708187?seq=1#page_scan_tab_contents)**893 CE – 974 CE
+**3. [Yahya ibn Adi](https://www.jstor.org/stable/2708187?seq=1#page_scan_tab_contents)** 893 CE – 974 CE
 
 Logic theorist and doctor based in Tikrit in modern Iraq. Produced dozens of translations of Greek philosophy into Arabic. A Christian, he was able to use his philosophical knowledge to produce defenses of Christian theology grounded in classical thought.
 
@@ -46,7 +46,7 @@ Logic theorist and doctor based in Tikrit in modern Iraq. Produced dozens of tra
 
 Persian Polymath that is often regarded as the single [greatest thinker of the Islamic Golden age](http://plato.stanford.edu/entries/ibn-sina/). Author of 450 books, one of which was a standard medical text until 1650. Refined the scientific method past that of his philosophical idol, Aristotle. Wrote on Astronomy, Chemistry, Geology, Religion, Logic, Mathematics, Physics, and even wrote poetry. His commentaries and translations of Aristotle went on to influence European thought during the Enlightenment.
 
-**“****The world is divided into men who have wit and no religion and men who have religion and no wit.”**
+**“The world is divided into men who have wit and no religion and men who have religion and no wit.”**
 
 **![](https://bigthink.com/wp-content/uploads/2016/11/18606405.jpg?w=335)**
 
