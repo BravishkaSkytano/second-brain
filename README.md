@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-12-12T14:12:30
+lastmod: 2024-12-12T14:34:12
 ---
 
 ## Second Brain
@@ -28,9 +28,6 @@ My Second Brain, managed with Obsidian.
 	- ***Auto Link Title:*** Automatically fetch the titles of pasted links | [GitHub](https://github.com/zolrath/obsidian-auto-link-title) | [Obsidian](obsidian://show-plugin?id=obsidian-auto-link-title)
 	- ***Smart Typography:*** Converts quotes to curly quotes, dashes to em dashes, and periods to ellipses | [GitHub](https://github.com/mgmeyers/obsidian-smart-typography) | [Obsidian](obsidian://show-plugin?id=obsidian-smart-typography)
 	- ***Enhanced Symbols Prettifier:*** Symbols that prettify your knowledge base | [GitHub](https://github.com/noam-sc/obsidian-enhanced-symbols-prettifier) | [Obsidian](obsidian://show-plugin?id=enhanced-symbols-prettifier)
-	- ***Journal Folder:*** Utilities for folder-based journaling | [GitHub](https://github.com/chfourie/obsidian-journal-folder) | [Obsidian](obsidian://show-plugin?id=journal-folder)
-	- ~~***Yesterday:***~~ Obsidian plugin providing [Yesterday](https://yesterday.md/) journaling support | [GitHub](https://github.com/dominikmayer/obsidian-yesterday) | [Obsidian](obsidian://show-plugin?id=yesterday)
-		- Using Diarian now
 - 🗃️ **Organization**
 	- ⭐ ***Note Linker:*** 🔗 Automatically link your Obsidian notes | [GitHub](https://github.com/AlexW00/obsidian-note-linker) | [Obsidian](obsidian://show-plugin?id=obisidian-note-linker)
 	- ***Waypoint:*** Obsidian plugin that gives you the power to generate dynamic MOCs in your folder notes. Enables folders to show up in the graph view and removes the need for messy tags! | [GitHub](https://github.com/IdreesInc/Waypoint) | [Obsidian](obsidian://show-plugin?id=waypoint)
