@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-12-12T14:34:12
+lastmod: 2024-12-14T09:51:57
 ---
 
 ## Second Brain
@@ -25,6 +25,7 @@ My Second Brain, managed with Obsidian.
 	- ⭐ ***Various Complements:*** This plugin for Obsidian enables you complete words like the auto-completion of IDE | [GitHub](https://github.com/tadashi-aikawa/obsidian-various-complements-plugin) | [Obsidian](obsidian://show-plugin?id=various-complements)
 	- ⭐ ***Emoji Autocomplete:*** Emoji Shortcodes Autocomplete for Obsidian | [GitHub](https://github.com/KraXen72/obsidian-emoji-autocomplete) | [Obsidian](obsidian://show-plugin?id=emoji-autocomplete)
 	- ⭐ ***Diarian:*** All-in-one journaling toolkit | [GitHub](https://github.com/Erallie/diarian) | [Obsidian](obsidian://show-plugin?id=diarian)
+	- ***Daily Prompt:*** Set up custom prompts and automatically fill them into your daily notes | [GitHub](https://github.com/Erl-koenig/obsidian-dailyPrompt) | [Obsidian](obsidian://show-plugin?id=daily-prompt)
 	- ***Auto Link Title:*** Automatically fetch the titles of pasted links | [GitHub](https://github.com/zolrath/obsidian-auto-link-title) | [Obsidian](obsidian://show-plugin?id=obsidian-auto-link-title)
 	- ***Smart Typography:*** Converts quotes to curly quotes, dashes to em dashes, and periods to ellipses | [GitHub](https://github.com/mgmeyers/obsidian-smart-typography) | [Obsidian](obsidian://show-plugin?id=obsidian-smart-typography)
 	- ***Enhanced Symbols Prettifier:*** Symbols that prettify your knowledge base | [GitHub](https://github.com/noam-sc/obsidian-enhanced-symbols-prettifier) | [Obsidian](obsidian://show-plugin?id=enhanced-symbols-prettifier)
