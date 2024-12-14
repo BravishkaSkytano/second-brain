@@ -8,9 +8,9 @@ Long-term responsibilities in your life, such as finances, pets, or school.
 - **Journal**
 	- **[[2024]]**
 		- **[[2024-12]]**
-			- [[2024-12-12]]
 			- [[2024-12-14]]
 		- [[2024-Q4]]
 		- [[2024-W49]]
+		- [[2024-W50]]
 
 %% End Waypoint %%
