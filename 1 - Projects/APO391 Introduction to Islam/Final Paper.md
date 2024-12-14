@@ -10,7 +10,7 @@ tags:
 > [!info]
 > This paper will be about the great philosophers of the Islamic world and their contributions to the area of philosophy around the world.
 
-When most of us think of philosophy, we picture people like Aristotle, Plato, Socrates, Nietzsche, Kant, and Confucious.
+When most of us think of philosophy, we picture people like Aristotle, Plato, Socrates, Kant, Confucius, Sun Tzu, Voltaire, and Locke. If you look up a list of famous philosophers, you will see many more Greeks, Europeans, and Chinese men who have made great contributions to the subject
 
 ## Ramblings
 
