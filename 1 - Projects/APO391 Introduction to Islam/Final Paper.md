@@ -2,7 +2,7 @@
 title: Final Paper
 description: 
 created: 2024-12-14T09:57
-lastmod: 2024-12-14T11:51:55
+lastmod: 2024-12-14T12:05:48
 banner: 
 tags: 
 ---
@@ -10,7 +10,7 @@ tags:
 > [!info]
 > This paper will be about the great philosophers of the Islamic world and their contributions to the area of philosophy around the world.
 
-
+When most of us think of philosophy, we picture people like Aristotle, Plato, Socrates, Nietzsche, Kant, and Confucious.
 
 ## Ramblings
 
