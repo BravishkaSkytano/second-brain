@@ -13,6 +13,7 @@ This course will introduce the student primarily to the history and theology of 
 
 %% Begin Landmark %%
 - [[APO391 Syllabus 2024.pdf]]
+- [[Final Paper]]
 - [[New Introduction to Islam, A.pdf]]
 - [[The Integration of Islam Thought and Greek Philosophy - A Cultural Revolution]]
 - [[Week 1 Lecture]]

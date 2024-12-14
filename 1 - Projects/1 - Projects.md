@@ -10,6 +10,7 @@ Short-term efforts in your work or personal life with a specific goal.
 %% Begin Waypoint %%
 - **[[APO391 Introduction to Islam]]**
 	- [[APO391 Syllabus 2024.pdf]]
+	- [[Final Paper]]
 	- [[New Introduction to Islam, A.pdf]]
 	- [[The Integration of Islam Thought and Greek Philosophy - A Cultural Revolution]]
 	- [[Week 1 Lecture]]
