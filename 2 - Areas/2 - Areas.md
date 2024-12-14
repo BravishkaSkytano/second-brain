@@ -9,6 +9,6 @@ Long-term responsibilities in your life, such as finances, pets, or school.
 	- **2024**
 		- **12-December**
 			- [[2024-12-12]]
-- **Personal**
+			- [[2024-12-14]]
 
 %% End Waypoint %%
