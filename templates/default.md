@@ -8,7 +8,7 @@ await tp.file.rename(title)
 <%"---"%>
 title: <% title %>
 description: 
-created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
+created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm") %>
 lastmod: 
 banner: 
 tags: 

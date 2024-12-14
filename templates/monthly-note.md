@@ -1,6 +1,5 @@
 ---
-title: "{{date:MMMM YYYY}}"
-categories:
+tags:
   - monthly
 ---
 

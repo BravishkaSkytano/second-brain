@@ -1,6 +1,0 @@
-{
-  "ignore": [
-    "templates/*"
-  ],
-  "timeToRemoveLeaf": 500
-}

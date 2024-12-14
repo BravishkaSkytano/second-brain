@@ -1,6 +1,5 @@
 ---
-title: "{{date:[Quarter] Q YYYY}}"
-categories:
+tags:
   - quarterly
 ---
 

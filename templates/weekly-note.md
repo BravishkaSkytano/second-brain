@@ -1,6 +1,5 @@
 ---
-title: "{{date:[Week] WW YYYY}}"
-categories:
+tags:
   - weekly
 ---
 

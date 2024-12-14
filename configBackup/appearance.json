@@ -1,8 +1,0 @@
-{
-  "cssTheme": "Catppuccin",
-  "enabledCssSnippets": [
-    "supercharged-links-gen",
-    "dashboard",
-    "dashboard-ReadLineLength"
-  ]
-}

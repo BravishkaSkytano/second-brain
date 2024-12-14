@@ -1,7 +1,7 @@
 
 <%"---"%>
 title: {{title}} by {{author}}
-date: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
+date: <% tp.file.creation_date("YYYY-MM-DDTHH:mm") %>
 lastmod: 
 banner:
 categories:

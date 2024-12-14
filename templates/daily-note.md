@@ -1,8 +1,6 @@
 ---
-title: "{{date:dddd, MMMM DD, YYYY}}"
-categories:
-  - day
-lastmod: 2024-12-12T15:56:13
+tags:
+  - daily
 ---
 
 <% tp.web.daily_quote() %>
