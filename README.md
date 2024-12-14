@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-12-14T09:51:57
+lastmod: 2024-12-14T10:30:45
 ---
 
 ## Second Brain
@@ -26,6 +26,8 @@ My Second Brain, managed with Obsidian.
 	- ⭐ ***Emoji Autocomplete:*** Emoji Shortcodes Autocomplete for Obsidian | [GitHub](https://github.com/KraXen72/obsidian-emoji-autocomplete) | [Obsidian](obsidian://show-plugin?id=emoji-autocomplete)
 	- ⭐ ***Diarian:*** All-in-one journaling toolkit | [GitHub](https://github.com/Erallie/diarian) | [Obsidian](obsidian://show-plugin?id=diarian)
 	- ***Daily Prompt:*** Set up custom prompts and automatically fill them into your daily notes | [GitHub](https://github.com/Erl-koenig/obsidian-dailyPrompt) | [Obsidian](obsidian://show-plugin?id=daily-prompt)
+	- ***Periodic Notes:*** Create/manage your daily, weekly, and monthly notes in Obsidian | [GitHub](https://github.com/liamcain/obsidian-periodic-notes) | [Obsidian](obsidian://show-plugin?id=periodic-notes)
+	- ***Auto Periodic Notes:*** Obsidian plugin to create new periodic notes automatically in the background and allow these to be pinned in your open tabs. Requires the "Periodic Notes" plugin | [GitHub](https://github.com/jamiefdhurst/obsidian-auto-periodic-notes) | [Obsidian](obsidian://show-plugin?id=auto-periodic-notes)
 	- ***Auto Link Title:*** Automatically fetch the titles of pasted links | [GitHub](https://github.com/zolrath/obsidian-auto-link-title) | [Obsidian](obsidian://show-plugin?id=obsidian-auto-link-title)
 	- ***Smart Typography:*** Converts quotes to curly quotes, dashes to em dashes, and periods to ellipses | [GitHub](https://github.com/mgmeyers/obsidian-smart-typography) | [Obsidian](obsidian://show-plugin?id=obsidian-smart-typography)
 	- ***Enhanced Symbols Prettifier:*** Symbols that prettify your knowledge base | [GitHub](https://github.com/noam-sc/obsidian-enhanced-symbols-prettifier) | [Obsidian](obsidian://show-plugin?id=enhanced-symbols-prettifier)
@@ -44,7 +46,7 @@ My Second Brain, managed with Obsidian.
 	- ***Force Note View Mode*** | [GitHub](https://github.com/bwydoogh/obsidian-force-view-mode-of-note) | [Obsidian](obsidian://show-plugin?id=obsidian-view-mode-by-frontmatter)
 	- ~~***Sync Config Folder to Common Folder:***~~ Sync contents from config folder to common folder for backup or other purposes | [GitHub](https://github.com/codeonquer/obsidian-sync-config-folder-to-common-folder) | [Obsidian](obsidian://show-plugin?id=sync-config-folder-to-common-folder)
 		- currently won’t restore config folder, error with ‘original-fs/promises’
-		- Doesn’t support
+		- Doesn’t support mobile
 
 ## Index
 
