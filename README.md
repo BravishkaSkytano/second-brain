@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-12-14T10:56:57
+lastmod: 2024-12-14T19:06:02
 ---
 
 ## Second Brain
@@ -20,6 +20,7 @@ My Second Brain, managed with Obsidian.
 	- ***File Explorer Note Count:*** Obsidian Plugin for viewing the number of elements under each folder within the file explorer | [GitHub](https://github.com/ozntel/file-explorer-note-count) | [Obsidian](obsidian://show-plugin?id=file-explorer-note-count)
 	- ***Banners:*** An Obsidian plugin that adds banners to your notes | [GitHub](https://github.com/noatpad/obsidian-banners) | [Obsidian](obsidian://show-plugin?id=obsidian-banners)
 	- ***Image Inserter:*** An Obsidian plugin helps users easily search and insert images to editors from Unsplash | [GitHub](https://github.com/cloudy9101/obsidian-image-inserter) | [Obsidian](obsidian://show-plugin?id=insert-unsplash-image)
+	- ***Focus Mode:*** Add focus mode to Obsidian | [GitHub](https://github.com/ryanpcmcquen/obsidian-focus-mode) | [Obsidian](obsidian://show-plugin?id=obsidian-focus-mode)
 - ✍️ **Typography**
 	- ⭐ ***Linter:*** An Obsidian plugin that formats and styles your notes with a focus on configurability and extensibility | [GitHub](https://github.com/platers/obsidian-linter) | [Obsidian](obsidian://show-plugin?id=obsidian-linter)
 	- ⭐ ***Various Complements:*** This plugin for Obsidian enables you complete words like the auto-completion of IDE | [GitHub](https://github.com/tadashi-aikawa/obsidian-various-complements-plugin) | [Obsidian](obsidian://show-plugin?id=various-complements)
@@ -28,6 +29,7 @@ My Second Brain, managed with Obsidian.
 	- ***Auto Link Title:*** Automatically fetch the titles of pasted links | [GitHub](https://github.com/zolrath/obsidian-auto-link-title) | [Obsidian](obsidian://show-plugin?id=obsidian-auto-link-title)
 	- ***Smart Typography:*** Converts quotes to curly quotes, dashes to em dashes, and periods to ellipses | [GitHub](https://github.com/mgmeyers/obsidian-smart-typography) | [Obsidian](obsidian://show-plugin?id=obsidian-smart-typography)
 	- ***Enhanced Symbols Prettifier:*** Symbols that prettify your knowledge base | [GitHub](https://github.com/noam-sc/obsidian-enhanced-symbols-prettifier) | [Obsidian](obsidian://show-plugin?id=enhanced-symbols-prettifier)
+	- ***Footnotes:*** Makes creating footnotes in Obsidian more fun! | [GitHub](https://github.com/MichaBrugger/obsidian-footnotes) | [Obsidian](obsidian://show-plugin?id=obsidian-footnotes)
 - 🗃️ **Organization**
 	- ⭐ ***Note Linker:*** 🔗 Automatically link your Obsidian notes | [GitHub](https://github.com/AlexW00/obsidian-note-linker) | [Obsidian](obsidian://show-plugin?id=obisidian-note-linker)
 	- ***Waypoint:*** Obsidian plugin that gives you the power to generate dynamic MOCs in your folder notes. Enables folders to show up in the graph view and removes the need for messy tags! | [GitHub](https://github.com/IdreesInc/Waypoint) | [Obsidian](obsidian://show-plugin?id=waypoint)
