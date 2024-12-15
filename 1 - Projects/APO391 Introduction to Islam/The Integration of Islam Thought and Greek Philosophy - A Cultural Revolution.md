@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-12-10T20:15:45
+lastmod: 2024-12-14T19:57:31
 banner: "https://images.unsplash.com/photo-1585036156171-384164a8c675?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHw5fHxpc2xhbSUyMHBoaWxvc29waHl8ZW58MHwwfHx8MTczMzg3OTEyOHww&ixlib=rb-4.0.3&q=80&w=1080"
 ---
 
@@ -31,7 +31,7 @@ The influence of Islamic philosophy extended far beyond the boundaries of the Is
 
 10 Golden Age Philosophers, and Why You Should Know Them. (2016). https://bigthink.com/culture-religion/ten-islamic-philosophers-you-dont-know-and-why-you-shoud/
 
-A Golden age and the Floating Man: Ireland, Avicenna and the ... (2022). https://pmc.ncbi.nlm.nih.gov/articles/PMC9200096/
+A Golden age and the Floating Man: Ireland, Avicenna and the … (2022). https://pmc.ncbi.nlm.nih.gov/articles/PMC9200096/
 
 Arabic and Islamic Metaphysics - Stanford Encyclopedia of Philosophy. (2012). https://plato.stanford.edu/entries/arabic-islamic-metaphysics/
 
@@ -41,19 +41,19 @@ Arabic and Islamic Philosophy of Language and Logic. (2008b). https://plato.stan
 
 Arabic and Islamic Philosophy of Religion. (2023). https://plato.stanford.edu/entries/arabic-islamic-religion/
 
-Arabic and Islamic Psychology and Philosophy of Mind (Stanford ... (2008). https://plato.stanford.edu/entries/arabic-islamic-mind/
+Arabic and Islamic Psychology and Philosophy of Mind (Stanford … (2008). https://plato.stanford.edu/entries/arabic-islamic-mind/
 
 Aristotelianism in Islamic philosophy. (1998). https://www.muslimphilosophy.com/ip/rep/H002
 
-Averroes Against Avicenna and Aquinas: Individuation, Persistence ... (n.d.). https://academic.oup.com/book/41929/chapter/354946165
+Averroes Against Avicenna and Aquinas: Individuation, Persistence … (n.d.). https://academic.oup.com/book/41929/chapter/354946165
 
 avicenna’s influence on aquinas’ - inii sent., d. 1, q. 1, a. 2 - jstor. (n.d.). https://www.jstor.org/stable/26485484
 
 Concepts In Muslim Philosophy - PhilArchive. (2022). https://philarchive.org/rec/TANCIM
 
-Exploring the Richness of Islamic Philosophy: A Journey Through ... (2021). https://www.readabudhabi.com/blog/Exploring-the-Richness-of-Islamic-Philosophy:-A-Journey-Through-Time-and-Thought
+Exploring the Richness of Islamic Philosophy: A Journey Through … (2021). https://www.readabudhabi.com/blog/Exploring-the-Richness-of-Islamic-Philosophy:-A-Journey-Through-Time-and-Thought
 
-Forging Philosophical Bridges: How Islamic Thought Shaped the ... (2023). https://medium.com/@zoyasheikh2005/forging-philosophical-bridges-how-islamic-thought-shaped-the-west-and-the-world-e6328b5b6f46
+Forging Philosophical Bridges: How Islamic Thought Shaped the … (2023). https://medium.com/@zoyasheikh2005/forging-philosophical-bridges-how-islamic-thought-shaped-the-west-and-the-world-e6328b5b6f46
 
 Greek philosophy: impact on Islamic philosophy. (1998). https://www.muslimphilosophy.com/ip/rep/H011
 
