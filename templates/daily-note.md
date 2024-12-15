@@ -18,9 +18,3 @@ filter: "{{date:MMM DD YYYY}}"
 
 ## Journal
 
-Today, I am grateful for:
-1. 
-
-<% tp.file.cursor(1) %>
-
-^journal-link
