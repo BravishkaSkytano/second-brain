@@ -6,14 +6,8 @@ tags:
 ```calendar-timeline
 ```
 
-## Projects
-
-## Goals
-
-> [!info] Goals for this Month
-> ![[{{date:YYYY-MM}}#^goals-link]]
-
-^goals-link
+> [!info] Goals for {{date:MMMM}}
+> ![[{{date:YYYY-MM}}#Goals]]
 
 ## Tasks Log
 

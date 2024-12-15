@@ -5,7 +5,7 @@ tags:
 
 <% tp.web.daily_quote() %>
 
-> [!info] Goals for this Week
+> [!info] Goals for Week {{date:WW}}
 > ![[{{date:YYYY-[W]WW}}#Goals]]
 
 ## Journal
