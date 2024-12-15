@@ -2,7 +2,7 @@
 title: Final Paper
 description: 
 created: 2024-12-14T09:57
-lastmod: 2024-12-14T20:01:11
+lastmod: 2024-12-14T20:07:29
 banner: 
 tags: 
 ---
@@ -19,7 +19,9 @@ During the eight to thirteenth centuries, the Golden Age for the Islamic World s
 
 ### Al-Kindi, the “Philosopher of the Arabs”
 
-The earliest influential philosopher that we currently know of is a man by the name of al-Kindi. Al-Kindi, the “Philosopher of the Arabs,” was credited with translating and synthesizing Greek philosophical works into Arabic. He also contributed to metaphysics, ethics, and epistemology.
+The first Muslim philosopher that we currently know of is a man by the name of al-Kindi. Al-Kindi, the “Philosopher of the Arabs,” was a diligent student of Greek and Hellenistic authors.[^4]
+
+was credited with translating and synthesizing Greek philosophical works into Arabic. He also contributed to metaphysics, ethics, and epistemology.
 
 ### Al-Farabi, the “Second Teacher”
 
@@ -30,3 +32,4 @@ The first great philosopher we know of would be al-Farabi (c. 872–950 AD), oth
 [^1]: [Famous Philosophers - List of World Famous Philosophers & Their Biographies](https://www.thefamouspeople.com/philosophers.php)
 [^2]: Brown, 2017
 [^3]: [Exploring the Richness of Islamic Philosophy: A journey Through Time and Thought](https://www.readabudhabi.com/blog/Exploring-the-Richness-of-Islamic-Philosophy:-A-Journey-Through-Time-and-Thought)
+[^4]: [Islam - Philosophy, Theology, Mysticism \| Britannica](https://www.britannica.com/topic/Islam/Islamic-philosophy)
