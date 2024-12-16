@@ -6,11 +6,9 @@ tags:
 ```calendar-timeline
 ```
 
-## Goals
-
-> [!info] Goals for this Year
-> ![[{{date:YYYY}}#^goals-link]]
+> [!info] Goals for {{date:YYYY}}
+> ![[{{date:YYYY}}#^overview-link]]
 
 - …
 
-^goals-link
+^overview-link

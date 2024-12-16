@@ -7,7 +7,13 @@ tags:
 ```
 
 > [!info] Goals for {{date:MMMM}}
-> ![[{{date:YYYY-MM}}#Goals]]
+> ![[{{date:YYYY-MM}}#^overview-link]]
+
+^overview-link
+
+This week I am grateful for:
+
+1. 
 
 ## Tasks Log
 
@@ -16,9 +22,7 @@ filter: "due after: {{start_date:MMM DD YYYY}} & due before: {{end_date:MMM DD Y
 groupBy: project
 <%"```"%>
 
-## Journal
-
-### Week In Review
+## Week In Review
 
 <%*
 tR += '- [[' + moment(tp.file.title, "[W]WW gggg").startOf("week").format("YYYY-MM-DD|dddd") + ']]'

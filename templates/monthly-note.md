@@ -6,14 +6,17 @@ tags:
 ```calendar-timeline
 ```
 
-## Projects
+## Overview
 
-## Goals
+> [!info] Goals for Quarter {{date:Q}}
+> ![[{{date:YYYY-[Q]Q}}#^overview-link]]
 
-> [!info] Goals for this Quarter
-> ![[{{date:YYYY-[Q]Q}}#^goals-link]]
+^overview-link
 
-^goals-link
+This month, my favorite highlights are:
+
+1. 
+
 
 ## Tasks Log
 
@@ -24,7 +27,3 @@ groupBy: project
 
 ## Journal
 
-Mood::
-
-This month, my favorite highlights are:
-1. 

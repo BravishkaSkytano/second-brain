@@ -6,15 +6,11 @@ tags:
 <%"```calendar-timeline"%>
 <%"```"%>
 
-## Projects
-
-## Goals
+## Overview
 
 - …
 
-^goals-link
-
-## Heatmap
+^overview-link
 
 ## Books Read
 
