@@ -2,7 +2,7 @@
 title: Plants I'd Like to Grow
 description: 
 created: 2024-12-19T15:22
-lastmod: 2024-12-19T16:26:37
+lastmod: 2024-12-19T17:03:53
 banner: 
 tags:
 ---
@@ -12,6 +12,9 @@ tags:
 > ![[Burro's Tail - Live Starter Plants in 2 Inch Pots - Sedum Morganianum - Drought Tolerant Indoor Outdoor Easy Care Succulent Houseplant - 1 Plant.jpg]]
 > 
 > ![[Pink Kalanchoe Butterfly.jpg]]
+>  
+> ![[Growing Jade Plants - The Easy Care Houseplant With Unique Style!.jpg]]
+> ![[Saving Your Jade Plant_ Troubleshooting Tips for a Dying Succulent.jpg]]
 > 
 > ![[4809efb5-4152-4156-8055-aa84e58b1a9d.jpg]]
 > ![[Coleus Black Blue.jpg]]
@@ -19,6 +22,7 @@ tags:
 >  
 >  ![[Head Planter.jpg]]
 >  ![[Spider Plant.jpg]]
+
 
 - General
 	- [Bottom Watering Plants: An Effective Technique for Watering Houseplants](https://savvygardening.com/bottom-watering-plants/)
