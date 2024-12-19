@@ -2,7 +2,7 @@
 title: Plants I'd Like to Grow
 description: 
 created: 2024-12-19T15:22
-lastmod: 2024-12-19T16:07:56
+lastmod: 2024-12-19T16:26:37
 banner: 
 tags:
 ---
@@ -11,6 +11,7 @@ tags:
 > ![[bfbda4cd-41cc-4f72-b8d3-558823352b9b.jpg]]
 > ![[Burro's Tail - Live Starter Plants in 2 Inch Pots - Sedum Morganianum - Drought Tolerant Indoor Outdoor Easy Care Succulent Houseplant - 1 Plant.jpg]]
 > 
+> ![[Pink Kalanchoe Butterfly.jpg]]
 > 
 > ![[4809efb5-4152-4156-8055-aa84e58b1a9d.jpg]]
 > ![[Coleus Black Blue.jpg]]
@@ -19,8 +20,11 @@ tags:
 >  ![[Head Planter.jpg]]
 >  ![[Spider Plant.jpg]]
 
+- General
+	- [Bottom Watering Plants: An Effective Technique for Watering Houseplants](https://savvygardening.com/bottom-watering-plants/)
+	- [Plants that Grow in Water: A No-Fuss Way to Grow Houseplants](https://savvygardening.com/plants-that-grow-in-water/)
 - Succulents
-	- Kalanchoe
+	- [Kalanchoe Care Guide for Beginners (Indoors and Outdoors) - The Practical Planter](https://thepracticalplanter.com/kalanchoe-care/)
 	- [How to Grow and Care for Donkey's Tail](https://www.thespruce.com/grow-sedum-morganianum-1902975)
 
 
