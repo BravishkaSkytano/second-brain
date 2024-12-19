@@ -2,18 +2,32 @@
 title: Plants I'd Like to Grow
 description: 
 created: 2024-12-19T15:22
-lastmod: 2024-12-19T15:44:55
+lastmod: 2024-12-19T15:56:44
 banner: 
 tags: 
+caption: Image Layout B
+descriptions:
+- Something
+- Another thing
+permanentOverlay: true
 ---
 
 ```image-layout-masonry-2
-![[Burro's Tail - Live Starter Plants in 2 Inch Pots - Sedum Morganianum - Drought Tolerant Indoor Outdoor Easy Care Succulent Houseplant - 1 Plant.jpg]]
-![[bfbda4cd-41cc-4f72-b8d3-558823352b9b.jpg]]
+![Burro's Tail](Burro's Tail - Live Starter Plants in 2 Inch Pots - Sedum Morganianum - Drought Tolerant Indoor Outdoor Easy Care Succulent Houseplant - 1 Plant.jpg)
+![Burro's Tail](bfbda4cd-41cc-4f72-b8d3-558823352b9b.jpg)
+![Spider Plant](Head Planter.jpg)
 ```
 
 - Succulents
 	- Kalanchoe
-	- Donkey Tail or Burros Tail
+	- [How to Grow and Care for Donkey's Tail](https://www.thespruce.com/grow-sedum-morganianum-1902975)
 
 ![[Kalanchoe Succulent Varieties with PICTURES.jpg]]
+![[Spider Plant.jpg]]
+![[attachments/Coleus Black Blue 20 seeds _ Coleus scutellarioides_(#3299).jpg]]
+
+![[Rare Coleus Seeds _ 50 Seeds.jpg]]
+
+![[4809efb5-4152-4156-8055-aa84e58b1a9d.jpg]]
+
+![[2 Pack Pink Kalanchoe Butterfly Succulent Plants Well Rooted in 2 Inch Pot, Succulent Houseplant Kalanchoe Cactus Live Plant in Pot.jpg]]
