@@ -2,27 +2,27 @@
 title: Plants I'd Like to Grow
 description: 
 created: 2024-12-19T15:22
-lastmod: 2024-12-19T17:03:53
+lastmod: 2024-12-20T17:25:25
 banner: 
 tags:
 ---
+
 > [!blank-container|no-margin gallery] Burro’s Tail or Donkey’s Tail
 >
 > ![[bfbda4cd-41cc-4f72-b8d3-558823352b9b.jpg]]
 > ![[Burro's Tail - Live Starter Plants in 2 Inch Pots - Sedum Morganianum - Drought Tolerant Indoor Outdoor Easy Care Succulent Houseplant - 1 Plant.jpg]]
-> 
+>
 > ![[Pink Kalanchoe Butterfly.jpg]]
->  
+>
 > ![[Growing Jade Plants - The Easy Care Houseplant With Unique Style!.jpg]]
 > ![[Saving Your Jade Plant_ Troubleshooting Tips for a Dying Succulent.jpg]]
-> 
+>
 > ![[4809efb5-4152-4156-8055-aa84e58b1a9d.jpg]]
 > ![[Coleus Black Blue.jpg]]
 >  ![[Rare Coleus.jpg]]
->  
+>
 >  ![[Head Planter.jpg]]
 >  ![[Spider Plant.jpg]]
-
 
 - General
 	- [Bottom Watering Plants: An Effective Technique for Watering Houseplants](https://savvygardening.com/bottom-watering-plants/)
