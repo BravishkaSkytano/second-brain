@@ -11,6 +11,7 @@ Long-term responsibilities in your life, such as finances, pets, or school.
 			- [[2024-12-14]]
 			- [[2024-12-15]]
 			- [[2024-12-19]]
+			- [[2024-12-21]]
 		- [[2024-Q4]]
 		- [[2024-W50]]
 
