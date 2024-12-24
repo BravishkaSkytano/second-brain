@@ -11,17 +11,30 @@ My Second Brain, managed with Obsidian.
 - ⭐ ***Catppuccin:*** 💎 Soothing pastel theme for Obsidian | [GitHub](https://github.com/catppuccin/obsidian)
 - ***Sanctum:*** A minimalist theme for Obsidian.md, with the aim of creating a serene space of retreat, for thought and uninterrupted work | [GitHub](https://github.com/jdanielmourao/obsidian-sanctum)
 
-## Plugins
+## Plugins I Use
 
-- 🖌️ **Appearance**
+- ✨ **Major New Features**
+	- ⭐ ***Tasks***: Task management for the Obsidian knowledge base | [GitHub](https://github.com/obsidian-tasks-group/obsidian-tasks) | [Obsidian](obsidian://show-plugin?id=obsidian-tasks-plugin)
+	- ⭐ ***Tasks Calendar Wrapper:*** This plugin currently provides a timeline view to display your tasks from your obsidian valut, with customizable filters and rendering options | [GitHub](https://github.com/Leonezz/obsidian-tasks-calendar-wrapper) | [Obsidian](obsidian://show-plugin?id=tasks-calendar-wrapper)
+- 🧰 **Handy Utilities**
 	- ⭐ ***Style Settings:*** A dynamic user interface for adjusting theme, plugin, and snippet CSS variables within Obsidian | [GitHub](https://github.com/mgmeyers/obsidian-style-settings) | [Obsidian](obsidian://show-plugin?id=obsidian-style-settings)
+	- Tag Wrangler
+- ✍️ **Editor Enhancements**
 	- ⭐ ***Supercharged Links:*** Obsidian plugin to add attributes and context menu options to internal links | [GitHub](https://github.com/mdelobelle/obsidian_supercharged_links) | [Obsidian](obsidian://show-plugin?id=supercharged-links-obsidian)
+	- ***Focus Mode:*** Add focus mode to Obsidian | [GitHub](https://github.com/ryanpcmcquen/obsidian-focus-mode) | [Obsidian](obsidian://show-plugin?id=obsidian-focus-mode)
+	- Better Word Count
+	- Callout Suggestions
+	- Checklist Re
+- **Canvas Add-Ons**
+- 🖌️ **Appearance Upgrades**
+- **Daily Notes Add-Ons**
+- **Extra Nerdy Stuff**
+-  **Appearance**
 	- ⭐ ***Graph Banner:*** An Obsidian plugin to display a relation graph view on the note header | [GitHub](https://github.com/ras0q/obsidian-graph-banner) | [Obsidian](obsidian://show-plugin?id=graph-banner)
 	- ***File Explorer Note Count:*** Obsidian Plugin for viewing the number of elements under each folder within the file explorer | [GitHub](https://github.com/ozntel/file-explorer-note-count) | [Obsidian](obsidian://show-plugin?id=file-explorer-note-count)
 	- ***Banners:*** An Obsidian plugin that adds banners to your notes | [GitHub](https://github.com/noatpad/obsidian-banners) | [Obsidian](obsidian://show-plugin?id=obsidian-banners)
 	- ***Image Inserter:*** An Obsidian plugin helps users easily search and insert images to editors from Unsplash | [GitHub](https://github.com/cloudy9101/obsidian-image-inserter) | [Obsidian](obsidian://show-plugin?id=insert-unsplash-image)
-	- ***Focus Mode:*** Add focus mode to Obsidian | [GitHub](https://github.com/ryanpcmcquen/obsidian-focus-mode) | [Obsidian](obsidian://show-plugin?id=obsidian-focus-mode)
-- ✍️ **Typography**
+-  **Typography**
 	- ⭐ ***Linter:*** An Obsidian plugin that formats and styles your notes with a focus on configurability and extensibility | [GitHub](https://github.com/platers/obsidian-linter) | [Obsidian](obsidian://show-plugin?id=obsidian-linter)
 	- ⭐ ***Various Complements:*** This plugin for Obsidian enables you complete words like the auto-completion of IDE | [GitHub](https://github.com/tadashi-aikawa/obsidian-various-complements-plugin) | [Obsidian](obsidian://show-plugin?id=various-complements)
 	- ⭐ ***Emoji Autocomplete:*** Emoji Shortcodes Autocomplete for Obsidian | [GitHub](https://github.com/KraXen72/obsidian-emoji-autocomplete) | [Obsidian](obsidian://show-plugin?id=emoji-autocomplete)
@@ -32,8 +45,6 @@ My Second Brain, managed with Obsidian.
 	- ***Footnotes:*** Makes creating footnotes in Obsidian more fun! | [GitHub](https://github.com/MichaBrugger/obsidian-footnotes) | [Obsidian](obsidian://show-plugin?id=obsidian-footnotes)
 	- ***Image Layouts:*** Add beautiful image layouts to your notes | [GitHub](https://github.com/vertis/obsidian-image-layouts) | [Obsidian](obsidian://show-plugin?id=obsidian-image-layouts)
 - 🗃️ **Organization
-	- ⭐ ***Tasks***: Task management for the Obsidian knowledge base | [GitHub](https://github.com/obsidian-tasks-group/obsidian-tasks) | [Obsidian](obsidian://show-plugin?id=obsidian-tasks-plugin)
-	- ⭐ ***Tasks Calendar Wrapper:*** This plugin currently provides a timeline view to display your tasks from your obsidian valut, with customizable filters and rendering options | [GitHub](https://github.com/Leonezz/obsidian-tasks-calendar-wrapper) | [Obsidian](obsidian://show-plugin?id=tasks-calendar-wrapper)**
 	- ⭐ ***Note Linker:*** 🔗 Automatically link your Obsidian notes | [GitHub](https://github.com/AlexW00/obsidian-note-linker) | [Obsidian](obsidian://show-plugin?id=obisidian-note-linker)
 	- ***Waypoint:*** Obsidian plugin that gives you the power to generate dynamic MOCs in your folder notes. Enables folders to show up in the graph view and removes the need for messy tags! | [GitHub](https://github.com/IdreesInc/Waypoint) | [Obsidian](obsidian://show-plugin?id=waypoint)
 	- ***Folder Notes:*** Create notes within folders that can be accessed without collapsing the folder, similar to the functionality offered in Notion | [GitHub](https://github.com/LostPaul/obsidian-folder-notes) | [Obsidian](obsidian://show-plugin?id=folder-notes)
