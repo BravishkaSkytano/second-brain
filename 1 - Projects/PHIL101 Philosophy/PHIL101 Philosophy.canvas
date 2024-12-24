@@ -2,7 +2,11 @@
 	"nodes":[
 		{"id":"74983b58fc1daa8f","x":-580,"y":-265,"width":485,"height":60,"type":"text","text":"# PHIL101: Philosophy"},
 		{"id":"a98c1ceb74e781bb","x":-20,"y":-360,"width":465,"height":250,"type":"text","text":"## Course Description\n\nIf we love wisdom and search for truth, the study of philosophy is essential. This course deals with the basics of philosophy from a Christian perspective and gives many opportuinities to apply biblical truth to the realities of Christian life and ministry. It deals with areas of logic, knowledge, truth, God and the supernatural, and ethics."},
-		{"id":"a137b3b41aef2910","x":-580,"y":0,"width":310,"height":400,"type":"text","text":"```tasks\nnot done\ntag include #phil101\nhide tags\nshort mode\n```"}
+		{"id":"a137b3b41aef2910","x":-580,"y":60,"width":310,"height":400,"type":"text","text":"```tasks\nnot done\ntags include #phil101 AND #read\nhide tags\nshort mode\n```"},
+		{"id":"71908f45403e364e","x":-550,"y":-40,"width":250,"height":60,"type":"text","text":"## Read"},
+		{"id":"01ff5688fd8c1831","x":-201,"y":-45,"width":250,"height":60,"type":"text","text":"## Write"},
+		{"id":"3a18ac2af5b02ac6","x":160,"y":-45,"width":250,"height":60,"type":"text","text":"## Discuss"},
+		{"id":"40ff571337e8da01","x":-580,"y":540,"width":250,"height":60,"type":"text","text":""}
 	],
 	"edges":[]
 }
