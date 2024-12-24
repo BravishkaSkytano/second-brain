@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-12-24T12:20:46
+lastmod: 2024-12-24T12:51:27
 ---
 
 ## Second Brain
@@ -13,20 +13,23 @@ My Second Brain, managed with Obsidian.
 
 ## Plugins I Use
 
-- ✨ **Major New Features**
+- ✨ **Major New Features** ✨
+	- ***Force Note View Mode*** | [GitHub](https://github.com/bwydoogh/obsidian-force-view-mode-of-note) | [Obsidian](obsidian://show-plugin?id=obsidian-view-mode-by-frontmatter)
 	- ⭐ ***Hotkey Helper:*** Easily see and access any Obsidian plugin's options pane or hotkey assignments (including conflicts) from the Community Plugins tab | [GitHub](https://github.com/pjeby/hotkey-helper) | [Obsidian](obsidian://show-plugin?id=hotkey-helper)
 	- ⭐ ***Omnisearch:*** A search engine that "just works" for Obsidian. Supports OCR and PDF indexing | [GitHub](https://github.com/scambier/obsidian-omnisearch) | [Obsidian](obsidian://show-plugin?id=omnisearch)
 	- ⭐ ***Plugin Update Tracker:*** Know when installed obsidian plugins have updates and evaluate the risk of upgrading | [GitHub](https://github.com/swar8080/obsidian-plugin-update-tracker) | [Obsidian](obsidian://show-plugin?id=obsidian-plugin-update-tracker)
-	- ***Settings Search:*** Adds a search bar to Obsidian.md's settings | [Obsidian](https://github.com/javalent/settings-search) | [Obsidian](obsidian://show-plugin?id=settings-search)
-	- ***Sync Graph Settings:*** This is a plugin for syncing graph settings (Color Groups and Search Filters) to Local Graphs | [GitHub](https://github.com/Xallt/sync-graph-settings) | [Obsidian](obsidian://show-plugin?id=sync-graph-settings)
 	- ⭐ ***Tasks***: Task management for the Obsidian knowledge base | [GitHub](https://github.com/obsidian-tasks-group/obsidian-tasks) | [Obsidian](obsidian://show-plugin?id=obsidian-tasks-plugin)
 	- ⭐ ***Tasks Calendar Wrapper:*** This plugin currently provides a timeline view to display your tasks from your obsidian valut, with customizable filters and rendering options | [GitHub](https://github.com/Leonezz/obsidian-tasks-calendar-wrapper) | [Obsidian](obsidian://show-plugin?id=tasks-calendar-wrapper)
 	- quickadd
-- 🧰 **Handy Utilities**
-	- ⭐ ***Templater:*** A template plugin for obsidian | [GitHub](https://github.com/SilentVoid13/Templater) | [Obsidian](obsidian://show-plugin?id=templater-obsidian)
+- 🧰 **Handy Utilities** 🧰
+	- ***Folder Notes:*** Create notes within folders that can be accessed without collapsing the folder, similar to the functionality offered in Notion | [GitHub](https://github.com/LostPaul/obsidian-folder-notes) | [Obsidian](obsidian://show-plugin?id=folder-notes)
+	- ***Settings Search:*** Adds a search bar to Obsidian.md's settings | [Obsidian](https://github.com/javalent/settings-search) | [Obsidian](obsidian://show-plugin?id=settings-search)
+	- ***Sync Graph Settings:*** This is a plugin for syncing graph settings (Color Groups and Search Filters) to Local Graphs | [GitHub](https://github.com/Xallt/sync-graph-settings) | [Obsidian](obsidian://show-plugin?id=sync-graph-settings)
 	- ⭐ ***Style Settings:*** A dynamic user interface for adjusting theme, plugin, and snippet CSS variables within Obsidian | [GitHub](https://github.com/mgmeyers/obsidian-style-settings) | [Obsidian](obsidian://show-plugin?id=obsidian-style-settings)
+	- ⭐ ***Templater:*** A template plugin for obsidian | [GitHub](https://github.com/SilentVoid13/Templater) | [Obsidian](obsidian://show-plugin?id=templater-obsidian)
+	- ***Waypoint:*** Obsidian plugin that gives you the power to generate dynamic MOCs in your folder notes. Enables folders to show up in the graph view and removes the need for messy tags! | [GitHub](https://github.com/IdreesInc/Waypoint) | [Obsidian](obsidian://show-plugin?id=waypoint)
 	- Tag Wrangler
-- ✍️ **Editor Enhancements**
+- ✍️ **Editor Enhancements** ✍️
 	- ***Auto Link Title:*** Automatically fetch the titles of pasted links | [GitHub](https://github.com/zolrath/obsidian-auto-link-title) | [Obsidian](obsidian://show-plugin?id=obsidian-auto-link-title)
 	- ***Enhanced Symbols Prettifier:*** Symbols that prettify your knowledge base | [GitHub](https://github.com/noam-sc/obsidian-enhanced-symbols-prettifier) | [Obsidian](obsidian://show-plugin?id=enhanced-symbols-prettifier)
 	- ⭐ ***Focus Mode:*** Add focus mode to Obsidian | [GitHub](https://github.com/ryanpcmcquen/obsidian-focus-mode) | [Obsidian](obsidian://show-plugin?id=obsidian-focus-mode)
@@ -40,8 +43,7 @@ My Second Brain, managed with Obsidian.
 	- Language Tool integration
 	- Media notes
 	- Reading time
-	- 
-- 🖌️ **Appearance Upgrades**
+- 🖌️ **Appearance Upgrades** 🖌️
 	- ***Banners:*** An Obsidian plugin that adds banners to your notes | [GitHub](https://github.com/noatpad/obsidian-banners) | [Obsidian](obsidian://show-plugin?id=obsidian-banners)
 	- ⭐ ***Graph Banner:*** An Obsidian plugin to display a relation graph view on the note header | [GitHub](https://github.com/ras0q/obsidian-graph-banner) | [Obsidian](obsidian://show-plugin?id=graph-banner)
 	- ***Image Layouts:*** Add beautiful image layouts to your notes | [GitHub](https://github.com/vertis/obsidian-image-layouts) | [Obsidian](obsidian://show-plugin?id=obsidian-image-layouts)
@@ -50,33 +52,20 @@ My Second Brain, managed with Obsidian.
 	- List Callouts
 	- painter
 	- query control
-- **Daily Notes Add-Ons**
+- 📆 **Daily Notes Add-Ons** 📆
 	- ⭐ ***Journals:*** Manage your journals | [GitHub](https://github.com/srg-kostyrko/obsidian-journal) | [Obsidian](obsidian://show-plugin?id=journals)
 	- charts
 	- force note
 	- tracker
 	- pinboard sync
-- **Extra Nerdy Stuff**
+- 🤓 **Extra Nerdy Stuff** 🤓
 	- ⭐ ***Fit:*** File gIT (FIT) to sync your files across mobile and desktop devices using GitHub | [GitHub](https://github.com/joshuakto/fit) | [Obsidian](obsidian://show-plugin?id=fit)
 	- ⭐ ***Linter:*** An Obsidian plugin that formats and styles your notes with a focus on configurability and extensibility | [GitHub](https://github.com/platers/obsidian-linter) | [Obsidian](obsidian://show-plugin?id=obsidian-linter)
 	- ⭐ ***Note Linker:*** 🔗 Automatically link your Obsidian notes | [GitHub](https://github.com/AlexW00/obsidian-note-linker) | [Obsidian](obsidian://show-plugin?id=obisidian-note-linker)
-	- ⭐ ***Various Complements:*** This plugin for Obsidian enables you complete words like the auto-completion of IDE | [GitHub](https://github.com/tadashi-aikawa/obsidian-various-complements-plugin) | [Obsidian](obsidian://show-plugin?id=various-complements)
-
-
-
-
-
--  **Appearance**
-	- ***File Explorer Note Count:*** Obsidian Plugin for viewing the number of elements under each folder within the file explorer | [GitHub](https://github.com/ozntel/file-explorer-note-count) | [Obsidian](obsidian://show-plugin?id=file-explorer-note-count)
--  **Typography**
-- 🗃️ **Organization
-	- ***Waypoint:*** Obsidian plugin that gives you the power to generate dynamic MOCs in your folder notes. Enables folders to show up in the graph view and removes the need for messy tags! | [GitHub](https://github.com/IdreesInc/Waypoint) | [Obsidian](obsidian://show-plugin?id=waypoint)
-	- ***Folder Notes:*** Create notes within folders that can be accessed without collapsing the folder, similar to the functionality offered in Notion | [GitHub](https://github.com/LostPaul/obsidian-folder-notes) | [Obsidian](obsidian://show-plugin?id=folder-notes)
-- ⚙️ **Settings**
-	- ***Force Note View Mode*** | [GitHub](https://github.com/bwydoogh/obsidian-force-view-mode-of-note) | [Obsidian](obsidian://show-plugin?id=obsidian-view-mode-by-frontmatter)
 	- ~~***Sync Config Folder to Common Folder:***~~ Sync contents from config folder to common folder for backup or other purposes | [GitHub](https://github.com/codeonquer/obsidian-sync-config-folder-to-common-folder) | [Obsidian](obsidian://show-plugin?id=sync-config-folder-to-common-folder)
 		- currently won’t restore config folder, error with ‘original-fs/promises’
 		- Doesn’t support mobile
+	- ⭐ ***Various Complements:*** This plugin for Obsidian enables you complete words like the auto-completion of IDE | [GitHub](https://github.com/tadashi-aikawa/obsidian-various-complements-plugin) | [Obsidian](obsidian://show-plugin?id=various-complements)
 
 ## Index
 
