@@ -2,8 +2,8 @@
 title: Master Tasks List
 description: 
 created: 2024-12-24T12:22
-lastmod: 2024-12-24T15:25:56
-banner: https://images.unsplash.com/photo-1678846851878-9a8445a4fb5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwxMXx8dG9kb3xlbnwwfDB8fHwxNzM1MDYwOTg4fDA&ixlib=rb-4.0.3&q=80&w=1080
+lastmod: 2024-12-24T15:50:48
+banner: "https://images.unsplash.com/photo-1678846851878-9a8445a4fb5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwxMXx8dG9kb3xlbnwwfDB8fHwxNzM1MDYwOTg4fDA&ixlib=rb-4.0.3&q=80&w=1080"
 tags: 
 obsidianUIMode: preview
 ---
@@ -18,3 +18,7 @@ obsidianUIMode: preview
 - [ ] #todo #read Chapters 1-2 in *Unraveling Philosophy* #phil101
 - [ ] #todo #write Summarize chapters 1-2 of *Unraveling Philosophy* #phil101
 - [ ] #todo #discuss Discussion Board: Week 3 #phil101
+
+- [ ] #todo #read Chapters 3-4 in *Unraveling Philosophy* #phil101
+- [ ] #todo #write Summarize chapters 3-4 of *Unraveling Philosophy* #phil101
+- [ ] #todo #discuss Discussion Board: Week 4 #phil101

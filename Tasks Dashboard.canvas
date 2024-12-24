@@ -1,11 +1,11 @@
 {
 	"nodes":[
-		{"id":"b21ae7ee05f604a1","type":"text","text":"```tasks\nnot done\n(due before next week) OR (scheduled before next week) OR (starts before next week)\nsort by due\nshort mode\n```","x":-120,"y":40,"width":560,"height":351,"color":"3"},
+		{"id":"b21ae7ee05f604a1","type":"text","text":"```tasks\nnot done\n(due before next week) OR (scheduled before next week) OR (starts before next week)\nhide tags\nsort by due\nshort mode\n```","x":-120,"y":40,"width":560,"height":351,"color":"3"},
 		{"id":"ef947bd050f4221a","type":"text","text":"```tasks\nnot done\n(has due date) OR (has scheduled date)\n((due after this week) AND (due in or before next 4 weeks)) OR ((scheduled after this week) AND (scheduled in or before next 4 weeks))\nsort by due\nhide tags\nshort mode\n```","x":-120,"y":520,"width":560,"height":350,"color":"2"},
 		{"id":"5bb07f81c1e3e6f2","type":"text","text":"## This Week","x":35,"y":-58,"width":250,"height":60,"color":"3"},
 		{"id":"d995edf639b6a228","type":"text","text":"## This Month","x":35,"y":421,"width":250,"height":60,"color":"2"},
-		{"id":"e8346dc533429adf","type":"text","text":"## Scheduled","x":35,"y":900,"width":250,"height":60,"color":"1"},
-		{"id":"1c559b8fb0623622","type":"text","text":"```tasks\nnot done\n(has due date) OR (has scheduled date) OR (has start date)\nhide tags\nlimit 8\nshort mode\n```","x":-120,"y":1000,"width":560,"height":351,"color":"1"},
+		{"id":"e8346dc533429adf","type":"text","text":"## Future","x":35,"y":900,"width":250,"height":60,"color":"1"},
+		{"id":"1c559b8fb0623622","type":"text","text":"```tasks\nnot done\n(has due date) OR (has scheduled date)\n(due after next 4 weeks) OR (scheduled after next 4 weeks)\nsort by due\nhide tags\nshort mode\n```","x":-120,"y":1000,"width":560,"height":351,"color":"1"},
 		{"id":"a4f220d7bfd1fff6","type":"text","text":"```tasks\nnot done\ntag include #read\nhide tags\nshort mode\n```","x":485,"y":40,"width":560,"height":351,"color":"6"},
 		{"id":"193aaf786b4d3485","type":"text","text":"## Read","x":640,"y":-58,"width":250,"height":60,"color":"6"},
 		{"id":"61af3c069c2027d3","type":"text","text":"```tasks\nnot done\ntag include #write\nhide tags\nshort mode\n```","x":485,"y":520,"width":560,"height":350,"color":"5"},
