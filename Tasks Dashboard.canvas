@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"e116cae9fa9af6a1","x":-91,"y":-28,"width":250,"height":60,"color":"4","type":"text","text":"Ready"},
+		{"id":"b21ae7ee05f604a1","x":-91,"y":40,"width":250,"height":260,"color":"4","type":"text","text":"```tasks\nnot done\n(due before next week) OR (scheduled before next week) OR (starts before next week)\nsort by due\nshort mode\n```"},
+		{"id":"e8346dc533429adf","x":180,"y":-28,"width":250,"height":60,"color":"6","type":"text","text":"Scheduled"},
+		{"id":"1c559b8fb0623622","x":180,"y":40,"width":250,"height":260,"color":"6","type":"text","text":"```tasks\nnot done\n(has due date) OR (has scheduled date) OR (has start date)\nhide tags\nlimit 8\nshort mode\n```"}
+	],
+	"edges":[]
+}
