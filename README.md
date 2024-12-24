@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-12-19T15:46:12
+lastmod: 2024-12-24T12:20:46
 ---
 
 ## Second Brain
@@ -31,7 +31,9 @@ My Second Brain, managed with Obsidian.
 	- ***Enhanced Symbols Prettifier:*** Symbols that prettify your knowledge base | [GitHub](https://github.com/noam-sc/obsidian-enhanced-symbols-prettifier) | [Obsidian](obsidian://show-plugin?id=enhanced-symbols-prettifier)
 	- ***Footnotes:*** Makes creating footnotes in Obsidian more fun! | [GitHub](https://github.com/MichaBrugger/obsidian-footnotes) | [Obsidian](obsidian://show-plugin?id=obsidian-footnotes)
 	- ***Image Layouts:*** Add beautiful image layouts to your notes | [GitHub](https://github.com/vertis/obsidian-image-layouts) | [Obsidian](obsidian://show-plugin?id=obsidian-image-layouts)
-- 🗃️ **Organization**
+- 🗃️ **Organization
+	- ⭐ ***Tasks***: Task management for the Obsidian knowledge base | [GitHub](https://github.com/obsidian-tasks-group/obsidian-tasks) | [Obsidian](obsidian://show-plugin?id=obsidian-tasks-plugin)
+	- ⭐ ***Tasks Calendar Wrapper:*** This plugin currently provides a timeline view to display your tasks from your obsidian valut, with customizable filters and rendering options | [GitHub](https://github.com/Leonezz/obsidian-tasks-calendar-wrapper) | [Obsidian](obsidian://show-plugin?id=tasks-calendar-wrapper)**
 	- ⭐ ***Note Linker:*** 🔗 Automatically link your Obsidian notes | [GitHub](https://github.com/AlexW00/obsidian-note-linker) | [Obsidian](obsidian://show-plugin?id=obisidian-note-linker)
 	- ***Waypoint:*** Obsidian plugin that gives you the power to generate dynamic MOCs in your folder notes. Enables folders to show up in the graph view and removes the need for messy tags! | [GitHub](https://github.com/IdreesInc/Waypoint) | [Obsidian](obsidian://show-plugin?id=waypoint)
 	- ***Folder Notes:*** Create notes within folders that can be accessed without collapsing the folder, similar to the functionality offered in Notion | [GitHub](https://github.com/LostPaul/obsidian-folder-notes) | [Obsidian](obsidian://show-plugin?id=folder-notes)
