@@ -18,6 +18,8 @@ Short-term efforts in your work or personal life with a specific goal.
 - [[History & Nature of Science.pdf]]
 - [[Introduction to Philosophy A Christian Perspective by Norman Geisler.pdf]]
 - [[Norman Geisler - Christian Ethics Contemporary Issues and Options.pdf]]
+- **PHIL101 Philosophy**
+	- [[PHIL101 Philosophy.canvas]]
 - **[[PHL113]]**
 	- [[Definition of Philosophy]]
 	- [[The Two Branches of Philosophy]]
