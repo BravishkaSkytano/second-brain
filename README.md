@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-12-24T12:51:27
+lastmod: 2024-12-24T13:08:38
 ---
 
 ## Second Brain
@@ -20,7 +20,7 @@ My Second Brain, managed with Obsidian.
 	- ⭐ ***Plugin Update Tracker:*** Know when installed obsidian plugins have updates and evaluate the risk of upgrading | [GitHub](https://github.com/swar8080/obsidian-plugin-update-tracker) | [Obsidian](obsidian://show-plugin?id=obsidian-plugin-update-tracker)
 	- ⭐ ***Tasks***: Task management for the Obsidian knowledge base | [GitHub](https://github.com/obsidian-tasks-group/obsidian-tasks) | [Obsidian](obsidian://show-plugin?id=obsidian-tasks-plugin)
 	- ⭐ ***Tasks Calendar Wrapper:*** This plugin currently provides a timeline view to display your tasks from your obsidian valut, with customizable filters and rendering options | [GitHub](https://github.com/Leonezz/obsidian-tasks-calendar-wrapper) | [Obsidian](obsidian://show-plugin?id=tasks-calendar-wrapper)
-	- quickadd
+	- ***Quickadd:*** QuickAdd for Obsidian | [GitHub ](https://github.com/chhoumann/quickadd) | [Obsidian](obsidian://show-plugin?id=quickadd)
 - 🧰 **Handy Utilities** 🧰
 	- ***Folder Notes:*** Create notes within folders that can be accessed without collapsing the folder, similar to the functionality offered in Notion | [GitHub](https://github.com/LostPaul/obsidian-folder-notes) | [Obsidian](obsidian://show-plugin?id=folder-notes)
 	- ***Settings Search:*** Adds a search bar to Obsidian.md's settings | [Obsidian](https://github.com/javalent/settings-search) | [Obsidian](obsidian://show-plugin?id=settings-search)
@@ -31,13 +31,13 @@ My Second Brain, managed with Obsidian.
 	- Tag Wrangler
 - ✍️ **Editor Enhancements** ✍️
 	- ***Auto Link Title:*** Automatically fetch the titles of pasted links | [GitHub](https://github.com/zolrath/obsidian-auto-link-title) | [Obsidian](obsidian://show-plugin?id=obsidian-auto-link-title)
+	- ~~***Better Word Count:*** Counts the words of selected text in the editor |  [GitHub](https://github.com/lukeleppan/better-word-count) | [Obsidian](obsidian://show-plugin?id=better-word-count)~~ core word count plugin already does this
 	- ***Enhanced Symbols Prettifier:*** Symbols that prettify your knowledge base | [GitHub](https://github.com/noam-sc/obsidian-enhanced-symbols-prettifier) | [Obsidian](obsidian://show-plugin?id=enhanced-symbols-prettifier)
 	- ⭐ ***Focus Mode:*** Add focus mode to Obsidian | [GitHub](https://github.com/ryanpcmcquen/obsidian-focus-mode) | [Obsidian](obsidian://show-plugin?id=obsidian-focus-mode)
 	- ***Footnotes:*** Makes creating footnotes in Obsidian more fun! | [GitHub](https://github.com/MichaBrugger/obsidian-footnotes) | [Obsidian](obsidian://show-plugin?id=obsidian-footnotes)
 	- ⭐ ***Emoji Autocomplete:*** Emoji Shortcodes Autocomplete for Obsidian | [GitHub](https://github.com/KraXen72/obsidian-emoji-autocomplete) | [Obsidian](obsidian://show-plugin?id=emoji-autocomplete)
 	- ***Image Inserter:*** An Obsidian plugin helps users easily search and insert images to editors from Unsplash | [GitHub](https://github.com/cloudy9101/obsidian-image-inserter) | [Obsidian](obsidian://show-plugin?id=insert-unsplash-image)
 	- ***Smart Typography:*** Converts quotes to curly quotes, dashes to em dashes, and periods to ellipses | [GitHub](https://github.com/mgmeyers/obsidian-smart-typography) | [Obsidian](obsidian://show-plugin?id=obsidian-smart-typography)
-	- Better Word Count
 	- Callout Suggestions
 	- Checklist Reset
 	- Language Tool integration
@@ -48,16 +48,8 @@ My Second Brain, managed with Obsidian.
 	- ⭐ ***Graph Banner:*** An Obsidian plugin to display a relation graph view on the note header | [GitHub](https://github.com/ras0q/obsidian-graph-banner) | [Obsidian](obsidian://show-plugin?id=graph-banner)
 	- ***Image Layouts:*** Add beautiful image layouts to your notes | [GitHub](https://github.com/vertis/obsidian-image-layouts) | [Obsidian](obsidian://show-plugin?id=obsidian-image-layouts)
 	- ⭐ ***Supercharged Links:*** Obsidian plugin to add attributes and context menu options to internal links | [GitHub](https://github.com/mdelobelle/obsidian_supercharged_links) | [Obsidian](obsidian://show-plugin?id=supercharged-links-obsidian)
-	- Beautitab
-	- List Callouts
-	- painter
-	- query control
 - 📆 **Daily Notes Add-Ons** 📆
 	- ⭐ ***Journals:*** Manage your journals | [GitHub](https://github.com/srg-kostyrko/obsidian-journal) | [Obsidian](obsidian://show-plugin?id=journals)
-	- charts
-	- force note
-	- tracker
-	- pinboard sync
 - 🤓 **Extra Nerdy Stuff** 🤓
 	- ⭐ ***Fit:*** File gIT (FIT) to sync your files across mobile and desktop devices using GitHub | [GitHub](https://github.com/joshuakto/fit) | [Obsidian](obsidian://show-plugin?id=fit)
 	- ⭐ ***Linter:*** An Obsidian plugin that formats and styles your notes with a focus on configurability and extensibility | [GitHub](https://github.com/platers/obsidian-linter) | [Obsidian](obsidian://show-plugin?id=obsidian-linter)
