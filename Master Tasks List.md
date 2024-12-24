@@ -7,5 +7,5 @@ banner: "https://images.unsplash.com/photo-1678846851878-9a8445a4fb5d?crop=entro
 tags: 
 obsidianUIMode: preview
 ---
-
+- [ ] #todo #read Chapters 1-5 in *The Journey* #phil101
 - [ ] #todo Add PHIL101 syllabus 🛫 2024-12-24 📅 2024-12-31
