@@ -1,13 +1,13 @@
 {
 	"nodes":[
-		{"id":"a137b3b41aef2910","x":-580,"y":60,"width":310,"height":400,"color":"4","type":"text","text":"```tasks\nnot done\ntags include #phil101 AND #read\nhide tags\nshort mode\n```"},
-		{"id":"40ff571337e8da01","x":-231,"y":60,"width":310,"height":400,"color":"5","type":"text","text":"```tasks\nnot done\ntags include #phil101 AND #write\nhide tags\nshort mode\n```"},
-		{"id":"01ff5688fd8c1831","x":-201,"y":-45,"width":250,"height":60,"color":"5","type":"text","text":"## Write"},
-		{"id":"71908f45403e364e","x":-550,"y":-45,"width":250,"height":60,"color":"4","type":"text","text":"## Read"},
-		{"id":"3a18ac2af5b02ac6","x":140,"y":-45,"width":250,"height":60,"color":"6","type":"text","text":"## Discuss"},
-		{"id":"424994e90f2edf3e","x":110,"y":60,"width":310,"height":400,"color":"6","type":"text","text":"```tasks\nnot done\ntags include #phil101 AND #discuss\nhide tags\nshort mode\n```"},
-		{"id":"74983b58fc1daa8f","x":-318,"y":-520,"width":485,"height":60,"color":"2","type":"text","text":"# PHIL101: Philosophy"},
-		{"id":"a98c1ceb74e781bb","x":-318,"y":-400,"width":485,"height":250,"color":"2","type":"text","text":"## Course Description\n\nIf we love wisdom and search for truth, the study of philosophy is essential. This course deals with the basics of philosophy from a Christian perspective and gives many opportuinities to apply biblical truth to the realities of Christian life and ministry. It deals with areas of logic, knowledge, truth, God and the supernatural, and ethics."}
+		{"id":"01ff5688fd8c1831","type":"text","text":"## Write","x":-201,"y":-45,"width":250,"height":60,"color":"5"},
+		{"id":"a98c1ceb74e781bb","type":"text","text":"## Course Description\n\nIf we love wisdom and search for truth, the study of philosophy is essential. This course deals with the basics of philosophy from a Christian perspective and gives many opportuinities to apply biblical truth to the realities of Christian life and ministry. It deals with areas of logic, knowledge, truth, God and the supernatural, and ethics.","x":-318,"y":-380,"width":485,"height":250,"color":"2"},
+		{"id":"74983b58fc1daa8f","type":"text","text":"# PHIL101: Philosophy","x":-318,"y":-480,"width":485,"height":60,"color":"2"},
+		{"id":"40ff571337e8da01","type":"text","text":"```tasks\nnot done\n(tags include #phil101) AND (tags include #write)\nhide tags\nshort mode\n```","x":-250,"y":60,"width":349,"height":400,"color":"5"},
+		{"id":"a137b3b41aef2910","type":"text","text":"```tasks\nnot done\n(tags include #phil101) AND (tags include #read)\nhide tags\nshort mode\n```","x":-620,"y":60,"width":349,"height":400,"color":"4"},
+		{"id":"424994e90f2edf3e","type":"text","text":"```tasks\nnot done\n(tags include #phil101) AND (tags include #discuss)\nhide tags\nshort mode\n```","x":120,"y":60,"width":349,"height":400,"color":"6"},
+		{"id":"71908f45403e364e","type":"text","text":"## Read","x":-570,"y":-45,"width":250,"height":60,"color":"4"},
+		{"id":"3a18ac2af5b02ac6","type":"text","text":"## Discuss","x":170,"y":-45,"width":250,"height":60,"color":"6"}
 	],
 	"edges":[
 		{"id":"f7f64ac10884a879","fromNode":"71908f45403e364e","fromSide":"bottom","toNode":"a137b3b41aef2910","toSide":"top"},
