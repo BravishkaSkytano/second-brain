@@ -5,6 +5,9 @@ lastmod: 2024-12-12T14:32:08
 Long-term responsibilities in your life, such as finances, pets, or school.
 
 %% Begin Waypoint %%
+- **Gaming**
+	- **Albion Online**
+		- [[Untitled.canvas]]
 - **Journal**
 	- **[[2024]]**
 		- **[[2024-12]]**
@@ -12,6 +15,7 @@ Long-term responsibilities in your life, such as finances, pets, or school.
 			- [[2024-12-15]]
 			- [[2024-12-19]]
 			- [[2024-12-21]]
+			- [[2024-12-24]]
 		- [[2024-Q4]]
 		- [[2024-W50]]
 
