@@ -7,7 +7,7 @@ Long-term responsibilities in your life, such as finances, pets, or school.
 %% Begin Waypoint %%
 - **Gaming**
 	- **Albion Online**
-		- [[Untitled.canvas]]
+		- [[Royal Cities.canvas]]
 - **Journal**
 	- **[[2024]]**
 		- **[[2024-12]]**
