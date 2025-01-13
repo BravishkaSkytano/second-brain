@@ -21,5 +21,8 @@ Long-term responsibilities in your life, such as finances, pets, or school.
 			- [[2024-12-27]]
 		- [[2024-Q4]]
 		- [[2024-W50]]
+	- **2025**
+		- **2025-01**
+			- [[2025-01-12]]
 
 %% End Waypoint %%
