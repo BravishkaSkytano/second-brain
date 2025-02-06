@@ -1,6 +1,6 @@
 ---
 created: 2024-10-21T11:27:49
-lastmod: 2024-12-10T20:34:32
+lastmod: 2025-02-06T13:58:49
 banner: "https://images.unsplash.com/photo-1616422840391-fa670d4b2ae7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHw3fHxpc2xhbXxlbnwwfDB8fHwxNzI5OTgxNDA2fDA&ixlib=rb-4.0.3&q=80&w=1080"
 tags:
   - apologetics
@@ -24,3 +24,11 @@ This course will introduce the student primarily to the history and theology of 
 ---
 
 *Photo by [Ali Burhan](https://unsplash.com/@cahiwak?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral)*
+
+---
+
+```tasks
+not done
+tag include #apo391
+short mode
+```
