@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e37541be8713c080",
+            "id": "38abc9dba94efbc6",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -16,9 +16,9 @@
               "state": {
                 "file": "Tasks Dashboard.canvas",
                 "viewState": {
-                  "x": 802.5,
-                  "y": -10.5,
-                  "zoom": -1.0707393479188052
+                  "x": 562.5,
+                  "y": -24,
+                  "zoom": -1.0973056503968963
                 }
               },
               "pinned": true,
@@ -27,8 +27,9 @@
             }
           },
           {
-            "id": "38abc9dba94efbc6",
+            "id": "dd742d95d8569e1a",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -36,6 +37,7 @@
                 "mode": "preview",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Master Tasks List"
             }
@@ -48,16 +50,17 @@
               "state": {
                 "file": "1 - Projects/PHIL101 Philosophy/PHIL101 Philosophy.canvas",
                 "viewState": {
-                  "x": -75.5,
-                  "y": -10,
-                  "zoom": -0.39747162653594525
+                  "x": -100,
+                  "y": 240,
+                  "zoom": -1.1560394751873624
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "PHIL101 Philosophy"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -184,10 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tasks Dashboard.canvas"
+                "file": "1 - Projects/PHIL101 Philosophy/PHIL101 Philosophy.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tasks Dashboard"
+              "title": "Outline of PHIL101 Philosophy"
             }
           },
           {
@@ -196,10 +202,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Tasks Dashboard.canvas"
+                "file": "1 - Projects/PHIL101 Philosophy/PHIL101 Philosophy.canvas"
               },
               "icon": "lucide-info",
-              "title": "File properties for Tasks Dashboard"
+              "title": "File properties for PHIL101 Philosophy"
             }
           }
         ],
@@ -215,7 +221,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tasks Dashboard.canvas",
+                "file": "1 - Projects/PHIL101 Philosophy/PHIL101 Philosophy.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +231,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Tasks Dashboard"
+              "title": "Backlinks for PHIL101 Philosophy"
             }
           },
           {
@@ -246,8 +252,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -266,11 +271,22 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "e37541be8713c080",
+  "active": "0f0fd7d9deb676f5",
   "lastOpenFiles": [
-    "1 - Projects/PHIL101 Philosophy/PHIL101 Philosophy.canvas",
-    "Tasks Dashboard.canvas",
     "Master Tasks List.md",
+    "Tasks Dashboard.canvas",
+    "1 - Projects/PHIL101 Philosophy/PHIL101 Philosophy.canvas",
+    "configBackup/themes/Sanctum/theme.css",
+    "configBackup/themes/Sanctum/manifest.json",
+    "configBackup/themes/Rosé Pine/theme.css",
+    "configBackup/themes/Rosé Pine/manifest.json",
+    "configBackup/themes/Catppuccin/theme.css",
+    "configBackup/themes/Catppuccin/manifest.json",
+    "configBackup/plugins/waypoint/manifest.json",
+    "configBackup/plugins/waypoint/main.js",
+    "configBackup/plugins/waypoint/data.json",
+    "configBackup/plugins/various-complements/styles.css",
+    "configBackup/plugins/obsidian-linter/default-misspellings.md",
     "README.md",
     "1 - Projects/PHL113/PHL113.md",
     "1 - Projects/APO391 Introduction to Islam/APO391 Introduction to Islam.md",
@@ -278,21 +294,10 @@
     "Plants I'd Like to Grow.md",
     "2 - Areas/Journal/2025/2025-01/2025-01-31.md",
     "2 - Areas/Journal/2025/2025-02/2025-02-06.md",
-    "2 - Areas/Journal/2025/2025-02",
     "2 - Areas/Journal/2025/2025-01/2025-01-19.md",
     "2 - Areas/Journal/2025/2025-01/2025-01-12.md",
     "2 - Areas/Gaming/Albion Online/Royal Cities.canvas",
-    "2 - Areas/Journal/2025/2025-01",
-    "2 - Areas/Journal/2025",
     "2 - Areas/Journal/2024/2024-12/2024-12-27.md",
-    "configBackup/workspace.json",
-    "configBackup/types.json",
-    "configBackup/themes/Things/theme.css",
-    "configBackup/themes/Things/manifest.json",
-    "configBackup/themes/Things",
-    "configBackup/themes/Sanctum/theme.css",
-    "configBackup/themes/Sanctum/manifest.json",
-    "configBackup/plugins/obsidian-linter/default-misspellings.md",
     "2 - Areas/Journal/2024/12-December/2024-12-12.md",
     "2 - Areas/Journal/2024/2024-12/2024-12-24.md",
     "1 - Projects/PHIL101 Philosophy/PHIL101 Syllabus.md",

@@ -26,7 +26,6 @@
   "obsidian42-brat",
   "obsidian-snippet-downloader",
   "tasks-calendar-wrapper",
-  "obsidian-tasks-plugin",
   "callout-manager",
   "obsidian-list-callouts",
   "callout-suggestions",
@@ -38,5 +37,7 @@
   "note-toolbar",
   "painter",
   "sync-config-folder-to-common-folder",
-  "media-notes"
+  "media-notes",
+  "obsidian-tasks-plugin",
+  "dataview"
 ]
