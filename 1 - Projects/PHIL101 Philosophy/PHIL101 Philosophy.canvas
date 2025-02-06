@@ -1,21 +1,21 @@
 {
 	"nodes":[
-		{"id":"1cc7c0074e2c570b","type":"group","x":-1020,"y":60,"width":1880,"height":880,"color":"3","label":"Syllabus"},
+		{"id":"1cc7c0074e2c570b","type":"group","x":-1040,"y":60,"width":1880,"height":880,"color":"3","label":"Syllabus"},
 		{"id":"74983b58fc1daa8f","type":"text","text":"# PHIL101: Philosophy","x":-280,"y":-460,"width":360,"height":60,"color":"2"},
-		{"id":"b0619f94d6a8777b","type":"text","text":"## Week 3\n```tasks\n(tags include #phil101) AND (tags include #w3)\nhide tags\nshort mode\n```\n","x":-80,"y":80,"width":440,"height":400},
-		{"id":"36ef9dc88c44d863","type":"text","text":"## Week 7\n```tasks\n(tags include #phil101) AND (tags include #w7)\nhide tags\nshort mode\n```\n","x":-80,"y":500,"width":440,"height":400},
-		{"id":"698a95c885f7a61c","type":"text","text":"## Week 4\n```tasks\n(tags include #phil101) AND (tags include #w4)\nhide tags\nshort mode\n```\n","x":380,"y":80,"width":440,"height":400},
-		{"id":"52fdd0f1ce5e0e9d","type":"text","text":"## Week 8\n```tasks\n(tags include #phil101) AND (tags include #w8)\nhide tags\nshort mode\n```\n","x":380,"y":500,"width":440,"height":400},
-		{"id":"01b4b71e5dfeb628","type":"text","text":"## Week 1\n```tasks\n(tags include #phil101) AND (tags include #w1)\nhide tags\nshort mode\n```\n","x":-1000,"y":80,"width":440,"height":400},
-		{"id":"6c515a641c52b37a","type":"text","text":"## Week 5\n```tasks\n(tags include #phil101) AND (tags include #w5)\nhide tags\nshort mode\n```\n","x":-1000,"y":500,"width":440,"height":400},
-		{"id":"d74a5c724afbc95c","type":"text","text":"## Week 2\n```tasks\n(tags include #phil101) AND (tags include #w2)\nhide tags\nshort mode\n```\n","x":-540,"y":80,"width":440,"height":400},
-		{"id":"18f8cd8511eff45e","type":"text","text":"## Week 6\n```tasks\n(tags include #phil101) AND (tags include #w6)\nhide tags\nshort mode\n```\n","x":-540,"y":500,"width":440,"height":400},
-		{"id":"a98c1ceb74e781bb","type":"text","text":"## Course Description\n\nIf we love wisdom and search for truth, the study of philosophy is essential. This course deals with the basics of philosophy from a Christian perspective and gives many opportuinities to apply biblical truth to the realities of Christian life and ministry. It deals with areas of logic, knowledge, truth, God and the supernatural, and ethics.","x":-620,"y":-320,"width":485,"height":320,"color":"2"},
-		{"id":"cc39d58bd4391ad1","type":"text","text":"## Files\n\n```dataview\nTABLE file.mtime AS \"Last Modified\"\nFROM \"PHIL101 Philosophy\"\nSORT file.mtime DESC\n```\n","x":-40,"y":-320,"width":485,"height":320,"color":"5"}
+		{"id":"b0619f94d6a8777b","type":"text","text":"## Week 3\n```tasks\n(tags include #phil101) AND (tags include #w3)\nhide tags\nshort mode\n```\n","x":-100,"y":80,"width":440,"height":400},
+		{"id":"36ef9dc88c44d863","type":"text","text":"## Week 7\n```tasks\n(tags include #phil101) AND (tags include #w7)\nhide tags\nshort mode\n```\n","x":-100,"y":500,"width":440,"height":400},
+		{"id":"698a95c885f7a61c","type":"text","text":"## Week 4\n```tasks\n(tags include #phil101) AND (tags include #w4)\nhide tags\nshort mode\n```\n","x":360,"y":80,"width":440,"height":400},
+		{"id":"52fdd0f1ce5e0e9d","type":"text","text":"## Week 8\n```tasks\n(tags include #phil101) AND (tags include #w8)\nhide tags\nshort mode\n```\n","x":360,"y":500,"width":440,"height":400},
+		{"id":"01b4b71e5dfeb628","type":"text","text":"## Week 1\n```tasks\n(tags include #phil101) AND (tags include #w1)\nhide tags\nshort mode\n```\n","x":-1020,"y":80,"width":440,"height":400},
+		{"id":"6c515a641c52b37a","type":"text","text":"## Week 5\n```tasks\n(tags include #phil101) AND (tags include #w5)\nhide tags\nshort mode\n```\n","x":-1020,"y":500,"width":440,"height":400},
+		{"id":"d74a5c724afbc95c","type":"text","text":"## Week 2\n```tasks\n(tags include #phil101) AND (tags include #w2)\nhide tags\nshort mode\n```\n","x":-560,"y":80,"width":440,"height":400},
+		{"id":"18f8cd8511eff45e","type":"text","text":"## Week 6\n```tasks\n(tags include #phil101) AND (tags include #w6)\nhide tags\nshort mode\n```\n","x":-560,"y":500,"width":440,"height":400},
+		{"id":"cc39d58bd4391ad1","type":"text","text":"## Files\n\n```dataview\nTABLE file.mtime AS \"Last Modified\"\nFROM #phil101 \nSORT file.mtime DESC\n```\n","x":200,"y":-320,"width":485,"height":320,"color":"5"},
+		{"id":"a98c1ceb74e781bb","type":"text","text":"## Course Description\n\nIf we love wisdom and search for truth, the study of philosophy is essential. This course deals with the basics of philosophy from a Christian perspective and gives many opportuinities to apply biblical truth to the realities of Christian life and ministry. It deals with areas of logic, knowledge, truth, God and the supernatural, and ethics.","x":-920,"y":-320,"width":485,"height":320,"color":"6"},
+		{"id":"e783cb82689531c5","x":-362,"y":-320,"width":485,"height":320,"type":"text","text":"**Dates:** [start::Monday, January 6, 2025]\n**End Date:** March 2, 2025\nToday is `= date(today)` - `= this.start - date(today)` until exams!\nFinal paper due in `= [[Computer Science Theory]].due - date(today)`"}
 	],
 	"edges":[
 		{"id":"a1251121e65d372e","fromNode":"74983b58fc1daa8f","fromSide":"bottom","toNode":"a98c1ceb74e781bb","toSide":"top"},
-		{"id":"96e68ca8c60a2775","fromNode":"74983b58fc1daa8f","fromSide":"bottom","toNode":"cc39d58bd4391ad1","toSide":"top"},
-		{"id":"2a27b43bb9cf113c","fromNode":"74983b58fc1daa8f","fromSide":"bottom","toNode":"1cc7c0074e2c570b","toSide":"top"}
+		{"id":"96e68ca8c60a2775","fromNode":"74983b58fc1daa8f","fromSide":"bottom","toNode":"cc39d58bd4391ad1","toSide":"top"}
 	]
 }

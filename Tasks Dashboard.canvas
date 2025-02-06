@@ -8,7 +8,8 @@
 		{"id":"61af3c069c2027d3","type":"text","text":"## Write\n```tasks\nnot done\ntag include #write\nhide tags\nshort mode\n```","x":280,"y":261,"width":560,"height":350,"color":"5"},
 		{"id":"2515e7bf8bbb187e","type":"text","text":"## Discuss\n```tasks\nnot done\ntag include #discuss\nhide tags\nshort mode\n```","x":885,"y":261,"width":560,"height":351,"color":"4"},
 		{"id":"a4f220d7bfd1fff6","type":"text","text":"## Read\n```tasks\nnot done\ntag include #read\nhide tags\nshort mode\n```","x":-320,"y":260,"width":560,"height":351,"color":"6"},
-		{"id":"bc1ec2a0b3508242","type":"text","text":"# Inbox\n```tasks\nnot done\nno due date\nno start date\nno scheduled date\nno tag\nlimit 8\nshort mode\n```","x":280,"y":-600,"width":560,"height":351}
+		{"id":"bc1ec2a0b3508242","type":"text","text":"# Inbox\n```tasks\nnot done\nno due date\nno start date\nno scheduled date\nno tag\nlimit 8\nshort mode\n```","x":-40,"y":-680,"width":560,"height":351},
+		{"id":"cf5e1553c797da43","type":"text","text":"# Overdue\n```tasks\nnot done\ndue before today\nsort by due\nshort mode\n```","x":605,"y":-680,"width":560,"height":351}
 	],
 	"edges":[]
 }
