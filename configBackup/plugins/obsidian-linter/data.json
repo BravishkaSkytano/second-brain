@@ -129,8 +129,8 @@
       "default-language": ""
     },
     "emphasis-style": {
-      "enabled": false,
-      "style": "consistent"
+      "enabled": true,
+      "style": "asterisk"
     },
     "no-bare-urls": {
       "enabled": false,
@@ -143,7 +143,7 @@
       "preserve-start": true
     },
     "proper-ellipsis": {
-      "enabled": false
+      "enabled": true
     },
     "quote-style": {
       "enabled": false,
@@ -165,8 +165,8 @@
       "enabled": true
     },
     "strong-style": {
-      "enabled": false,
-      "style": "consistent"
+      "enabled": true,
+      "style": "asterisk"
     },
     "two-spaces-between-lines-with-content": {
       "enabled": false,
