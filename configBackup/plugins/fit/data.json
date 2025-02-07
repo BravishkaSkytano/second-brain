@@ -165,7 +165,7 @@
     "configBackup/plugins/fit/styles.css": "3c640e4effaf3b458bc80bdbab1ed65a086de5a5",
     "configBackup/plugins/fit/manifest.json": "a83d6cb7ab043878b8015a6690adf881a76bd4dc",
     "configBackup/plugins/fit/main.js": "57f107993324b1127979cddcc5257e11046e6a1a",
-    "configBackup/plugins/fit/data.json": "c8d171c25fbdce55c01ceb71aab6b660daca87c8",
+    "configBackup/plugins/fit/data.json": "92c4907ed2beb188ed04dee314f851d4834b860b",
     "configBackup/plugins/file-explorer-note-count/styles.css": "9718436854901ca8943cf292bb378d1ad3da7433",
     "configBackup/plugins/file-explorer-note-count/manifest.json": "f829a08dd4dd9b63fed3d101cb092973c3dd9ed1",
     "configBackup/plugins/file-explorer-note-count/main.js": "b280476a34f1c63baf5f92b38ad8cea4bd39afc8",
@@ -212,7 +212,7 @@
     "2 - Areas/Gaming/Albion Online/Royal Cities.canvas": "ceba1e4d52aa63eaf73bcbaa9999c0ecaf80b989",
     "2 - Areas/2 - Areas.md": "5a127462d521809fff1647e7a54b7656b7bf3288"
   },
-  "lastFetchedCommitSha": "d584212d12c1fdd26c9a4453fb71b741a5a4596a",
+  "lastFetchedCommitSha": "da998b5ddbe2c847a248749795061340d64dd3a4",
   "lastFetchedRemoteSha": {
     "1 - Projects/1 - Projects.md": "e84226fb5c4eb59d2dab67483c1cf99bc63dea26",
     "1 - Projects/APO391 Introduction to Islam/APO391 Introduction to Islam.md": "87d87cba39f8e03eb87688b4c8c1a87814b465ff",
@@ -288,7 +288,7 @@
     "configBackup/plugins/file-explorer-note-count/main.js": "0ff6c0ee724c78ef0fe938a5bbe73222823a4660",
     "configBackup/plugins/file-explorer-note-count/manifest.json": "f13b359af5c42a06d1d665bea708523ac6c6435d",
     "configBackup/plugins/file-explorer-note-count/styles.css": "07a579f13cfc575eab901a7cb7d5dd7f3e29ae80",
-    "configBackup/plugins/fit/data.json": "727ba771ab35460c3a210d17f8bb325d31430d54",
+    "configBackup/plugins/fit/data.json": "d7536928cbb0ee078cbb4f1a7d76534764953afe",
     "configBackup/plugins/fit/main.js": "99d14ab5512c38f3f7ef40baa13354b4fd01ac8d",
     "configBackup/plugins/fit/manifest.json": "b2619ad0cd6d9f0b592014bd5c3f8d42fd5b81f8",
     "configBackup/plugins/fit/styles.css": "f4843f4a89f179418c0b450e8cf577b316c86a25",
