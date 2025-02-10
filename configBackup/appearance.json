@@ -1,0 +1,12 @@
+{
+  "cssTheme": "Rosé Pine",
+  "enabledCssSnippets": [
+    "supercharged-links-gen",
+    "dashboard",
+    "dashboard-ReadLineLength",
+    "MCL Gallery Cards",
+    "MCL Multi Column",
+    "MCL Wide Views"
+  ],
+  "theme": "system"
+}
