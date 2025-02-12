@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-12-24T13:30:43
+lastmod: 2025-02-12T16:24:47
 ---
 
 ## Second Brain
@@ -36,8 +36,6 @@ My Second Brain, managed with Obsidian.
 	- ~~***Waypoint:*** Obsidian plugin that gives you the power to generate dynamic MOCs in your folder notes. Enables folders to show up in the graph view and removes the need for messy tags! | [GitHub](https://github.com/IdreesInc/Waypoint) | [Obsidian](obsidian://show-plugin?id=waypoint)~~
 - ✍️ **Editor Enhancements** ✍️
 	- ***Auto Link Title:*** Automatically fetch the titles of pasted links | [GitHub](https://github.com/zolrath/obsidian-auto-link-title) | [Obsidian](obsidian://show-plugin?id=obsidian-auto-link-title)
-	- ~~***Better Word Count:*** Counts the words of selected text in the editor | [GitHub](https://github.com/lukeleppan/better-word-count) | [Obsidian](obsidian://show-plugin?id=better-word-count)~~
-		- core word count plugin already does this
 	- ***Callout Suggestions:*** Obsidian Plugin for autocompleting callouts. [GitHub](https://github.com/cwfryer/obsidian-callout-suggestions) | [Obsidian](obsidian://show-plugin?id=callout-suggestions)
 	- ***Enhanced Symbols Prettifier:*** Symbols that prettify your knowledge base | [GitHub](https://github.com/noam-sc/obsidian-enhanced-symbols-prettifier) | [Obsidian](obsidian://show-plugin?id=enhanced-symbols-prettifier)
 	- ***Focus Mode:*** Add focus mode to Obsidian | [GitHub](https://github.com/ryanpcmcquen/obsidian-focus-mode) | [Obsidian](obsidian://show-plugin?id=obsidian-focus-mode)
@@ -56,7 +54,7 @@ My Second Brain, managed with Obsidian.
 	- ***Image Layouts:*** Add beautiful image layouts to your notes | [GitHub](https://github.com/vertis/obsidian-image-layouts) | [Obsidian](obsidian://show-plugin?id=obsidian-image-layouts)
 	- ***Supercharged Links:*** Obsidian plugin to add attributes and context menu options to internal links | [GitHub](https://github.com/mdelobelle/obsidian_supercharged_links) | [Obsidian](obsidian://show-plugin?id=supercharged-links-obsidian)
 - 📆 **Daily Notes Add-Ons** 📆
-	- ***Journals:*** Manage your journals | [GitHub](https://github.com/srg-kostyrko/obsidian-journal) | [Obsidian](obsidian://show-plugin?id=journals)
+	- ~~***Journals:*** Manage your journals | [GitHub](https://github.com/srg-kostyrko/obsidian-journal) | [Obsidian](obsidian://show-plugin?id=journals)~~
 - 🤓 **Extra Nerdy Stuff** 🤓
 	- ***Fit:*** File gIT (FIT) to sync your files across mobile and desktop devices using GitHub | [GitHub](https://github.com/joshuakto/fit) | [Obsidian](obsidian://show-plugin?id=fit)
 	- ***Linter:*** An Obsidian plugin that formats and styles your notes with a focus on configurability and extensibility | [GitHub](https://github.com/platers/obsidian-linter) | [Obsidian](obsidian://show-plugin?id=obsidian-linter)

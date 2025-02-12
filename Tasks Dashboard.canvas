@@ -1,40 +1,16 @@
 {
 	"nodes":[
-		{"id":"b21ae7ee05f604a1","type":"text","text":"```tasks\nnot done\n(due before next week) OR (scheduled before next week) OR (starts before next week)\nhide tags\nsort by due\nshort mode\n```","x":-120,"y":40,"width":560,"height":351,"color":"3"},
-		{"id":"ef947bd050f4221a","type":"text","text":"```tasks\nnot done\n(has due date) OR (has scheduled date)\n((due after this week) AND (due in or before next 4 weeks)) OR ((scheduled after this week) AND (scheduled in or before next 4 weeks))\nsort by due\nhide tags\nshort mode\n```","x":-120,"y":520,"width":560,"height":350,"color":"2"},
-		{"id":"5bb07f81c1e3e6f2","type":"text","text":"## This Week","x":35,"y":-58,"width":250,"height":60,"color":"3"},
-		{"id":"d995edf639b6a228","type":"text","text":"## This Month","x":35,"y":421,"width":250,"height":60,"color":"2"},
-		{"id":"e8346dc533429adf","type":"text","text":"## Future","x":35,"y":900,"width":250,"height":60,"color":"1"},
-		{"id":"1c559b8fb0623622","type":"text","text":"```tasks\nnot done\n(has due date) OR (has scheduled date)\n(due after next 4 weeks) OR (scheduled after next 4 weeks)\nsort by due\nhide tags\nshort mode\n```","x":-120,"y":1000,"width":560,"height":351,"color":"1"},
-		{"id":"a4f220d7bfd1fff6","type":"text","text":"```tasks\nnot done\ntag include #read\nhide tags\nshort mode\n```","x":485,"y":40,"width":560,"height":351,"color":"6"},
-		{"id":"193aaf786b4d3485","type":"text","text":"## Read","x":640,"y":-58,"width":250,"height":60,"color":"6"},
-		{"id":"61af3c069c2027d3","type":"text","text":"```tasks\nnot done\ntag include #write\nhide tags\nshort mode\n```","x":485,"y":520,"width":560,"height":350,"color":"5"},
-		{"id":"bd733a359e3fa85c","type":"text","text":"## Write","x":640,"y":421,"width":250,"height":60,"color":"5"},
-		{"id":"5a85663763ff7f5a","type":"text","text":"## Discuss","x":640,"y":900,"width":250,"height":60,"color":"4"},
-		{"id":"2515e7bf8bbb187e","type":"text","text":"```tasks\nnot done\ntag include #discuss\nhide tags\nshort mode\n```","x":485,"y":1000,"width":560,"height":351,"color":"4"},
-		{"id":"fda3bc3283c73acc","type":"text","text":"```tasks\nnot done\n(no due date) AND (no start date) AND (no scheduled date)\ntag include #later\nhide tags\nlimit 8\nshort mode\n```","x":1090,"y":40,"width":560,"height":351},
-		{"id":"6d0c5b7fdb0f8827","type":"text","text":"## Later/Someday","x":1245,"y":-58,"width":250,"height":60},
-		{"id":"f7a5770ad1104563","type":"text","text":"## Unscheduled","x":1245,"y":421,"width":250,"height":60},
-		{"id":"b01738e5b789b390","type":"text","text":"```tasks\nnot done\n(no due date) AND (no scheduled date) AND (no start date)\nhide tags\nlimit 8\nshort mode\n```","x":1090,"y":520,"width":560,"height":350},
-		{"id":"b3ebe814cb563f79","type":"text","text":"## Inbox","x":1245,"y":900,"width":250,"height":60},
-		{"id":"bc1ec2a0b3508242","type":"text","text":"```tasks\nnot done\nno due date\nno start date\nno scheduled date\nno tag\nlimit 8\nshort mode\n```","x":1090,"y":1000,"width":560,"height":351}
+		{"id":"5b4beb71f46ea2b4","type":"group","x":-120,"y":1480,"width":1615,"height":400,"color":"5","label":"Tagged"},
+		{"id":"c8fd31edc116ada4","type":"group","x":-120,"y":1000,"width":1615,"height":400,"label":"Upcoming..."},
+		{"id":"2515e7bf8bbb187e","type":"text","text":"## Discussion Boards\n\n```tasks\nnot done\ntag include #discuss\nhide tags\nshort mode\n```","x":980,"y":1500,"width":500,"height":360},
+		{"id":"b21ae7ee05f604a1","type":"text","text":"## This Week\n\n```tasks\nnot done\n(due before next week) OR (scheduled before next week) OR (starts before next week)\nhide tags\nsort by due\nshort mode\n```","x":-100,"y":1020,"width":500,"height":350,"color":"3"},
+		{"id":"ef947bd050f4221a","type":"text","text":"## This Month\n\n```tasks\nnot done\n(has due date) OR (has scheduled date)\n((due after this week) AND (due in or before next 4 weeks)) OR ((scheduled after this week) AND (scheduled in or before next 4 weeks))\nsort by due\nhide tags\nshort mode\n```","x":440,"y":1020,"width":500,"height":350,"color":"2"},
+		{"id":"a4f220d7bfd1fff6","type":"text","text":"## Reading Assignments\n\n```tasks\nnot done\ntag include #read\nhide tags\nshort mode\n```","x":-100,"y":1500,"width":500,"height":360},
+		{"id":"61af3c069c2027d3","type":"text","text":"## Writing Assignments\n\n```tasks\nnot done\ntag include #write\nhide tags\nshort mode\n```","x":440,"y":1500,"width":500,"height":360},
+		{"id":"1c559b8fb0623622","type":"text","text":"## Future\n\n```tasks\nnot done\n(has due date) OR (has scheduled date)\n(due after next 4 weeks) OR (scheduled after next 4 weeks)\nsort by due\nhide tags\nshort mode\n```","x":980,"y":1020,"width":500,"height":350},
+		{"id":"bc1ec2a0b3508242","type":"text","text":"## Inbox\n\n```tasks\nnot done\nno due date\nno start date\nno scheduled date\nno tag\nlimit 8\nshort mode\n```","x":131,"y":560,"width":538,"height":351,"color":"6"},
+		{"id":"b01738e5b789b390","type":"text","text":"## Unscheduled\n\n```tasks\nnot done\n(no due date) AND (no scheduled date) AND (no start date)\nhide tags\nlimit 8\nshort mode\n```","x":709,"y":560,"width":542,"height":350},
+		{"id":"ca19c485b68ae6d8","type":"text","text":"## Overdue\n\n```tasks\nnot done\ndue before today\nhide tags\nsort by due\nshort mode\n```","x":454,"y":1071,"width":500,"height":350,"color":"3"}
 	],
-	"edges":[
-		{"id":"0ce2c52485d864fc","fromNode":"5bb07f81c1e3e6f2","fromSide":"bottom","toNode":"b21ae7ee05f604a1","toSide":"top"},
-		{"id":"e5be4c89ab7f6515","fromNode":"d995edf639b6a228","fromSide":"bottom","toNode":"ef947bd050f4221a","toSide":"top"},
-		{"id":"70f5befb1f65042e","fromNode":"d995edf639b6a228","fromSide":"bottom","toNode":"ef947bd050f4221a","toSide":"top"},
-		{"id":"49f501751190a8a2","fromNode":"e8346dc533429adf","fromSide":"bottom","toNode":"1c559b8fb0623622","toSide":"top"},
-		{"id":"d2f914418f1778fc","fromNode":"6d0c5b7fdb0f8827","fromSide":"bottom","toNode":"fda3bc3283c73acc","toSide":"top"},
-		{"id":"026c0de4ff765f09","fromNode":"fda3bc3283c73acc","fromSide":"bottom","toNode":"f7a5770ad1104563","toSide":"top"},
-		{"id":"d54c288f3c6f1b48","fromNode":"f7a5770ad1104563","fromSide":"bottom","toNode":"b01738e5b789b390","toSide":"top"},
-		{"id":"1a598267b7c7e198","fromNode":"b01738e5b789b390","fromSide":"bottom","toNode":"b3ebe814cb563f79","toSide":"top"},
-		{"id":"682d489aa6b3713d","fromNode":"b3ebe814cb563f79","fromSide":"bottom","toNode":"bc1ec2a0b3508242","toSide":"top"},
-		{"id":"3cd7580e6cc439d8","fromNode":"ef947bd050f4221a","fromSide":"bottom","toNode":"e8346dc533429adf","toSide":"top"},
-		{"id":"69d77bc865da7e27","fromNode":"5a85663763ff7f5a","fromSide":"bottom","toNode":"2515e7bf8bbb187e","toSide":"top"},
-		{"id":"90a36c0fd528bd12","fromNode":"193aaf786b4d3485","fromSide":"bottom","toNode":"a4f220d7bfd1fff6","toSide":"top"},
-		{"id":"63e71454dfda42a3","fromNode":"bd733a359e3fa85c","fromSide":"bottom","toNode":"61af3c069c2027d3","toSide":"top"},
-		{"id":"b6afae2413d46c4e","fromNode":"61af3c069c2027d3","fromSide":"bottom","toNode":"5a85663763ff7f5a","toSide":"top"},
-		{"id":"5fed81706285561b","fromNode":"a4f220d7bfd1fff6","fromSide":"bottom","toNode":"bd733a359e3fa85c","toSide":"top"},
-		{"id":"b6d6da41960b2748","fromNode":"b21ae7ee05f604a1","fromSide":"bottom","toNode":"d995edf639b6a228","toSide":"top"}
-	]
+	"edges":[]
 }
