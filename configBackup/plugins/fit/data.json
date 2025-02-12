@@ -122,7 +122,7 @@
     "configBackup/plugins/folder-notes/styles.css": "22ad3dbcafa515233dd93028fd41c75d719be289",
     "configBackup/plugins/fit/styles.css": "3c640e4effaf3b458bc80bdbab1ed65a086de5a5",
     "configBackup/plugins/fit/manifest.json": "a83d6cb7ab043878b8015a6690adf881a76bd4dc",
-    "configBackup/plugins/fit/data.json": "fbed678a6a46709e278334ab5c8a133f0f7a75ad",
+    "configBackup/plugins/fit/data.json": "0f2381918f65476eae8e665c2511a977559e323b",
     "configBackup/plugins/fit/main.js": "57f107993324b1127979cddcc5257e11046e6a1a",
     "configBackup/plugins/file-explorer-note-count/manifest.json": "f829a08dd4dd9b63fed3d101cb092973c3dd9ed1",
     "configBackup/plugins/file-explorer-note-count/styles.css": "9718436854901ca8943cf292bb378d1ad3da7433",
@@ -184,7 +184,7 @@
     "1 - Projects/PHIL101 Philosophy/PHIL101 Philosophy.canvas": "0edd87d0534335e97480fe497b9b5d80967b706d",
     "2 - Areas/Gaming/Albion Online/Royal Cities.canvas": "ceba1e4d52aa63eaf73bcbaa9999c0ecaf80b989"
   },
-  "lastFetchedCommitSha": "c7b1fb46b91fb81c26ea5c4bbf1a3e297da05d98",
+  "lastFetchedCommitSha": "81d2530455382fc8c96e0a7a51570abc3296523e",
   "lastFetchedRemoteSha": {
     "1 - Projects/APO391 Introduction to Islam/Final Paper.md": "fbc542d31662ab85b52a4fb18c813e6ebabd0f00",
     "1 - Projects/PHIL101 Philosophy/PHIL101 Philosophy.canvas": "c2b56fd6daac0e4cd4dd3eff499b2b1564f7d5e9",
@@ -240,7 +240,7 @@
     "configBackup/plugins/file-explorer-note-count/main.js": "0ff6c0ee724c78ef0fe938a5bbe73222823a4660",
     "configBackup/plugins/file-explorer-note-count/manifest.json": "f13b359af5c42a06d1d665bea708523ac6c6435d",
     "configBackup/plugins/file-explorer-note-count/styles.css": "07a579f13cfc575eab901a7cb7d5dd7f3e29ae80",
-    "configBackup/plugins/fit/data.json": "2af5bd46ac36a7759d80b69f98620bec9ccf6ee3",
+    "configBackup/plugins/fit/data.json": "2b240e3afb06f0771e03aa58d00313f2875aa817",
     "configBackup/plugins/fit/main.js": "99d14ab5512c38f3f7ef40baa13354b4fd01ac8d",
     "configBackup/plugins/fit/manifest.json": "b2619ad0cd6d9f0b592014bd5c3f8d42fd5b81f8",
     "configBackup/plugins/fit/styles.css": "f4843f4a89f179418c0b450e8cf577b316c86a25",
