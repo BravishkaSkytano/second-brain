@@ -11,11 +11,12 @@
 		{"id":"d74a5c724afbc95c","type":"text","text":"## Week 2\n```tasks\n(tags include #phil101) AND (tags include #w2)\nhide tags\nshort mode\n```\n","x":-560,"y":80,"width":440,"height":400},
 		{"id":"18f8cd8511eff45e","type":"text","text":"## Week 6\n```tasks\n(tags include #phil101) AND (tags include #w6)\nhide tags\nshort mode\n```\n","x":-560,"y":500,"width":440,"height":400},
 		{"id":"cc39d58bd4391ad1","type":"text","text":"## Files\n\n```dataview\nTABLE file.mtime AS \"Last Modified\"\nFROM #phil101 \nSORT file.mtime DESC\n```\n","x":200,"y":-320,"width":485,"height":320,"color":"5"},
-		{"id":"a98c1ceb74e781bb","type":"text","text":"## Course Description\n\nIf we love wisdom and search for truth, the study of philosophy is essential. This course deals with the basics of philosophy from a Christian perspective and gives many opportuinities to apply biblical truth to the realities of Christian life and ministry. It deals with areas of logic, knowledge, truth, God and the supernatural, and ethics.","x":-920,"y":-320,"width":485,"height":320,"color":"6"},
-		{"id":"e783cb82689531c5","x":-362,"y":-320,"width":485,"height":320,"color":"4","type":"text","text":"**Dates:** Monday, January 6, 2025 – March 2, 2025\n\nToday is `= date(today)` - **`= date(2025-03-02) - date(today)` until final deadline!**\n"}
+		{"id":"e783cb82689531c5","type":"text","text":"**Dates:** Monday, January 6, 2025 – March 2, 2025\n\nToday is `= date(today)` - **`= date(2025-03-02) - date(today)` until final deadline!**\n","x":-342,"y":-320,"width":485,"height":320,"color":"4"},
+		{"id":"a98c1ceb74e781bb","type":"text","text":"## Course Description\n\nIf we love wisdom and search for truth, the study of philosophy is essential. This course deals with the basics of philosophy from a Christian perspective and gives many opportuinities to apply biblical truth to the realities of Christian life and ministry. It deals with areas of logic, knowledge, truth, God and the supernatural, and ethics.","x":-880,"y":-320,"width":485,"height":320,"color":"6"}
 	],
 	"edges":[
 		{"id":"a1251121e65d372e","fromNode":"74983b58fc1daa8f","fromSide":"bottom","toNode":"a98c1ceb74e781bb","toSide":"top"},
-		{"id":"96e68ca8c60a2775","fromNode":"74983b58fc1daa8f","fromSide":"bottom","toNode":"cc39d58bd4391ad1","toSide":"top"}
+		{"id":"96e68ca8c60a2775","fromNode":"74983b58fc1daa8f","fromSide":"bottom","toNode":"cc39d58bd4391ad1","toSide":"top"},
+		{"id":"d17e2f9a5cde28b0","fromNode":"74983b58fc1daa8f","fromSide":"bottom","toNode":"e783cb82689531c5","toSide":"top"}
 	]
 }
