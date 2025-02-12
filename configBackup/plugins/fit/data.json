@@ -1,7 +1,7 @@
 {
   "localSha": {
     "Tasks Dashboard.canvas": "c79095b535db684ae830af587ead3b4d826b538d",
-    "configBackup/workspace.json": "b5e309b1abe5b834eba5ecdf666957d1dc064ab3",
+    "configBackup/workspace.json": "35e597494dec2263584568c492674781d8d1319c",
     "configBackup/types.json": "8fb050f0fdffbf878f4a10fbf8d00c529edc1a50",
     "configBackup/themes/Sanctum/manifest.json": "d2fe3db157ff705c20ad6b0d891282a80e2e5f36",
     "configBackup/themes/Sanctum/theme.css": "ccd44487692af9d029dcd1a261051e0a86d5d9d1",
@@ -105,7 +105,7 @@
     "configBackup/plugins/note-toolbar/styles.css": "dc047f2b729552a35e3624c10d0d37cf33b01c79",
     "configBackup/plugins/note-toolbar/main.js": "65e4a56ebb866b2164234efbe29d3155740765bd",
     "configBackup/plugins/note-toolbar/manifest.json": "40660fd63fd5f3f1db848e872d0316f6ee245747",
-    "configBackup/plugins/note-toolbar/data.json": "c7dbe09067a1443fe01ac5572f52c5e86f17548f",
+    "configBackup/plugins/note-toolbar/data.json": "fed7a92895acb43aaa83b36bdeb23e20f4b4dca3",
     "configBackup/plugins/media-notes/styles.css": "160b238b2c4872e6e9ec44802193593f69a997b4",
     "configBackup/plugins/media-notes/manifest.json": "a61413dccfc1d9572a7203f5e412490ee5e9c4d2",
     "configBackup/plugins/media-notes/main.js": "f2421019ded49c7c10c612324818142063d4f07f",
@@ -122,7 +122,7 @@
     "configBackup/plugins/folder-notes/styles.css": "22ad3dbcafa515233dd93028fd41c75d719be289",
     "configBackup/plugins/fit/styles.css": "3c640e4effaf3b458bc80bdbab1ed65a086de5a5",
     "configBackup/plugins/fit/manifest.json": "a83d6cb7ab043878b8015a6690adf881a76bd4dc",
-    "configBackup/plugins/fit/data.json": "1e3f0e5a550697d8792def073514ff43e4e11219",
+    "configBackup/plugins/fit/data.json": "fbed678a6a46709e278334ab5c8a133f0f7a75ad",
     "configBackup/plugins/fit/main.js": "57f107993324b1127979cddcc5257e11046e6a1a",
     "configBackup/plugins/file-explorer-note-count/manifest.json": "f829a08dd4dd9b63fed3d101cb092973c3dd9ed1",
     "configBackup/plugins/file-explorer-note-count/styles.css": "9718436854901ca8943cf292bb378d1ad3da7433",
@@ -184,7 +184,7 @@
     "1 - Projects/PHIL101 Philosophy/PHIL101 Philosophy.canvas": "0edd87d0534335e97480fe497b9b5d80967b706d",
     "2 - Areas/Gaming/Albion Online/Royal Cities.canvas": "ceba1e4d52aa63eaf73bcbaa9999c0ecaf80b989"
   },
-  "lastFetchedCommitSha": "7edc8137933259332e99a391c72b89767a8f146d",
+  "lastFetchedCommitSha": "c7b1fb46b91fb81c26ea5c4bbf1a3e297da05d98",
   "lastFetchedRemoteSha": {
     "1 - Projects/APO391 Introduction to Islam/Final Paper.md": "fbc542d31662ab85b52a4fb18c813e6ebabd0f00",
     "1 - Projects/PHIL101 Philosophy/PHIL101 Philosophy.canvas": "c2b56fd6daac0e4cd4dd3eff499b2b1564f7d5e9",
@@ -240,7 +240,7 @@
     "configBackup/plugins/file-explorer-note-count/main.js": "0ff6c0ee724c78ef0fe938a5bbe73222823a4660",
     "configBackup/plugins/file-explorer-note-count/manifest.json": "f13b359af5c42a06d1d665bea708523ac6c6435d",
     "configBackup/plugins/file-explorer-note-count/styles.css": "07a579f13cfc575eab901a7cb7d5dd7f3e29ae80",
-    "configBackup/plugins/fit/data.json": "8f326423ae9556b5d4d7db620e4c8026da7d0607",
+    "configBackup/plugins/fit/data.json": "2af5bd46ac36a7759d80b69f98620bec9ccf6ee3",
     "configBackup/plugins/fit/main.js": "99d14ab5512c38f3f7ef40baa13354b4fd01ac8d",
     "configBackup/plugins/fit/manifest.json": "b2619ad0cd6d9f0b592014bd5c3f8d42fd5b81f8",
     "configBackup/plugins/fit/styles.css": "f4843f4a89f179418c0b450e8cf577b316c86a25",
@@ -258,7 +258,7 @@
     "configBackup/plugins/media-notes/main.js": "1db5330ee6956134e667f3e92dd756261b616b22",
     "configBackup/plugins/media-notes/manifest.json": "0ccf305b2f46ccaf44622cce0c55abc677a57063",
     "configBackup/plugins/media-notes/styles.css": "145fe8c41a7170e04924e5cb276e1c68f248f4d2",
-    "configBackup/plugins/note-toolbar/data.json": "464a1d9b44b7b18b2a21a60b34dc61970bf865ea",
+    "configBackup/plugins/note-toolbar/data.json": "dacecdc13c6365222ebf4fbf4153ed5360a69777",
     "configBackup/plugins/note-toolbar/main.js": "66009b0a8f765785c33bbdce8cfa5f05711e6e86",
     "configBackup/plugins/note-toolbar/manifest.json": "6b4be2e484d170e1705b470af07be3f1967da509",
     "configBackup/plugins/note-toolbar/styles.css": "f9107199240dd895eee458e21173703648a92970",
@@ -368,7 +368,7 @@
     "configBackup/themes/Sanctum/manifest.json": "25e0d4c89b6a3950494a5ccd2890e4490c6cc7f7",
     "configBackup/themes/Sanctum/theme.css": "fd6ef35a1bd0757e0e02553acecdc71eee3ebe3a",
     "configBackup/types.json": "a247b0c1dae46774562888ef531d3b8092dff78e",
-    "configBackup/workspace.json": "5ca281f9957a6333f72187c6156450187038f9ed"
+    "configBackup/workspace.json": "eb363873a6cffb64c19466e24794ac5d0bff5494"
   },
   "pat": "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",
   "owner": "BravishkaSkytano",
