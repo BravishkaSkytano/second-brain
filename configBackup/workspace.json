@@ -58,9 +58,19 @@
               "icon": "lucide-layout-dashboard",
               "title": "PHIL101 Philosophy"
             }
+          },
+          {
+            "id": "02ac639f3fda7440",
+            "type": "leaf",
+            "state": {
+              "type": "ntb-whats-new-view",
+              "state": {},
+              "icon": "file-text",
+              "title": "What's new in Note Toolbar?"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -265,13 +275,12 @@
       "fit:Fit Sync": false,
       "obisidian-note-linker:Note Linker": false,
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
-      "diarian:Select Diarian view": false,
       "daily-notes:Open today's daily note": false,
       "obsidian42-brat:BRAT": false,
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "0f0fd7d9deb676f5",
+  "active": "02ac639f3fda7440",
   "lastOpenFiles": [
     "configBackup/themes/Sanctum/theme.css",
     "configBackup/themes/Sanctum/manifest.json",
