@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "38abc9dba94efbc6",
+            "id": "dd7c67b3efb95a3b",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -16,9 +16,9 @@
               "state": {
                 "file": "Tasks Dashboard.canvas",
                 "viewState": {
-                  "x": 562.5,
-                  "y": -24,
-                  "zoom": -1.0973056503968963
+                  "x": 751.0292962271161,
+                  "y": 1201.3656118250085,
+                  "zoom": -1.4023895069260561
                 }
               },
               "pinned": true,
@@ -41,36 +41,8 @@
               "icon": "lucide-file",
               "title": "Master Tasks List"
             }
-          },
-          {
-            "id": "0f0fd7d9deb676f5",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "1 - Projects/PHIL101 Philosophy/PHIL101 Philosophy.canvas",
-                "viewState": {
-                  "x": -100,
-                  "y": 240,
-                  "zoom": -1.1560394751873624
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "PHIL101 Philosophy"
-            }
-          },
-          {
-            "id": "02ac639f3fda7440",
-            "type": "leaf",
-            "state": {
-              "type": "ntb-whats-new-view",
-              "state": {},
-              "icon": "file-text",
-              "title": "What's new in Note Toolbar?"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,6 +164,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "c53c339b218b5277",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Tasks Dashboard.canvas"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Tasks Dashboard"
+            }
+          },
+          {
             "id": "c17f0d5709c1f924",
             "type": "leaf",
             "state": {
@@ -205,21 +189,8 @@
               "icon": "lucide-list",
               "title": "Outline of PHIL101 Philosophy"
             }
-          },
-          {
-            "id": "c53c339b218b5277",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "1 - Projects/PHIL101 Philosophy/PHIL101 Philosophy.canvas"
-              },
-              "icon": "lucide-info",
-              "title": "File properties for PHIL101 Philosophy"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "81373ed2ce052042",
@@ -231,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Projects/PHIL101 Philosophy/PHIL101 Philosophy.canvas",
+                "file": "Tasks Dashboard.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,7 +212,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for PHIL101 Philosophy"
+              "title": "Backlinks for Tasks Dashboard"
             }
           },
           {
@@ -280,8 +251,12 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "02ac639f3fda7440",
+  "active": "dd7c67b3efb95a3b",
   "lastOpenFiles": [
+    "Master Tasks List.md",
+    "README.md",
+    "1 - Projects/PHIL101 Philosophy/PHIL101 Philosophy.canvas",
+    "Tasks Dashboard.canvas",
     "configBackup/themes/Sanctum/theme.css",
     "configBackup/themes/Sanctum/manifest.json",
     "configBackup/themes/Rosé Pine/theme.css",
@@ -292,12 +267,7 @@
     "configBackup/plugins/waypoint/main.js",
     "configBackup/plugins/waypoint/data.json",
     "configBackup/plugins/various-complements/styles.css",
-    "configBackup/plugins/various-complements/manifest.json",
     "configBackup/plugins/obsidian-linter/default-misspellings.md",
-    "Master Tasks List.md",
-    "Tasks Dashboard.canvas",
-    "1 - Projects/PHIL101 Philosophy/PHIL101 Philosophy.canvas",
-    "README.md",
     "1 - Projects/PHL113/PHL113.md",
     "1 - Projects/APO391 Introduction to Islam/APO391 Introduction to Islam.md",
     "2 - Areas/Journal/2024/2024-12/2024-12-14.md",
