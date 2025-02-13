@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"40dfb5064a424271","x":-125,"y":-30,"width":405,"height":388,"type":"text","text":"## Folder Structure\n\nWORLD\n- Languages/\n- Landscapes/Geography\n- Ecosystems/Flora-Fauna\n- Social-Political Systems/Social Construction\n- Economy\n- Cultures and Religions\n- Magical Systems\n- Technological Systems\n- People/Races/Species/Creatures"},
+		{"id":"a339a1a0f3fcdc8b","x":400,"y":40,"width":250,"height":120,"color":"3","type":"text","text":"**Folders can be files, if the story/world is small and development isn’t crucial.**"},
+		{"id":"5bdd51d73dfff9ba","x":-540,"y":280,"width":250,"height":155,"color":"1","type":"text","text":"**AI is useful for world and character building, but make sure results are used as *skeletons* and ideas, not *flesh.***"}
+	],
+	"edges":[
+		{"id":"1b04e17a30c61e3a","fromNode":"40dfb5064a424271","fromSide":"right","toNode":"a339a1a0f3fcdc8b","toSide":"left"},
+		{"id":"1f00ec3798242978","fromNode":"40dfb5064a424271","fromSide":"left","toNode":"5bdd51d73dfff9ba","toSide":"top"}
+	]
+}
