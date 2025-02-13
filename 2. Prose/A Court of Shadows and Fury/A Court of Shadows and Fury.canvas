@@ -1,13 +1,34 @@
 {
 	"nodes":[
-		{"id":"f7f6701e8dafce4f","x":-200,"y":-280,"width":360,"height":340,"type":"text","text":"# A Court of Shadows and Fury\n\nStory about a fae and an ancient??????????????"},
-		{"id":"0ab47211acc8c356","x":-640,"y":260,"width":250,"height":60,"type":"text","text":"ACT 1: Setup"},
-		{"id":"e48a56f452f879ab","x":-640,"y":620,"width":250,"height":60,"type":"text","text":"ACT 3: Resolution & Clean-up"},
-		{"id":"4db8a201dafe6f76","x":-640,"y":440,"width":250,"height":60,"type":"text","text":"ACT 2: Conflict"},
-		{"id":"7bab9621d77ad484","x":-270,"y":160,"width":250,"height":50,"type":"text","text":"BLOCK 1: Intro"},
-		{"id":"c07e14fa46bef717","x":-87,"y":524,"width":250,"height":60,"type":"text","text":"BLOCK 2: "}
+		{"id":"7bab9621d77ad484","type":"text","text":"**BLOCK 1**","x":-270,"y":160,"width":250,"height":50},
+		{"id":"e48a56f452f879ab","type":"text","text":"ACT 3: Resolution & Clean-up","x":-640,"y":920,"width":250,"height":60},
+		{"id":"4db8a201dafe6f76","type":"text","text":"ACT 2: Conflict","x":-640,"y":780,"width":250,"height":60},
+		{"id":"f7f6701e8dafce4f","type":"text","text":"# A Court of Shadows and Fury\n\nStory about a fae and an ancient??????????????","x":-750,"y":-560,"width":360,"height":340},
+		{"id":"0ab47211acc8c356","type":"text","text":"**ACT 1:** Setup","x":-640,"y":450,"width":250,"height":60},
+		{"id":"6b0523398ac07e43","type":"text","text":"**SCENE 2:** Inciting Incident","x":100,"y":160,"width":250,"height":60},
+		{"id":"35d4483a900b8a80","type":"text","text":"**SCENE 1:** Intro","x":100,"y":80,"width":250,"height":60},
+		{"id":"a7880ffbfefb28e7","type":"text","text":"**SCENE 3:** Fall Out","x":100,"y":240,"width":250,"height":60},
+		{"id":"f1063183f6dbc620","x":100,"y":320,"width":250,"height":60,"type":"text","text":"**SCENE 4:** Reaction/Rebel"},
+		{"id":"2c89a9fe32b28f97","x":100,"y":400,"width":250,"height":60,"type":"text","text":"**SCENE 5:** Action"},
+		{"id":"7bdb9404c44a06f3","x":100,"y":480,"width":250,"height":60,"type":"text","text":"**SCENE 6:** Consequence"},
+		{"id":"c07e14fa46bef717","type":"text","text":"**BLOCK 2**","x":-270,"y":400,"width":250,"height":60},
+		{"id":"d9d13ca2f498751c","x":100,"y":560,"width":250,"height":60,"type":"text","text":"**SCENE 7:** Pressure"},
+		{"id":"029eaa853bf45095","x":100,"y":640,"width":250,"height":60,"type":"text","text":"**SCENE 8:** Plot Twist!!!!!!!!!"},
+		{"id":"639b131e70447ca4","x":100,"y":720,"width":250,"height":60,"type":"text","text":"**SCENE 9:** Push →"},
+		{"id":"3b8545c9eaabdd1f","type":"text","text":"**BLOCK 3**","x":-270,"y":640,"width":250,"height":60}
 	],
 	"edges":[
-		{"id":"7e157d1da712fdb9","fromNode":"0ab47211acc8c356","fromSide":"right","toNode":"7bab9621d77ad484","toSide":"left"}
+		{"id":"7e157d1da712fdb9","fromNode":"0ab47211acc8c356","fromSide":"right","toNode":"7bab9621d77ad484","toSide":"left"},
+		{"id":"3d6b190a2c82db47","fromNode":"0ab47211acc8c356","fromSide":"right","toNode":"3b8545c9eaabdd1f","toSide":"left"},
+		{"id":"eed2565b3f9a85e1","fromNode":"0ab47211acc8c356","fromSide":"right","toNode":"c07e14fa46bef717","toSide":"left"},
+		{"id":"2c8e1466603eb0f5","fromNode":"7bab9621d77ad484","fromSide":"right","toNode":"35d4483a900b8a80","toSide":"left"},
+		{"id":"2ab1abc6ba66d925","fromNode":"7bab9621d77ad484","fromSide":"right","toNode":"6b0523398ac07e43","toSide":"left"},
+		{"id":"bdfdacbcb2f072d4","fromNode":"7bab9621d77ad484","fromSide":"right","toNode":"a7880ffbfefb28e7","toSide":"left"},
+		{"id":"ba010159e761fab9","fromNode":"c07e14fa46bef717","fromSide":"right","toNode":"f1063183f6dbc620","toSide":"left"},
+		{"id":"9de8c618c4d4b2c3","fromNode":"c07e14fa46bef717","fromSide":"right","toNode":"2c89a9fe32b28f97","toSide":"left"},
+		{"id":"267520c283022c10","fromNode":"c07e14fa46bef717","fromSide":"right","toNode":"7bdb9404c44a06f3","toSide":"left"},
+		{"id":"85a43b404b831fc1","fromNode":"3b8545c9eaabdd1f","fromSide":"right","toNode":"d9d13ca2f498751c","toSide":"left"},
+		{"id":"f8f7568d69725198","fromNode":"3b8545c9eaabdd1f","fromSide":"right","toNode":"029eaa853bf45095","toSide":"left"},
+		{"id":"6ac026abf7d8aade","fromNode":"3b8545c9eaabdd1f","fromSide":"right","toNode":"639b131e70447ca4","toSide":"left"}
 	]
 }

@@ -8,25 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dd7c67b3efb95a3b",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Tasks Dashboard.canvas",
-                "viewState": {
-                  "x": 751.0292962271161,
-                  "y": 1201.3656118250085,
-                  "zoom": -1.4023895069260561
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-layout-dashboard",
-              "title": "Tasks Dashboard"
-            }
-          },
-          {
             "id": "dd742d95d8569e1a",
             "type": "leaf",
             "pinned": true,
@@ -41,8 +22,26 @@
               "icon": "lucide-file",
               "title": "Master Tasks List"
             }
+          },
+          {
+            "id": "aa6f58a7de7bdf62",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "2. Prose/A Court of Shadows and Fury/A Court of Shadows and Fury.canvas",
+                "viewState": {
+                  "x": 37.74985764832712,
+                  "y": 554.0572601456229,
+                  "zoom": -0.6666666666666666
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "A Court of Shadows and Fury"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,10 +168,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Tasks Dashboard.canvas"
+                "file": "2. Prose/A Court of Shadows and Fury/A Court of Shadows and Fury.canvas"
               },
               "icon": "lucide-info",
-              "title": "File properties for Tasks Dashboard"
+              "title": "File properties for A Court of Shadows and Fury"
             }
           },
           {
@@ -202,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tasks Dashboard.canvas",
+                "file": "2. Prose/A Court of Shadows and Fury/A Court of Shadows and Fury.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +211,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Tasks Dashboard"
+              "title": "Backlinks for A Court of Shadows and Fury"
             }
           },
           {
@@ -251,22 +250,27 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "dd7c67b3efb95a3b",
+  "active": "aa6f58a7de7bdf62",
   "lastOpenFiles": [
+    "2. Prose/Dear Diary/Dear Diary.canvas",
+    "2. Prose/A Court of Shadows and Fury/A Court of Shadows and Fury.canvas",
+    "2. Prose/A Court of Shadows and Fury",
+    "2. Prose/2b. Flash Fiction",
+    "2. Prose/2a. Poetry",
+    "2. Prose/Dear Diary/research",
+    "2. Prose/Dear Diary/characters",
+    "3. Worldbuilding/3. Worldbuilding.canvas",
     "Master Tasks List.md",
-    "README.md",
-    "1 - Projects/PHIL101 Philosophy/PHIL101 Philosophy.canvas",
+    "3. Worldbuilding/Ilmaria",
     "Tasks Dashboard.canvas",
-    "configBackup/themes/Sanctum/theme.css",
-    "configBackup/themes/Sanctum/manifest.json",
-    "configBackup/themes/Rosé Pine/theme.css",
-    "configBackup/themes/Rosé Pine/manifest.json",
-    "configBackup/themes/Catppuccin/theme.css",
-    "configBackup/themes/Catppuccin/manifest.json",
-    "configBackup/plugins/waypoint/manifest.json",
-    "configBackup/plugins/waypoint/main.js",
-    "configBackup/plugins/waypoint/data.json",
-    "configBackup/plugins/various-complements/styles.css",
+    "Albion Online/Royal Cities.canvas",
+    "4. Research",
+    "2. Prose",
+    "3. Worldbuilding",
+    "1. Study Notes",
+    "Goals.md",
+    "README.md",
+    "1. Study Notes/PHIL101 Philosophy/PHIL101 Philosophy.canvas",
     "configBackup/plugins/obsidian-linter/default-misspellings.md",
     "1 - Projects/PHL113/PHL113.md",
     "1 - Projects/APO391 Introduction to Islam/APO391 Introduction to Islam.md",
@@ -276,7 +280,6 @@
     "2 - Areas/Journal/2025/2025-02/2025-02-06.md",
     "2 - Areas/Journal/2025/2025-01/2025-01-19.md",
     "2 - Areas/Journal/2025/2025-01/2025-01-12.md",
-    "2 - Areas/Gaming/Albion Online/Royal Cities.canvas",
     "2 - Areas/Journal/2024/2024-12/2024-12-27.md",
     "2 - Areas/Journal/2024/12-December/2024-12-12.md",
     "2 - Areas/Journal/2024/2024-12/2024-12-24.md",
@@ -294,12 +297,11 @@
     "attachments/bfbda4cd-41cc-4f72-b8d3-558823352b9b.jpg",
     "attachments/Burro's Tail - Live Starter Plants in 2 Inch Pots - Sedum Morganianum - Drought Tolerant Indoor Outdoor Easy Care Succulent Houseplant - 1 Plant.jpg",
     "2 - Areas/Journal/2024/2024-12/2024-12-19.md",
-    "1 - Projects/APO391 Introduction to Islam/Final Paper.md",
+    "1. Study Notes/APO391 Introduction to Islam/Final Paper.md",
     "1 - Projects/APO391 Introduction to Islam/The Integration of Islam Thought and Greek Philosophy - A Cultural Revolution.md",
     "2 - Areas/Journal/2024/2024-12/2024-12.md",
     "templates/yearly-note.md",
     "templates/quarterly-note.md",
-    "templates/monthly-note.md",
-    "templates/weekly-note.md"
+    "templates/monthly-note.md"
   ]
 }
