@@ -1,8 +1,6 @@
 {
 	"nodes":[
 		{"id":"7bab9621d77ad484","type":"text","text":"**BLOCK 1**","x":-270,"y":160,"width":250,"height":50},
-		{"id":"e48a56f452f879ab","type":"text","text":"ACT 3: Resolution & Clean-up","x":-640,"y":920,"width":250,"height":60},
-		{"id":"4db8a201dafe6f76","type":"text","text":"ACT 2: Conflict","x":-640,"y":780,"width":250,"height":60},
 		{"id":"f7f6701e8dafce4f","type":"text","text":"# A Court of Shadows and Fury\n\nStory about a fae and an ancient??????????????","x":-750,"y":-560,"width":360,"height":340},
 		{"id":"6b0523398ac07e43","type":"text","text":"**SCENE 2:** Inciting Incident","x":100,"y":160,"width":250,"height":60},
 		{"id":"35d4483a900b8a80","type":"text","text":"**SCENE 1:** Intro to Hero","x":100,"y":80,"width":250,"height":60},
@@ -15,7 +13,19 @@
 		{"id":"029eaa853bf45095","x":100,"y":640,"width":250,"height":60,"type":"text","text":"**SCENE 8:** Plot Twist!!!!!!!!!"},
 		{"id":"639b131e70447ca4","x":100,"y":720,"width":250,"height":60,"type":"text","text":"**SCENE 9:** Push →"},
 		{"id":"3b8545c9eaabdd1f","type":"text","text":"**BLOCK 3**","x":-270,"y":640,"width":250,"height":60},
-		{"id":"0ab47211acc8c356","type":"text","text":"**ACT 1:** Setup","x":-640,"y":400,"width":250,"height":60}
+		{"id":"0ab47211acc8c356","type":"text","text":"**ACT 1:** Setup","x":-640,"y":400,"width":250,"height":60},
+		{"id":"71af850c04d93701","x":100,"y":800,"width":250,"height":60,"type":"text","text":"**SCENE 10:** New World"},
+		{"id":"c2c45854cd66efa1","x":100,"y":880,"width":250,"height":60,"type":"text","text":"**SCENE 11:** Fun + Games"},
+		{"id":"cc56693d92e63252","x":100,"y":960,"width":250,"height":60,"type":"text","text":"**SCENE 12:** Old Juxtaposition"},
+		{"id":"473ea5725afe3482","x":-270,"y":880,"width":250,"height":60,"type":"text","text":"**BLOCK 4:**"},
+		{"id":"46786cd9677481bc","x":-270,"y":1420,"width":250,"height":60,"type":"text","text":"**BLOCK 6:**"},
+		{"id":"e48a56f452f879ab","type":"text","text":"**ACT 3:** Resolution & Clean-up","x":-660,"y":1700,"width":250,"height":60},
+		{"id":"4db8a201dafe6f76","type":"text","text":"**ACT 2:** Conflict","x":-640,"y":1120,"width":250,"height":60},
+		{"id":"6fa04b3d72dc6322","x":100,"y":1040,"width":250,"height":60,"type":"text","text":"**SCENE 13:** Build Up"},
+		{"id":"59479ce76b43d3eb","x":100,"y":1120,"width":250,"height":60,"type":"text","text":"**SCENE 14:** Midpoint"},
+		{"id":"245a9da7dfa983bb","x":100,"y":1200,"width":250,"height":60,"type":"text","text":"**SCENE 15:** Reversal"},
+		{"id":"448c0447f1f26eae","x":-270,"y":1120,"width":250,"height":60,"type":"text","text":"**BLOCK 5:**"},
+		{"id":"a00349e25d29c826","x":-21,"y":1150,"width":250,"height":60,"type":"text","text":"**SCENE 16:** COnsequence"}
 	],
 	"edges":[
 		{"id":"7e157d1da712fdb9","fromNode":"0ab47211acc8c356","fromSide":"right","toNode":"7bab9621d77ad484","toSide":"left"},
@@ -29,6 +39,15 @@
 		{"id":"267520c283022c10","fromNode":"c07e14fa46bef717","fromSide":"right","toNode":"7bdb9404c44a06f3","toSide":"left"},
 		{"id":"85a43b404b831fc1","fromNode":"3b8545c9eaabdd1f","fromSide":"right","toNode":"d9d13ca2f498751c","toSide":"left"},
 		{"id":"f8f7568d69725198","fromNode":"3b8545c9eaabdd1f","fromSide":"right","toNode":"029eaa853bf45095","toSide":"left"},
-		{"id":"6ac026abf7d8aade","fromNode":"3b8545c9eaabdd1f","fromSide":"right","toNode":"639b131e70447ca4","toSide":"left"}
+		{"id":"6ac026abf7d8aade","fromNode":"3b8545c9eaabdd1f","fromSide":"right","toNode":"639b131e70447ca4","toSide":"left"},
+		{"id":"0d84d15ddc6edae1","fromNode":"4db8a201dafe6f76","fromSide":"right","toNode":"473ea5725afe3482","toSide":"left"},
+		{"id":"c454dea92c1eb65d","fromNode":"4db8a201dafe6f76","fromSide":"right","toNode":"448c0447f1f26eae","toSide":"left"},
+		{"id":"5a85f57f3c9f108c","fromNode":"4db8a201dafe6f76","fromSide":"right","toNode":"46786cd9677481bc","toSide":"left"},
+		{"id":"0ff6ae9d49c90bbd","fromNode":"473ea5725afe3482","fromSide":"right","toNode":"71af850c04d93701","toSide":"left"},
+		{"id":"5d9fa5ef87093043","fromNode":"473ea5725afe3482","fromSide":"right","toNode":"c2c45854cd66efa1","toSide":"left"},
+		{"id":"d5e5bdf9bccc0352","fromNode":"473ea5725afe3482","fromSide":"right","toNode":"cc56693d92e63252","toSide":"left"},
+		{"id":"9cac00aa894c7717","fromNode":"448c0447f1f26eae","fromSide":"right","toNode":"6fa04b3d72dc6322","toSide":"left"},
+		{"id":"30a0a39d4681ac71","fromNode":"448c0447f1f26eae","fromSide":"right","toNode":"59479ce76b43d3eb","toSide":"left"},
+		{"id":"1c2c0b8b32254959","fromNode":"448c0447f1f26eae","fromSide":"right","toNode":"245a9da7dfa983bb","toSide":"left"}
 	]
 }
