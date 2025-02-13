@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"f7f6701e8dafce4f","x":-200,"y":-280,"width":360,"height":340,"type":"text","text":"# A Court of Shadows and Fury\n\nStory about a fae and an ancient??????????????"},
+		{"id":"0ab47211acc8c356","x":-640,"y":260,"width":250,"height":60,"type":"text","text":"ACT 1: Setup"},
+		{"id":"e48a56f452f879ab","x":-640,"y":620,"width":250,"height":60,"type":"text","text":"ACT 3: Resolution & Clean-up"},
+		{"id":"4db8a201dafe6f76","x":-640,"y":440,"width":250,"height":60,"type":"text","text":"ACT 2: Conflict"},
+		{"id":"7bab9621d77ad484","x":-270,"y":160,"width":250,"height":50,"type":"text","text":"BLOCK 1: Intro"},
+		{"id":"c07e14fa46bef717","x":-87,"y":524,"width":250,"height":60,"type":"text","text":"BLOCK 2: "}
+	],
+	"edges":[
+		{"id":"7e157d1da712fdb9","fromNode":"0ab47211acc8c356","fromSide":"right","toNode":"7bab9621d77ad484","toSide":"left"}
+	]
+}
