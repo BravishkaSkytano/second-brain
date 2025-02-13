@@ -31,17 +31,34 @@
               "state": {
                 "file": "2. Prose/A Court of Shadows and Fury/A Court of Shadows and Fury.canvas",
                 "viewState": {
-                  "x": -775,
-                  "y": 970,
-                  "zoom": -1.1827327777429328
+                  "x": -710.4788490454546,
+                  "y": 1037.1085446638144,
+                  "zoom": -1.333333333333333
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "A Court of Shadows and Fury"
             }
+          },
+          {
+            "id": "a7abd02575f68ef4",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "templates/27 Chapter Plot Outline.canvas",
+                "viewState": {
+                  "x": -107.5,
+                  "y": 200,
+                  "zoom": -1.144482443764963
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "27 Chapter Plot Outline"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -168,10 +185,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Prose/A Court of Shadows and Fury/A Court of Shadows and Fury.canvas"
+                "file": "templates/27 Chapter Plot Outline.canvas"
               },
               "icon": "lucide-info",
-              "title": "File properties for A Court of Shadows and Fury"
+              "title": "File properties for 27 Chapter Plot Outline"
             }
           },
           {
@@ -201,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Prose/A Court of Shadows and Fury/A Court of Shadows and Fury.canvas",
+                "file": "templates/27 Chapter Plot Outline.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +228,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for A Court of Shadows and Fury"
+              "title": "Backlinks for 27 Chapter Plot Outline"
             }
           },
           {
@@ -250,8 +267,11 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "aa6f58a7de7bdf62",
+  "active": "a7abd02575f68ef4",
   "lastOpenFiles": [
+    "2. Prose/A Court of Shadows and Fury/A Court of Shadows and Fury.canvas",
+    "templates/27 Chapter Plot Outline.canvas",
+    "templates",
     "configBackup/themes/Sanctum/theme.css",
     "configBackup/themes/Sanctum/manifest.json",
     "configBackup/themes/Rosé Pine/theme.css",
@@ -261,11 +281,8 @@
     "configBackup/plugins/waypoint/manifest.json",
     "configBackup/plugins/waypoint/main.js",
     "configBackup/plugins/waypoint/data.json",
-    "configBackup/plugins/various-complements/styles.css",
-    "configBackup/plugins/various-complements/manifest.json",
     "configBackup/plugins/obsidian-linter/default-misspellings.md",
     "2. Prose/Dear Diary/Dear Diary.canvas",
-    "2. Prose/A Court of Shadows and Fury/A Court of Shadows and Fury.canvas",
     "3. Worldbuilding/3. Worldbuilding.canvas",
     "Master Tasks List.md",
     "Tasks Dashboard.canvas",

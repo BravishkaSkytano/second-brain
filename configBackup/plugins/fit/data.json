@@ -1,7 +1,8 @@
 {
   "localSha": {
+    "templates/27 Chapter Plot Outline.canvas": "2730f868ebddb375d2c898856979ce72560b92ad",
     "3. Worldbuilding/3. Worldbuilding.canvas": "8969845f45219b6aa4226d324b4da5dff03bc745",
-    "2. Prose/A Court of Shadows and Fury/A Court of Shadows and Fury.canvas": "edb52efeeafec4bdd0db802a6fa071764f6b421b",
+    "2. Prose/A Court of Shadows and Fury/A Court of Shadows and Fury.canvas": "292b2af4149ed0374e81ca0372a38f5789ce607f",
     "2. Prose/Dear Diary/Dear Diary.canvas": "30418fd5064985a1a4d86c80618342e3f5be613b",
     "1. Study Notes/PHIL101 Philosophy/PHIL101 Philosophy.canvas": "b09c6b38f644aeca350d73648620a7d77d06fc39",
     "1. Study Notes/APO391 Introduction to Islam/Final Paper.md": "341cc2758b22f4971628d89d8234326e9353a403",
@@ -137,7 +138,7 @@
     "configBackup/plugins/fit/styles.css": "3c640e4effaf3b458bc80bdbab1ed65a086de5a5",
     "configBackup/plugins/fit/manifest.json": "a83d6cb7ab043878b8015a6690adf881a76bd4dc",
     "configBackup/plugins/fit/main.js": "57f107993324b1127979cddcc5257e11046e6a1a",
-    "configBackup/plugins/fit/data.json": "1094f4c70c631903b6f03a9f7dbe49db391ef470",
+    "configBackup/plugins/fit/data.json": "2b025a3a2273b5e6d75f63c38afc86822e3389d4",
     "configBackup/plugins/file-explorer-note-count/styles.css": "9718436854901ca8943cf292bb378d1ad3da7433",
     "configBackup/plugins/file-explorer-note-count/manifest.json": "f829a08dd4dd9b63fed3d101cb092973c3dd9ed1",
     "configBackup/plugins/file-explorer-note-count/main.js": "b280476a34f1c63baf5f92b38ad8cea4bd39afc8",
@@ -167,7 +168,7 @@
     "configBackup/plugins/beautitab/manifest.json": "fea71ab1376687be28ddc80949f13e9442d25a24",
     "configBackup/plugins/beautitab/main.js": "f1cd683b3e7a5c15c09e1435768e63807a8486b5",
     "configBackup/plugins/beautitab/data.json": "8de73e40a33286c947b554cbab1cb3ea1792b4da",
-    "configBackup/workspace.json": "bebdf15b30076631fe1126353e360f07da896ae2",
+    "configBackup/workspace.json": "58e66be8c27542ff737facf9ceedd489c9e3b59d",
     "configBackup/types.json": "3bbfe510d72b367f67ced068c30ed041ba96ad97",
     "configBackup/hotkeys.json": "c0ebce895ee11c326178f0e9553c0b27d62ca44e",
     "configBackup/graph.json": "2fcfaec796bf99181e454b5196c2d61867fda337",
@@ -190,11 +191,11 @@
     "attachments/bfbda4cd-41cc-4f72-b8d3-558823352b9b.jpg": "c9df8e0ae967c994e0b5c9e136954600e1d4249b",
     "attachments/4809efb5-4152-4156-8055-aa84e58b1a9d.jpg": "993655c9329d294456e8460f48d02726ba77c5d1"
   },
-  "lastFetchedCommitSha": "3bd74d2e7abdc27f5c4d82a4e573cb2277f84a35",
+  "lastFetchedCommitSha": "9ff5a3d07d1a14601dd0f25668c462a530f5f996",
   "lastFetchedRemoteSha": {
     "1. Study Notes/APO391 Introduction to Islam/Final Paper.md": "fbc542d31662ab85b52a4fb18c813e6ebabd0f00",
     "1. Study Notes/PHIL101 Philosophy/PHIL101 Philosophy.canvas": "7a51a1beb9a00eac404667dd882553b3d3b4ce20",
-    "2. Prose/A Court of Shadows and Fury/A Court of Shadows and Fury.canvas": "4e06449df5a9d4c50d26cdb9bed5cf446a80629d",
+    "2. Prose/A Court of Shadows and Fury/A Court of Shadows and Fury.canvas": "0ba82796e5ec51889509d2b9fe0e60a3aaa0d31c",
     "2. Prose/Dear Diary/Dear Diary.canvas": "1172cd407dc88985ddc7980f0a3f2b1b1a2cadc2",
     "3. Worldbuilding/3. Worldbuilding.canvas": "8059cd8a84fd3c7efeb2b53992e8b899e094f1d5",
     "Albion Online/Royal Cities.canvas": "a4220e6e960cf7c03c4db97f2456dcf1fefb74b8",
@@ -252,7 +253,7 @@
     "configBackup/plugins/file-explorer-note-count/main.js": "0ff6c0ee724c78ef0fe938a5bbe73222823a4660",
     "configBackup/plugins/file-explorer-note-count/manifest.json": "f13b359af5c42a06d1d665bea708523ac6c6435d",
     "configBackup/plugins/file-explorer-note-count/styles.css": "07a579f13cfc575eab901a7cb7d5dd7f3e29ae80",
-    "configBackup/plugins/fit/data.json": "14d3cc2570d5599cac2a234cdb86ef1ecde5a13f",
+    "configBackup/plugins/fit/data.json": "2766f45344e5a4d116931bad90d9f6a7071b0792",
     "configBackup/plugins/fit/main.js": "99d14ab5512c38f3f7ef40baa13354b4fd01ac8d",
     "configBackup/plugins/fit/manifest.json": "b2619ad0cd6d9f0b592014bd5c3f8d42fd5b81f8",
     "configBackup/plugins/fit/styles.css": "f4843f4a89f179418c0b450e8cf577b316c86a25",
@@ -380,7 +381,8 @@
     "configBackup/themes/Sanctum/manifest.json": "25e0d4c89b6a3950494a5ccd2890e4490c6cc7f7",
     "configBackup/themes/Sanctum/theme.css": "fd6ef35a1bd0757e0e02553acecdc71eee3ebe3a",
     "configBackup/types.json": "1997e64ff3927fa82e5c73b610ed625d5cdfa1c0",
-    "configBackup/workspace.json": "661698c6f5ddb143947e5676014bde2314b91c65"
+    "configBackup/workspace.json": "474d04a737bf53fd0eb0e23a786b8e350efa05aa",
+    "templates/27 Chapter Plot Outline.canvas": "26b26b2be1438b4756d81ff87c5fe53bd2ecdc03"
   },
   "pat": "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",
   "owner": "BravishkaSkytano",
