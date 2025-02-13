@@ -2,3 +2,4 @@
 	- Portuguese
 	- Esperanto
 - Read 25 books
+- Figure out where “Dear Diary” should go
