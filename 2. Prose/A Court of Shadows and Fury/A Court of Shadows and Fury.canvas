@@ -18,14 +18,17 @@
 		{"id":"c2c45854cd66efa1","x":100,"y":880,"width":250,"height":60,"type":"text","text":"**SCENE 11:** Fun + Games"},
 		{"id":"cc56693d92e63252","x":100,"y":960,"width":250,"height":60,"type":"text","text":"**SCENE 12:** Old Juxtaposition"},
 		{"id":"473ea5725afe3482","x":-270,"y":880,"width":250,"height":60,"type":"text","text":"**BLOCK 4:**"},
-		{"id":"46786cd9677481bc","x":-270,"y":1420,"width":250,"height":60,"type":"text","text":"**BLOCK 6:**"},
 		{"id":"e48a56f452f879ab","type":"text","text":"**ACT 3:** Resolution & Clean-up","x":-660,"y":1700,"width":250,"height":60},
 		{"id":"4db8a201dafe6f76","type":"text","text":"**ACT 2:** Conflict","x":-640,"y":1120,"width":250,"height":60},
 		{"id":"6fa04b3d72dc6322","x":100,"y":1040,"width":250,"height":60,"type":"text","text":"**SCENE 13:** Build Up"},
 		{"id":"59479ce76b43d3eb","x":100,"y":1120,"width":250,"height":60,"type":"text","text":"**SCENE 14:** Midpoint"},
 		{"id":"245a9da7dfa983bb","x":100,"y":1200,"width":250,"height":60,"type":"text","text":"**SCENE 15:** Reversal"},
 		{"id":"448c0447f1f26eae","x":-270,"y":1120,"width":250,"height":60,"type":"text","text":"**BLOCK 5:**"},
-		{"id":"a00349e25d29c826","x":-21,"y":1150,"width":250,"height":60,"type":"text","text":"**SCENE 16:** COnsequence"}
+		{"id":"a00349e25d29c826","x":100,"y":1280,"width":250,"height":60,"type":"text","text":"**SCENE 16:** Consequence"},
+		{"id":"afb90bbbbedbd4b2","x":100,"y":1360,"width":250,"height":60,"type":"text","text":"**SCENE 17:** Trials"},
+		{"id":"db88556c3b886871","x":100,"y":1440,"width":250,"height":60,"type":"text","text":"**SCENE 18:** Dedicated"},
+		{"id":"46786cd9677481bc","x":-270,"y":1360,"width":250,"height":60,"type":"text","text":"**BLOCK 6:**"},
+		{"id":"c0e412d2e99cd68d","x":-139,"y":1387,"width":250,"height":60,"type":"text","text":"**SCENE"}
 	],
 	"edges":[
 		{"id":"7e157d1da712fdb9","fromNode":"0ab47211acc8c356","fromSide":"right","toNode":"7bab9621d77ad484","toSide":"left"},
@@ -48,6 +51,9 @@
 		{"id":"d5e5bdf9bccc0352","fromNode":"473ea5725afe3482","fromSide":"right","toNode":"cc56693d92e63252","toSide":"left"},
 		{"id":"9cac00aa894c7717","fromNode":"448c0447f1f26eae","fromSide":"right","toNode":"6fa04b3d72dc6322","toSide":"left"},
 		{"id":"30a0a39d4681ac71","fromNode":"448c0447f1f26eae","fromSide":"right","toNode":"59479ce76b43d3eb","toSide":"left"},
-		{"id":"1c2c0b8b32254959","fromNode":"448c0447f1f26eae","fromSide":"right","toNode":"245a9da7dfa983bb","toSide":"left"}
+		{"id":"1c2c0b8b32254959","fromNode":"448c0447f1f26eae","fromSide":"right","toNode":"245a9da7dfa983bb","toSide":"left"},
+		{"id":"ba96a543202597cb","fromNode":"46786cd9677481bc","fromSide":"right","toNode":"a00349e25d29c826","toSide":"left"},
+		{"id":"62c22dcf4714402f","fromNode":"46786cd9677481bc","fromSide":"right","toNode":"afb90bbbbedbd4b2","toSide":"left"},
+		{"id":"bb85c6f0b517442e","fromNode":"46786cd9677481bc","fromSide":"right","toNode":"db88556c3b886871","toSide":"left"}
 	]
 }
