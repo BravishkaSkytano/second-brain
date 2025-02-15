@@ -138,7 +138,7 @@
     "configBackup/plugins/fit/styles.css": "3c640e4effaf3b458bc80bdbab1ed65a086de5a5",
     "configBackup/plugins/fit/manifest.json": "a83d6cb7ab043878b8015a6690adf881a76bd4dc",
     "configBackup/plugins/fit/main.js": "57f107993324b1127979cddcc5257e11046e6a1a",
-    "configBackup/plugins/fit/data.json": "e5e7e83b09fe1455cd24df73f839c15ae8264031",
+    "configBackup/plugins/fit/data.json": "a66ad8d5fd9074df8b7d1cb1f4664b724fcf8138",
     "configBackup/plugins/file-explorer-note-count/styles.css": "9718436854901ca8943cf292bb378d1ad3da7433",
     "configBackup/plugins/file-explorer-note-count/manifest.json": "f829a08dd4dd9b63fed3d101cb092973c3dd9ed1",
     "configBackup/plugins/file-explorer-note-count/main.js": "b280476a34f1c63baf5f92b38ad8cea4bd39afc8",
@@ -191,7 +191,7 @@
     "attachments/bfbda4cd-41cc-4f72-b8d3-558823352b9b.jpg": "c9df8e0ae967c994e0b5c9e136954600e1d4249b",
     "attachments/4809efb5-4152-4156-8055-aa84e58b1a9d.jpg": "993655c9329d294456e8460f48d02726ba77c5d1"
   },
-  "lastFetchedCommitSha": "0bea0c199d9262a620f996702ca5fd5942727ef9",
+  "lastFetchedCommitSha": "f1257b1855ee8d948f92f8f7532cb6334c3fd578",
   "lastFetchedRemoteSha": {
     "1. Study Notes/APO391 Introduction to Islam/Final Paper.md": "fbc542d31662ab85b52a4fb18c813e6ebabd0f00",
     "1. Study Notes/PHIL101 Philosophy/PHIL101 Philosophy.canvas": "7a51a1beb9a00eac404667dd882553b3d3b4ce20",
@@ -253,7 +253,7 @@
     "configBackup/plugins/file-explorer-note-count/main.js": "0ff6c0ee724c78ef0fe938a5bbe73222823a4660",
     "configBackup/plugins/file-explorer-note-count/manifest.json": "f13b359af5c42a06d1d665bea708523ac6c6435d",
     "configBackup/plugins/file-explorer-note-count/styles.css": "07a579f13cfc575eab901a7cb7d5dd7f3e29ae80",
-    "configBackup/plugins/fit/data.json": "945e02ae69714de54357b59958abcaa441e4b9f0",
+    "configBackup/plugins/fit/data.json": "c792ba7081530a9a17f4286640fc606b81b6dce7",
     "configBackup/plugins/fit/main.js": "99d14ab5512c38f3f7ef40baa13354b4fd01ac8d",
     "configBackup/plugins/fit/manifest.json": "b2619ad0cd6d9f0b592014bd5c3f8d42fd5b81f8",
     "configBackup/plugins/fit/styles.css": "f4843f4a89f179418c0b450e8cf577b316c86a25",
