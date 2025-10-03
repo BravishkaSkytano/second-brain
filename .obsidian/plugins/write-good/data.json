@@ -10,8 +10,6 @@
     "cliches": true,
     "eprime": false
   },
-  "fileChecksState": {
-    "test note.md": true
-  },
+  "fileChecksState": {},
   "enableChecksByDefault": true
 }
