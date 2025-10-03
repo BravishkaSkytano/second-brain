@@ -189,8 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,11 +204,15 @@
       "obsidian-git:Open Git source control": false,
       "iconic:Open rulebook": false,
       "obsidian-task-progress-bar:Open Task Genius view": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "callout-manager:Insert Callout": false
     }
   },
   "active": "37cb5892cd01227d",
   "lastOpenFiles": [
+    "Permanent Notes/Tutorials/How To Use Private Submodules With Netlify.md",
+    "Permanent Notes/Tutorials/How To Add A Submodule To A Repository.md",
+    "README.md",
     "_settings/templates/book.md",
     "_settings/templates",
     "_settings",
@@ -241,9 +244,6 @@
     "private/50-59 Journal/2024/Q1-2024/01-January-2024/2024-01-26.md",
     "private/50-59 Journal/2024/Q1-2024/01-January-2024/2024-01-23.md",
     "private/50-59 Journal/2024/Q1-2024/01-January-2024/2024-01-22.md",
-    "private/50-59 Journal/2024/Q1-2024/01-January-2024/2024-01-19.md",
-    "private/50-59 Journal/2024/Q1-2024/01-January-2024/2024-01-16.md",
-    "private/50-59 Journal/2024/Q1-2024/01-January-2024/2024-01-15.md",
     "private/20-29 Prose/Fiction/Ilmaria story/Characters/images",
     "private/50-59 Journal/2024/Q2-2024/04-April-2024",
     "private/50-59 Journal/2024/Q1-2024/02-February-2024",
