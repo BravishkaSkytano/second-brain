@@ -11,5 +11,8 @@
   "virtual-linker",
   "file-explorer-note-count",
   "templater-obsidian",
-  "various-complements"
+  "various-complements",
+  "obsidian-plugin-update-tracker",
+  "callout-manager",
+  "callout-menu"
 ]
