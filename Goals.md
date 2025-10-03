@@ -1,5 +1,0 @@
-- Learn 2 languages in 2025
-	- Portuguese
-	- Esperanto
-- Read 25 books
-- Figure out where “Dear Diary” should go

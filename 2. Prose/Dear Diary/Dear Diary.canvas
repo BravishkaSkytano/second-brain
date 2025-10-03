@@ -1,8 +1,0 @@
-{
-	"nodes":[
-		{"id":"b95f100caed5a538","x":37,"y":150,"width":423,"height":130,"type":"text","text":"# Dear Diary, Do You Wanna Know A Secret?"},
-		{"id":"bc29d1c7350beb45","x":314,"y":540,"width":426,"height":560,"type":"text","text":"- AC makes MC kiss MCC\n- AC tries to MCC rape MC\n\n## Outline\nAct 1\n- Scene 1\n- Scene 2\n- Scene 3\nAct 2\nAct 3"},
-		{"id":"7985616bf4fafd8c","x":-60,"y":540,"width":200,"height":260,"type":"text","text":"## Characters\nMC: [[MC]]\nMCC: [[Soren]]\nAC: [[Witch]]"}
-	],
-	"edges":[]
-}
