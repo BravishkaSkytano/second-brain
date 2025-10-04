@@ -11,10 +11,14 @@
             "id": "44e2e7be7b8c9f5f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Permanent Notes/Tutorials/How To Add A Submodule To A Repository.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "How To Add A Submodule To A Repository"
             }
           }
         ]
@@ -108,6 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Permanent Notes/Tutorials/How To Add A Submodule To A Repository.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -152,6 +157,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "obsidian-book-search-plugin:Create new book note": false,
       "iconic:Open rulebook": false,
       "obsidian-task-progress-bar:Open Task Genius view": false,
@@ -167,6 +173,7 @@
   },
   "active": "44e2e7be7b8c9f5f",
   "lastOpenFiles": [
+    "Permanent Notes/Tutorials/How To Use Private Submodules With Netlify.md",
     "Test note.md"
   ]
 }
