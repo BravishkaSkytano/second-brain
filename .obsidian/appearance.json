@@ -1,4 +1,5 @@
 {
   "cssTheme": "Typomagical",
-  "theme": "system"
+  "theme": "system",
+  "showRibbon": true
 }

@@ -1,7 +1,7 @@
 ---
 title: Literature Notes
 created: 2025-08-07 00:00
-modified: 2025-08-10 22:32
+modified: 2025-10-05 23:02
 weight: 2
 view-count: 5
 ---
@@ -13,17 +13,3 @@ view-count: 5
 
 > [!warning] Simple rules
 > - 
-
-%%
-
-```dataview
-TABLE WITHOUT ID 
-	file.link as "Literature Notes", 
-	(date(today) - dateformat(date(created),"yyyy-MM-dd")).day as "Days alive",
-	(dateformat(date(created),"yyyy-MM-dd") - date(now)) as "Days"
-FROM "Literature Notes"
-WHERE file.name != "index"
-SORT created asc 
-```
-
-%%

@@ -1,7 +1,7 @@
 ---
 title: Permanent Notes
 created: 2025-08-07 00:00
-modified: 2025-08-09 21:21
+modified: 2025-10-05 23:03
 weight: 3
 view-count: 5
 ---
@@ -12,16 +12,3 @@ view-count: 5
 
 > [!warning] Simple rules
 > - 
-
-%%
-
-```dataview
-TABLE WITHOUT ID 
-	file.link as "Permanent Notes", 
-	(date(today) - created).day as "Days alive" 
-FROM "Permanent Notes"
-WHERE file.name != "index"
-SORT created asc 
-```
-
-%%
