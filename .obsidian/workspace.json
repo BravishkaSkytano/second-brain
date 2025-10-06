@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2148599b34690dad",
+        "id": "3edc5d745cd4f148",
         "type": "tabs",
         "children": [
           {
-            "id": "37cb5892cd01227d",
+            "id": "e5acd09f78c6ec3b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "New tab"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links"
             }
           },
           {
@@ -127,13 +121,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline"
             }
           },
           {
@@ -141,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "footnotes",
-              "state": {
-                "file": "README.md"
-              },
+              "state": {},
               "icon": "lucide-file-signature",
               "title": "Footnotes"
             }
@@ -183,14 +174,33 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "d25955834b158f1a",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {},
+              "icon": "history",
+              "title": "History"
+            }
+          },
+          {
+            "id": "f3335a415bea5fbf",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,11 +215,16 @@
       "obsidian-git:Open Git source control": false,
       "iconic:Open rulebook": false,
       "obsidian-task-progress-bar:Open Task Genius view": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "callout-manager:Insert Callout": false
     }
   },
-  "active": "37cb5892cd01227d",
+  "active": "f3335a415bea5fbf",
   "lastOpenFiles": [
+    "Permanent Notes/Tutorials/How To Add A Submodule To A Repository.md",
+    "Permanent Notes/Git Submodules.md",
+    "Permanent Notes/Tutorials/How To Use Private Submodules With Netlify.md",
+    "README.md",
     "_settings/templates/book.md",
     "_settings/templates",
     "_settings",
@@ -240,10 +255,6 @@
     "private/50-59 Journal/2024/Q1-2024/01-January-2024/2024-01-27.md",
     "private/50-59 Journal/2024/Q1-2024/01-January-2024/2024-01-26.md",
     "private/50-59 Journal/2024/Q1-2024/01-January-2024/2024-01-23.md",
-    "private/50-59 Journal/2024/Q1-2024/01-January-2024/2024-01-22.md",
-    "private/50-59 Journal/2024/Q1-2024/01-January-2024/2024-01-19.md",
-    "private/50-59 Journal/2024/Q1-2024/01-January-2024/2024-01-16.md",
-    "private/50-59 Journal/2024/Q1-2024/01-January-2024/2024-01-15.md",
     "private/20-29 Prose/Fiction/Ilmaria story/Characters/images",
     "private/50-59 Journal/2024/Q2-2024/04-April-2024",
     "private/50-59 Journal/2024/Q1-2024/02-February-2024",
