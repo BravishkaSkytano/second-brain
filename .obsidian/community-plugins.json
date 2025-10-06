@@ -11,5 +11,8 @@
   "templater-obsidian",
   "various-complements",
   "notebook-navigator",
-  "settings-search"
+  "settings-search",
+  "the-queue",
+  "frontmatter-modified-date",
+  "callout-menu"
 ]

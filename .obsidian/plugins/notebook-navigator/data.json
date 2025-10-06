@@ -22,7 +22,7 @@
   "navItemHeightScaleText": true,
   "externalIconProviders": {},
   "showRootFolder": true,
-  "inheritFolderColors": false,
+  "inheritFolderColors": true,
   "enableFolderNotes": true,
   "folderNoteType": "markdown",
   "folderNoteName": "index",
