@@ -8,4 +8,4 @@ categories:
   - tree
 ---
 
-- [[BIB235]]
+- [[private/10-19 Study Notes/11 Bible/BIB235/index]]

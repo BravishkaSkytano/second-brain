@@ -1,1 +1,9 @@
-{}
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Fleeting Notes",
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "_settings/assets",
+  "userIgnoreFilters": [
+    "_settings/templates/"
+  ]
+}

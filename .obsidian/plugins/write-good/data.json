@@ -10,6 +10,10 @@
     "cliches": true,
     "eprime": false
   },
-  "fileChecksState": {},
+  "fileChecksState": {
+    "_settings/templates/default.md": true,
+    "private/10-19 study notes/11 bible/bib235/the one-horned goat.md": true,
+    "private/10-19 study notes/11 bible/bib235/index.md": true
+  },
   "enableChecksByDefault": true
 }
