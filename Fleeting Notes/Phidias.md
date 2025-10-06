@@ -1,8 +1,10 @@
 ---
 date: 2025-10-06
 created: 2025-10-06 00:22
-modified: 2025-10-06 00:23
+modified: 2025-10-06 00:41
 tags:
+  - ART101
+  - person
 ---
 
 > [!summary]
