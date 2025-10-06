@@ -1,0 +1,17 @@
+views:
+  - type: cards
+    name: Cards
+    filters:
+      and:
+        - file.tags.contains("ART101")
+        - '!file.name.startsWith("ART101")'
+    order:
+      - file.name
+      - file.tags
+      - created
+      - modified
+    sort:
+      - property: modified
+        direction: DESC
+    image: note.feature
+    imageFit: ""

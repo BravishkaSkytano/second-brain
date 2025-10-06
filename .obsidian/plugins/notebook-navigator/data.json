@@ -34,7 +34,11 @@
   "showAllTagsFolder": true,
   "showUntagged": true,
   "showUntaggedInFavorites": false,
-  "favoriteTags": [],
+  "favoriteTags": [
+    "art101",
+    "worksheet",
+    "project"
+  ],
   "hiddenTags": [],
   "defaultFolderSort": "modified-desc",
   "listPaneTitle": "header",
@@ -230,7 +234,20 @@
   "shortcuts": [],
   "includeDescendantNotes": true,
   "customVaultName": "",
-  "pinnedNotes": {},
+  "pinnedNotes": {
+    "Fleeting Notes/W2 Worksheet.md": {
+      "folder": false,
+      "tag": true
+    },
+    "Fleeting Notes/W1 Worksheet.md": {
+      "folder": false,
+      "tag": true
+    },
+    "Project Notes/ART101/index.md": {
+      "folder": true,
+      "tag": false
+    }
+  },
   "fileIcons": {},
   "fileColors": {},
   "folderIcons": {},

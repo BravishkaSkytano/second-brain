@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "_settings/templates",
+  "templates_folder": "z - Templates",
   "templates_pairs": [
     [
       "",
@@ -16,7 +16,7 @@
   "folder_templates": [
     {
       "folder": "/",
-      "template": "_settings/templates/default.md"
+      "template": "z - Templates/default.md"
     }
   ],
   "enable_file_templates": false,

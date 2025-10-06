@@ -2,7 +2,7 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "Fleeting Notes",
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "_settings/assets",
+  "attachmentFolderPath": "z - Attachments",
   "userIgnoreFilters": [
     "_settings/templates/"
   ],

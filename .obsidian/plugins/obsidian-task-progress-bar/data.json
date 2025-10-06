@@ -6,7 +6,7 @@
   "addProgressBarToProjectsView": false,
   "enableProgressbarInReadingMode": false,
   "notifications": {
-    "enabled": false,
+    "enabled": true,
     "dailySummary": {
       "enabled": true,
       "time": "09:00"
@@ -567,7 +567,7 @@
     "showRewardType": "modal"
   },
   "habit": {
-    "enableHabits": false,
+    "enableHabits": true,
     "habits": []
   },
   "filterConfig": {
