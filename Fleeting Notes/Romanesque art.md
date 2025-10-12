@@ -1,9 +1,10 @@
 ---
 date: 2025-10-12
 created: 2025-10-12 17:36
-modified: 2025-10-12 18:49
+modified: 2025-10-12 18:58
 tags:
   - ART101
+state: "[[Shortlisted]]"
 ---
 
 > [!tldr] Romanesque art

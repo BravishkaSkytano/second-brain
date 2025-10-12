@@ -2,9 +2,12 @@
 title: "ART101: Visual and Performing Arts"
 date: 2025-10-06
 created: 2025-10-06 12:16
-modified: 2025-10-06 12:28
+modified: 2025-10-12 19:00
 tags:
   - ART101
+aliases:
+  - ART101
+state: "[[Focus]]"
 ---
 
 - Week 2

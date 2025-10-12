@@ -8,7 +8,7 @@
     "replaceNewTab": true,
     "enableRibbonIcon": true,
     "enableCommand": true,
-    "launchFolder": "/"
+    "launchFolder": "Fleeting Notes"
   },
   "useAliases": true,
   "showStateMenu": true,
@@ -80,10 +80,10 @@
   },
   "stateless": {
     "name": "",
-    "defaultViewMode": "List",
-    "defaultViewOrder": "ModifiedDate",
-    "defaultViewPriorityVisibility": true,
-    "defaultViewPriorityGrouping": true
+    "defaultViewMode": "Detailed Cards",
+    "defaultViewOrder": "Modified Date",
+    "defaultViewPriorityVisibility": false,
+    "defaultViewPriorityGrouping": false
   },
   "defaultState": "Idea",
   "priorities": [

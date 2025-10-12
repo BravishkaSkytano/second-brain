@@ -4,7 +4,7 @@
   "showTooltips": true,
   "homepage": null,
   "startView": "navigation",
-  "fileVisibility": "documents",
+  "fileVisibility": "supported",
   "excludedFolders": [],
   "excludedFiles": [],
   "navigationBanner": null,

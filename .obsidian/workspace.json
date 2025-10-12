@@ -4,82 +4,85 @@
     "type": "split",
     "children": [
       {
-        "id": "14807a3ae28834cd",
-        "type": "split",
+        "id": "ff3dd50b8ee7e5c2",
+        "type": "tabs",
         "children": [
           {
-            "id": "ff3dd50b8ee7e5c2",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "3af054f3a12eee5a",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Project Notes/ART101/W2 Worksheet.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "W2 Worksheet"
+            "id": "3af054f3a12eee5a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project Notes/ART101/W2 Worksheet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              {
-                "id": "3b285e9ff7c13a48",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Fleeting Notes/Romanesque art.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Romanesque art"
-                }
-              },
-              {
-                "id": "3f4034f4a842879f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Fleeting Notes/The Rose Window of Chartres Cathedral.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "The Rose Window of Chartres Cathedral"
-                }
-              }
-            ],
-            "currentTab": 1
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "W2 Worksheet"
+            }
           },
           {
-            "id": "93b52f34fa1fd52d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "4ee107697ee36bcd",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "surfing-view",
-                  "state": {
-                    "url": "https://en.wikipedia.org/w/index.php?title=Special%3ASearch&search=Romanesque+art&wprov=acrw1_1"
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "Romanesque art - Wikipedia"
+            "id": "75c9970dc6eb3c52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Gothic art.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
-              }
-            ]
+              },
+              "icon": "lucide-file",
+              "title": "Gothic art"
+            }
+          },
+          {
+            "id": "13b8e539aee5f5a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/The Rose Window of Chartres Cathedral.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "The Rose Window of Chartres Cathedral"
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -211,10 +214,25 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Fleeting Notes/Romanesque art.md"
+                "file": "Fleeting Notes/The Rose Window of Chartres Cathedral.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
+            }
+          },
+          {
+            "id": "e1ebc4c0ca551c49",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           }
         ],
@@ -273,34 +291,35 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-book-search-plugin:Create new book note": false,
       "obsidian-git:Open Git source control": false,
-      "iconic:Open rulebook": false,
       "obsidian-task-progress-bar:Open Task Genius view": false,
       "templater-obsidian:Templater": false,
-      "improved-random-note:Open improved random note": false,
       "notebook-navigator:Notebook Navigator": false,
       "random-note:Open random note": false,
       "the-queue:Toggle Queue": false,
-      "wikipedia-search:Open Article": false
+      "project-browser:Open project browser": false
     }
   },
-  "active": "3b285e9ff7c13a48",
+  "active": "1862072666159b8c",
   "lastOpenFiles": [
+    "z - Attachments/The Rose Window of Chartres Cathedral - West Transept.webp",
+    "z - Attachments/The Rose Window of Chartres Cathedral - North Transept.webp",
+    "z - Attachments/The Rose Window of Chartres Cathedral-South Transept.webp",
     "Fleeting Notes/The Rose Window of Chartres Cathedral.md",
     "Fleeting Notes/Gothic art.md",
-    "Fleeting Notes/Romanesque art.md",
     "Project Notes/ART101/W2 Worksheet.md",
+    "Project Notes/ART101/index.md",
+    "Fleeting Notes/Focus.md",
+    "Project Notes/ART101/W1 Worksheet.md",
+    "Fleeting Notes/Romanesque art.md",
     "Fleeting Notes/The Last Judgment relief sculpture by Gislebertus.md",
     "Project Notes/ART101/Byzantine art.md",
     "Fleeting Notes/Eastern Roman Empire.md",
     "z - Attachments/The Last Judgment relief sculpture by Gislebertus-1760308783744.webp",
-    "Project Notes/ART101/W1 Worksheet.md",
     "z - Attachments/Byzantine art-1760304097954.webp",
     "z - Attachments/Byzantine art-1760304037177.webp",
-    "Project Notes/ART101/index.md",
     "z - Templates/default.md",
     "Project Notes/ART101/Hellenistic.md",
     "Project Notes/ART101/Classical.md",
@@ -318,8 +337,6 @@
     "Literature Notes/index.md",
     "Journal/2025-08-03.md",
     "Unsorted/index.md",
-    "Project Notes/ART101/Obelisk.md",
-    "Project Notes/ART101/Hieroglyphs.md",
     "W1 Worksheet.pdf",
     "z - Attachments",
     "z - Templates",
@@ -329,11 +346,8 @@
     "private/20-29 Prose/Fiction/Ilmaria story/Characters/images/lyriana-aurelia.jpg",
     "private/20-29 Prose/Fiction/Ilmaria story/Characters/images/elara-drakenwood.jpg",
     "private/20-29 Prose/Fiction/Ilmaria story/Characters/images/arion-thorne.jpg",
-    "private/20-29 Prose/Fiction/Ilmaria story/Characters/images/aric-shadowbane.jpg",
     "private/20-29 Prose/Fiction/Ilmaria story/Characters/images",
     "private/50-59 Journal/2024/Q2-2024/04-April-2024",
-    "private/50-59 Journal/2024/Q1-2024/02-February-2024",
-    "private/30-39 Worldbuilding/Ilmaria/YwCh3l08OrDAS2tdLjE9--1--sspyn.jpg",
-    "private/30-39 Worldbuilding/Ilmaria/Ilmaria-basic-map.png"
+    "private/50-59 Journal/2024/Q1-2024/02-February-2024"
   ]
 }

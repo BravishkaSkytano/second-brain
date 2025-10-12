@@ -1,11 +1,12 @@
 ---
 date: 2025-10-05
 created: 2025-10-05 23:35
-modified: 2025-10-06 12:08
+modified: 2025-10-12 18:59
 tags:
   - ART101
   - worksheet
 description:
+state: "[[Final]]"
 ---
 
 ## Terms to Define

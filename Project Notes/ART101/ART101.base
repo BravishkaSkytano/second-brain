@@ -13,5 +13,4 @@ views:
     sort:
       - property: modified
         direction: DESC
-    image: note.feature
     imageFit: ""
