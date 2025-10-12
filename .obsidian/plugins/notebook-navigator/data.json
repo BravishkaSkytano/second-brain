@@ -52,10 +52,10 @@
   "dateFormat": "MMM d, yyyy",
   "timeFormat": "h:mm a",
   "useFrontmatterMetadata": true,
-  "frontmatterNameField": "",
-  "frontmatterCreatedField": "",
-  "frontmatterModifiedField": "",
-  "frontmatterDateFormat": "",
+  "frontmatterNameField": "title",
+  "frontmatterCreatedField": "created",
+  "frontmatterModifiedField": "modified",
+  "frontmatterDateFormat": "YYYY-MM-DD HH:mm",
   "fileNameRows": 1,
   "showFileDate": true,
   "showFileTags": true,
@@ -235,17 +235,17 @@
   "includeDescendantNotes": true,
   "customVaultName": "",
   "pinnedNotes": {
-    "Fleeting Notes/W2 Worksheet.md": {
-      "folder": false,
-      "tag": true
-    },
-    "Fleeting Notes/W1 Worksheet.md": {
-      "folder": false,
-      "tag": true
-    },
     "Project Notes/ART101/index.md": {
       "folder": true,
-      "tag": false
+      "tag": true
+    },
+    "Project Notes/ART101/W2 Worksheet.md": {
+      "folder": true,
+      "tag": true
+    },
+    "Project Notes/ART101/W1 Worksheet.md": {
+      "folder": true,
+      "tag": true
     }
   },
   "fileIcons": {},

@@ -13,8 +13,6 @@
   "fileChecksState": {
     "private/10-19 study notes/11 bible/bib235/the one-horned goat.md": true,
     "private/10-19 study notes/11 bible/bib235/index.md": true,
-    "fleeting notes/w1 worksheet.md": true,
-    "fleeting notes/w2 worksheet.md": true,
     "fleeting notes/writing tips and advice.md": true,
     "project notes/worldbuilding.md": true,
     "z - attachments": true,
@@ -23,7 +21,24 @@
     "z - templates/default.md": true,
     "project notes/art101/art101.base": true,
     "project notes/art101/index.md": true,
-    "fleeting notes/byzantine art.md": true
+    "project notes/art101/w2 worksheet.md": true,
+    "project notes/art101/w1 worksheet.md": true,
+    "project notes/art101/obelisk.md": true,
+    "project notes/art101/hieroglyphs.md": true,
+    "project notes/art101/kouros.md": true,
+    "project notes/art101/ziggurat.md": true,
+    "project notes/art101/pyramid.md": true,
+    "project notes/art101/pediment.md": true,
+    "project notes/art101/roman triumphal arch.md": true,
+    "project notes/art101/frieze.md": true,
+    "project notes/art101/corinthian capital.md": true,
+    "project notes/art101/ionic capital.md": true,
+    "project notes/art101/doric capital.md": true,
+    "project notes/art101/archaic.md": true,
+    "project notes/art101/phidias.md": true,
+    "project notes/art101/classical.md": true,
+    "project notes/art101/hellenistic.md": true,
+    "project notes/art101/byzantine art.md": true
   },
   "enableChecksByDefault": true
 }
