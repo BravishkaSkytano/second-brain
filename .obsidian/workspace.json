@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/W2 Worksheet.md",
+                "file": "Fleeting Notes/Byzantine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "W2 Worksheet"
+              "title": "Byzantine"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "README"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -168,7 +167,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "README.md"
+                "file": "Fleeting Notes/Byzantine.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -243,9 +242,12 @@
       "the-queue:Toggle Queue": false
     }
   },
-  "active": "99d2d81a7fc5f633",
+  "active": "3af054f3a12eee5a",
   "lastOpenFiles": [
     "Fleeting Notes/W2 Worksheet.md",
+    "Fleeting Notes/Byzantine.md",
+    "Fleeting Notes/W1 Worksheet.md",
+    "README.md",
     "Project Notes/ART101/index.md",
     "Project Notes/ART101/ART101.base",
     "Project Notes/Worldbuilding.md",
@@ -253,7 +255,6 @@
     "Project Notes/ART101",
     "Fleeting Notes/index.md",
     "Structure Notes/index.md",
-    "Fleeting Notes/W1 Worksheet.md",
     "Literature Notes/M Michele George - The Knotty Truth.md",
     "Literature Notes/index.md",
     "Journal/2025-08-03.md",
@@ -271,7 +272,6 @@
     "Fleeting Notes/Doric capital.md",
     "Fleeting Notes/Archaic.md",
     "Fleeting Notes/Mesopotamia.md",
-    "Fleeting Notes/Phidias.md",
     "W1 Worksheet.pdf",
     "z - Attachments",
     "z - Templates",

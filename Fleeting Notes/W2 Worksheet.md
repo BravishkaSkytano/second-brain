@@ -1,7 +1,7 @@
 ---
 date: 2025-10-06
 created: 2025-10-06 12:05
-modified: 2025-10-06 12:08
+modified: 2025-10-12 16:41
 tags:
   - ART101
   - worksheet
@@ -10,7 +10,7 @@ description: "Covers Archaic, Ancient and Classical period: Painting, Sculpture 
 
 ## Terms to Define
 
-1. Byzantine
+1. [[Byzantine]]
 2. Romanesque
 3. Gothic
 4. Domus Church
