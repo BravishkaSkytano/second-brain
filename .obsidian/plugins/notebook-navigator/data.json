@@ -55,7 +55,7 @@
   "frontmatterNameField": "title",
   "frontmatterCreatedField": "created",
   "frontmatterModifiedField": "modified",
-  "frontmatterDateFormat": "YYYY-MM-DD HH:mm",
+  "frontmatterDateFormat": "yyyy-MM-dd HH:mm",
   "fileNameRows": 1,
   "showFileDate": true,
   "showFileTags": true,
