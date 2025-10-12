@@ -10,7 +10,7 @@ description: "Covers Archaic, Ancient and Classical period: Painting, Sculpture 
 
 ## Terms to Define
 
-1. [[Byzantine]]
+1. [[Byzantine art]]
 2. Romanesque
 3. Gothic
 4. Domus Church

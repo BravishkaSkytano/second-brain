@@ -22,7 +22,8 @@
     "z - templates/book.md": true,
     "z - templates/default.md": true,
     "project notes/art101/art101.base": true,
-    "project notes/art101/index.md": true
+    "project notes/art101/index.md": true,
+    "fleeting notes/byzantine art.md": true
   },
   "enableChecksByDefault": true
 }
