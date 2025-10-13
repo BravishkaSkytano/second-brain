@@ -1,7 +1,7 @@
 ---
 date: 2025-10-06
 created: 2025-10-06 12:05
-modified: 2025-10-12 21:18
+modified: 2025-10-12 22:17
 tags:
   - ART101
   - worksheet
@@ -35,7 +35,7 @@ state: "[[Focus]]"
 Pisa buildings (bell 
 tower, baptistery, 
 cathedral)
-Notre Dame
+[[Notre Dame]]
 Cathedral Chartres
 Cathedral of Reims
 Sainte Chapelle
