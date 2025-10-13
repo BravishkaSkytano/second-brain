@@ -1,7 +1,7 @@
 ---
 date: 2025-10-06
 created: 2025-10-06 12:05
-modified: 2025-10-12 22:17
+modified: 2025-10-12 23:00
 tags:
   - ART101
   - worksheet
@@ -35,8 +35,8 @@ state: "[[Focus]]"
 Pisa buildings (bell 
 tower, baptistery, 
 cathedral)
-[[Notre Dame]]
-Cathedral Chartres
+[[Notre-Dame de Paris|Notre-Dame]]
+[[Cathedral Chartres]]
 Cathedral of Reims
 Sainte Chapelle
 God as Architect

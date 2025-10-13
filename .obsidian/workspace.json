@@ -87,7 +87,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Notre Dame.md",
+                "file": "Fleeting Notes/Notre-Dame de Paris.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Notre-Dame de Paris"
+            }
+          },
+          {
+            "id": "93229a4e11f37bd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Cathedral Chartres.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -102,7 +126,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Notre Dame"
+              "title": "Cathedral Chartres"
             }
           }
         ]
@@ -325,9 +349,10 @@
       "project-browser:Open project browser": false
     }
   },
-  "active": "1862072666159b8c",
+  "active": "3af054f3a12eee5a",
   "lastOpenFiles": [
-    "Fleeting Notes/Notre Dame.md",
+    "Fleeting Notes/Cathedral Chartres.md",
+    "Fleeting Notes/Notre-Dame de Paris.md",
     "Project Notes/ART101/W2 Worksheet.md",
     "Fleeting Notes/Hagia Sophia.md",
     "z - Attachments/Hagia Sophia-1760318842257.webp",
@@ -362,7 +387,6 @@
     "Fleeting Notes/The Justinian and Theodora Panels.md",
     "Fleeting Notes/The Church of the Holy Sepulchre.md",
     "Fleeting Notes/Fresco.md",
-    "Fleeting Notes/The Creation of Adam (painting).md",
     "Project Notes/ART101/ART101.base",
     "Project Notes/ART101",
     "W1 Worksheet.pdf",

@@ -14,6 +14,6 @@ state: "[[Final]]"
 
 ^0b390b
 
-**Example:** The **flying buttresses of Notre-Dame Cathedral** in **Paris**.
+**Example:** The **flying buttresses of [[Notre-Dame de Paris]]** in **Paris**.
 
 ![[Flying Buttress-1760315682967.webp|250x168]]

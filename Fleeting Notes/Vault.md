@@ -11,4 +11,4 @@ tags:
 
 ^9b51d1
 
-**Example:** The **ribbed vaults** of **Notre-Dame Cathedral** in **Paris**.
+**Example:** The **ribbed vaults** of **[[Notre-Dame de Paris]]** in **Paris**.
