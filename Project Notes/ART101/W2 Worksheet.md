@@ -1,7 +1,7 @@
 ---
 date: 2025-10-06
 created: 2025-10-06 12:05
-modified: 2025-10-12 20:20
+modified: 2025-10-12 20:45
 tags:
   - ART101
   - worksheet
@@ -21,10 +21,10 @@ state: "[[Focus]]"
 8. ![[Basilica#^df243a]]
 9. ![[Mosaic#^6c0583]]
 10. ![[Vault#^9b51d1]]
-11. ![[Nave]]
-12. ![[Flying Buttress]]
-13. ![[Ribbed Vault]]
-14. ![[Clerestory]]
+11. ![[Nave#^c376ab]]
+12. ![[Flying Buttress#^0b390b]]
+13. ![[Ribbed Vault#^bd2569]]
+14. ![[Clerestory#^344860]]
 15. ![[Rose Window]]
 16. ![[Tracery]]
 17. ![[Tapestry]]

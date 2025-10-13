@@ -58,12 +58,12 @@
             }
           },
           {
-            "id": "37f7592020424951",
+            "id": "bc33dd32319feff9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Vault.md",
+                "file": "Fleeting Notes/Ribbed Vault.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -78,11 +78,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Vault"
+              "title": "Ribbed Vault"
+            }
+          },
+          {
+            "id": "dc0433b283db4d6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Clerestory.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Clerestory"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -302,11 +326,23 @@
       "project-browser:Open project browser": false
     }
   },
-  "active": "37f7592020424951",
+  "active": "dc0433b283db4d6a",
   "lastOpenFiles": [
+    "Fleeting Notes/Romanesque art.md",
+    "Fleeting Notes/Clerestory.md",
+    "Fleeting Notes/Gothic art.md",
     "Project Notes/ART101/W2 Worksheet.md",
-    "Fleeting Notes/Vault.md",
+    "Fleeting Notes/Ribbed Vault.md",
+    "z - Attachments/Ribbed Vault-1760316107980.webp",
+    "z - Attachments/Ribbed Vault-1760316083287.webp",
+    "z - Attachments/Ribbed Vault-1760316053936.webp",
     "Fleeting Notes/Domus Church.md",
+    "Fleeting Notes/Nave.md",
+    "Fleeting Notes/Flying Buttress.md",
+    "z - Attachments/Flying Buttress-1760315682967.webp",
+    "z - Attachments/Flying Buttress-1760315669597.webp",
+    "Literature Notes/index.md",
+    "Fleeting Notes/Vault.md",
     "Fleeting Notes/Martyrium.md",
     "Fleeting Notes/Catacombs.md",
     "Fleeting Notes/Basilica.md",
@@ -318,27 +354,16 @@
     "Fleeting Notes/The Church of the Holy Sepulchre.md",
     "Fleeting Notes/Fresco.md",
     "Fleeting Notes/The Creation of Adam (painting).md",
-    "Fleeting Notes/Gothic art.md",
     "Fleeting Notes/The Rose Window of Chartres Cathedral.md",
     "z - Attachments/The Rose Window of Chartres Cathedral - West Transept.webp",
     "z - Attachments/The Rose Window of Chartres Cathedral - North Transept.webp",
-    "z - Attachments/The Rose Window of Chartres Cathedral-South Transept.webp",
     "Project Notes/ART101/index.md",
     "Fleeting Notes/Focus.md",
     "Project Notes/ART101/W1 Worksheet.md",
-    "Fleeting Notes/Romanesque art.md",
     "Fleeting Notes/The Last Judgment relief sculpture by Gislebertus.md",
     "Project Notes/ART101/Byzantine art.md",
     "Fleeting Notes/Eastern Roman Empire.md",
-    "z - Attachments/The Last Judgment relief sculpture by Gislebertus-1760308783744.webp",
-    "z - Attachments/Byzantine art-1760304097954.webp",
-    "z - Attachments/Byzantine art-1760304037177.webp",
     "z - Templates/default.md",
-    "Project Notes/ART101/Hellenistic.md",
-    "Project Notes/ART101/Classical.md",
-    "Project Notes/ART101/Phidias.md",
-    "Project Notes/ART101/Archaic.md",
-    "Project Notes/ART101/Ziggurat.md",
     "Project Notes/ART101/ART101.base",
     "Project Notes/ART101",
     "W1 Worksheet.pdf",
@@ -346,7 +371,6 @@
     "z - Templates",
     "_settings",
     "Journal",
-    "private/20-29 Prose/Fiction/Ilmaria story/Characters/images/seraphina-vantus.jpg",
     "private/20-29 Prose/Fiction/Ilmaria story/Characters/images",
     "private/50-59 Journal/2024/Q2-2024/04-April-2024",
     "private/50-59 Journal/2024/Q1-2024/02-February-2024"

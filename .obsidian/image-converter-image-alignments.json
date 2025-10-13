@@ -1,48 +1,16 @@
 {
-  "Fleeting Notes/The Rose Window of Chartres Cathedral.md": {
-    "d3ce35ab4cf2bac5613b0b2f6fd8c416": {
+  "Fleeting Notes/Flying Buttress.md": {
+    "d73316f0e4cce245f9de675bf72b613c": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": true
     },
-    "652b31576cb204911b5256799f95c222": {
-      "position": "right",
-      "width": "",
-      "height": "",
-      "wrap": true
-    },
-    "9a8f3a96855432788712888fe88c7a0f": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": true
-    },
-    "320e74a2975eda86661abb2a51aac83e": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": true
-    },
-    "24909e4637578ddd0c8caf9740fa6ab2": {
-      "position": "right",
-      "width": "",
-      "height": "",
-      "wrap": true
-    },
-    "7973a8433283b0e77645f6edff79e5ac": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": true
-    }
-  },
-  "Fleeting Notes/Gothic art.md": {
-    "79e68145caa53f5f4881dc892598b0a6": {
+    "ea7aee2d9e82bb0b78477212ecd52e0c": {
       "position": "center",
       "width": "",
       "height": "",
-      "wrap": false
+      "wrap": true
     }
   }
 }

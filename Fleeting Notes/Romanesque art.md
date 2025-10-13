@@ -1,14 +1,14 @@
 ---
 date: 2025-10-12
 created: 2025-10-12 17:36
-modified: 2025-10-12 18:58
+modified: 2025-10-12 20:47
 tags:
   - ART101
 state: "[[Shortlisted]]"
 ---
 
 > [!tldr] Romanesque art
-> A style of art and architecture from about the **10th to 12th centuries** in Europe. It features **thick stone walls**, **rounded arches**, **barrel vaults**, **small windows**, and **religious sculptures**. The style looks **solid, heavy, and symmetrical**, focusing on **strength and faith** rather than realism.
+> A style of art and architecture from about the **10th to 12th centuries** in Europe. It features **thick stone walls**, **rounded arches**, **barrel [[Vault|vault]]s**, **small windows**, and **religious sculptures**. The style looks **solid, heavy, and symmetrical**, focusing on **strength and faith** rather than realism.
 > 
 > ![[The Last Judgment relief sculpture by Gislebertus-1760308783744.webp|The Last Judgment by Gislebertus]]
 

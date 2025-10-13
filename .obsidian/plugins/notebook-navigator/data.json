@@ -265,9 +265,19 @@
   "fileColors": {},
   "folderIcons": {
     "/": "phosphor:ph-brain",
-    "Fleeting Notes": "phosphor:ph-person-simple-run"
+    "Fleeting Notes": "phosphor:ph-person-simple-run",
+    "Literature Notes": "rpg-awesome:ra-book",
+    "Permanent Notes": "rpg-awesome:ra-locked-fortress",
+    "Project Notes": "rpg-awesome:ra-clockwork",
+    "z - Attachments": "phosphor:ph-images",
+    "z - Templates": "rpg-awesome:ra-gears"
   },
-  "folderColors": {},
+  "folderColors": {
+    "Fleeting Notes": "#ef4444",
+    "Literature Notes": "#3b82f6",
+    "Project Notes": "#22c55e",
+    "/": "#78716c"
+  },
   "folderBackgroundColors": {},
   "folderSortOverrides": {},
   "folderAppearances": {},
