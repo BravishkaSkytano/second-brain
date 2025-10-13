@@ -13,12 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent Notes/Tutorials/How To Use Private Submodules With Netlify.md",
+                "file": "Project Notes/ART101/W2 Worksheet.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "How To Use Private Submodules With Netlify"
+              "title": "W2 Worksheet"
             }
           }
         ]
@@ -98,9 +108,19 @@
           "icon": "lucide-bookmark",
           "title": "Bookmarks"
         }
+      },
+      {
+        "id": "03e01f67b2318f0e",
+        "type": "leaf",
+        "state": {
+          "type": "notebook-navigator",
+          "state": {},
+          "icon": "notebook",
+          "title": "Notebook Navigator"
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 5
   },
   "right": {
     "id": "5c124f16d6f06b91",
@@ -158,8 +178,8 @@
         "state": {
           "type": "git-history-view",
           "state": {},
-          "icon": "history",
-          "title": "History"
+          "icon": "lucide-ghost",
+          "title": "git-history-view"
         }
       }
     ],
@@ -167,24 +187,29 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
+      "random-note:Open random note": false,
+      "notebook-navigator:Notebook Navigator": false,
+      "the-queue:Toggle Queue": false,
+      "project-browser:Open project browser": false,
+      "obsidian-plugin-update-tracker:Plugin Update Tracker": false,
       "obsidian-book-search-plugin:Create new book note": false,
-      "iconic:Open rulebook": false,
       "obsidian-task-progress-bar:Open Task Genius view": false,
       "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false
     }
   },
   "active": "44e2e7be7b8c9f5f",
   "lastOpenFiles": [
-    "Permanent Notes/Tutorials/How To Add A Submodule To A Repository.md",
+    "Project Notes/ART101/Byzantine art.md",
+    "Project Notes/ART101/W2 Worksheet.md",
+    "Fleeting Notes/Hagia Sophia.md",
     "Permanent Notes/Tutorials/How To Use Private Submodules With Netlify.md",
+    "Permanent Notes/Tutorials/How To Add A Submodule To A Repository.md",
     "Test note.md"
   ]
 }

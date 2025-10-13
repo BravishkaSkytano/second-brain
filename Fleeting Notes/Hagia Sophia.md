@@ -6,6 +6,7 @@ tags:
   - ART101
 state: "[[Drafting]]"
 ---
+
 ![[Hagia Sophia-1760318720132.webp|700x438]]
 
 Hagia Sophia in Istanbul features a rich and layered collection of artwork reflecting its complex history as a Christian cathedral, an Islamic mosque, and a secular museum. The building's interior is adorned with elaborate [[Mosaic|mosaic]]s created by [[Byzantine art]]ists during its cathedral period, depicting biblical and historical scenes, portraits of emperors and empresses, and religious figures such as Jesus Christ, the Virgin Mary, and saints. Notable mosaics include the Deesis mosaic, which portrays Christ flanked by the Virgin Mary and John the Baptist, and the Empress Zoe mosaic, showing Empress Zoe with her husband, Constantine IX Monomachos. The Virgin and Child mosaic, located in the [[Apse|apse]], is another prominent example, believed to reconstruct an earlier work destroyed during the Iconoclastic period.
