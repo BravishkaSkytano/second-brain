@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "75c9970dc6eb3c52",
+            "id": "629f8ba0935cda1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Gothic art.md",
+                "file": "Fleeting Notes/Domus Church.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,16 +54,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Gothic art"
+              "title": "Domus Church"
             }
           },
           {
-            "id": "13b8e539aee5f5a0",
+            "id": "37f7592020424951",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/The Rose Window of Chartres Cathedral.md",
+                "file": "Fleeting Notes/Vault.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -78,7 +78,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The Rose Window of Chartres Cathedral"
+              "title": "Vault"
             }
           }
         ],
@@ -302,14 +302,27 @@
       "project-browser:Open project browser": false
     }
   },
-  "active": "1862072666159b8c",
+  "active": "37f7592020424951",
   "lastOpenFiles": [
+    "Project Notes/ART101/W2 Worksheet.md",
+    "Fleeting Notes/Vault.md",
+    "Fleeting Notes/Domus Church.md",
+    "Fleeting Notes/Martyrium.md",
+    "Fleeting Notes/Catacombs.md",
+    "Fleeting Notes/Basilica.md",
+    "Fleeting Notes/Mosaic.md",
+    "z - Attachments/The Theodora Panels.webp",
+    "z - Attachments/The Justinian Panels.webp",
+    "z - Attachments/The Creation of Adam.webp",
+    "Fleeting Notes/The Justinian and Theodora Panels.md",
+    "Fleeting Notes/The Church of the Holy Sepulchre.md",
+    "Fleeting Notes/Fresco.md",
+    "Fleeting Notes/The Creation of Adam (painting).md",
+    "Fleeting Notes/Gothic art.md",
+    "Fleeting Notes/The Rose Window of Chartres Cathedral.md",
     "z - Attachments/The Rose Window of Chartres Cathedral - West Transept.webp",
     "z - Attachments/The Rose Window of Chartres Cathedral - North Transept.webp",
     "z - Attachments/The Rose Window of Chartres Cathedral-South Transept.webp",
-    "Fleeting Notes/The Rose Window of Chartres Cathedral.md",
-    "Fleeting Notes/Gothic art.md",
-    "Project Notes/ART101/W2 Worksheet.md",
     "Project Notes/ART101/index.md",
     "Fleeting Notes/Focus.md",
     "Project Notes/ART101/W1 Worksheet.md",
@@ -326,26 +339,14 @@
     "Project Notes/ART101/Phidias.md",
     "Project Notes/ART101/Archaic.md",
     "Project Notes/ART101/Ziggurat.md",
-    "README.md",
     "Project Notes/ART101/ART101.base",
-    "Project Notes/Worldbuilding.md",
-    "Project Notes/index.md",
     "Project Notes/ART101",
-    "Fleeting Notes/index.md",
-    "Structure Notes/index.md",
-    "Literature Notes/M Michele George - The Knotty Truth.md",
-    "Literature Notes/index.md",
-    "Journal/2025-08-03.md",
-    "Unsorted/index.md",
     "W1 Worksheet.pdf",
     "z - Attachments",
     "z - Templates",
     "_settings",
     "Journal",
     "private/20-29 Prose/Fiction/Ilmaria story/Characters/images/seraphina-vantus.jpg",
-    "private/20-29 Prose/Fiction/Ilmaria story/Characters/images/lyriana-aurelia.jpg",
-    "private/20-29 Prose/Fiction/Ilmaria story/Characters/images/elara-drakenwood.jpg",
-    "private/20-29 Prose/Fiction/Ilmaria story/Characters/images/arion-thorne.jpg",
     "private/20-29 Prose/Fiction/Ilmaria story/Characters/images",
     "private/50-59 Journal/2024/Q2-2024/04-April-2024",
     "private/50-59 Journal/2024/Q1-2024/02-February-2024"
