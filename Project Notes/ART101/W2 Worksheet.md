@@ -1,7 +1,7 @@
 ---
 date: 2025-10-06
 created: 2025-10-06 12:05
-modified: 2025-10-12 20:45
+modified: 2025-10-12 21:18
 tags:
   - ART101
   - worksheet
@@ -25,13 +25,13 @@ state: "[[Focus]]"
 12. ![[Flying Buttress#^0b390b]]
 13. ![[Ribbed Vault#^bd2569]]
 14. ![[Clerestory#^344860]]
-15. ![[Rose Window]]
-16. ![[Tracery]]
-17. ![[Tapestry]]
-18. ![[Apse]]
+15. ![[Rose Window#^06cc7c]]
+16. ![[Tracery#^920185]]
+17. ![[Tapestry#^cab0c4]]
+18. ![[Apse#^552857]]
 ## Specific Arts to Identify by Sight
 
-Hagia Sophia
+[[Hagia Sophia]]
 Pisa buildings (bell 
 tower, baptistery, 
 cathedral)

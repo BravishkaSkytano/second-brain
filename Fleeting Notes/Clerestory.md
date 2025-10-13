@@ -1,8 +1,10 @@
 ---
 date: 2025-10-12
 created: 2025-10-12 20:43
-modified: 2025-10-12 20:45
+modified: 2025-10-12 21:01
 tags:
+  - ART101
+state: "[[Final]]"
 ---
 
 > [!tldr] Clerestory
@@ -10,4 +12,4 @@ tags:
 
 ^344860
 
-**Example:** The **clerestory windows** of **Chartres Cathedral** in **France**.
+**Example:** The **clerestory windows** of **Chartres Cathedral** in **France**. See [[The Rose Window of Chartres Cathedral]]

@@ -1,8 +1,10 @@
 ---
 date: 2025-10-12
 created: 2025-10-12 20:37
-modified: 2025-10-12 20:43
+modified: 2025-10-12 21:00
 tags:
+  - ART101
+state: "[[Final]]"
 ---
 
 > [!tldr] Ribbed Vault

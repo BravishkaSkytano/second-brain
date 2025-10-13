@@ -58,12 +58,12 @@
             }
           },
           {
-            "id": "bc33dd32319feff9",
+            "id": "3ec225bbd7863420",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Ribbed Vault.md",
+                "file": "Fleeting Notes/Hagia Sophia.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -78,35 +78,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ribbed Vault"
-            }
-          },
-          {
-            "id": "dc0433b283db4d6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Clerestory.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Clerestory"
+              "title": "Hagia Sophia"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -326,17 +302,29 @@
       "project-browser:Open project browser": false
     }
   },
-  "active": "dc0433b283db4d6a",
+  "active": "3ec225bbd7863420",
   "lastOpenFiles": [
-    "Fleeting Notes/Romanesque art.md",
-    "Fleeting Notes/Clerestory.md",
-    "Fleeting Notes/Gothic art.md",
+    "z - Attachments/Hagia Sophia-1760318842257.webp",
+    "z - Attachments/Hagia Sophia-1760318777197.webp",
+    "z - Attachments/Hagia Sophia-1760318744531.webp",
+    "z - Attachments/Hagia Sophia-1760318720132.webp",
+    "Fleeting Notes/Domus Church.md",
+    "Fleeting Notes/Apse.md",
+    "Fleeting Notes/Hagia Sophia.md",
     "Project Notes/ART101/W2 Worksheet.md",
+    "Fleeting Notes/Tapestry.md",
+    "Fleeting Notes/Bayeux Tapestry.md",
+    "z - Attachments/Bayeux Tapestry-1760317947129.webp",
+    "Fleeting Notes/Tracery.md",
     "Fleeting Notes/Ribbed Vault.md",
+    "Fleeting Notes/Clerestory.md",
+    "Fleeting Notes/Rose Window.md",
+    "Fleeting Notes/The Rose Window of Chartres Cathedral.md",
+    "Fleeting Notes/Romanesque art.md",
+    "Fleeting Notes/Gothic art.md",
     "z - Attachments/Ribbed Vault-1760316107980.webp",
     "z - Attachments/Ribbed Vault-1760316083287.webp",
     "z - Attachments/Ribbed Vault-1760316053936.webp",
-    "Fleeting Notes/Domus Church.md",
     "Fleeting Notes/Nave.md",
     "Fleeting Notes/Flying Buttress.md",
     "z - Attachments/Flying Buttress-1760315682967.webp",
@@ -348,22 +336,10 @@
     "Fleeting Notes/Basilica.md",
     "Fleeting Notes/Mosaic.md",
     "z - Attachments/The Theodora Panels.webp",
-    "z - Attachments/The Justinian Panels.webp",
-    "z - Attachments/The Creation of Adam.webp",
     "Fleeting Notes/The Justinian and Theodora Panels.md",
     "Fleeting Notes/The Church of the Holy Sepulchre.md",
     "Fleeting Notes/Fresco.md",
     "Fleeting Notes/The Creation of Adam (painting).md",
-    "Fleeting Notes/The Rose Window of Chartres Cathedral.md",
-    "z - Attachments/The Rose Window of Chartres Cathedral - West Transept.webp",
-    "z - Attachments/The Rose Window of Chartres Cathedral - North Transept.webp",
-    "Project Notes/ART101/index.md",
-    "Fleeting Notes/Focus.md",
-    "Project Notes/ART101/W1 Worksheet.md",
-    "Fleeting Notes/The Last Judgment relief sculpture by Gislebertus.md",
-    "Project Notes/ART101/Byzantine art.md",
-    "Fleeting Notes/Eastern Roman Empire.md",
-    "z - Templates/default.md",
     "Project Notes/ART101/ART101.base",
     "Project Notes/ART101",
     "W1 Worksheet.pdf",
