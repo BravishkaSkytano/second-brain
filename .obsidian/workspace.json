@@ -10,36 +10,10 @@
           {
             "id": "3af054f3a12eee5a",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project Notes/ART101/W2 Worksheet.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "W2 Worksheet"
-            }
-          },
-          {
-            "id": "629f8ba0935cda1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Domus Church.md",
+                "file": "Project Notes/ART101/W3 Worksheet.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,31 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Domus Church"
-            }
-          },
-          {
-            "id": "3ec225bbd7863420",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Hagia Sophia.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": false
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Hagia Sophia"
+              "title": "W3 Worksheet"
             }
           }
         ]
@@ -303,42 +253,44 @@
   },
   "active": "1862072666159b8c",
   "lastOpenFiles": [
-    "Fleeting Notes/Hagia Sophia.md",
-    "Fleeting Notes/Notre-Dame de Paris.md",
-    "Fleeting Notes/Cathedral Chartres.md",
+    "Project Notes/ART101/index.md",
+    "Project Notes/ART101/W3 Worksheet.md",
+    "Project Notes/ART101/Nave.md",
+    "Project Notes/ART101/Clerestory.md",
+    "Project Notes/ART101/Tracery.md",
+    "Project Notes/ART101/Tapestry.md",
+    "Project Notes/ART101/Bayeux Tapestry.md",
+    "Project Notes/ART101/Apse.md",
+    "Structure Notes/index.md",
+    "Fleeting Notes/Eastern Roman Empire.md",
+    "Project Notes/ART101/The Creation of Adam (painting).md",
+    "Project Notes/ART101/Notre-Dame de Paris.md",
+    "Project Notes/ART101/Cathedral Chartres.md",
+    "Project Notes/ART101/Hagia Sophia.md",
+    "Fleeting Notes/index.md",
+    "Project Notes/ART101/Byzantine art.md",
+    "Project Notes/ART101/The Last Judgment relief sculpture by Gislebertus.md",
+    "z - Attachments/thumbnails/resized/11228d51f49df319c7640f83d7232b18_86cf658e.webp",
+    "z - Attachments/thumbnails/resized/dff53448fd53f1fe33f20c6ac4451ad4_86cf658e.webp",
+    "z - Attachments/thumbnails/resized/8513c5e77fc2dd8678027f18ebb79113_86cf658e.webp",
+    "z - Attachments/thumbnails/resized/335f3361a5562535c64f2b63f0028043_86cf658e.webp",
+    "z - Attachments/thumbnails/resized/459510b920a16ee1520fa1d23d886811_86cf658e.webp",
+    "z - Attachments/thumbnails/resized/c866ac8c5bcb1b669a55225bcddcd0c3_86cf658e.webp",
+    "z - Attachments/thumbnails/resized/400918749eca90aecddb19975f2bd302_86cf658e.webp",
+    "z - Attachments/thumbnails/resized/c6ea04bc89ff144c3bb22937fac4352f_86cf658e.webp",
+    "z - Attachments/thumbnails/resized/67150b79e95216b5235477053169078b_86cf658e.webp",
+    "z - Attachments/thumbnails/resized/b7aeabaa21e1ff02c96c37288177834d_86cf658e.webp",
+    "z - Attachments/thumbnails/resized",
+    "z - Attachments/thumbnails",
+    "z - Templates/default.md",
     "Project Notes/ART101/W2 Worksheet.md",
-    "z - Attachments/Hagia Sophia-1760318842257.webp",
-    "z - Attachments/Hagia Sophia-1760318777197.webp",
-    "z - Attachments/Hagia Sophia-1760318744531.webp",
-    "z - Attachments/Hagia Sophia-1760318720132.webp",
-    "Fleeting Notes/Domus Church.md",
-    "Fleeting Notes/Apse.md",
-    "Fleeting Notes/Tapestry.md",
-    "Fleeting Notes/Bayeux Tapestry.md",
-    "z - Attachments/Bayeux Tapestry-1760317947129.webp",
-    "Fleeting Notes/Tracery.md",
-    "Fleeting Notes/Ribbed Vault.md",
-    "Fleeting Notes/Clerestory.md",
-    "Fleeting Notes/Rose Window.md",
-    "Fleeting Notes/The Rose Window of Chartres Cathedral.md",
-    "Fleeting Notes/Romanesque art.md",
-    "Fleeting Notes/Gothic art.md",
-    "z - Attachments/Ribbed Vault-1760316107980.webp",
-    "z - Attachments/Ribbed Vault-1760316083287.webp",
-    "z - Attachments/Ribbed Vault-1760316053936.webp",
-    "Fleeting Notes/Nave.md",
-    "Fleeting Notes/Flying Buttress.md",
-    "z - Attachments/Flying Buttress-1760315682967.webp",
-    "z - Attachments/Flying Buttress-1760315669597.webp",
-    "Literature Notes/index.md",
-    "Fleeting Notes/Vault.md",
-    "Fleeting Notes/Martyrium.md",
-    "Fleeting Notes/Catacombs.md",
-    "Fleeting Notes/Basilica.md",
-    "Fleeting Notes/Mosaic.md",
-    "Fleeting Notes/The Justinian and Theodora Panels.md",
-    "Fleeting Notes/The Church of the Holy Sepulchre.md",
-    "Fleeting Notes/Fresco.md",
+    "Project Notes/ART101/W1 Worksheet.md",
+    "Project Notes/ART101/Domus Church.md",
+    "Project Notes/ART101/Ribbed Vault.md",
+    "Project Notes/ART101/Rose Window.md",
+    "Project Notes/ART101/The Rose Window of Chartres Cathedral.md",
+    "Project Notes/ART101/Romanesque art.md",
+    "Project Notes/ART101/Gothic art.md",
     "Project Notes/ART101/ART101.base",
     "Project Notes/ART101",
     "W1 Worksheet.pdf",
@@ -346,8 +298,6 @@
     "z - Templates",
     "_settings",
     "Journal",
-    "private/20-29 Prose/Fiction/Ilmaria story/Characters/images",
-    "private/50-59 Journal/2024/Q2-2024/04-April-2024",
-    "private/50-59 Journal/2024/Q1-2024/02-February-2024"
+    "private/20-29 Prose/Fiction/Ilmaria story/Characters/images"
   ]
 }

@@ -80,7 +80,15 @@
       "key": "C"
     }
   ],
-  "file-explorer:move-file": [
+  "editor:insert-footnote": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
+  ],
+  "notebook-navigator:move-files": [
     {
       "modifiers": [
         "Mod"
@@ -88,12 +96,21 @@
       "key": "M"
     }
   ],
-  "editor:insert-footnote": [
+  "switcher:open": [],
+  "notebook-navigator:search": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "notebook-navigator:open-homepage": [
     {
       "modifiers": [
         "Alt"
       ],
-      "key": "F"
+      "key": "H"
     }
   ]
 }

@@ -6,6 +6,7 @@
     "modified": "datetime",
     "created": "datetime",
     "date": "date",
-    "lastmod": "datetime"
+    "lastmod": "datetime",
+    "state": "text"
   }
 }

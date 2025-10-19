@@ -38,11 +38,15 @@
   "showFavoriteTagsFolder": true,
   "showAllTagsFolder": true,
   "showUntagged": true,
-  "showUntaggedInFavorites": false,
+  "showUntaggedInFavorites": true,
+  "tagSortOrder": "frequency-desc",
   "favoriteTags": [
     "art101",
     "worksheet",
-    "project"
+    "project",
+    "read",
+    "homework",
+    "favorite"
   ],
   "hiddenTags": [],
   "defaultFolderSort": "modified-desc",
@@ -84,6 +88,7 @@
     "featureResized",
     "feature"
   ],
+  "forceSquareFeatureImage": true,
   "useEmbeddedImageFallback": true,
   "externalIconProviders": {
     "rpg-awesome": true,
@@ -242,7 +247,12 @@
       }
     ]
   },
-  "shortcuts": [],
+  "shortcuts": [
+    {
+      "type": "tag",
+      "tagPath": "art101"
+    }
+  ],
   "checkForUpdatesOnStart": true,
   "confirmBeforeDelete": true,
   "searchActive": false,
@@ -257,6 +267,10 @@
       "tag": true
     },
     "Project Notes/ART101/W1 Worksheet.md": {
+      "folder": true,
+      "tag": true
+    },
+    "Project Notes/ART101/W3 Worksheet.md": {
       "folder": true,
       "tag": true
     }
@@ -289,7 +303,7 @@
   "recentColors": [],
   "lastShownVersion": "",
   "latestKnownRelease": "1.5.5",
-  "lastAnnouncedRelease": "",
+  "lastAnnouncedRelease": "1.5.5",
   "lastReleaseCheckAt": 1760838638627,
   "rootFolderOrder": [],
   "settingsVersion": 1

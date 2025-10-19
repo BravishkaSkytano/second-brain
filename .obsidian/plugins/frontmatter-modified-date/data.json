@@ -6,7 +6,7 @@
   "historyNewestFirst": false,
   "historyMaxItems": 0,
   "excludedFolders": [
-    "_settings"
+    "z - Templates"
   ],
   "useKeyupEvents": false,
   "onlyUpdateExisting": false,

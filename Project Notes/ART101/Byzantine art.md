@@ -4,6 +4,8 @@ created: 2025-10-12 1[[Eastern Roman Empire|Byzantine Empire]]025-10-12 18:28
 modified: 2025-10-12 18:29
 tags:
   - ART101
+image: z - Attachments/Byzantine art-1760304037177.webp
+thumbnail: z - Attachments/thumbnails/resized/11228d51f49df319c7640f83d7232b18_86cf658e.webp
 ---
 
 > [!tldr] Byzantine art
