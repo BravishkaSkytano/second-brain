@@ -11,10 +11,24 @@
             "id": "1bb4065bed42500e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "metadata-parsing-failures-2025-10-27T19-21-13.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "metadata-parsing-failures-2025-10-27T19-21-13"
             }
           }
         ]
@@ -149,7 +163,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Fleeting Notes/Eastern Roman Empire.md"
+                "file": "metadata-parsing-failures-2025-10-27T19-21-13.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -221,10 +235,14 @@
       "project-browser:Open project browser": false
     }
   },
-  "active": "1862072666159b8c",
+  "active": "1bb4065bed42500e",
   "lastOpenFiles": [
-    "Project Notes/ART101/Worksheet 4.md",
+    "Project Notes/ART101/Byzantine art.md",
+    "metadata-parsing-failures-2025-10-27T19-21-13.md",
+    "Fleeting Notes/index.md",
     "Project Notes/ART101/W3 Worksheet.md",
+    "Fleeting Notes/Eastern Roman Empire.md",
+    "Project Notes/ART101/Worksheet 4.md",
     "conflict-files-obsidian-git.md",
     "Project Notes/ART101/index.md",
     "Project Notes/ART101/Nave.md",
@@ -234,13 +252,10 @@
     "Project Notes/ART101/Bayeux Tapestry.md",
     "Project Notes/ART101/Apse.md",
     "Structure Notes/index.md",
-    "Fleeting Notes/Eastern Roman Empire.md",
     "Project Notes/ART101/The Creation of Adam (painting).md",
     "Project Notes/ART101/Notre-Dame de Paris.md",
     "Project Notes/ART101/Cathedral Chartres.md",
     "Project Notes/ART101/Hagia Sophia.md",
-    "Fleeting Notes/index.md",
-    "Project Notes/ART101/Byzantine art.md",
     "Project Notes/ART101/The Last Judgment relief sculpture by Gislebertus.md",
     "z - Attachments/thumbnails/resized/11228d51f49df319c7640f83d7232b18_86cf658e.webp",
     "z - Attachments/thumbnails/resized/dff53448fd53f1fe33f20c6ac4451ad4_86cf658e.webp",
@@ -260,7 +275,6 @@
     "Project Notes/ART101/Domus Church.md",
     "Project Notes/ART101/Ribbed Vault.md",
     "Project Notes/ART101/Rose Window.md",
-    "Project Notes/ART101/The Rose Window of Chartres Cathedral.md",
     "Project Notes/ART101/ART101.base",
     "Project Notes/ART101",
     "W1 Worksheet.pdf",

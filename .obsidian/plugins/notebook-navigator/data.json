@@ -1,6 +1,6 @@
 {
   "startView": "files",
-  "showTooltips": false,
+  "showTooltips": true,
   "showTooltipPath": true,
   "homepage": null,
   "mobileHomepage": null,
@@ -17,7 +17,7 @@
   "showShortcuts": true,
   "showRecentNotes": true,
   "recentNotesCount": 5,
-  "autoExpandFoldersTags": false,
+  "autoExpandFoldersTags": true,
   "collapseBehavior": "all",
   "smartCollapse": true,
   "showIcons": true,
@@ -55,12 +55,12 @@
   "frontmatterIconField": "icon",
   "frontmatterColorField": "color",
   "frontmatterNameField": "title",
-  "frontmatterCreatedField": "",
-  "frontmatterModifiedField": "",
+  "frontmatterCreatedField": "created",
+  "frontmatterModifiedField": "modified",
   "frontmatterDateFormat": "yyyy-MM-dd HH:mm",
   "saveMetadataToFrontmatter": true,
   "iconizeFormat": false,
-  "fileNameRows": 1,
+  "fileNameRows": 2,
   "showFileDate": true,
   "showFileTags": true,
   "showFileTagAncestors": true,
@@ -80,7 +80,10 @@
   ],
   "forceSquareFeatureImage": true,
   "useEmbeddedImageFallback": true,
-  "externalIconProviders": {},
+  "externalIconProviders": {
+    "rpg-awesome": true,
+    "phosphor": true
+  },
   "searchProvider": "internal",
   "keyboardShortcuts": {
     "pane:move-up": [
@@ -237,7 +240,7 @@
   "shortcuts": [],
   "checkForUpdatesOnStart": true,
   "confirmBeforeDelete": true,
-  "searchActive": false,
+  "searchActive": true,
   "customVaultName": "",
   "pinnedNotes": {
     "Project Notes/ART101/Worksheet 4.md": {
@@ -259,7 +262,10 @@
   },
   "fileIcons": {},
   "fileColors": {},
-  "folderIcons": {},
+  "folderIcons": {
+    "Project Notes": "phosphor:ph-toolbox",
+    "Project Notes/ART101": "rpg-awesome:ra-burst-blob"
+  },
   "folderColors": {},
   "folderBackgroundColors": {},
   "folderSortOverrides": {},
