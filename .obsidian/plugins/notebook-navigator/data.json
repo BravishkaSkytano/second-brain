@@ -7,7 +7,7 @@
   "useMobileHomepage": false,
   "autoRevealActiveFile": true,
   "autoRevealIgnoreRightSidebar": true,
-  "fileVisibility": "documents",
+  "fileVisibility": "supported",
   "excludedFolders": [],
   "excludedFiles": [],
   "dateFormat": "MMM d, yyyy",
@@ -75,8 +75,9 @@
   "showFeatureImage": true,
   "featureImageProperties": [
     "thumbnail",
-    "featureResized",
-    "feature"
+    "feature",
+    "cover",
+    "banner"
   ],
   "forceSquareFeatureImage": true,
   "useEmbeddedImageFallback": true,
@@ -240,7 +241,7 @@
   "shortcuts": [],
   "checkForUpdatesOnStart": true,
   "confirmBeforeDelete": true,
-  "searchActive": true,
+  "searchActive": false,
   "customVaultName": "",
   "pinnedNotes": {
     "Project Notes/ART101/Worksheet 4.md": {

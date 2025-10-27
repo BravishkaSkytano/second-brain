@@ -1,6 +1,6 @@
 {
   "showNotificationsOnUpdate": true,
-  "frontmatterProperty": "image",
+  "frontmatterProperty": "feature",
   "thumbnailsFolder": "z - Attachments/thumbnails",
   "excludedFolders": [
     "z - Templates"
@@ -12,14 +12,14 @@
   "fillResizedDimensions": false,
   "resizedVerticalAlign": "top",
   "resizedHorizontalAlign": "center",
-  "showAdvancedSettings": false,
+  "showAdvancedSettings": true,
   "mediaLinkFormat": "plain",
   "useMediaLinks": false,
   "onlyUpdateExisting": false,
   "keepEmptyProperty": false,
   "preserveTemplateImages": false,
   "requireExclamationForYouTube": true,
-  "downloadExternalImages": true,
+  "downloadExternalImages": false,
   "downloadYoutubeThumbnails": true,
   "imageExtensions": [
     "png",

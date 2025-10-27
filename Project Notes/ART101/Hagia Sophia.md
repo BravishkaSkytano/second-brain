@@ -1,13 +1,13 @@
 ---
 date: 2025-10-12
 created: 2025-10-12 21:18
-modified: 2025-10-18 22:14
+modified: 2025-10-27 16:08
 tags:
   - ART101
 state: "[[Drafting]]"
-image: z - Attachments/Hagia Sophia-1760318720132.webp
-thumbnail: z - Attachments/thumbnails/resized/335f3361a5562535c64f2b63f0028043_86cf658e.webp
+banner: "[[Hagia Sophia-1761594887075.webp]]"
 ---
+
 
 ![[Hagia Sophia-1760318720132.webp|700x438]]
 

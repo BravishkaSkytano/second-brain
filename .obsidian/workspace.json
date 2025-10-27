@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project Notes/ART101/W3 Worksheet.md",
+                "file": "Project Notes/ART101/Hagia Sophia.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "W3 Worksheet"
+              "title": "Hagia Sophia"
             }
           },
           {
@@ -187,7 +187,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Project Notes/ART101/W3 Worksheet.md"
+                "file": "Project Notes/ART101/Hagia Sophia.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -239,7 +239,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -261,13 +262,27 @@
   },
   "active": "ecf02a139fa35854",
   "lastOpenFiles": [
-    "Fleeting Notes/Renaissance.md",
-    "Project Notes/ART101/W3 Worksheet.md",
-    "Structure Notes/Home.md",
+    "z - Attachments/thumbnails/resized/335f3361a5562535c64f2b63f0028043_86cf658e.webp",
+    "Project Notes/ART101/index.md",
+    "z - Attachments/banners/Hagia Sophia-1761594887075.webp",
+    "z - Attachments/thumbnails/resized/11228d51f49df319c7640f83d7232b18_86cf658e.webp",
+    "z - Attachments/thumbnails/resized/12d5ee5a238e9846b47a228157681616_86cf658e.webp",
+    "z - Attachments/Flying Buttress-1760315682967.webp",
+    "z - Attachments/Ribbed Vault-1760316053936.webp",
+    "z - Attachments/Ribbed Vault-1760316083287.webp",
+    "z - Attachments/Ribbed Vault-1760316107980.webp",
+    "z - Attachments/Bayeux Tapestry-1760317947129.webp",
+    "z - Attachments/Hagia Sophia-1760318720132.webp",
+    "z - Attachments/Hagia Sophia-1760318744531.webp",
+    "z - Attachments/banners",
+    "Project Notes/ART101/Hagia Sophia.md",
     "Project Notes/ART101/Apse.md",
+    "Project Notes/ART101/Cathedral Chartres.md",
+    "Project Notes/ART101/W3 Worksheet.md",
+    "Fleeting Notes/Renaissance.md",
+    "Structure Notes/Home.md",
     "Fleeting Notes/Eastern Roman Empire.md",
     "Project Notes/ART101/Worksheet 4.md",
-    "Project Notes/ART101/index.md",
     "Fleeting Notes/index.md",
     "metadata-parsing-failures-2025-10-27T19-21-13.md",
     "Project Notes/ART101/Byzantine art.md",
@@ -280,32 +295,18 @@
     "Structure Notes/index.md",
     "Project Notes/ART101/The Creation of Adam (painting).md",
     "Project Notes/ART101/Notre-Dame de Paris.md",
-    "Project Notes/ART101/Cathedral Chartres.md",
-    "Project Notes/ART101/Hagia Sophia.md",
     "Project Notes/ART101/The Last Judgment relief sculpture by Gislebertus.md",
-    "z - Attachments/thumbnails/resized/11228d51f49df319c7640f83d7232b18_86cf658e.webp",
-    "z - Attachments/thumbnails/resized/dff53448fd53f1fe33f20c6ac4451ad4_86cf658e.webp",
-    "z - Attachments/thumbnails/resized/8513c5e77fc2dd8678027f18ebb79113_86cf658e.webp",
-    "z - Attachments/thumbnails/resized/335f3361a5562535c64f2b63f0028043_86cf658e.webp",
-    "z - Attachments/thumbnails/resized/459510b920a16ee1520fa1d23d886811_86cf658e.webp",
-    "z - Attachments/thumbnails/resized/c866ac8c5bcb1b669a55225bcddcd0c3_86cf658e.webp",
-    "z - Attachments/thumbnails/resized/400918749eca90aecddb19975f2bd302_86cf658e.webp",
-    "z - Attachments/thumbnails/resized/c6ea04bc89ff144c3bb22937fac4352f_86cf658e.webp",
-    "z - Attachments/thumbnails/resized/67150b79e95216b5235477053169078b_86cf658e.webp",
-    "z - Attachments/thumbnails/resized/b7aeabaa21e1ff02c96c37288177834d_86cf658e.webp",
     "z - Attachments/thumbnails/resized",
     "z - Attachments/thumbnails",
     "z - Templates/default.md",
     "Project Notes/ART101/W2 Worksheet.md",
     "Project Notes/ART101/W1 Worksheet.md",
-    "Project Notes/ART101/Domus Church.md",
     "Project Notes/ART101/ART101.base",
     "Project Notes/ART101",
     "W1 Worksheet.pdf",
     "z - Attachments",
     "z - Templates",
     "_settings",
-    "Journal",
-    "private/20-29 Prose/Fiction/Ilmaria story/Characters/images"
+    "Journal"
   ]
 }
