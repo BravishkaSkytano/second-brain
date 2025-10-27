@@ -11,9 +11,13 @@
     {
       "type": "CURRENT",
       "name": "Same folder as current note"
+    },
+    {
+      "name": "Same folder, but include resolution",
+      "type": "SUBFOLDER"
     }
   ],
-  "selectedFolderPreset": "Default (Obsidian setting)",
+  "selectedFolderPreset": "Same folder, but include resolution",
   "filenamePresets": [
     {
       "name": "Keep original name",
@@ -46,7 +50,7 @@
     "folder": false,
     "filename": false
   },
-  "subfolderTemplate": "",
+  "subfolderTemplate": "{notepath}-{resolution}",
   "conversionPresets": [
     {
       "name": "None",

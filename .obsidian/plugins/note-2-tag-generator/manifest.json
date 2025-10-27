@@ -1,0 +1,10 @@
+{
+	"id": "note-2-tag-generator",
+	"name": "Note 2 Tag Generator",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Generate tags from notes without openai key in multiple languages",
+	"author": "Augustin",
+	"authorUrl": "https://augustin.great-site.net",
+	"isDesktopOnly": false
+}

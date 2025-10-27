@@ -11,12 +11,24 @@
             "id": "ecf02a139fa35854",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "z - Attachments/banners/Hagia Sophia-1761594887075.webp"
+                "file": "Project Notes/ART101/Hagia Sophia.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-image",
-              "title": "Hagia Sophia-1761594887075"
+              "icon": "lucide-file",
+              "title": "Hagia Sophia"
             }
           },
           {
@@ -106,7 +118,8 @@
               "title": "Notebook Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -174,7 +187,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "z - Attachments/banners/Hagia Sophia-1761594887075.webp"
+                "file": "Project Notes/ART101/Hagia Sophia.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -249,6 +262,10 @@
   },
   "active": "ecf02a139fa35854",
   "lastOpenFiles": [
+    "Structure Notes/Home.md",
+    "Project Notes/ART101/Hagia Sophia.md",
+    "Project Notes/index.md",
+    "z - Attachments/banners/Hagia Sophia-1761594887075.webp",
     "z - Attachments/Flying Buttress-1760315682967.webp",
     "z - Attachments/Hagia Sophia-1760318720132.webp",
     "z - Attachments/Hagia Sophia-1760318744531.webp",
@@ -258,16 +275,12 @@
     "z - Attachments/The Rose Window of Chartres Cathedral - North Transept.webp",
     "z - Attachments/The Rose Window of Chartres Cathedral - West Transept.webp",
     "z - Attachments/The Rose Window of Chartres Cathedral-South Transept.webp",
-    "z - Attachments/The Theodora Panels.webp",
-    "z - Attachments/Flying Buttress-1760315669597.webp",
-    "Project Notes/ART101/Hagia Sophia.md",
     "Project Notes/ART101/index.md",
     "z - Attachments/banners",
     "Project Notes/ART101/Apse.md",
     "Project Notes/ART101/Cathedral Chartres.md",
     "Project Notes/ART101/W3 Worksheet.md",
     "Fleeting Notes/Renaissance.md",
-    "Structure Notes/Home.md",
     "Fleeting Notes/Eastern Roman Empire.md",
     "Project Notes/ART101/Worksheet 4.md",
     "Fleeting Notes/index.md",
