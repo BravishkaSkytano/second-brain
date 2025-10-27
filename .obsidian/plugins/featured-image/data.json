@@ -1,7 +1,7 @@
 {
   "showNotificationsOnUpdate": true,
   "frontmatterProperty": "feature",
-  "thumbnailsFolder": "z - Attachments/thumbnails",
+  "thumbnailsFolder": "z - Attachments",
   "excludedFolders": [
     "z - Templates"
   ],
@@ -13,8 +13,8 @@
   "resizedVerticalAlign": "top",
   "resizedHorizontalAlign": "center",
   "showAdvancedSettings": true,
-  "mediaLinkFormat": "plain",
-  "useMediaLinks": false,
+  "mediaLinkFormat": "wiki",
+  "useMediaLinks": true,
   "onlyUpdateExisting": false,
   "keepEmptyProperty": false,
   "preserveTemplateImages": false,

@@ -11,24 +11,12 @@
             "id": "ecf02a139fa35854",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Project Notes/ART101/Hagia Sophia.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "z - Attachments/banners/Hagia Sophia-1761594887075.webp"
               },
-              "icon": "lucide-file",
-              "title": "Hagia Sophia"
+              "icon": "lucide-image",
+              "title": "Hagia Sophia-1761594887075"
             }
           },
           {
@@ -118,8 +106,7 @@
               "title": "Notebook Navigator"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -187,7 +174,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Project Notes/ART101/Hagia Sophia.md"
+                "file": "z - Attachments/banners/Hagia Sophia-1761594887075.webp"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -262,20 +249,20 @@
   },
   "active": "ecf02a139fa35854",
   "lastOpenFiles": [
-    "z - Attachments/thumbnails/resized/335f3361a5562535c64f2b63f0028043_86cf658e.webp",
-    "Project Notes/ART101/index.md",
-    "z - Attachments/banners/Hagia Sophia-1761594887075.webp",
-    "z - Attachments/thumbnails/resized/11228d51f49df319c7640f83d7232b18_86cf658e.webp",
-    "z - Attachments/thumbnails/resized/12d5ee5a238e9846b47a228157681616_86cf658e.webp",
     "z - Attachments/Flying Buttress-1760315682967.webp",
-    "z - Attachments/Ribbed Vault-1760316053936.webp",
-    "z - Attachments/Ribbed Vault-1760316083287.webp",
-    "z - Attachments/Ribbed Vault-1760316107980.webp",
-    "z - Attachments/Bayeux Tapestry-1760317947129.webp",
     "z - Attachments/Hagia Sophia-1760318720132.webp",
     "z - Attachments/Hagia Sophia-1760318744531.webp",
-    "z - Attachments/banners",
+    "z - Attachments/Hagia Sophia-1760318842257.webp",
+    "z - Attachments/Hagia Sophia-1761596077883.webp",
+    "z - Attachments/The Last Judgment relief sculpture by Gislebertus-1760308783744.webp",
+    "z - Attachments/The Rose Window of Chartres Cathedral - North Transept.webp",
+    "z - Attachments/The Rose Window of Chartres Cathedral - West Transept.webp",
+    "z - Attachments/The Rose Window of Chartres Cathedral-South Transept.webp",
+    "z - Attachments/The Theodora Panels.webp",
+    "z - Attachments/Flying Buttress-1760315669597.webp",
     "Project Notes/ART101/Hagia Sophia.md",
+    "Project Notes/ART101/index.md",
+    "z - Attachments/banners",
     "Project Notes/ART101/Apse.md",
     "Project Notes/ART101/Cathedral Chartres.md",
     "Project Notes/ART101/W3 Worksheet.md",

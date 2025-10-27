@@ -3,7 +3,7 @@ title: Arion Thorne, Warlord of the Ashen Wastes
 description: Lord Arion Thorne is a formidable force in Ilmaria, a warlord whose strength and strategic brilliance shape the fate of the Ashen Wastes and beyond. His leadership, forged in fire and tempered by conflict, ensures that he remains a key player in the intricate tapestry of Ilmaria's power dynamics.
 date: 2024-06-21T15:07:00
 lastmod: 2024-11-22T16:34:35
-tags: 
+tags:
 categories:
   - branch
   - character
@@ -12,7 +12,8 @@ aliases:
   - Warlord of the Ashen Wastes
 banner: "![[arion-thorne.jpg]]"
 banner_y: 0.216
-feature: "[[arion-thorne.jpg]]"
+feature: "[[private/20-29 Prose/Fiction/Ilmaria story/Characters/images/arion-thorne.jpg]]"
+thumbnail: "[[z - Attachments/thumbnails/resized/fa5ffaaee7ca3fc95611557cb10bb3c4_86cf658e.webp]]"
 ---
 
 ![[private/20-29 Prose/Fiction/Ilmaria story/Characters/images/arion-thorne.jpg]]
