@@ -163,25 +163,10 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Fleeting Notes/The Rose Window of Chartres Cathedral.md"
+                "file": "Project Notes/ART101/W3 Worksheet.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
-            }
-          },
-          {
-            "id": "e1ebc4c0ca551c49",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
             }
           }
         ],
@@ -251,7 +236,7 @@
       "project-browser:Open project browser": false
     }
   },
-  "active": "1862072666159b8c",
+  "active": "3af054f3a12eee5a",
   "lastOpenFiles": [
     "Project Notes/ART101/index.md",
     "Project Notes/ART101/W3 Worksheet.md",
