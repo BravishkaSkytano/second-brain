@@ -5,4 +5,5 @@ modified: 2025-10-12 16:56
 tags:
 aliases:
   - Byzantine Empire
+state: "[[Final]]"
 ---

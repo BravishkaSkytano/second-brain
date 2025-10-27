@@ -2,7 +2,7 @@
   "startView": "files",
   "showTooltips": true,
   "showTooltipPath": true,
-  "homepage": null,
+  "homepage": "Structure Notes/Home.md",
   "mobileHomepage": null,
   "useMobileHomepage": false,
   "autoRevealActiveFile": true,
