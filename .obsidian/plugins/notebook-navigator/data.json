@@ -30,16 +30,16 @@
   "showHiddenItems": false,
   "showRootFolder": true,
   "inheritFolderColors": false,
-  "enableFolderNotes": false,
+  "enableFolderNotes": true,
   "folderNoteType": "markdown",
-  "folderNoteName": "",
+  "folderNoteName": "index",
   "folderNoteProperties": [],
   "hideFolderNoteInList": true,
   "pinCreatedFolderNote": false,
   "showTags": true,
   "showAllTagsFolder": true,
-  "showUntagged": false,
-  "tagSortOrder": "alpha-asc",
+  "showUntagged": true,
+  "tagSortOrder": "frequency-desc",
   "hiddenTags": [],
   "defaultFolderSort": "modified-desc",
   "listPaneTitle": "header",
@@ -51,14 +51,14 @@
   "quickActionRevealInFolder": true,
   "quickActionPinNote": true,
   "quickActionOpenInNewTab": true,
-  "useFrontmatterMetadata": false,
+  "useFrontmatterMetadata": true,
   "frontmatterIconField": "icon",
   "frontmatterColorField": "color",
-  "frontmatterNameField": "",
+  "frontmatterNameField": "title",
   "frontmatterCreatedField": "",
   "frontmatterModifiedField": "",
-  "frontmatterDateFormat": "",
-  "saveMetadataToFrontmatter": false,
+  "frontmatterDateFormat": "yyyy-MM-dd HH:mm",
+  "saveMetadataToFrontmatter": true,
   "iconizeFormat": false,
   "fileNameRows": 1,
   "showFileDate": true,
@@ -239,7 +239,24 @@
   "confirmBeforeDelete": true,
   "searchActive": false,
   "customVaultName": "",
-  "pinnedNotes": {},
+  "pinnedNotes": {
+    "Project Notes/ART101/Worksheet 4.md": {
+      "folder": true,
+      "tag": false
+    },
+    "Project Notes/ART101/W3 Worksheet.md": {
+      "folder": true,
+      "tag": false
+    },
+    "Project Notes/ART101/W2 Worksheet.md": {
+      "folder": true,
+      "tag": false
+    },
+    "Project Notes/ART101/W1 Worksheet.md": {
+      "folder": true,
+      "tag": false
+    }
+  },
   "fileIcons": {},
   "fileColors": {},
   "folderIcons": {},

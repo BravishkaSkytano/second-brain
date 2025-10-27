@@ -9,12 +9,13 @@ tags:
   - worksheet
 description: "Covers: Baroque period: Painting, Sculpture and Architecture"
 ---
-## terms to define
+
+## Terms to Define
 
   1. Baroque
   2. Triptych
   3. Counter-Reformation
-## People to know
+## People to Know
 1. Carracci:  
 2. Caravaggio:  
 3. Bernini:  
@@ -22,7 +23,7 @@ description: "Covers: Baroque period: Painting, Sculpture and Architecture"
 5. Van Dyck:  
 6. Rubens:  
 7. Rembrandt:  
-## Specific arts to identify by sight
+## Specific Arts to Identify by Sight
 St. Peter’s Cathedral  
 Conversion of St. Paul  
 Raising of the Cross  

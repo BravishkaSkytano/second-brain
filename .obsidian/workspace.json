@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7397d48c5c893b6a",
+        "id": "a2df41d6303c891a",
         "type": "tabs",
         "children": [
           {
-            "id": "a760b1bd4f12413b",
+            "id": "1bb4065bed42500e",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/plugins/notebook-navigator/data.json",
-                "bFile": ".obsidian/plugins/notebook-navigator/data.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: data.json"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -152,7 +148,9 @@
             "type": "leaf",
             "state": {
               "type": "footnotes",
-              "state": {},
+              "state": {
+                "file": "Fleeting Notes/Eastern Roman Empire.md"
+              },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
             }
@@ -223,11 +221,11 @@
       "project-browser:Open project browser": false
     }
   },
-  "active": "a760b1bd4f12413b",
+  "active": "1862072666159b8c",
   "lastOpenFiles": [
+    "Project Notes/ART101/Worksheet 4.md",
     "Project Notes/ART101/W3 Worksheet.md",
     "conflict-files-obsidian-git.md",
-    "Fleeting Notes/Worksheet 4.md",
     "Project Notes/ART101/index.md",
     "Project Notes/ART101/Nave.md",
     "Project Notes/ART101/Clerestory.md",

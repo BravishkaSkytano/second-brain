@@ -1,0 +1,17 @@
+# ───────────────────────────────────────────────
+#  Obsidian Vault Git Attributes
+#  Purpose: Prevent merge conflicts for device-specific files
+#
+#  One-time setup reminder (run this once per device if needed):
+#      git config --global merge.ours.driver true
+#
+#  This registers the "ours" merge strategy so Git knows how to
+#  handle the rules below. It does NOT affect other repositories
+#  unless they also use merge=ours in their own .gitattributes.
+# ───────────────────────────────────────────────
+
+# Always keep the local version of workspace and appearance files
+.obsidian/workspace.json merge=ours
+.obsidian/workspace-mobile.json merge=ours
+.obsidian/appearance.json merge=ours
+.obsidian/app.json merge=ours

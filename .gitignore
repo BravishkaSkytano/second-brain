@@ -1,2 +1,43 @@
+# ───────────────────────────────────────────────
+#  Obsidian Vault Git Ignore Setup
+#  Single-user vault (2+ personal devices)
+#  Goal: Sync plugin settings, avoid merge conflicts
+#
+#  Workflow reminder:
+#  - Regularly commit your notes as usual.
+#  - When you change plugin settings, enable/disable plugins, or update snippets:
+#      git add .obsidian
+#      git commit -m "Update Obsidian plugin settings"
+#      git push
+#
+#  This setup keeps plugin configs consistent between devices
+#  while preventing merge conflicts from workspace/UI files.
+# ───────────────────────────────────────────────
 
-/.obsidian/workspace.json
+
+# 🧹 Ignore system or backup files
+.DS_Store
+Thumbs.db
+
+# 💻 Ignore Obsidian workspace and appearance files
+# These track open tabs, layout, theme, and other local UI details.
+# They change automatically and differ per device.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/appearance.json
+.obsidian/app.json
+
+# ⚙️ Sync plugin settings and configurations
+# These keep your setup consistent across devices.
+!.obsidian/
+!.obsidian/plugins/
+!.obsidian/hotkeys.json
+!.obsidian/core-plugins.json
+!.obsidian/community-plugins.json
+!.obsidian/snippets/
+
+# 🧩 Optional: ignore plugin caches or transient data
+# Some plugins store device-specific cache or usage data in `data.json`.
+.obsidian/plugins/*/data.json
+.obsidian/plugins/*/cache.json
+
