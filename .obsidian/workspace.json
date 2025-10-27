@@ -192,9 +192,19 @@
               "icon": "lucide-file-signature",
               "title": "Footnotes"
             }
+          },
+          {
+            "id": "a40e74654dcf99c5",
+            "type": "leaf",
+            "state": {
+              "type": "related-notes-by-tag-view",
+              "state": {},
+              "icon": "tag",
+              "title": "Related notes by tag"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "9b03cff215b5d68a",
@@ -239,8 +249,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -257,13 +266,15 @@
       "notebook-navigator:Notebook Navigator": false,
       "random-note:Open random note": false,
       "the-queue:Toggle Queue": false,
-      "project-browser:Open project browser": false
+      "project-browser:Open project browser": false,
+      "index-notes:New note by copying metadata of focused note": false
     }
   },
-  "active": "ecf02a139fa35854",
+  "active": "a40e74654dcf99c5",
   "lastOpenFiles": [
-    "Structure Notes/Home.md",
+    "Project Notes/ART101/Apse.md",
     "Project Notes/ART101/Hagia Sophia.md",
+    "Structure Notes/Home.md",
     "Project Notes/index.md",
     "z - Attachments/banners/Hagia Sophia-1761594887075.webp",
     "z - Attachments/Flying Buttress-1760315682967.webp",
@@ -277,7 +288,6 @@
     "z - Attachments/The Rose Window of Chartres Cathedral-South Transept.webp",
     "Project Notes/ART101/index.md",
     "z - Attachments/banners",
-    "Project Notes/ART101/Apse.md",
     "Project Notes/ART101/Cathedral Chartres.md",
     "Project Notes/ART101/W3 Worksheet.md",
     "Fleeting Notes/Renaissance.md",

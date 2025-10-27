@@ -1,9 +1,14 @@
 ---
 date: 2025-10-12
 created: 2025-10-12 21:18
-modified: 2025-10-27 16:41
+modified: 2025-10-27 18:37
 tags:
   - ART101
+  - Islam
+  - artwork
+  - museum
+  - mosaics
+  - Muslim
 feature: "[[z - Attachments/Hagia Sophia-1761596077883.webp]]"
 thumbnail: "[[z - Attachments/thumbnails/resized/fe5d14d064e344fdb093a451286fe472_86cf658e.webp]]"
 ---

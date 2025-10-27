@@ -3,6 +3,9 @@
     "obsidian-git:push",
     "bases:new-file",
     "bases:insert",
-    "workspace:export-pdf"
+    "workspace:export-pdf",
+    "featured-image:cleanup-unused",
+    "image-converter:process-all-images-current-note",
+    "note-2-tag-generator:generate-tags"
   ]
 }
