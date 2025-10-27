@@ -22,7 +22,7 @@
   "simple-time-tracker",
   "dataview",
   "featured-image",
-  "note-2-tag-generator",
   "index-notes",
-  "related-notes-by-tag"
+  "related-notes-by-tag",
+  "tag-wrangler"
 ]

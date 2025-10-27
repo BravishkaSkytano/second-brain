@@ -11,7 +11,7 @@ tags:
 
 The four horns represented the four kingdoms of the Diadochi:
 1. [[Macedonia]] and [[Greece]], ruled by [[Cassander]]
-2. [[Thrace]], [[Bithynia]], and most of [[Fleeting Notes/Asia Minor]], ruled by [[Lysimachus]]
+2. [[Thrace]], [[Bithynia]], and most of [[Asia Minor]], ruled by [[Lysimachus]]
 3. [[Syria]], [[Babylon]] and the rest of the east, ruled by [[Seleucus]]
 4. [[Egypt]] and possibly [[Palestine]] and [[Arabia Petraea]], ruled by [[Ptolemy]]
 

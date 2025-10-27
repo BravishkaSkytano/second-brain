@@ -1,0 +1,16 @@
+views:
+  - type: cards
+    name: Cards
+    filters:
+      and:
+        - file.tags.contains("courses/ART101")
+    order:
+      - file.name
+      - file.tags
+      - created
+      - modified
+    sort:
+      - property: modified
+        direction: DESC
+    imageFit: ""
+    image: note.feature

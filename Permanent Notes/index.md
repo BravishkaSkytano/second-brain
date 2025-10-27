@@ -6,7 +6,7 @@ weight: 3
 view-count: 5
 ---
 
-[[Fleeting Notes/index|Fleeting Notes]] | [[Literature Notes/index|Literature Notes]] | [[Permanent Notes/index|Permanent Notes]] | [[Project Notes/index|Project Notes]] | [[Structure Notes/index|Structure Notes]]
+[[Inbox|Inbox]] | [[Literature Notes/index|Literature Notes]] | [[Permanent Notes/index|Permanent Notes]] | [[Project Notes/index|Project Notes]] | [[Structure Notes|Structure Notes]]
 
 > [!info] Definition
 

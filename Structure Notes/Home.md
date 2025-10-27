@@ -1,11 +1,19 @@
 ---
 date: 2025-10-27
 created: 2025-10-27 15:34
-modified: 2025-10-27 15:36
+modified: 2025-10-27 19:09
 feature:
 tags:
-state: "[[Focus]]"
+  - meta_idx
 ---
+
+> [!example] Meta-index
+> 
+> > [!example] [[Courses]]
+> 
+> > [!example] [[Project Notes/index|Index]]
+> 
+> ^indexof-root000
 
 ## Time Tracking
 ```dataviewjs
@@ -26,3 +34,6 @@ for (let page of dv.pages()) {
     }
 }
 ```
+
+
+

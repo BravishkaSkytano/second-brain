@@ -32,7 +32,7 @@
   "inheritFolderColors": false,
   "enableFolderNotes": true,
   "folderNoteType": "markdown",
-  "folderNoteName": "index",
+  "folderNoteName": "",
   "folderNoteProperties": [],
   "hideFolderNoteInList": true,
   "pinCreatedFolderNote": false,
@@ -238,25 +238,30 @@
       }
     ]
   },
-  "shortcuts": [],
+  "shortcuts": [
+    {
+      "type": "folder",
+      "path": "Inbox"
+    }
+  ],
   "checkForUpdatesOnStart": true,
   "confirmBeforeDelete": true,
   "searchActive": false,
   "customVaultName": "",
   "pinnedNotes": {
-    "Project Notes/ART101/Worksheet 4.md": {
+    "Project Notes/University/ART101/W1 Worksheet.md": {
       "folder": true,
       "tag": false
     },
-    "Project Notes/ART101/W3 Worksheet.md": {
+    "Project Notes/University/ART101/W2 Worksheet.md": {
       "folder": true,
       "tag": false
     },
-    "Project Notes/ART101/W2 Worksheet.md": {
+    "Project Notes/University/ART101/W3 Worksheet.md": {
       "folder": true,
       "tag": false
     },
-    "Project Notes/ART101/W1 Worksheet.md": {
+    "Project Notes/University/ART101/Worksheet 4.md": {
       "folder": true,
       "tag": false
     }
@@ -265,12 +270,12 @@
   "fileColors": {},
   "folderIcons": {
     "Project Notes": "phosphor:ph-toolbox",
-    "Project Notes/ART101": "rpg-awesome:ra-burst-blob",
-    "Fleeting Notes": "rpg-awesome:ra-fast-ship",
     "Literature Notes": "rpg-awesome:ra-book",
     "Structure Notes": "rpg-awesome:ra-nodular",
     "z - Templates": "rpg-awesome:ra-cog",
-    "/": "rpg-awesome:ra-queen-crown"
+    "/": "rpg-awesome:ra-queen-crown",
+    "Project Notes/University/ART101": "rpg-awesome:ra-burst-blob",
+    "Inbox": "rpg-awesome:ra-fast-ship"
   },
   "folderColors": {},
   "folderBackgroundColors": {},
