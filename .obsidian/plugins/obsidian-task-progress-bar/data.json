@@ -1,4 +1,8 @@
 {
+  "changelog": {
+    "enabled": true,
+    "lastVersion": "9.9.2"
+  },
   "progressBarDisplayMode": "both",
   "supportHoverToShowProgressInfo": false,
   "addProgressBarToNonTaskBullet": false,
@@ -737,7 +741,6 @@
   },
   "enableCustomDateFormats": false,
   "customDateFormats": [],
-  "experimental": {},
   "onboarding": {
     "completed": true,
     "version": "9.8.14",
@@ -829,6 +832,39 @@
       },
       "autoDetect": true,
       "caseSensitive": false
+    }
+  },
+  "fluentView": {
+    "enableFluent": true,
+    "workspaces": [
+      {
+        "id": "default",
+        "name": "Default",
+        "color": "#3498db"
+      }
+    ],
+    "fluentConfig": {
+      "enableWorkspaces": true,
+      "defaultWorkspace": "default",
+      "maxOtherViewsBeforeOverflow": 5
+    },
+    "useWorkspaceSideLeaves": false
+  },
+  "experimental": {},
+  "workspaces": {
+    "version": 2,
+    "defaultWorkspaceId": "ws_1761428766923_2deb78bi2",
+    "activeWorkspaceId": "ws_1761428766923_2deb78bi2",
+    "order": [
+      "ws_1761428766923_2deb78bi2"
+    ],
+    "byId": {
+      "ws_1761428766923_2deb78bi2": {
+        "id": "ws_1761428766923_2deb78bi2",
+        "name": "Default",
+        "updatedAt": 1761428766923,
+        "settings": {}
+      }
     }
   }
 }
