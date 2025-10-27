@@ -1,4 +1,5 @@
 {
-  "typomagical-colour@@theme-variant": "vileplume",
-  "typomagical-colour@@background-color-enable": false
+  "typomagical-colour@@theme-variant": "ficus-ruby",
+  "typomagical-colour@@background-color-enable": false,
+  "notebook-navigator-style-settings@@nn-navigation-pane-transparent": false
 }

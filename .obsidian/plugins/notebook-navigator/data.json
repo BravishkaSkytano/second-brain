@@ -264,7 +264,12 @@
   "fileColors": {},
   "folderIcons": {
     "Project Notes": "phosphor:ph-toolbox",
-    "Project Notes/ART101": "rpg-awesome:ra-burst-blob"
+    "Project Notes/ART101": "rpg-awesome:ra-burst-blob",
+    "Fleeting Notes": "rpg-awesome:ra-fast-ship",
+    "Literature Notes": "rpg-awesome:ra-book",
+    "Structure Notes": "rpg-awesome:ra-nodular",
+    "z - Templates": "rpg-awesome:ra-cog",
+    "/": "rpg-awesome:ra-queen-crown"
   },
   "folderColors": {},
   "folderBackgroundColors": {},
