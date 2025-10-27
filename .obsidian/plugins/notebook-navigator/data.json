@@ -1,53 +1,45 @@
 {
-  "startView": "navigation",
-  "showTooltips": true,
+  "startView": "files",
+  "showTooltips": false,
+  "showTooltipPath": true,
   "homepage": null,
   "mobileHomepage": null,
   "useMobileHomepage": false,
   "autoRevealActiveFile": true,
   "autoRevealIgnoreRightSidebar": true,
-  "autoSelectFirstFileOnFocusChange": false,
-  "fileVisibility": "supported",
+  "fileVisibility": "documents",
   "excludedFolders": [],
   "excludedFiles": [],
   "dateFormat": "MMM d, yyyy",
   "timeFormat": "h:mm a",
+  "autoSelectFirstFileOnFocusChange": false,
   "navigationBanner": null,
   "showShortcuts": true,
   "showRecentNotes": true,
   "recentNotesCount": 5,
-  "autoExpandFoldersTags": true,
+  "autoExpandFoldersTags": false,
   "collapseBehavior": "all",
   "smartCollapse": true,
   "showIcons": true,
   "colorIconOnly": false,
   "showNoteCount": true,
+  "separateNoteCounts": true,
   "navIndent": 16,
   "navItemHeight": 28,
   "navItemHeightScaleText": true,
   "showHiddenItems": false,
   "showRootFolder": true,
-  "inheritFolderColors": true,
-  "enableFolderNotes": true,
+  "inheritFolderColors": false,
+  "enableFolderNotes": false,
   "folderNoteType": "markdown",
-  "folderNoteName": "index",
+  "folderNoteName": "",
   "folderNoteProperties": [],
   "hideFolderNoteInList": true,
+  "pinCreatedFolderNote": false,
   "showTags": true,
-  "showTagsAboveFolders": false,
-  "showFavoriteTagsFolder": true,
   "showAllTagsFolder": true,
-  "showUntagged": true,
-  "showUntaggedInFavorites": true,
-  "tagSortOrder": "frequency-desc",
-  "favoriteTags": [
-    "art101",
-    "worksheet",
-    "project",
-    "read",
-    "homework",
-    "favorite"
-  ],
+  "showUntagged": false,
+  "tagSortOrder": "alpha-asc",
   "hiddenTags": [],
   "defaultFolderSort": "modified-desc",
   "listPaneTitle": "header",
@@ -59,13 +51,13 @@
   "quickActionRevealInFolder": true,
   "quickActionPinNote": true,
   "quickActionOpenInNewTab": true,
-  "useFrontmatterMetadata": true,
+  "useFrontmatterMetadata": false,
   "frontmatterIconField": "icon",
   "frontmatterColorField": "color",
-  "frontmatterNameField": "title",
-  "frontmatterCreatedField": "created",
-  "frontmatterModifiedField": "modified",
-  "frontmatterDateFormat": "yyyy-MM-dd HH:mm",
+  "frontmatterNameField": "",
+  "frontmatterCreatedField": "",
+  "frontmatterModifiedField": "",
+  "frontmatterDateFormat": "",
   "saveMetadataToFrontmatter": false,
   "iconizeFormat": false,
   "fileNameRows": 1,
@@ -78,9 +70,7 @@
   "showFilePreview": true,
   "skipHeadingsInPreview": true,
   "skipCodeBlocksInPreview": true,
-  "previewProperties": [
-    "description"
-  ],
+  "previewProperties": [],
   "previewRows": 2,
   "showFeatureImage": true,
   "featureImageProperties": [
@@ -90,10 +80,7 @@
   ],
   "forceSquareFeatureImage": true,
   "useEmbeddedImageFallback": true,
-  "externalIconProviders": {
-    "rpg-awesome": true,
-    "phosphor": true
-  },
+  "externalIconProviders": {},
   "searchProvider": "internal",
   "keyboardShortcuts": {
     "pane:move-up": [
@@ -247,51 +234,16 @@
       }
     ]
   },
-  "shortcuts": [
-    {
-      "type": "tag",
-      "tagPath": "art101"
-    }
-  ],
+  "shortcuts": [],
   "checkForUpdatesOnStart": true,
   "confirmBeforeDelete": true,
   "searchActive": false,
   "customVaultName": "",
-  "pinnedNotes": {
-    "Project Notes/ART101/index.md": {
-      "folder": true,
-      "tag": true
-    },
-    "Project Notes/ART101/W2 Worksheet.md": {
-      "folder": true,
-      "tag": true
-    },
-    "Project Notes/ART101/W1 Worksheet.md": {
-      "folder": true,
-      "tag": true
-    },
-    "Project Notes/ART101/W3 Worksheet.md": {
-      "folder": true,
-      "tag": true
-    }
-  },
+  "pinnedNotes": {},
   "fileIcons": {},
   "fileColors": {},
-  "folderIcons": {
-    "/": "phosphor:ph-brain",
-    "Fleeting Notes": "phosphor:ph-person-simple-run",
-    "Literature Notes": "rpg-awesome:ra-book",
-    "Permanent Notes": "rpg-awesome:ra-locked-fortress",
-    "Project Notes": "rpg-awesome:ra-clockwork",
-    "z - Attachments": "phosphor:ph-images",
-    "z - Templates": "rpg-awesome:ra-gears"
-  },
-  "folderColors": {
-    "Fleeting Notes": "#ef4444",
-    "Literature Notes": "#3b82f6",
-    "Project Notes": "#22c55e",
-    "/": "#78716c"
-  },
+  "folderIcons": {},
+  "folderColors": {},
   "folderBackgroundColors": {},
   "folderSortOverrides": {},
   "folderAppearances": {},
@@ -302,9 +254,9 @@
   "tagAppearances": {},
   "recentColors": [],
   "lastShownVersion": "",
-  "latestKnownRelease": "1.6.3",
-  "lastAnnouncedRelease": "1.6.3",
-  "lastReleaseCheckAt": 1761590878653,
+  "latestKnownRelease": "",
+  "lastAnnouncedRelease": "",
+  "lastReleaseCheckAt": null,
   "rootFolderOrder": [],
-  "settingsVersion": 1
+  "rootTagOrder": []
 }

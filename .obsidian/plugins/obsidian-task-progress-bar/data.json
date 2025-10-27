@@ -1,7 +1,11 @@
 {
   "changelog": {
     "enabled": true,
+<<<<<<< HEAD
     "lastVersion": "9.9.3"
+=======
+    "lastVersion": "9.9.2"
+>>>>>>> origin/master
   },
   "progressBarDisplayMode": "both",
   "supportHoverToShowProgressInfo": false,
@@ -853,6 +857,7 @@
   "experimental": {},
   "workspaces": {
     "version": 2,
+<<<<<<< HEAD
     "defaultWorkspaceId": "ws_1761590913343_b4h24na1v",
     "activeWorkspaceId": "ws_1761590913343_b4h24na1v",
     "order": [
@@ -863,6 +868,18 @@
         "id": "ws_1761590913343_b4h24na1v",
         "name": "Default",
         "updatedAt": 1761590913343,
+=======
+    "defaultWorkspaceId": "ws_1761428766923_2deb78bi2",
+    "activeWorkspaceId": "ws_1761428766923_2deb78bi2",
+    "order": [
+      "ws_1761428766923_2deb78bi2"
+    ],
+    "byId": {
+      "ws_1761428766923_2deb78bi2": {
+        "id": "ws_1761428766923_2deb78bi2",
+        "name": "Default",
+        "updatedAt": 1761428766923,
+>>>>>>> origin/master
         "settings": {}
       }
     }
