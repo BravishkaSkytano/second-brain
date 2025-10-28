@@ -4,6 +4,7 @@ views:
     filters:
       and:
         - file.tags.contains("courses/ART101")
+        - file.name != "ART101"
     order:
       - file.name
       - file.tags

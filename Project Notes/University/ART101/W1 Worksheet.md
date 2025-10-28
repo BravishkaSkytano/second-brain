@@ -1,12 +1,12 @@
 ---
 date: 2025-10-05
 created: 2025-10-05 23:35
-modified: 2025-10-12 18:59
+modified: 2025-10-27 21:10
 tags:
   - courses/ART101
   - worksheet
+  - pinned
 description:
-state: "[[Final]]"
 ---
 
 ## Terms to Define

@@ -1,7 +1,7 @@
 ---
 date: 2025-10-27
 created: 2025-10-27 19:08
-modified: 2025-10-27 19:09
+modified: 2025-10-27 21:12
 feature:
 tags:
   - courses/idx
@@ -10,6 +10,11 @@ tags:
 
 > [!example] Courses
 > - **Art101**
+> 	- **[[ART101]]: ART101 - Visual and Performing Arts**
+> 	- **[[W1 Worksheet]]**
+> 	- **[[W2 Worksheet]]**
+> 	- **[[W3 Worksheet]]**
+> 	- **[[W4 Worksheet]]**
 > 	- [[Apse]]
 > 	- [[Archaic]]
 > 	- [[Basilica]]
@@ -29,7 +34,6 @@ tags:
 > 	- [[Hagia Sophia]]
 > 	- [[Hellenistic]]
 > 	- [[Hieroglyphs]]
-> 	- [[Project Notes/University/ART101/index|Index]]: ART101: Visual and Performing Arts
 > 	- [[Ionic capital]]
 > 	- [[Kouros]]
 > 	- [[Martyrium]]
@@ -52,10 +56,6 @@ tags:
 > 	- [[The Rose Window of Chartres Cathedral]]
 > 	- [[Tracery]]
 > 	- [[Vault]]
-> 	- [[W1 Worksheet]]
-> 	- [[W2 Worksheet]]
-> 	- [[W3 Worksheet]]
-> 	- [[Worksheet 4]]
 > 	- [[Ziggurat]]
 > 
 > ^indexof-courses

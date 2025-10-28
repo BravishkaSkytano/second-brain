@@ -1,11 +1,11 @@
 ---
 date: 2025-10-18
 created: 2025-10-18 21:54
-modified: 2025-10-27 14:50
+modified: 2025-10-27 21:10
 tags:
   - courses/ART101
   - worksheet
-state: "[[Focus]]"
+  - pinned
 description: "Covers: Renaissance period: Painting, Sculpture and Architecture"
 ---
 

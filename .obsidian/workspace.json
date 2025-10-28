@@ -4,11 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "a2df41d6303c891a",
+        "id": "d783e4d5c422f299",
         "type": "tabs",
         "children": [
           {
-            "id": "3042ffb28e8a1384",
+            "id": "45d24862c5ba0782",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project Notes/University/ART101/W3 Worksheet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "W3 Worksheet"
+            }
+          },
+          {
+            "id": "065c08776b34e51b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -63,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:courses/ART101",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Structure Notes/Courses.md",
+                "file": "Project Notes/University/ART101/W3 Worksheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +149,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Courses"
+              "title": "Backlinks for W3 Worksheet"
             }
           },
           {
@@ -163,7 +187,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Structure Notes/Courses.md"
+                "file": "Project Notes/University/ART101/W3 Worksheet.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -254,7 +278,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -279,17 +303,21 @@
       "index-notes:New note by copying metadata of focused note": false
     }
   },
-  "active": "3042ffb28e8a1384",
+  "active": "45d24862c5ba0782",
   "lastOpenFiles": [
+    "Project Notes/University/ART101/w4 Worksheet.md",
+    "Project Notes/University/ART101/ART101.md",
+    "Structure Notes/Courses.md",
+    "Project Notes/University/ART101/W1 Worksheet.md",
+    "Project Notes/University/ART101/W2 Worksheet.md",
+    "Project Notes/University/ART101/W3 Worksheet.md",
+    "Project Notes/University/ART101/ART101 Base.base",
     "Structure Notes/Home.md",
     "Project Notes/University/ART101/Hagia Sophia.md",
-    "Structure Notes/Courses.md",
     "Structure Notes/Structure Notes.md",
-    "Project Notes/University/ART101/ART101.base",
     "z - Attachments/resized/fe5d14d064e344fdb093a451286fe472_86cf658e.webp",
     "Inbox/Inbox.md",
     "Inbox/index",
-    "Project Notes/University/ART101/index.md",
     "Project Notes/index.md",
     "z - Attachments/resized/c6ea04bc89ff144c3bb22937fac4352f_86cf658e.webp",
     "z - Attachments/resized/fc755a8d670fd83b3c1f52bee640182b_86cf658e.webp",
@@ -302,12 +330,9 @@
     "z - Attachments/resized/11228d51f49df319c7640f83d7232b18_86cf658e.webp",
     "z - Attachments/resized",
     "Project Notes/University",
-    "Project Notes/University/ART101/W2 Worksheet.md",
-    "Project Notes/University/ART101/Worksheet 4.md",
     "Project Notes/University/ART101/Apse.md",
     "z - Attachments/banners",
     "Project Notes/University/ART101/Cathedral Chartres.md",
-    "Project Notes/University/ART101/W3 Worksheet.md",
     "Inbox/Renaissance.md",
     "Inbox/Eastern Roman Empire.md",
     "metadata-parsing-failures-2025-10-27T19-21-13.md",
@@ -323,7 +348,6 @@
     "Project Notes/University/ART101/The Last Judgment relief sculpture by Gislebertus.md",
     "z - Attachments/thumbnails/resized",
     "z - Attachments/thumbnails",
-    "z - Templates/default.md",
     "Project Notes/University/ART101",
     "W1 Worksheet.pdf",
     "z - Attachments"

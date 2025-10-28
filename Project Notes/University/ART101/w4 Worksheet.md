@@ -1,12 +1,12 @@
 ---
-state: "[[Focus]]"
 date: 2025-10-25
 created: 2025-10-25 17:50
-modified: 2025-10-25 17:55
+modified: 2025-10-27 21:10
 feature:
 tags:
   - courses/ART101
   - worksheet
+  - pinned
 description: "Covers: Baroque period: Painting, Sculpture and Architecture"
 ---
 

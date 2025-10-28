@@ -246,7 +246,7 @@
   ],
   "checkForUpdatesOnStart": true,
   "confirmBeforeDelete": true,
-  "searchActive": false,
+  "searchActive": true,
   "customVaultName": "",
   "pinnedNotes": {
     "Project Notes/University/ART101/W1 Worksheet.md": {
@@ -261,7 +261,7 @@
       "folder": true,
       "tag": false
     },
-    "Project Notes/University/ART101/Worksheet 4.md": {
+    "Project Notes/University/ART101/w4 Worksheet.md": {
       "folder": true,
       "tag": false
     }
@@ -274,8 +274,8 @@
     "Structure Notes": "rpg-awesome:ra-nodular",
     "z - Templates": "rpg-awesome:ra-cog",
     "/": "rpg-awesome:ra-queen-crown",
-    "Project Notes/University/ART101": "rpg-awesome:ra-burst-blob",
-    "Inbox": "rpg-awesome:ra-fast-ship"
+    "Inbox": "rpg-awesome:ra-fast-ship",
+    "Project Notes/University/ART101": "rpg-awesome:ra-burst-blob"
   },
   "folderColors": {},
   "folderBackgroundColors": {},

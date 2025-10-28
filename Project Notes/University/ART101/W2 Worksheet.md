@@ -1,12 +1,12 @@
 ---
 date: 2025-10-06
 created: 2025-10-06 12:05
-modified: 2025-10-12 23:00
+modified: 2025-10-27 21:11
 tags:
   - courses/ART101
   - worksheet
+  - pinned
 description: "Archaic, Ancient and Classical period: Painting, Sculpture and Architecture and the Medieval period: Painting, Sculpture and Architecture"
-state: "[[Focus]]"
 ---
 
 ## Terms to Define
