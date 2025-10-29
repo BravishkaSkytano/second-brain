@@ -30,30 +30,6 @@
               "icon": "lucide-file",
               "title": "W3 Worksheet"
             }
-          },
-          {
-            "id": "065c08776b34e51b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Structure Notes/Courses.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Courses"
-            }
           }
         ]
       }
@@ -305,14 +281,14 @@
   },
   "active": "45d24862c5ba0782",
   "lastOpenFiles": [
-    "Project Notes/University/ART101/w4 Worksheet.md",
-    "Project Notes/University/ART101/ART101.md",
     "Structure Notes/Courses.md",
+    "Project Notes/University/ART101/ART101.md",
+    "Structure Notes/Home.md",
+    "Project Notes/University/ART101/W3 Worksheet.md",
+    "Project Notes/University/ART101/w4 Worksheet.md",
     "Project Notes/University/ART101/W1 Worksheet.md",
     "Project Notes/University/ART101/W2 Worksheet.md",
-    "Project Notes/University/ART101/W3 Worksheet.md",
     "Project Notes/University/ART101/ART101 Base.base",
-    "Structure Notes/Home.md",
     "Project Notes/University/ART101/Hagia Sophia.md",
     "Structure Notes/Structure Notes.md",
     "z - Attachments/resized/fe5d14d064e344fdb093a451286fe472_86cf658e.webp",

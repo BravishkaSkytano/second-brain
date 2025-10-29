@@ -1,17 +1,22 @@
 {
-  "startView": "files",
-  "showTooltips": true,
-  "showTooltipPath": true,
-  "homepage": "Structure Notes/Home.md",
-  "mobileHomepage": null,
-  "useMobileHomepage": false,
-  "autoRevealActiveFile": true,
-  "autoRevealIgnoreRightSidebar": true,
   "fileVisibility": "supported",
   "excludedFolders": [],
   "excludedFiles": [],
+  "autoRevealActiveFile": true,
+  "autoRevealIgnoreRightSidebar": true,
+  "startView": "files",
+  "homepage": "Structure Notes/Home.md",
+  "mobileHomepage": null,
+  "useMobileHomepage": false,
+  "showTooltips": true,
+  "showTooltipPath": true,
+  "desktopBackground": "separate",
+  "desktopScale": 1,
+  "mobileBackground": "primary",
+  "mobileScale": 1,
   "dateFormat": "MMM d, yyyy",
   "timeFormat": "h:mm a",
+  "skipAutoScroll": false,
   "autoSelectFirstFileOnFocusChange": false,
   "navigationBanner": null,
   "showShortcuts": true,
@@ -27,25 +32,25 @@
   "navIndent": 16,
   "navItemHeight": 28,
   "navItemHeightScaleText": true,
-  "showHiddenItems": false,
   "showRootFolder": true,
   "inheritFolderColors": false,
   "enableFolderNotes": true,
   "folderNoteType": "markdown",
   "folderNoteName": "",
-  "folderNoteProperties": [],
-  "hideFolderNoteInList": true,
-  "pinCreatedFolderNote": false,
+  "folderNoteProperties": "",
+  "hideFolderNoteInList": false,
+  "pinCreatedFolderNote": true,
   "showTags": true,
   "showAllTagsFolder": true,
   "showUntagged": true,
   "tagSortOrder": "frequency-desc",
   "hiddenTags": [],
+  "keepEmptyTagsProperty": false,
   "defaultFolderSort": "modified-desc",
   "listPaneTitle": "header",
   "multiSelectModifier": "cmdCtrl",
-  "includeDescendantNotes": true,
-  "groupByDate": true,
+  "noteGrouping": "date",
+  "filterPinnedByFolder": true,
   "optimizeNoteHeight": true,
   "showQuickActions": true,
   "quickActionRevealInFolder": true,
@@ -62,6 +67,7 @@
   "iconizeFormat": false,
   "fileNameRows": 2,
   "showFileDate": true,
+  "alphabeticalDateMode": "modified",
   "showFileTags": true,
   "showFileTagAncestors": true,
   "colorFileTags": true,
@@ -246,7 +252,6 @@
   ],
   "checkForUpdatesOnStart": true,
   "confirmBeforeDelete": true,
-  "searchActive": true,
   "customVaultName": "",
   "pinnedNotes": {
     "Project Notes/University/ART101/W1 Worksheet.md": {
@@ -262,6 +267,110 @@
       "tag": false
     },
     "Project Notes/University/ART101/w4 Worksheet.md": {
+      "folder": true,
+      "tag": false
+    },
+    "private/30-39 Worldbuilding/30-39 Worldbuilding.md": {
+      "folder": true,
+      "tag": false
+    },
+    "private/50-59 Journal/50-59 Journal.md": {
+      "folder": true,
+      "tag": false
+    },
+    "private/10-19 Study Notes/10-19 Study Notes.md": {
+      "folder": true,
+      "tag": false
+    },
+    "private/20-29 Prose/20-29 Prose.md": {
+      "folder": true,
+      "tag": false
+    },
+    "private/10-19 Study Notes/12 Apologetics/12 Apologetics.md": {
+      "folder": true,
+      "tag": false
+    },
+    "private/50-59 Journal/2024/2024.md": {
+      "folder": true,
+      "tag": false
+    },
+    "private/10-19 Study Notes/11 Bible/11 Bible.md": {
+      "folder": true,
+      "tag": false
+    },
+    "private/10-19 Study Notes/13 English and Communication/13 English and Communication.md": {
+      "folder": true,
+      "tag": false
+    },
+    "private/10-19 Study Notes/16 Government/16 Government.md": {
+      "folder": true,
+      "tag": false
+    },
+    "private/10-19 Study Notes/17 History/17 History.md": {
+      "folder": true,
+      "tag": false
+    },
+    "private/10-19 Study Notes/14 Philosophy/14 Philosophy.md": {
+      "folder": true,
+      "tag": false
+    },
+    "private/20-29 Prose/Fiction/Fiction.md": {
+      "folder": true,
+      "tag": false
+    },
+    "private/10-19 Study Notes/15 Computer science/15 Computer science.md": {
+      "folder": true,
+      "tag": false
+    },
+    "private/10-19 Study Notes/REL1010/REL1010.md": {
+      "folder": true,
+      "tag": false
+    },
+    "private/10-19 Study Notes/SOC2110/SOC2110.md": {
+      "folder": true,
+      "tag": false
+    },
+    "private/20-29 Prose/Poetry/Poetry.md": {
+      "folder": true,
+      "tag": false
+    },
+    "private/10-19 Study Notes/12 Apologetics/APO391/APO391.md": {
+      "folder": true,
+      "tag": false
+    },
+    "private/50-59 Journal/2024/2024-11/2024-11.md": {
+      "folder": true,
+      "tag": false
+    },
+    "private/10-19 Study Notes/13 English and Communication/ENG101/ENG101.md": {
+      "folder": true,
+      "tag": false
+    },
+    "private/10-19 Study Notes/13 English and Communication/COM101/COM101.md": {
+      "folder": true,
+      "tag": false
+    },
+    "private/10-19 Study Notes/14 Philosophy/PHL113/PHL113.md": {
+      "folder": true,
+      "tag": false
+    },
+    "private/20-29 Prose/Fiction/Ilmaria story/Ilmaria story.md": {
+      "folder": true,
+      "tag": false
+    },
+    "private/20-29 Prose/Fiction/Light in the Shadows/Light in the Shadows.md": {
+      "folder": true,
+      "tag": false
+    },
+    "Inbox/Inbox.md": {
+      "folder": true,
+      "tag": false
+    },
+    "Structure Notes/Structure Notes.md": {
+      "folder": true,
+      "tag": false
+    },
+    "Project Notes/University/ART101/ART101.md": {
       "folder": true,
       "tag": false
     }
@@ -288,9 +397,9 @@
   "tagAppearances": {},
   "recentColors": [],
   "lastShownVersion": "",
-  "latestKnownRelease": "",
+  "latestKnownRelease": "1.7.2",
   "lastAnnouncedRelease": "",
-  "lastReleaseCheckAt": null,
+  "lastReleaseCheckAt": 1761752957899,
   "rootFolderOrder": [],
   "rootTagOrder": []
 }
