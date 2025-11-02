@@ -270,12 +270,10 @@
       "command-palette:Open command palette": false,
       "obsidian-book-search-plugin:Create new book note": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-task-progress-bar:Open Task Genius view": false,
       "templater-obsidian:Templater": false,
       "notebook-navigator:Notebook Navigator": false,
       "random-note:Open random note": false,
       "the-queue:Toggle Queue": false,
-      "project-browser:Open project browser": false,
       "index-notes:New note by copying metadata of focused note": false
     }
   },
