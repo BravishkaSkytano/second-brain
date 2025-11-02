@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project Notes/University/ART101/W3 Worksheet.md",
+                "file": "Project Notes/University/ART101/ART101.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "W3 Worksheet"
+              "title": "ART101"
+            }
+          },
+          {
+            "id": "2bcc81cdf918b71c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ART101 - Week 5.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ART101 - Week 5"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -277,10 +302,12 @@
       "index-notes:New note by copying metadata of focused note": false
     }
   },
-  "active": "45d24862c5ba0782",
+  "active": "2bcc81cdf918b71c",
   "lastOpenFiles": [
-    "Structure Notes/Courses.md",
+    "z - Templates/default.md",
+    "ART101 - Week 5.md",
     "Project Notes/University/ART101/ART101.md",
+    "Structure Notes/Courses.md",
     "Structure Notes/Home.md",
     "Project Notes/University/ART101/W3 Worksheet.md",
     "Project Notes/University/ART101/w4 Worksheet.md",
@@ -318,8 +345,6 @@
     "Project Notes/University/ART101/Tapestry.md",
     "Project Notes/University/ART101/Bayeux Tapestry.md",
     "Project Notes/University/ART101/The Creation of Adam (painting).md",
-    "Project Notes/University/ART101/Notre-Dame de Paris.md",
-    "Project Notes/University/ART101/The Last Judgment relief sculpture by Gislebertus.md",
     "z - Attachments/thumbnails/resized",
     "z - Attachments/thumbnails",
     "Project Notes/University/ART101",
