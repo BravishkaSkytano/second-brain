@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/University/ART101/ART101.md",
+                "file": "10–19 Personal & Faith/_README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,21 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ART101"
-            }
-          },
-          {
-            "id": "d800c1713886e953",
-            "type": "leaf",
-            "state": {
-              "type": "swar8080/AVAILABLE_PLUGIN_UPDATES",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin Updates"
+              "title": "_README"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -297,34 +286,44 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "1862072666159b8c",
+  "active": "b4629804e6199fa8",
   "lastOpenFiles": [
-    "Projects/Tasks/ART101 Quiz 5.md",
-    "Projects/Tasks/The Annotated Mona Lisa pp.66-109.md",
-    "Projects/Tasks/Art For God’s Sake.md",
-    "Projects/Tasks/“How Should We Then Live” pt. 5.md",
-    "Projects/University/ART101/ART101 Week 5.md",
-    "Index Notes/Index Notes.md",
-    "Projects/University/ART101/The Creation of Adam (painting).md",
-    "Projects/University/ART101/Masaccio.md",
-    "Projects/University/ART101/Gothic art.md",
-    "Projects/University/ART101/Fresco.md",
-    "Projects/University/ART101/Catacombs.md",
-    "Projects/University/ART101/W5 Worksheet.md",
-    "Projects/University/ART101/Apse.md",
-    "Index Notes/Artwork.md",
-    "Index Notes/People.md",
-    "Projects/University/ART101/Week 3 – Renaissance Worksheet & Study Guide.md",
     "Projects/University/ART101/ART101.md",
-    "z - Templates/study reference.md",
-    "z - Templates/work.md",
-    "z - Templates/place.md",
-    "z - Templates/person.md",
-    "z - Templates/concept.md",
-    "z - Templates/default.md",
-    "Projects/University/ART101/Leonardo da Vinci.md",
-    "Projects/University/ART101/Ionic capital.md",
-    "Projects/University/ART101/Obelisk.md",
+    "60–69 Archives & Backups/62.00 Backup & Exports/_README.md",
+    "60–69 Archives & Backups/60.00 Completed Projects/_README.md",
+    "60–69 Archives & Backups/61.00 Archived Notes/_README.md",
+    "60–69 Archives & Backups/62.00 Backup & Exports",
+    "60–69 Archives & Backups/_README.md",
+    "60–69 Archives & Backups/61.00 Archived Notes",
+    "60–69 Archives & Backups/60.00 Completed Projects",
+    "60–69 Archives & Backups",
+    "50–59 Research & Reference/53.00 Theology & Apologetics/_README.md",
+    "50–59 Research & Reference/55.00 Book Notes & Reviews/_README.md",
+    "50–59 Research & Reference/54.00 Behavioral Science/_README.md",
+    "50–59 Research & Reference/51.00 Technology & Tools/_README.md",
+    "50–59 Research & Reference/52.00 Writing Craft/_README.md",
+    "50–59 Research & Reference/50.00 General Research/_README.md",
+    "50–59 Research & Reference/_README.md",
+    "50–59 Research & Reference/53.00 Theology & Apologetics",
+    "50–59 Research & Reference/55.00 Book Notes & Reviews",
+    "50–59 Research & Reference/54.00 Behavioral Science",
+    "50–59 Research & Reference/52.00 Writing Craft",
+    "50–59 Research & Reference/51.00 Technology & Tools",
+    "50–59 Research & Reference/50.00 General Research",
+    "40–49 Craft & Design/44.00 Completed Projects/_README.md",
+    "40–49 Craft & Design/42.00 Fiber Arts Projects/_README.md",
+    "40–49 Craft & Design/41.00 Microlocs & Haircare/_README.md",
+    "40–49 Craft & Design/43.00 Tutorials & Techniques/_README.md",
+    "40–49 Craft & Design/40.00 Knitting & Crochet/_README.md",
+    "40–49 Craft & Design/_README.md",
+    "30–39 Creative & Writing/35.00 Story Development/_README.md",
+    "30–39 Creative & Writing/34.00 Blog & Website/_README.md",
+    "30–39 Creative & Writing/33.00 Characters/_README.md",
+    "30–39 Creative & Writing/32.00 Worldbuilding/_README.md",
+    "30–39 Creative & Writing/31.00 Creative Writing/_README.md",
+    "30–39 Creative & Writing/30.00 Active Projects/_README.md",
+    "30–39 Creative & Writing/_README.md",
+    "20–29 Education & Career/25.00 Tech & Research Hobbies/_README.md",
     "z - Attachments/resized/06f859bf53d39c9ba094bc5e2fddda8a_86cf658e.webp",
     "Projects/University/ART101/Mona Lisa-500x745.webp",
     "z - Attachments/resized/255bd3f4a2e00c66cb069edb13b56844_86cf658e.webp",
@@ -334,16 +333,6 @@
     "Projects/University/ART101/Cathedral of Florence-500x335.webp",
     "z - Attachments/resized/f2e60e47e8c0ab12a46d27d2cb490171_86cf658e.webp",
     "Projects/University/ART101/Albrecht Dürer-500x705.webp",
-    "z - Attachments/resized/f13f18a57e0691db7a732d08605e5947_86cf658e.webp",
-    "Projects/University/ART101/Projects/University/ART101/Masaccio-290x470",
-    "Projects/University/ART101/Projects/University/ART101",
-    "Projects/University/ART101/Projects/University",
-    "Projects/University/ART101/Projects",
-    "Projects/Tasks",
-    "Projects",
-    "Journal",
-    "Projects/University/ART101/ART101 Base.base",
-    "Inbox/index",
-    "z - Attachments/resized"
+    "z - Attachments/resized/f13f18a57e0691db7a732d08605e5947_86cf658e.webp"
   ]
 }
