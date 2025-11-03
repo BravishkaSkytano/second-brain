@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10–19 Personal & Faith/_README.md",
+                "file": "10–19 Personal & Faith/index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_README"
+              "title": "index"
             }
           }
         ]
@@ -286,8 +286,10 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "b4629804e6199fa8",
+  "active": "1862072666159b8c",
   "lastOpenFiles": [
+    "10–19 Personal & Faith/10.00 Personal Management/_README.md",
+    "10–19 Personal & Faith/index.md",
     "Projects/University/ART101/ART101.md",
     "60–69 Archives & Backups/62.00 Backup & Exports/_README.md",
     "60–69 Archives & Backups/60.00 Completed Projects/_README.md",
@@ -322,8 +324,6 @@
     "30–39 Creative & Writing/32.00 Worldbuilding/_README.md",
     "30–39 Creative & Writing/31.00 Creative Writing/_README.md",
     "30–39 Creative & Writing/30.00 Active Projects/_README.md",
-    "30–39 Creative & Writing/_README.md",
-    "20–29 Education & Career/25.00 Tech & Research Hobbies/_README.md",
     "z - Attachments/resized/06f859bf53d39c9ba094bc5e2fddda8a_86cf658e.webp",
     "Projects/University/ART101/Mona Lisa-500x745.webp",
     "z - Attachments/resized/255bd3f4a2e00c66cb069edb13b56844_86cf658e.webp",

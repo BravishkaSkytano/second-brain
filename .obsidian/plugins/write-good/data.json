@@ -132,7 +132,8 @@
     "z - templates/concept.md": true,
     "z - templates/work.md": true,
     "z - templates/place.md": true,
-    "z - templates/study reference.md": true
+    "z - templates/study reference.md": true,
+    "10–19 personal & faith/index.md": true
   },
   "enableChecksByDefault": true
 }
