@@ -126,7 +126,8 @@
     "projects/university/art101/the last supper.md": true,
     "index notes": true,
     "index notes/courses.md": true,
-    "index notes/people.md": true
+    "index notes/people.md": true,
+    "index notes/artwork.md": true
   },
   "enableChecksByDefault": true
 }

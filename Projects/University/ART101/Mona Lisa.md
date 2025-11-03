@@ -4,7 +4,7 @@ created: 2025-11-03 00:56
 modified: 2025-11-03 01:01
 tags:
   - course/ART101
-  - painting
+  - artwork/painting
 feature: Projects/University/ART101/Mona Lisa-500x745.webp
 thumbnail: z - Attachments/resized/06f859bf53d39c9ba094bc5e2fddda8a_86cf658e.webp
 ---

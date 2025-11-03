@@ -11,7 +11,7 @@ feature: "[[z - Attachments/Bayeux Tapestry-1760317947129.webp]]"
 ---
 
 > [!tldr] Tapestry
-> A **woven textile artwork** created by hand on a loom, where colored threads are woven together to form **pictures or patterns**. Tapestries were often used to **decorate walls**, **insulate rooms**, and **tell stories**, especially in castles and churches during the **Middle Ages**.
+> A **woven textile [[artwork]]** created by hand on a loom, where colored threads are woven together to form **pictures or patterns**. Tapestries were often used to **decorate walls**, **insulate rooms**, and **tell stories**, especially in castles and churches during the **Middle Ages**.
 > 
 > ![[Bayeux Tapestry-1760317947129.webp]]
 

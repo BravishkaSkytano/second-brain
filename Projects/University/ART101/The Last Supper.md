@@ -1,11 +1,10 @@
 ---
 date: 2025-11-03
 created: 2025-11-03 00:53
-modified: 2025-11-03 00:56
+modified: 2025-11-03 01:19
 tags:
   - course/ART101
-  - painting
-  - artwork
+  - artwork/painting
 feature: Projects/University/ART101/The Last Supper-500x250.webp
 thumbnail: z - Attachments/resized/255bd3f4a2e00c66cb069edb13b56844_86cf658e.webp
 ---

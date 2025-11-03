@@ -1,10 +1,10 @@
 ---
 date: 2025-10-06
 created: 2025-10-06 00:36
-modified: 2025-10-06 01:05
+modified: 2025-11-03 01:31
 tags:
   - course/ART101
-  - definition
+  - architecture/column
 ---
 
 > [!summary] Ionic capital

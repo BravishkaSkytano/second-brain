@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d783e4d5c422f299",
+        "id": "a7b19f47fc4b297f",
         "type": "tabs",
         "children": [
           {
-            "id": "45d24862c5ba0782",
+            "id": "b4629804e6199fa8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/University/ART101/ART101.md",
+                "file": "Projects/University/ART101/Ionic capital.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ART101"
+              "title": "Ionic capital"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#artwork",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -226,7 +226,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -286,22 +286,32 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "45d24862c5ba0782",
+  "active": "b4629804e6199fa8",
   "lastOpenFiles": [
+    "Projects/University/ART101/Obelisk.md",
+    "Projects/University/ART101/Ionic capital.md",
+    "Projects/University/ART101/Archaic.md",
+    "Projects/University/ART101/Hellenistic.md",
+    "Projects/University/ART101/The Creation of Adam (painting).md",
+    "Projects/University/ART101/Fresco.md",
+    "Projects/University/ART101/Michelangelo.md",
+    "Index Notes/Artwork.md",
+    "Projects/University/ART101/Mosaic.md",
+    "Projects/University/ART101/Hagia Sophia.md",
+    "Index Notes/Index Notes.md",
+    "Projects/University/ART101/The Last Supper.md",
+    "Projects/University/ART101/Mona Lisa.md",
+    "Projects/University/ART101/ART101.md",
     "Projects/Projects.md",
     "Index Notes/People.md",
     "Projects/University/ART101/Phidias.md",
-    "Index Notes/Index Notes.md",
     "Permanent Notes/index.md",
     "Index Notes/Courses.md",
     "Index Notes/Home.md",
-    "Projects/University/ART101/ART101.md",
     "Projects/University/ART101/Week 3 – Renaissance Worksheet & Study Guide.md",
-    "Projects/University/ART101/Mona Lisa.md",
     "z - Attachments/resized/06f859bf53d39c9ba094bc5e2fddda8a_86cf658e.webp",
     "Projects/University/ART101/Mona Lisa-500x745.webp",
     "z - Templates/default.md",
-    "Projects/University/ART101/The Last Supper.md",
     "Projects/University/ART101/Leonardo da Vinci.md",
     "z - Attachments/resized/255bd3f4a2e00c66cb069edb13b56844_86cf658e.webp",
     "Projects/University/ART101/The Last Supper-500x250.webp",
@@ -314,20 +324,10 @@
     "Projects/University/ART101/Albrecht Dürer-500x705.webp",
     "z - Attachments/resized/f13f18a57e0691db7a732d08605e5947_86cf658e.webp",
     "Projects/University/ART101/Florence.md",
-    "Projects/University/ART101/Raphael.md",
-    "Projects/University/ART101/Humanism.md",
-    "Projects/University/ART101/High Renaissance.md",
-    "Projects/University/ART101/Neoclassicism.md",
-    "Projects/University/ART101/Masaccio.md",
-    "Projects/University/ART101/Donatello.md",
-    "Projects/University/ART101/Sandro Botticelli.md",
-    "Projects/University/ART101/Michelangelo.md",
-    "Projects/University/ART101/Fresco.md",
     "Projects/University/ART101/Projects/University/ART101/Masaccio-290x470",
     "Projects/University/ART101/Projects/University/ART101",
     "Projects/University/ART101/Projects/University",
     "Projects/University/ART101/Projects",
-    "Projects/University/ART101/Oil on canvas.md",
     "Projects/Tasks",
     "Projects",
     "Journal",

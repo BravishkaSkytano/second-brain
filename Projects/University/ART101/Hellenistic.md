@@ -1,10 +1,10 @@
 ---
 date: 2025-10-05
 created: 2025-10-05 23:56
-modified: 2025-10-06 00:14
+modified: 2025-11-03 01:29
 tags:
   - course/ART101
-  - definition
+  - history/period
 ---
 
 > [!summary] Hellenistic

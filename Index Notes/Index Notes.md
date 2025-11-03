@@ -10,6 +10,8 @@ feature:
 
 > [!example] Meta-index
 > 
+> > [!example] [[Artwork]]
+> 
 > > [!example] [[Courses]]
 > 
 > > [!example] [[People]]

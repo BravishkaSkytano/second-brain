@@ -5,7 +5,7 @@ modified: 2025-11-03 00:06
 feature:
 tags:
   - course/ART101
-  - painting
+  - artwork/painting
 ---
 
 > [!tldr] Oil on canvas

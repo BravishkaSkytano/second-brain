@@ -5,7 +5,7 @@ modified: 2025-11-03 00:04
 feature:
 tags:
   - course/ART101
-  - painting
+  - artwork/painting
 ---
 
 > [!tldr] Tempera

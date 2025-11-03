@@ -17,5 +17,5 @@ feature: "[[z - Attachments/Byzantine art-1760304037177.webp]]"
 
 ^f45b4c
 
-Byzantine artwork is still maintained in Eastern Orthodox countries, specifically Greece, Cyprus, Serbia, Bulgaria, Romania, and Russia.
+Byzantine [[artwork]] is still maintained in Eastern Orthodox countries, specifically Greece, Cyprus, Serbia, Bulgaria, Romania, and Russia.
 

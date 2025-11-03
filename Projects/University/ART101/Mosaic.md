@@ -1,9 +1,10 @@
 ---
 date: 2025-10-12
 created: 2025-10-12 20:00
-modified: 2025-10-12 20:17
+modified: 2025-11-03 01:24
 tags:
   - course/ART101
+  - artwork/mosaic
 state: "[[Idea]]"
 image: z - Attachments/The Theodora Panels.webp
 thumbnail: "[[z - Attachments/resized/459510b920a16ee1520fa1d23d886811_86cf658e.webp]]"

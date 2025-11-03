@@ -1,9 +1,10 @@
 ---
 date: 2025-10-12
 created: 2025-10-12 19:41
-modified: 2025-10-12 19:48
+modified: 2025-11-03 01:28
 tags:
   - course/ART101
+  - artwork/painting
 image: z - Attachments/The Creation of Adam.webp
 thumbnail: "[[z - Attachments/resized/67150b79e95216b5235477053169078b_86cf658e.webp]]"
 feature: "[[z - Attachments/The Creation of Adam.webp]]"

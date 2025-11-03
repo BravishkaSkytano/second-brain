@@ -1,12 +1,10 @@
 ---
 date: 2025-10-05
 created: 2025-10-05 23:43
-modified: 2025-10-06 00:55
+modified: 2025-11-03 01:29
 tags:
   - course/ART101
   - definition
-q:
-  template: learn
 ---
 
 > [!summary] Archaic

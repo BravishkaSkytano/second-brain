@@ -3,6 +3,8 @@ date: 2020-05-02
 created: 2020-05-02 21:05
 modified: 2025-08-07 22:27
 view-count: 1
+tags:
+  - linker-exclude
 ---
 
 Sometimes I wonder what's different 'bout today
