@@ -25,5 +25,7 @@
   "index-notes",
   "related-notes-by-tag",
   "tag-wrangler",
-  "tasknotes"
+  "tasknotes",
+  "graph-banner",
+  "sync-graph-settings"
 ]

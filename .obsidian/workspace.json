@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project Notes/University/ART101/ART101.md",
+                "file": "Projects/University/ART101/ART101.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -29,30 +29,6 @@
               },
               "icon": "lucide-file",
               "title": "ART101"
-            }
-          },
-          {
-            "id": "33b5845489f847dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Week 5 Reading.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Week 5 Reading"
             }
           }
         ]
@@ -87,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:courses/ART101",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -278,7 +254,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -312,51 +288,51 @@
   },
   "active": "45d24862c5ba0782",
   "lastOpenFiles": [
-    "Week 5 Reading.md",
-    "Project Notes/University/ART101/ART101.md",
-    "ART101 - Week 5.md",
-    "“How Should We Then Live” pt. 5.md",
-    "_Art For God’s Sake_, read and ready to discuss.md",
-    "_The Annotated Mona Lisa_ pp.66-109.md",
-    "Journal",
+    "Projects/Projects.md",
+    "Index Notes/People.md",
+    "Projects/University/ART101/Phidias.md",
+    "Index Notes/Index Notes.md",
+    "Permanent Notes/index.md",
+    "Index Notes/Courses.md",
+    "Index Notes/Home.md",
+    "Projects/University/ART101/ART101.md",
+    "Projects/University/ART101/Week 3 – Renaissance Worksheet & Study Guide.md",
+    "Projects/University/ART101/Mona Lisa.md",
+    "z - Attachments/resized/06f859bf53d39c9ba094bc5e2fddda8a_86cf658e.webp",
+    "Projects/University/ART101/Mona Lisa-500x745.webp",
     "z - Templates/default.md",
-    "Structure Notes/Courses.md",
-    "Structure Notes/Home.md",
-    "Project Notes/University/ART101/W3 Worksheet.md",
-    "Project Notes/University/ART101/w4 Worksheet.md",
-    "Project Notes/University/ART101/W1 Worksheet.md",
-    "Project Notes/University/ART101/W2 Worksheet.md",
-    "Project Notes/University/ART101/ART101 Base.base",
-    "Project Notes/University/ART101/Hagia Sophia.md",
-    "Structure Notes/Structure Notes.md",
-    "z - Attachments/resized/fe5d14d064e344fdb093a451286fe472_86cf658e.webp",
-    "Inbox/Inbox.md",
+    "Projects/University/ART101/The Last Supper.md",
+    "Projects/University/ART101/Leonardo da Vinci.md",
+    "z - Attachments/resized/255bd3f4a2e00c66cb069edb13b56844_86cf658e.webp",
+    "Projects/University/ART101/The Last Supper-500x250.webp",
+    "Projects/University/ART101/Cathedral of Florence.md",
+    "z - Attachments/resized/344c5c7f2612efc12b36a05b08587351_86cf658e.webp",
+    "z - Attachments/resized/b38798f86a15a6a443f9da50a1d1b214_86cf658e.webp",
+    "Projects/University/ART101/Cathedral of Florence-500x335.webp",
+    "Projects/University/ART101/Albrecht Dürer.md",
+    "z - Attachments/resized/f2e60e47e8c0ab12a46d27d2cb490171_86cf658e.webp",
+    "Projects/University/ART101/Albrecht Dürer-500x705.webp",
+    "z - Attachments/resized/f13f18a57e0691db7a732d08605e5947_86cf658e.webp",
+    "Projects/University/ART101/Florence.md",
+    "Projects/University/ART101/Raphael.md",
+    "Projects/University/ART101/Humanism.md",
+    "Projects/University/ART101/High Renaissance.md",
+    "Projects/University/ART101/Neoclassicism.md",
+    "Projects/University/ART101/Masaccio.md",
+    "Projects/University/ART101/Donatello.md",
+    "Projects/University/ART101/Sandro Botticelli.md",
+    "Projects/University/ART101/Michelangelo.md",
+    "Projects/University/ART101/Fresco.md",
+    "Projects/University/ART101/Projects/University/ART101/Masaccio-290x470",
+    "Projects/University/ART101/Projects/University/ART101",
+    "Projects/University/ART101/Projects/University",
+    "Projects/University/ART101/Projects",
+    "Projects/University/ART101/Oil on canvas.md",
+    "Projects/Tasks",
+    "Projects",
+    "Journal",
+    "Projects/University/ART101/ART101 Base.base",
     "Inbox/index",
-    "Project Notes/index.md",
-    "z - Attachments/resized/c6ea04bc89ff144c3bb22937fac4352f_86cf658e.webp",
-    "z - Attachments/resized/fc755a8d670fd83b3c1f52bee640182b_86cf658e.webp",
-    "z - Attachments/resized/b7aeabaa21e1ff02c96c37288177834d_86cf658e.webp",
-    "z - Attachments/resized/c866ac8c5bcb1b669a55225bcddcd0c3_86cf658e.webp",
-    "z - Attachments/resized/459510b920a16ee1520fa1d23d886811_86cf658e.webp",
-    "z - Attachments/resized/dff53448fd53f1fe33f20c6ac4451ad4_86cf658e.webp",
-    "z - Attachments/resized/8513c5e77fc2dd8678027f18ebb79113_86cf658e.webp",
-    "z - Attachments/resized/67150b79e95216b5235477053169078b_86cf658e.webp",
-    "z - Attachments/resized/11228d51f49df319c7640f83d7232b18_86cf658e.webp",
-    "z - Attachments/resized",
-    "Project Notes/University",
-    "Project Notes/University/ART101/Apse.md",
-    "z - Attachments/banners",
-    "Project Notes/University/ART101/Cathedral Chartres.md",
-    "Inbox/Renaissance.md",
-    "Inbox/Eastern Roman Empire.md",
-    "metadata-parsing-failures-2025-10-27T19-21-13.md",
-    "Project Notes/University/ART101/Byzantine art.md",
-    "conflict-files-obsidian-git.md",
-    "Project Notes/University/ART101/Nave.md",
-    "Project Notes/University/ART101/Clerestory.md",
-    "z - Attachments/thumbnails/resized",
-    "z - Attachments/thumbnails",
-    "Project Notes/University/ART101",
-    "W1 Worksheet.pdf"
+    "z - Attachments/resized"
   ]
 }

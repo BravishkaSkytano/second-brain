@@ -11,13 +11,9 @@
     {
       "type": "CURRENT",
       "name": "Same folder as current note"
-    },
-    {
-      "name": "Same folder, but include resolution",
-      "type": "SUBFOLDER"
     }
   ],
-  "selectedFolderPreset": "Same folder, but include resolution",
+  "selectedFolderPreset": "Same folder as current note",
   "filenamePresets": [
     {
       "name": "Keep original name",
@@ -30,9 +26,15 @@
       "customTemplate": "{notename}-{timestamp}",
       "skipRenamePatterns": "",
       "conflictResolution": "increment"
+    },
+    {
+      "name": "NoteName-Resolution",
+      "customTemplate": "{notename}-{resolution}",
+      "skipRenamePatterns": "",
+      "conflictResolution": "increment"
     }
   ],
-  "selectedFilenamePreset": "NoteName-Timestamp",
+  "selectedFilenamePreset": "NoteName-Resolution",
   "outputFormat": "NONE",
   "quality": 100,
   "colorDepth": 1,

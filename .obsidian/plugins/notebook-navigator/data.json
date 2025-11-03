@@ -5,7 +5,7 @@
   "autoRevealActiveFile": true,
   "autoRevealIgnoreRightSidebar": true,
   "startView": "files",
-  "homepage": "Structure Notes/Home.md",
+  "homepage": null,
   "mobileHomepage": null,
   "useMobileHomepage": false,
   "showTooltips": true,
@@ -254,22 +254,6 @@
   "confirmBeforeDelete": true,
   "customVaultName": "",
   "pinnedNotes": {
-    "Project Notes/University/ART101/W1 Worksheet.md": {
-      "folder": true,
-      "tag": false
-    },
-    "Project Notes/University/ART101/W2 Worksheet.md": {
-      "folder": true,
-      "tag": false
-    },
-    "Project Notes/University/ART101/W3 Worksheet.md": {
-      "folder": true,
-      "tag": false
-    },
-    "Project Notes/University/ART101/w4 Worksheet.md": {
-      "folder": true,
-      "tag": false
-    },
     "private/30-39 Worldbuilding/30-39 Worldbuilding.md": {
       "folder": true,
       "tag": false
@@ -366,11 +350,35 @@
       "folder": true,
       "tag": false
     },
-    "Structure Notes/Structure Notes.md": {
+    "Projects/University/ART101/ART101.md": {
       "folder": true,
       "tag": false
     },
-    "Project Notes/University/ART101/ART101.md": {
+    "Projects/University/ART101/W1 Worksheet.md": {
+      "folder": true,
+      "tag": false
+    },
+    "Projects/University/ART101/W2 Worksheet.md": {
+      "folder": true,
+      "tag": false
+    },
+    "Projects/University/ART101/w4 Worksheet.md": {
+      "folder": true,
+      "tag": false
+    },
+    "Projects/Projects.md": {
+      "folder": true,
+      "tag": false
+    },
+    "Projects/University/ART101/W5 Worksheet.md": {
+      "folder": true,
+      "tag": false
+    },
+    "Projects/University/ART101/Week 3 – Renaissance Worksheet & Study Guide.md": {
+      "folder": true,
+      "tag": false
+    },
+    "Index Notes/Index Notes.md": {
       "folder": true,
       "tag": false
     }
@@ -378,14 +386,14 @@
   "fileIcons": {},
   "fileColors": {},
   "folderIcons": {
-    "Project Notes": "phosphor:ph-toolbox",
     "Literature Notes": "rpg-awesome:ra-book",
-    "Structure Notes": "rpg-awesome:ra-nodular",
     "z - Templates": "rpg-awesome:ra-cog",
     "/": "rpg-awesome:ra-queen-crown",
     "Inbox": "rpg-awesome:ra-fast-ship",
-    "Project Notes/University/ART101": "rpg-awesome:ra-burst-blob",
-    "Journal": "rpg-awesome:ra-locked-fortress"
+    "Journal": "rpg-awesome:ra-locked-fortress",
+    "Projects/University/ART101": "rpg-awesome:ra-burst-blob",
+    "Projects": "phosphor:ph-toolbox",
+    "Index Notes": "rpg-awesome:ra-nodular"
   },
   "folderColors": {},
   "folderBackgroundColors": {},
@@ -400,7 +408,7 @@
   "lastShownVersion": "",
   "latestKnownRelease": "1.7.2",
   "lastAnnouncedRelease": "",
-  "lastReleaseCheckAt": 1761752957899,
+  "lastReleaseCheckAt": 1762142682591,
   "rootFolderOrder": [],
   "rootTagOrder": []
 }
