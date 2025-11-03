@@ -127,7 +127,12 @@
     "index notes": true,
     "index notes/courses.md": true,
     "index notes/people.md": true,
-    "index notes/artwork.md": true
+    "index notes/artwork.md": true,
+    "z - templates/person.md": true,
+    "z - templates/concept.md": true,
+    "z - templates/work.md": true,
+    "z - templates/place.md": true,
+    "z - templates/study reference.md": true
   },
   "enableChecksByDefault": true
 }

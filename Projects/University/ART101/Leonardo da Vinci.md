@@ -1,7 +1,7 @@
 ---
 date: 2025-11-03
 created: 2025-11-03 00:35
-modified: 2025-11-03 00:43
+modified: 2025-11-03 01:37
 feature: Projects/University/ART101/Leonardo da Vinci-500x716.webp
 tags:
   - course/ART101
@@ -11,6 +11,8 @@ tags:
   - person/sculptor
   - person/architect
   - person/engineer
+  - period/high-renaissance
+  - place/Italy
 aliases:
   - da Vinci
 thumbnail: z - Attachments/resized/f13f18a57e0691db7a732d08605e5947_86cf658e.webp

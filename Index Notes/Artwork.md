@@ -18,10 +18,17 @@ feature:
 > - **Museum**
 > 	- [[Hagia Sophia]]
 > - **Painting**
+> 	- [[Fresco]]
 > 	- [[Mona Lisa]]
 > 	- [[Oil on canvas]]
 > 	- [[Tempera]]
 > 	- [[The Creation of Adam (painting)]]
 > 	- [[The Last Supper]]
+> 	- **[[Fresco]]**
+> 		- [[The Creation of Adam (painting)]]
+> 	- **Technique**
+> 		- [[Fresco]]
+> - **Style**
+> 	- [[Gothic art]]
 > 
 > ^indexof-artwork

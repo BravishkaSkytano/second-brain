@@ -1,18 +1,18 @@
 ---
 date: 2025-10-12
 created: 2025-10-12 19:41
-modified: 2025-11-03 01:28
+modified: 2025-11-03 02:12
 tags:
   - course/ART101
   - artwork/painting
-image: z - Attachments/The Creation of Adam.webp
-thumbnail: "[[z - Attachments/resized/67150b79e95216b5235477053169078b_86cf658e.webp]]"
+  - artwork/painting/fresco
 feature: "[[z - Attachments/The Creation of Adam.webp]]"
+thumbnail: "[[z - Attachments/resized/67150b79e95216b5235477053169078b_86cf658e.webp]]"
 ---
 
 ![[The Creation of Adam.webp|375x170]]
 
-The Creation of Adam is a renowned [[Fresco|fresco]] painting by Italian artist Michelangelo, created between 1508 and 1512 as part of the decoration of the Sistine Chapel ceiling in Vatican City. It illustrates the Biblical creation narrative from the Book of Genesis, depicting the moment when God imparts life to Adam, the first man. The painting is the fourth in a series of nine central panels on the ceiling, which depict key episodes from the Genesis creation story 
+The Creation of Adam is a renowned [[Fresco|fresco]] painting by Italian artist [[Michelangelo]], created between 1508 and 1512 as part of the decoration of the Sistine Chapel ceiling in Vatican City. It illustrates the Biblical creation narrative from the Book of Genesis, depicting the moment when God imparts life to Adam, the first man. The painting is the fourth in a series of nine central panels on the ceiling, which depict key episodes from the Genesis creation story 
 
 Michelangelo was originally commissioned to paint the Twelve Apostles on the pendentives and to decorate the central ceiling with ornamental designs, but he persuaded Pope Julius II to allow him a more ambitious scheme that included complex scenes from Genesis, the Fall of Man, the Promise of Salvation, and the genealogy of Christ. The composition features God, depicted as an elderly, muscular man with a long beard, floating in a swirling cloak surrounded by angels, reaching out to touch Adam, who lies on the ground, his hand extended in a mirrored pose. The near-touching index fingers of God and Adam have become one of the most iconic images in Western art, symbolizing the transfer of divine life 
 

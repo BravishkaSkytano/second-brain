@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/University/ART101/Ionic capital.md",
+                "file": "Projects/University/ART101/ART101.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,21 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ionic capital"
+              "title": "ART101"
+            }
+          },
+          {
+            "id": "d800c1713886e953",
+            "type": "leaf",
+            "state": {
+              "type": "swar8080/AVAILABLE_PLUGIN_UPDATES",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin Updates"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#artwork",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -286,44 +297,44 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "b4629804e6199fa8",
+  "active": "1862072666159b8c",
   "lastOpenFiles": [
-    "Projects/University/ART101/Obelisk.md",
-    "Projects/University/ART101/Ionic capital.md",
-    "Projects/University/ART101/Archaic.md",
-    "Projects/University/ART101/Hellenistic.md",
-    "Projects/University/ART101/The Creation of Adam (painting).md",
-    "Projects/University/ART101/Fresco.md",
-    "Projects/University/ART101/Michelangelo.md",
-    "Index Notes/Artwork.md",
-    "Projects/University/ART101/Mosaic.md",
-    "Projects/University/ART101/Hagia Sophia.md",
+    "Projects/Tasks/ART101 Quiz 5.md",
+    "Projects/Tasks/The Annotated Mona Lisa pp.66-109.md",
+    "Projects/Tasks/Art For God’s Sake.md",
+    "Projects/Tasks/“How Should We Then Live” pt. 5.md",
+    "Projects/University/ART101/ART101 Week 5.md",
     "Index Notes/Index Notes.md",
-    "Projects/University/ART101/The Last Supper.md",
-    "Projects/University/ART101/Mona Lisa.md",
-    "Projects/University/ART101/ART101.md",
-    "Projects/Projects.md",
+    "Projects/University/ART101/The Creation of Adam (painting).md",
+    "Projects/University/ART101/Masaccio.md",
+    "Projects/University/ART101/Gothic art.md",
+    "Projects/University/ART101/Fresco.md",
+    "Projects/University/ART101/Catacombs.md",
+    "Projects/University/ART101/W5 Worksheet.md",
+    "Projects/University/ART101/Apse.md",
+    "Index Notes/Artwork.md",
     "Index Notes/People.md",
-    "Projects/University/ART101/Phidias.md",
-    "Permanent Notes/index.md",
-    "Index Notes/Courses.md",
-    "Index Notes/Home.md",
     "Projects/University/ART101/Week 3 – Renaissance Worksheet & Study Guide.md",
-    "z - Attachments/resized/06f859bf53d39c9ba094bc5e2fddda8a_86cf658e.webp",
-    "Projects/University/ART101/Mona Lisa-500x745.webp",
+    "Projects/University/ART101/ART101.md",
+    "z - Templates/study reference.md",
+    "z - Templates/work.md",
+    "z - Templates/place.md",
+    "z - Templates/person.md",
+    "z - Templates/concept.md",
     "z - Templates/default.md",
     "Projects/University/ART101/Leonardo da Vinci.md",
+    "Projects/University/ART101/Ionic capital.md",
+    "Projects/University/ART101/Obelisk.md",
+    "z - Attachments/resized/06f859bf53d39c9ba094bc5e2fddda8a_86cf658e.webp",
+    "Projects/University/ART101/Mona Lisa-500x745.webp",
     "z - Attachments/resized/255bd3f4a2e00c66cb069edb13b56844_86cf658e.webp",
     "Projects/University/ART101/The Last Supper-500x250.webp",
-    "Projects/University/ART101/Cathedral of Florence.md",
     "z - Attachments/resized/344c5c7f2612efc12b36a05b08587351_86cf658e.webp",
     "z - Attachments/resized/b38798f86a15a6a443f9da50a1d1b214_86cf658e.webp",
     "Projects/University/ART101/Cathedral of Florence-500x335.webp",
-    "Projects/University/ART101/Albrecht Dürer.md",
     "z - Attachments/resized/f2e60e47e8c0ab12a46d27d2cb490171_86cf658e.webp",
     "Projects/University/ART101/Albrecht Dürer-500x705.webp",
     "z - Attachments/resized/f13f18a57e0691db7a732d08605e5947_86cf658e.webp",
-    "Projects/University/ART101/Florence.md",
     "Projects/University/ART101/Projects/University/ART101/Masaccio-290x470",
     "Projects/University/ART101/Projects/University/ART101",
     "Projects/University/ART101/Projects/University",
