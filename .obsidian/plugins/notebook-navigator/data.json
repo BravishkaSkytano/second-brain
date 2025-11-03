@@ -384,7 +384,8 @@
     "z - Templates": "rpg-awesome:ra-cog",
     "/": "rpg-awesome:ra-queen-crown",
     "Inbox": "rpg-awesome:ra-fast-ship",
-    "Project Notes/University/ART101": "rpg-awesome:ra-burst-blob"
+    "Project Notes/University/ART101": "rpg-awesome:ra-burst-blob",
+    "Journal": "rpg-awesome:ra-locked-fortress"
   },
   "folderColors": {},
   "folderBackgroundColors": {},

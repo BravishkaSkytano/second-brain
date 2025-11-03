@@ -11,7 +11,5 @@ tags:
 
 
 > [!example] Projects
-> - **University**
-> 	- **[[ART101]]: ART101 - Visual and Performing Arts**
 > 
 > ^indexof-projects

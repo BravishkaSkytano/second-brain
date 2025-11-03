@@ -10,7 +10,6 @@ tags:
 
 > [!example] Courses
 > - **Art101**
-> 	- **[[ART101]]: ART101 - Visual and Performing Arts**
 > 	- **[[W1 Worksheet]]**
 > 	- **[[W2 Worksheet]]**
 > 	- **[[W3 Worksheet]]**

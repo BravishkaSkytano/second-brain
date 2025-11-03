@@ -1,14 +1,15 @@
 ---
 date: 2025-11-02
 created: 2025-11-02 12:44
-modified: 2025-11-02 12:46
+modified: 2025-11-02 17:40
 feature:
 tags:
 ---
-- [ ] **Week 5 Reading:** 
-	- [ ] _The Annotated Mona Lisa_: pp.66-109
-	- [ ] _Art For God’s Sake_, read and ready to discuss
-	- [ ] “How Should We Then Live?” pt. 5
+
+- [[Week 5 Reading]]
+	- [[_The Annotated Mona Lisa_ pp.66-109]]
+	- [[_Art For God’s Sake_, read and ready to discuss]]
+	- [[“How Should We Then Live” pt. 5]]
 
 **Week 5 Assignment:**
 
@@ -16,9 +17,7 @@ Covers: Enlightenment and Modern period: Painting, Sculpture and Architecture, a
 
 Use Google to complete the following worksheet and become familiar with the material.  There will be a quiz that is due by the end of the week. 
 
-**Week 5 Quiz:**
-
-See the link below. Closed book and closed notes. You may not use your study guide, books or notes. Answers must come from the result of study and memorization.
+- [ ] Week 5 Quiz
 
 **Field Trip**
 
