@@ -405,15 +405,7 @@
       "folder": true,
       "tag": false
     },
-    "00-00 System & Templates/index.md": {
-      "folder": true,
-      "tag": false
-    },
     "60–69 Archives & Backups/index.md": {
-      "folder": true,
-      "tag": false
-    },
-    "00-00 System & Templates/02 Templates/index.md": {
       "folder": true,
       "tag": false
     },
@@ -442,6 +434,14 @@
       "tag": false
     },
     "index.md": {
+      "folder": true,
+      "tag": false
+    },
+    "00-09 System & Templates/index.md": {
+      "folder": true,
+      "tag": false
+    },
+    "00-09 System & Templates/02 Templates/index.md": {
       "folder": true,
       "tag": false
     }

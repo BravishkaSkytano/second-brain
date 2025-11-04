@@ -12,7 +12,7 @@ icon: rpg-awesome:ra-queen-crown
 
 > [!example] Meta-index of: JD
 > 
-> > [!example] [[00-00 System & Templates/index|Index]]: 00-09 System & Templates
+> > [!example] [[00-09 System & Templates/index|Index]]: 00-09 System & Templates
 > 
 > > [!example] [[10–19 Personal & Faith/index|Index]]: 10-19 Personal & Faith
 > 
