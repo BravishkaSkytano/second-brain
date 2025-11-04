@@ -6,9 +6,9 @@ tags:
   - course/ART101
 state: "[[Final]]"
 image: z - Attachments/Bayeux Tapestry-1760317947129.webp
-thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/400918749eca90aecddb19975f2bd302_86cf658e.webp
-feature: "[[z - Attachments/Bayeux Tapestry-1760317947129.webp]]"
-cover: z - Attachments/Bayeux Tapestry-1760317947129.webp
+thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/66b724a1ac6b379f36760f42e0da5050_86cf658e.webp
+feature: "[[Bayeux Tapestry-1760317947129.webp]]"
+cover: 00-09 System & Templates/05 Covers & Thumbnails/Bayeux Tapestry-1760317947129.webp
 ---
 
 > [!tldr] Tapestry

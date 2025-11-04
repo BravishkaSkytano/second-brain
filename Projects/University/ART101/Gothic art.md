@@ -9,9 +9,9 @@ tags:
 aliases:
   - Gothic
 image: z - Attachments/The Rose Window of Chartres Cathedral-South Transept.webp
-thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/dff53448fd53f1fe33f20c6ac4451ad4_86cf658e.webp
-feature: "[[z - Attachments/The Rose Window of Chartres Cathedral-South Transept.webp]]"
-cover: z - Attachments/The Rose Window of Chartres Cathedral-South Transept.webp
+thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/99fa97d45483c2ebbd39a64c19c30203_86cf658e.webp
+feature: "[[The Rose Window of Chartres Cathedral-South Transept.webp]]"
+cover: 00-09 System & Templates/05 Covers & Thumbnails/The Rose Window of Chartres Cathedral-South Transept.webp
 ---
 
 > [!tldr] Gothic art

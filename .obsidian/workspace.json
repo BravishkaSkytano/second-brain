@@ -13,10 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "z - Attachments/The Creation of Adam.webp"
+                "file": "00-09 System & Templates/05 Covers & Thumbnails/Hagia Sophia-1761596077883.webp"
               },
               "icon": "lucide-image",
-              "title": "The Creation of Adam"
+              "title": "Hagia Sophia-1761596077883"
             }
           }
         ]
@@ -272,13 +272,25 @@
       "tasknotes:Open pomodoro": false,
       "tasknotes:Open pomodoro stats": false,
       "tasknotes:Create new task": false,
-      "callout-manager:Insert Callout": false
+      "callout-manager:Insert Callout": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "b4629804e6199fa8",
+  "active": "1862072666159b8c",
   "lastOpenFiles": [
-    "00-09 System & Templates/05 Covers & Thumbnails/resized/06f859bf53d39c9ba094bc5e2fddda8a_86cf658e.webp",
-    "00-09 System & Templates/05 Covers & Thumbnails/resized/Hagia Sophia-1761594887075.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/da1a18bfc8153cfd0d79f67afff72fd5_86cf658e.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/cc336482177d16a73c37e26ee763092f_86cf658e.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/99fa97d45483c2ebbd39a64c19c30203_86cf658e.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/c8819991c6256cb359806655a1b281b7_86cf658e.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/9dd98e3ccc0ee7fcc1721619f37f5f0f_86cf658e.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/aa95c93851718909de74e39234f4ef0d_86cf658e.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/57e6c84b189c8c05165e269688dff147_86cf658e.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/33c978864ba65f24be94803770139f53_86cf658e.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/66b724a1ac6b379f36760f42e0da5050_86cf658e.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/7e46bdacbcfe995bb471d8bc09ce5574_86cf658e.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/Byzantine art-1760304037177.webp",
+    "Projects/University/ART101/The Rose Window of Chartres Cathedral.md",
+    "Projects/University/ART101/Rose Window.md",
     "00-09 System & Templates/README.md",
     "00-09 System & Templates/05 Covers & Thumbnails",
     "00-09 System & Templates/06 Tag Notes",
@@ -311,17 +323,6 @@
     "20–29 Education & Career/_README.md",
     "10–19 Personal & Faith/11.00 Faith & Spiritual Growth/index.md",
     "10–19 Personal & Faith/10.00 Personal Overview/index.md",
-    "10–19 Personal & Faith/14.00 Relationships/index.md",
-    "10–19 Personal & Faith/13.00 Health & Wellbeing/index.md",
-    "10–19 Personal & Faith/12.00 Personal Development/index.md",
-    "Projects/University/ART101/Mona Lisa-500x745.webp",
-    "00-09 System & Templates/05 Covers & Thumbnails/resized/255bd3f4a2e00c66cb069edb13b56844_86cf658e.webp",
-    "Projects/University/ART101/The Last Supper-500x250.webp",
-    "00-09 System & Templates/05 Covers & Thumbnails/resized/344c5c7f2612efc12b36a05b08587351_86cf658e.webp",
-    "z - Attachments/resized/b38798f86a15a6a443f9da50a1d1b214_86cf658e.webp",
-    "Projects/University/ART101/Cathedral of Florence-500x335.webp",
-    "00-09 System & Templates/05 Covers & Thumbnails/resized/f2e60e47e8c0ab12a46d27d2cb490171_86cf658e.webp",
-    "Projects/University/ART101/Albrecht Dürer-500x705.webp",
-    "00-09 System & Templates/05 Covers & Thumbnails/resized/f13f18a57e0691db7a732d08605e5947_86cf658e.webp"
+    "10–19 Personal & Faith/14.00 Relationships/index.md"
   ]
 }

@@ -8,11 +8,11 @@ tags:
   - artwork/painting/technique
   - artwork/painting/fresco
 image: z - Attachments/The Creation of Adam.webp
-thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/67150b79e95216b5235477053169078b_86cf658e.webp
-feature: "[[z - Attachments/The Creation of Adam.webp]]"
+thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/c8819991c6256cb359806655a1b281b7_86cf658e.webp
+feature: "[[The Creation of Adam.webp]]"
 aliases:
   - frescoes
-cover: z - Attachments/The Creation of Adam.webp
+cover: 00-09 System & Templates/05 Covers & Thumbnails/The Creation of Adam.webp
 ---
 
 > [!tldr] Fresco
