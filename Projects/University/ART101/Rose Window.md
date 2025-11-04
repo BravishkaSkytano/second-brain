@@ -6,8 +6,9 @@ tags:
   - course/ART101
 state: "[[Final]]"
 image: z - Attachments/The Rose Window of Chartres Cathedral - West Transept.webp
-thumbnail: "[[z - Attachments/resized/fc755a8d670fd83b3c1f52bee640182b_86cf658e.webp]]"
+thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/fc755a8d670fd83b3c1f52bee640182b_86cf658e.webp
 feature: "[[z - Attachments/The Rose Window of Chartres Cathedral - West Transept.webp]]"
+cover: z - Attachments/The Rose Window of Chartres Cathedral - West Transept.webp
 ---
 
 > [!tldr] Rose Window

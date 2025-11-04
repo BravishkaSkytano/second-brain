@@ -1,17 +1,14 @@
 ---
 title: 00-09 System & Templates
 date: 2025-11-03
+description: Vault setup, Obsidian customizations, templates, workflows, and automation notes.
 created: 2025-11-03 20:57
-modified: 2025-11-03 22:26
+modified: 2025-11-04 16:09
 tags:
   - _jd/00-00/meta_idx
 feature:
 icon: rpg-awesome:ra-cog
 ---
-
-> [!help] What does this area hold?
-> Vault setup, Obsidian customizations, templates, workflows, and automation notes.
-
 
 | **Folder / Subfolder**    | **Description**                                                             | **Example Notes**                                                                            |
 | ------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |

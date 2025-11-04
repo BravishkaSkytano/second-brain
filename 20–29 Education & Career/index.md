@@ -2,7 +2,7 @@
 title: 20-29 Education & Career
 date: 2025-11-03
 created: 2025-11-03 20:42
-modified: 2025-11-03 22:26
+modified: 2025-11-04 15:46
 tags:
   - _jd/20-29/meta_idx
 feature:
@@ -14,7 +14,7 @@ icon: phosphor:ph-student
 
 | **Folder**                                   | **Description**                                                                           | **Example Notes**                                                                             |
 | -------------------------------------------- | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| **20.00 Education Overview**                 | Big-picture notes about your academic path and philosophy of learning.                    | `20.01 Degree Plans`, `20.02 Education Philosophy`, `20.03 Career Vision`                     |
+| **20 Education Overview**                    | Big-picture notes about your academic path and philosophy of learning.                    | `20.01 Degree Plans`, `20.02 Education Philosophy`, `20.03 Career Vision`                     |
 | **21 Teaching & Classroom**                  | Instructional strategies, classroom techniques, and day-to-day teaching notes.            | `21.01 Lesson Plans`, `21.02 Classroom Management Tips`, `21.03 Engagement Strategies`        |
 | **22 Special Education**                     | Strategies and notes on supporting students with special needs.                           | `22.01 ABA Methods`, `22.02 IEP Collaboration`, `22.03 Sensory Support Techniques`            |
 | **23 Child Development & Psychology**        | Developmental stages, learning styles, behavior, and applied psychology.                  | `23.01 Development Milestones`, `23.02 Behavioral Observations`, `23.03 Learning Differences` |

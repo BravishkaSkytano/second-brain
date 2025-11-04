@@ -11,24 +11,12 @@
             "id": "b4629804e6199fa8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "00-09 System & Templates/index.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "z - Attachments/The Creation of Adam.webp"
               },
-              "icon": "lucide-file",
-              "title": "index"
+              "icon": "lucide-image",
+              "title": "The Creation of Adam"
             }
           }
         ]
@@ -287,34 +275,37 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "1862072666159b8c",
+  "active": "b4629804e6199fa8",
   "lastOpenFiles": [
-    "10–19 Personal & Faith/index.md",
-    "60–69 Archives & Backups/index.md",
-    "50–59 Research & Reference/index.md",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/06f859bf53d39c9ba094bc5e2fddda8a_86cf658e.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/Hagia Sophia-1761594887075.webp",
+    "00-09 System & Templates/README.md",
+    "00-09 System & Templates/05 Covers & Thumbnails",
+    "00-09 System & Templates/06 Tag Notes",
+    "30–39 Creative & Writing/README.md",
     "40–49 Craft & Design/index.md",
-    "30–39 Creative & Writing/index.md",
+    "40–49 Craft & Design/40 Knitting & Crochet/index.md",
+    "10–19 Personal & Faith/11 Faith & Spiritual Growth/index.md",
+    "10–19 Personal & Faith/13 Ministry & Service/index.md",
+    "10–19 Personal & Faith/index.md",
     "20–29 Education & Career/index.md",
-    "00-09 System & Templates/index.md",
-    "index.md",
-    "Index Notes/Index Notes.md",
+    "40–49 Craft & Design/46 Design & Planning",
+    "40–49 Craft & Design/43 Tools & Materials",
+    "40–49 Craft & Design/45 Tutorials and Techniques",
+    "40–49 Craft & Design/48 Completed Projects",
+    "40–49 Craft & Design/44 Inspiration & Ideas",
+    "40–49 Craft & Design/47 Problem Solving & Notes",
+    "40–49 Craft & Design/49 Reference & Resources",
+    "40–49 Craft & Design/42 Fiber Arts Projects",
     "10–19 Personal & Faith/15 Relationships & Community/index.md",
     "10–19 Personal & Faith/14 Character & Personal Growth/index.md",
-    "10–19 Personal & Faith/13 Ministry & Service/index.md",
     "10–19 Personal & Faith/12 Theology & Biblical Study/index.md",
-    "10–19 Personal & Faith/11 Faith & Spiritual Growth/index.md",
     "10–19 Personal & Faith/10 Personal Overview/index.md",
+    "60–69 Archives & Backups/index.md",
+    "50–59 Research & Reference/index.md",
+    "index.md",
+    "Index Notes/Index Notes.md",
     "00-09 System & Templates/02 Templates/index.md",
-    "10–19 Personal & Faith/19 Personal Resources",
-    "10–19 Personal & Faith/18 Life Planning & Finances",
-    "10–19 Personal & Faith/17 Journals & Reflections",
-    "10–19 Personal & Faith/16 Wellness & Self-Care",
-    "10–19 Personal & Faith/15 Relationships & Community",
-    "10–19 Personal & Faith/14 Character & Personal Growth",
-    "10–19 Personal & Faith/13 Ministry & Service",
-    "10–19 Personal & Faith/12 Theology & Biblical Study",
-    "10–19 Personal & Faith/11 Faith & Spiritual Growth",
-    "10–19 Personal & Faith/10 Personal Overview",
     "00-09 System & Templates/02 Templates/book.md",
     "00-09 System & Templates/02 Templates/default.md",
     "20–29 Education & Career/_README.md",
@@ -323,17 +314,14 @@
     "10–19 Personal & Faith/14.00 Relationships/index.md",
     "10–19 Personal & Faith/13.00 Health & Wellbeing/index.md",
     "10–19 Personal & Faith/12.00 Personal Development/index.md",
-    "Projects/University/ART101/ART101.md",
-    "60–69 Archives & Backups/62.00 Backup & Exports/_README.md",
-    "z - Attachments/resized/06f859bf53d39c9ba094bc5e2fddda8a_86cf658e.webp",
     "Projects/University/ART101/Mona Lisa-500x745.webp",
-    "z - Attachments/resized/255bd3f4a2e00c66cb069edb13b56844_86cf658e.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/255bd3f4a2e00c66cb069edb13b56844_86cf658e.webp",
     "Projects/University/ART101/The Last Supper-500x250.webp",
-    "z - Attachments/resized/344c5c7f2612efc12b36a05b08587351_86cf658e.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/344c5c7f2612efc12b36a05b08587351_86cf658e.webp",
     "z - Attachments/resized/b38798f86a15a6a443f9da50a1d1b214_86cf658e.webp",
     "Projects/University/ART101/Cathedral of Florence-500x335.webp",
-    "z - Attachments/resized/f2e60e47e8c0ab12a46d27d2cb490171_86cf658e.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/f2e60e47e8c0ab12a46d27d2cb490171_86cf658e.webp",
     "Projects/University/ART101/Albrecht Dürer-500x705.webp",
-    "z - Attachments/resized/f13f18a57e0691db7a732d08605e5947_86cf658e.webp"
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/f13f18a57e0691db7a732d08605e5947_86cf658e.webp"
   ]
 }

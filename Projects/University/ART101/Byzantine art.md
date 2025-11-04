@@ -5,8 +5,9 @@ modified: 2025-10-12 18:29
 tags:
   - course/ART101
 image: z - Attachments/Byzantine art-1760304037177.webp
-thumbnail: "[[z - Attachments/resized/11228d51f49df319c7640f83d7232b18_86cf658e.webp]]"
+thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/11228d51f49df319c7640f83d7232b18_86cf658e.webp
 feature: "[[z - Attachments/Byzantine art-1760304037177.webp]]"
+cover: z - Attachments/Byzantine art-1760304037177.webp
 ---
 
 > [!tldr] Byzantine art

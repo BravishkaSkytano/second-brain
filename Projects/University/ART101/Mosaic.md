@@ -7,8 +7,9 @@ tags:
   - artwork/mosaic
 state: "[[Idea]]"
 image: z - Attachments/The Theodora Panels.webp
-thumbnail: "[[z - Attachments/resized/459510b920a16ee1520fa1d23d886811_86cf658e.webp]]"
+thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/459510b920a16ee1520fa1d23d886811_86cf658e.webp
 feature: "[[z - Attachments/The Theodora Panels.webp]]"
+cover: z - Attachments/The Theodora Panels.webp
 ---
 
 > [!tldr] Mosaic

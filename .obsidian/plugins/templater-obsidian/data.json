@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "00-00 System & Templates/02 Templates",
+  "templates_folder": "00-09 System & Templates/02 Templates",
   "templates_pairs": [
     [
       "",
@@ -16,7 +16,7 @@
   "folder_templates": [
     {
       "folder": "/",
-      "template": "00-00 System & Templates/02 Templates/default.md"
+      "template": "00-09 System & Templates/02 Templates/default.md"
     }
   ],
   "enable_file_templates": false,

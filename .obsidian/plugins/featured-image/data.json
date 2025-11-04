@@ -1,9 +1,9 @@
 {
   "showNotificationsOnUpdate": true,
-  "frontmatterProperty": "feature",
-  "thumbnailsFolder": "z - Attachments",
+  "frontmatterProperty": "cover",
+  "thumbnailsFolder": "00-09 System & Templates/05 Covers & Thumbnails",
   "excludedFolders": [
-    "z - Templates"
+    "00-09 System & Templates/02 Templates"
   ],
   "createResizedThumbnail": true,
   "resizedFrontmatterProperty": "thumbnail",
@@ -21,6 +21,8 @@
   "requireExclamationForYouTube": true,
   "downloadExternalImages": false,
   "downloadYoutubeThumbnails": true,
+  "debugMode": false,
+  "dryRun": false,
   "imageExtensions": [
     "png",
     "jpg",
@@ -34,7 +36,5 @@
     "mov",
     "m4v",
     "webm"
-  ],
-  "debugMode": false,
-  "dryRun": false
+  ]
 }

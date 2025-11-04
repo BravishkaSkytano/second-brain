@@ -13,7 +13,8 @@ aliases:
 banner: "![[arion-thorne.jpg]]"
 banner_y: 0.216
 feature: "[[private/20-29 Prose/Fiction/Ilmaria story/Characters/images/arion-thorne.jpg]]"
-thumbnail: "[[z - Attachments/thumbnails/resized/fa5ffaaee7ca3fc95611557cb10bb3c4_86cf658e.webp]]"
+thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/fa5ffaaee7ca3fc95611557cb10bb3c4_86cf658e.webp
+cover: private/20-29 Prose/Fiction/Ilmaria story/Characters/images/arion-thorne.jpg
 ---
 
 ![[private/20-29 Prose/Fiction/Ilmaria story/Characters/images/arion-thorne.jpg]]

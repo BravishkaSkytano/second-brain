@@ -7,7 +7,8 @@ tags:
   - artwork/painting
   - artwork/painting/fresco
 feature: "[[z - Attachments/The Creation of Adam.webp]]"
-thumbnail: "[[z - Attachments/resized/67150b79e95216b5235477053169078b_86cf658e.webp]]"
+thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/67150b79e95216b5235477053169078b_86cf658e.webp
+cover: z - Attachments/The Creation of Adam.webp
 ---
 
 ![[The Creation of Adam.webp|375x170]]

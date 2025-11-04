@@ -97,20 +97,29 @@
     }
   ],
   "switcher:open": [],
-  "notebook-navigator:search": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "O"
-    }
-  ],
   "notebook-navigator:open-homepage": [
     {
       "modifiers": [
         "Alt"
       ],
       "key": "H"
+    }
+  ],
+  "global-search:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ],
+  "notebook-navigator:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
     }
   ]
 }

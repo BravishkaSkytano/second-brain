@@ -6,8 +6,9 @@ tags:
   - course/ART101
 state: "[[Final]]"
 image: z - Attachments/Flying Buttress-1760315669597.webp
-thumbnail: "[[z - Attachments/resized/8513c5e77fc2dd8678027f18ebb79113_86cf658e.webp]]"
+thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/8513c5e77fc2dd8678027f18ebb79113_86cf658e.webp
 feature: "[[z - Attachments/Flying Buttress-1760315669597.webp]]"
+cover: z - Attachments/Flying Buttress-1760315669597.webp
 ---
 
 > [!tldr] Flying Buttress
