@@ -2,14 +2,14 @@
 title: 20-29 Education & Career
 date: 2025-11-03
 created: 2025-11-03 20:42
-modified: 2025-11-03 21:25
+modified: 2025-11-03 22:26
 tags:
-  - 20-29/meta_idx
+  - _jd/20-29/meta_idx
 feature:
 icon: phosphor:ph-student
 ---
 
-> [!help] What's in this zone?
+> [!help] What does this area hold?
 > Teaching, classroom strategies, professional development, certifications, and career-related projects.
 
 | **Folder**                                   | **Description**                                                                           | **Example Notes**                                                                             |
@@ -25,6 +25,7 @@ icon: phosphor:ph-student
 | **28 Professional Resources**                | Articles, PDFs, and other reference material for education and career development.        | `28.01 Teaching Articles`, `28.02 Classroom Templates`, `28.03 Education Blogs`               |
 | **29 Research & Reflection**                 | Notes on research projects, reflective teaching journals, or experiments in education.    | `29.01 Classroom Experiments`, `29.02 Reflective Journal`, `29.03 Teaching Observations`      |
 
-> [!example] Meta-index of: 20-29
+
+> [!example] Meta-index of: JD / 20-29
 > 
-> ^indexof-
+> ^indexof-jd-

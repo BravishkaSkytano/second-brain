@@ -1,11 +1,10 @@
 ---
+title: 11 Faith & Spiritual Growth
 date: 2025-11-03
+description: Notes on Bible study, sermons, devotions, and your walk with Christ.
 created: 2025-11-03 21:35
-modified: 2025-11-03 21:36
+modified: 2025-11-03 22:18
 tags:
-  - 10-19/11
+  - _jd/10-19/11
 feature:
 ---
-
-> [!help] What's in this folder?
-> Notes on Bible study, sermons, devotions, and your walk with Christ.

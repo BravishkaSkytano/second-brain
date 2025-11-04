@@ -2,14 +2,14 @@
 title: 30-39 Creative & Writing
 date: 2025-11-03
 created: 2025-11-03 20:47
-modified: 2025-11-03 21:25
+modified: 2025-11-03 22:26
 tags:
-  - 30-39/meta_idx
+  - _jd/30-39/meta_idx
 feature:
 icon: rpg-awesome:ra-scroll-unfurled
 ---
 
-> [!help] What's in this zone?
+> [!help] What does this area hold?
 > Story projects, creative writing, worldbuilding, characters, blog content, and editing notes.
 
 | **Folder**                          | **Description**                                                                                   | **Example Notes**                                                                                       |
@@ -25,6 +25,7 @@ icon: rpg-awesome:ra-scroll-unfurled
 | **38.00 Editing & Revision**        | Notes on editing process, revisions, and feedback.                                                | `38.01 Revision Checklist`, `38.02 Beta Reader Notes`, `38.03 Style Adjustments`                        |
 | **39.00 Archive & Completed Works** | Finished stories, old drafts, or retired ideas.                                                   | `39.01 Published Stories`, `39.02 Old Drafts`, `39.03 Abandoned Concepts`                               |
 
-> [!example] Meta-index of: 30-39
+
+> [!example] Meta-index of: JD / 30-39
 > 
-> ^indexof-
+> ^indexof-jd-

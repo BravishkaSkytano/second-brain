@@ -2,14 +2,14 @@
 title: 00-09 System & Templates
 date: 2025-11-03
 created: 2025-11-03 20:57
-modified: 2025-11-03 21:32
+modified: 2025-11-03 22:26
 tags:
-  - 00-00/meta_idx
+  - _jd/00-00/meta_idx
 feature:
 icon: rpg-awesome:ra-cog
 ---
 
-> [!help] What's in this zone?
+> [!help] What does this area hold?
 > Vault setup, Obsidian customizations, templates, workflows, and automation notes.
 
 
@@ -21,6 +21,7 @@ icon: rpg-awesome:ra-cog
 | 04 Reference & Guides     | How-to notes for using your vault or systems you reference often            | `04.01 JD System Guide`, `04.02 Obsidian Tips`, `04.03 Markdown Cheatsheet`                  |
 | 05 Tag Notes              | Index notes for hierarchical tags                                           |                                                                                              |
 
-> [!example] Meta-index of: 00-00
+
+> [!example] Meta-index of: JD / 00-00
 > 
-> ^indexof-
+> ^indexof-jd-

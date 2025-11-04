@@ -2,14 +2,14 @@
 title: 40-49 Craft & Design
 date: 2025-11-03
 created: 2025-11-03 20:48
-modified: 2025-11-03 21:25
+modified: 2025-11-03 22:26
 tags:
-  - 40-49/meta_idx
+  - _jd/40-49/meta_idx
 feature:
 icon: phosphor:ph-yarn
 ---
 
-> [!help] What's in this zone?
+> [!help] What does this area hold?
 > Knitting, crochet, microlocs, fiber arts, tutorials, tools, and project planning.
 
 | **Folder**                        | **Description**                                                   | **Example Notes**                                                                   |
@@ -25,6 +25,8 @@ icon: phosphor:ph-yarn
 | **48.00 Problem Solving & Notes** | Notes on mistakes, troubleshooting, or technique refinements.     | `48.01 Fixing Mistakes`, `48.02 Technique Refinements`, `48.03 Lessons Learned`     |
 | **49.00 Reference & Resources**   | Guides, books, blogs, or external resources for craft and design. | `49.01 Craft Books`, `49.02 Online Articles`, `49.03 Tutorials`                     |
 
-> [!example] Meta-index of: 40-49
+
+
+> [!example] Meta-index of: JD / 40-49
 > 
-> ^indexof-
+> ^indexof-jd-

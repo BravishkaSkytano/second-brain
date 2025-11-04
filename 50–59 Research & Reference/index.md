@@ -2,14 +2,14 @@
 title: 50-59 Research & Reference
 date: 2025-11-03
 created: 2025-11-03 20:50
-modified: 2025-11-03 21:25
+modified: 2025-11-03 22:26
 tags:
-  - 50-59/meta_idx
+  - _jd/50-59/meta_idx
 feature:
 icon: rpg-awesome:ra-book
 ---
 
-> [!help] What's in this zone?
+> [!help] What does this area hold?
 > General reference, research, academic notes, book summaries, and creative or tech research.
 
 | **Folder**                                 | **Description**                                                                                 | **Example Notes**                                                                                          |
@@ -25,6 +25,7 @@ icon: rpg-awesome:ra-book
 | **58.00 Databases & Collections**          | Collections of resources, data sets, or research material organized for reference.              | `58.01 Citation Database`, `58.02 Research Libraries`, `58.03 Study Collections`                           |
 | **59.00 Archive & Miscellaneous Research** | Old notes, deprecated research, or miscellaneous references that might be useful later.         | `59.01 Archived Articles`, `59.02 Old Project Research`, `59.03 Miscellaneous Notes`                       |
 
-> [!example] Meta-index of: 50-59
+
+> [!example] Meta-index of: JD / 50-59
 > 
-> ^indexof-
+> ^indexof-jd-

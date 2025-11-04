@@ -84,7 +84,10 @@
   "showFilePreview": true,
   "skipHeadingsInPreview": true,
   "skipCodeBlocksInPreview": true,
-  "previewProperties": [],
+  "previewProperties": [
+    "description",
+    "summary"
+  ],
   "previewRows": 2,
   "showFeatureImage": true,
   "featureImageProperties": [
@@ -256,6 +259,10 @@
     {
       "type": "folder",
       "path": "Inbox"
+    },
+    {
+      "type": "note",
+      "path": "index.md"
     }
   ],
   "checkForUpdatesOnStart": true,
@@ -415,6 +422,26 @@
       "tag": false
     },
     "10–19 Personal & Faith/11 Faith & Spiritual Growth/index.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10–19 Personal & Faith/12 Theology & Biblical Study/index.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10–19 Personal & Faith/13 Ministry & Service/index.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10–19 Personal & Faith/14 Character & Personal Growth/index.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10–19 Personal & Faith/15 Relationships & Community/index.md": {
+      "folder": true,
+      "tag": false
+    },
+    "index.md": {
       "folder": true,
       "tag": false
     }

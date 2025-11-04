@@ -2,15 +2,13 @@
 title: 10-19 Personal & Faith
 date: 2025-11-03
 created: 2025-11-03 18:08
-modified: 2025-11-03 21:28
+modified: 2025-11-03 22:26
 tags:
-  - 10-19/meta_idx
+  - _jd/10-19/meta_idx
 feature:
 icon: rpg-awesome:ra-leaf
+description: My spiritual life, personal growth, character development, journals, and life planning.
 ---
-
-> [!help] What's in this zone?
-> My spiritual life, personal growth, character development, journals, and life planning.
 
 | **Folder**                         | **Description**                                                                                           | **Example Notes**                                                                                                 |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
@@ -24,6 +22,8 @@ icon: rpg-awesome:ra-leaf
 | **17 Journals & Reflections**      | Personal journals, gratitude logs, or spiritual reflections.                                              | `17.01 Gratitude Journal`, `17.02 Monthly Reflections`, `17.03 Testimonies`                                       |
 | **18 Life Planning & Finances**    | Goal setting, budgeting, and planning through a faith-based lens.                                         | `18.01 Budget Template`, `18.02 Stewardship Notes`, `18.03 Long-Term Goals`                                       |
 | **19 Personal Resources**          | Saved articles, devotionals, quotes, or external resources.                                               | `19.01 Favorite Verses`, `19.02 Spiritual Reading List`, `19.03 Inspirational Quotes`                             |
-> [!example] Meta-index of: 10-19
+
+
+> [!example] Meta-index of: JD / 10-19
 > 
-> ^indexof-
+> ^indexof-jd-

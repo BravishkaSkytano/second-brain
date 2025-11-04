@@ -138,7 +138,8 @@
     "00-00 system & templates/02 templates/book.md": true,
     "00-00 system & templates/01 vault setup & settings": true,
     "00-00 system & templates/03 workflow & automation": true,
-    "00-00 system & templates/04 reference & guides": true
+    "00-00 system & templates/04 reference & guides": true,
+    "index.md": true
   },
   "enableChecksByDefault": true
 }
