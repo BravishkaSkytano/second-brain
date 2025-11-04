@@ -39,7 +39,7 @@
   "inheritFolderColors": false,
   "enableFolderNotes": true,
   "folderNoteType": "markdown",
-  "folderNoteName": "README",
+  "folderNoteName": "index",
   "folderNoteProperties": "",
   "hideFolderNoteInList": false,
   "pinCreatedFolderNote": true,
@@ -381,6 +381,22 @@
     "Index Notes/Index Notes.md": {
       "folder": true,
       "tag": false
+    },
+    "20–29 Education & Career/index.md": {
+      "folder": true,
+      "tag": false
+    },
+    "30–39 Creative & Writing/index.md": {
+      "folder": true,
+      "tag": false
+    },
+    "40–49 Craft & Design/index.md": {
+      "folder": true,
+      "tag": false
+    },
+    "50–59 Research & Reference/index.md": {
+      "folder": true,
+      "tag": false
     }
   },
   "fileIcons": {},
@@ -393,7 +409,8 @@
     "Journal": "rpg-awesome:ra-locked-fortress",
     "Projects/University/ART101": "rpg-awesome:ra-burst-blob",
     "Projects": "phosphor:ph-toolbox",
-    "Index Notes": "rpg-awesome:ra-nodular"
+    "Index Notes": "rpg-awesome:ra-nodular",
+    "10–19 Personal & Faith": "rpg-awesome:ra-leaf"
   },
   "folderColors": {},
   "folderBackgroundColors": {},

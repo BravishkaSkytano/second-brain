@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10–19 Personal & Faith/index.md",
+                "file": "50–59 Research & Reference/index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -224,7 +224,7 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabetical",
                 "useHierarchy": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -286,10 +286,19 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "1862072666159b8c",
+  "active": "168e51d5da63cfcf",
   "lastOpenFiles": [
-    "10–19 Personal & Faith/10.00 Personal Management/_README.md",
+    "40–49 Craft & Design/index.md",
+    "50–59 Research & Reference/index.md",
+    "30–39 Creative & Writing/index.md",
+    "20–29 Education & Career/index.md",
     "10–19 Personal & Faith/index.md",
+    "10–19 Personal & Faith/11.00 Faith & Spiritual Growth/index.md",
+    "10–19 Personal & Faith/10.00 Personal Overview/index.md",
+    "10–19 Personal & Faith/14.00 Relationships/index.md",
+    "10–19 Personal & Faith/13.00 Health & Wellbeing/index.md",
+    "10–19 Personal & Faith/12.00 Personal Development/index.md",
+    "z - Templates/default.md",
     "Projects/University/ART101/ART101.md",
     "60–69 Archives & Backups/62.00 Backup & Exports/_README.md",
     "60–69 Archives & Backups/60.00 Completed Projects/_README.md",
@@ -315,15 +324,6 @@
     "40–49 Craft & Design/44.00 Completed Projects/_README.md",
     "40–49 Craft & Design/42.00 Fiber Arts Projects/_README.md",
     "40–49 Craft & Design/41.00 Microlocs & Haircare/_README.md",
-    "40–49 Craft & Design/43.00 Tutorials & Techniques/_README.md",
-    "40–49 Craft & Design/40.00 Knitting & Crochet/_README.md",
-    "40–49 Craft & Design/_README.md",
-    "30–39 Creative & Writing/35.00 Story Development/_README.md",
-    "30–39 Creative & Writing/34.00 Blog & Website/_README.md",
-    "30–39 Creative & Writing/33.00 Characters/_README.md",
-    "30–39 Creative & Writing/32.00 Worldbuilding/_README.md",
-    "30–39 Creative & Writing/31.00 Creative Writing/_README.md",
-    "30–39 Creative & Writing/30.00 Active Projects/_README.md",
     "z - Attachments/resized/06f859bf53d39c9ba094bc5e2fddda8a_86cf658e.webp",
     "Projects/University/ART101/Mona Lisa-500x745.webp",
     "z - Attachments/resized/255bd3f4a2e00c66cb069edb13b56844_86cf658e.webp",
