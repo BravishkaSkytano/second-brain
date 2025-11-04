@@ -11,12 +11,24 @@
             "id": "b4629804e6199fa8",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "00-09 System & Templates/05 Covers & Thumbnails/Hagia Sophia-1761596077883.webp"
+                "file": "10–19 Personal & Faith/README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-image",
-              "title": "Hagia Sophia-1761596077883"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -276,8 +288,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1862072666159b8c",
+  "active": "b4629804e6199fa8",
   "lastOpenFiles": [
+    "00-09 System & Templates/05 Covers & Thumbnails/Hagia Sophia-1761596077883.webp",
     "00-09 System & Templates/05 Covers & Thumbnails/resized/da1a18bfc8153cfd0d79f67afff72fd5_86cf658e.webp",
     "00-09 System & Templates/05 Covers & Thumbnails/resized/cc336482177d16a73c37e26ee763092f_86cf658e.webp",
     "00-09 System & Templates/05 Covers & Thumbnails/resized/99fa97d45483c2ebbd39a64c19c30203_86cf658e.webp",
@@ -288,7 +301,6 @@
     "00-09 System & Templates/05 Covers & Thumbnails/resized/33c978864ba65f24be94803770139f53_86cf658e.webp",
     "00-09 System & Templates/05 Covers & Thumbnails/resized/66b724a1ac6b379f36760f42e0da5050_86cf658e.webp",
     "00-09 System & Templates/05 Covers & Thumbnails/resized/7e46bdacbcfe995bb471d8bc09ce5574_86cf658e.webp",
-    "00-09 System & Templates/05 Covers & Thumbnails/Byzantine art-1760304037177.webp",
     "Projects/University/ART101/The Rose Window of Chartres Cathedral.md",
     "Projects/University/ART101/Rose Window.md",
     "00-09 System & Templates/README.md",
@@ -299,7 +311,7 @@
     "40–49 Craft & Design/40 Knitting & Crochet/index.md",
     "10–19 Personal & Faith/11 Faith & Spiritual Growth/index.md",
     "10–19 Personal & Faith/13 Ministry & Service/index.md",
-    "10–19 Personal & Faith/index.md",
+    "10–19 Personal & Faith/README.md",
     "20–29 Education & Career/index.md",
     "40–49 Craft & Design/46 Design & Planning",
     "40–49 Craft & Design/43 Tools & Materials",

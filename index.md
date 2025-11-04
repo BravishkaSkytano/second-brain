@@ -10,9 +10,9 @@ icon: rpg-awesome:ra-queen-crown
 ---
 
 
+
+
 > [!example] Meta-index of: JD
-> 
-> > [!example] [[10–19 Personal & Faith/index|Index]]: 10-19 Personal & Faith
 > 
 > > [!example] [[20–29 Education & Career/index|Index]]: 20-29 Education & Career
 > 
@@ -23,6 +23,8 @@ icon: rpg-awesome:ra-queen-crown
 > > [!example] [[60–69 Archives & Backups/index|Index]]: 60-69 Archives & Backups
 > 
 > > [!example] [[00-09 System & Templates/README|README]]: 00-09 System & Templates
+> 
+> > [!example] [[10–19 Personal & Faith/README|README]]: 10-19 Personal & Faith
 > 
 > > [!example] [[30–39 Creative & Writing/README|README]]: 30-39 Creative & Writing
 > 

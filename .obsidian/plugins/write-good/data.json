@@ -117,7 +117,6 @@
     "index notes/courses.md": true,
     "index notes/people.md": true,
     "index notes/artwork.md": true,
-    "10–19 personal & faith/index.md": true,
     "index.md": true,
     "00-09 system & templates": true,
     "00-09 system & templates/02 templates": true,
@@ -160,7 +159,8 @@
     "00-09 system & templates/05 covers & thumbnails/the rose window of chartres cathedral - north transept.webp": true,
     "00-09 system & templates/05 covers & thumbnails/the rose window of chartres cathedral - west transept.webp": true,
     "00-09 system & templates/05 covers & thumbnails/the last judgment relief sculpture by gislebertus-1760308783744.webp": true,
-    "00-09 system & templates/05 covers & thumbnails/byzantine art-1760304097954.webp": true
+    "00-09 system & templates/05 covers & thumbnails/byzantine art-1760304097954.webp": true,
+    "10–19 personal & faith/readme.md": true
   },
   "enableChecksByDefault": true
 }
