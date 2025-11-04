@@ -397,6 +397,26 @@
     "50–59 Research & Reference/index.md": {
       "folder": true,
       "tag": false
+    },
+    "00-00 System & Templates/index.md": {
+      "folder": true,
+      "tag": false
+    },
+    "60–69 Archives & Backups/index.md": {
+      "folder": true,
+      "tag": false
+    },
+    "00-00 System & Templates/02 Templates/index.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10–19 Personal & Faith/10 Personal Overview/index.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10–19 Personal & Faith/11 Faith & Spiritual Growth/index.md": {
+      "folder": true,
+      "tag": false
     }
   },
   "fileIcons": {},

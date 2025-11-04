@@ -2,16 +2,19 @@
 title: 10-19 Personal & Faith
 date: 2025-11-03
 created: 2025-11-03 18:08
-modified: 2025-11-03 20:45
+modified: 2025-11-03 21:28
 tags:
   - 10-19/meta_idx
 feature:
 icon: rpg-awesome:ra-leaf
 ---
 
+> [!help] What's in this zone?
+> My spiritual life, personal growth, character development, journals, and life planning.
+
 | **Folder**                         | **Description**                                                                                           | **Example Notes**                                                                                                 |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| **10.00 Personal Overview**        | A big-picture look at your personal and spiritual journey — your goals, reflections, and rhythms of life. | `10.01 Life Vision`, `10.02 Personal Rule of Life`, `10.03 Yearly Reflection`, `10.04 Personal Mission Statement` |
+| **10 Personal Overview**           | A big-picture look at your personal and spiritual journey — your goals, reflections, and rhythms of life. | `10.01 Life Vision`, `10.02 Personal Rule of Life`, `10.03 Yearly Reflection`, `10.04 Personal Mission Statement` |
 | **11 Faith & Spiritual Growth**    | Notes on Bible study, sermons, devotions, and your walk with Christ.                                      | `11.01 Daily Devotions`, `11.02 Bible Study Notes`, `11.03 Sermon Reflections`, `11.04 Prayer Journal`            |
 | **12 Theology & Biblical Study**   | Deeper, more analytical notes — theology, doctrines, and word studies.                                    | `12.01 Attributes of God`, `12.02 Study on Grace`, `12.03 Book of Romans Notes`                                   |
 | **13 Ministry & Service**          | Notes related to serving others, volunteering, or leading ministry work.                                  | `13.01 Ministry Ideas`, `13.02 Volunteering Notes`, `13.03 Discipleship Guides`                                   |

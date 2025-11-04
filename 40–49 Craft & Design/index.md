@@ -2,12 +2,15 @@
 title: 40-49 Craft & Design
 date: 2025-11-03
 created: 2025-11-03 20:48
-modified: 2025-11-03 20:49
+modified: 2025-11-03 21:25
 tags:
   - 40-49/meta_idx
 feature:
 icon: phosphor:ph-yarn
 ---
+
+> [!help] What's in this zone?
+> Knitting, crochet, microlocs, fiber arts, tutorials, tools, and project planning.
 
 | **Folder**                        | **Description**                                                   | **Example Notes**                                                                   |
 | --------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------- |

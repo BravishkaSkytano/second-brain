@@ -2,12 +2,15 @@
 title: 20-29 Education & Career
 date: 2025-11-03
 created: 2025-11-03 20:42
-modified: 2025-11-03 20:47
+modified: 2025-11-03 21:25
 tags:
   - 20-29/meta_idx
 feature:
 icon: phosphor:ph-student
 ---
+
+> [!help] What's in this zone?
+> Teaching, classroom strategies, professional development, certifications, and career-related projects.
 
 | **Folder**                                   | **Description**                                                                           | **Example Notes**                                                                             |
 | -------------------------------------------- | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |

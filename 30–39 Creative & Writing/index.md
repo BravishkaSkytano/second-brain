@@ -2,12 +2,15 @@
 title: 30-39 Creative & Writing
 date: 2025-11-03
 created: 2025-11-03 20:47
-modified: 2025-11-03 20:48
+modified: 2025-11-03 21:25
 tags:
   - 30-39/meta_idx
 feature:
 icon: rpg-awesome:ra-scroll-unfurled
 ---
+
+> [!help] What's in this zone?
+> Story projects, creative writing, worldbuilding, characters, blog content, and editing notes.
 
 | **Folder**                          | **Description**                                                                                   | **Example Notes**                                                                                       |
 | ----------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |

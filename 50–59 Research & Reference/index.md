@@ -2,12 +2,16 @@
 title: 50-59 Research & Reference
 date: 2025-11-03
 created: 2025-11-03 20:50
-modified: 2025-11-03 20:51
+modified: 2025-11-03 21:25
 tags:
   - 50-59/meta_idx
 feature:
 icon: rpg-awesome:ra-book
 ---
+
+> [!help] What's in this zone?
+> General reference, research, academic notes, book summaries, and creative or tech research.
+
 | **Folder**                                 | **Description**                                                                                 | **Example Notes**                                                                                          |
 | ------------------------------------------ | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | **50.00 General Reference**                | Broad reference materials that could apply to multiple areas of your life.                      | `50.01 Quotes & Sayings`, `50.02 Reference Articles`, `50.03 Useful Links`                                 |
