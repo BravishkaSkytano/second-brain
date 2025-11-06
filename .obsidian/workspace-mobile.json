@@ -13,8 +13,8 @@
             "state": {
               "type": "task-genius-changelog",
               "state": {},
-              "icon": "task-genius",
-              "title": "Changelog"
+              "icon": "lucide-ghost",
+              "title": "task-genius-changelog"
             }
           },
           {
@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Worksheet 4.md",
+                "file": "Structure Notes/Home.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -62,7 +62,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Worksheet 4"
+              "title": "Home"
             }
           }
         ],
@@ -167,7 +167,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Fleeting Notes/Worksheet 4.md",
+            "file": "Structure Notes/Home.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -216,29 +216,50 @@
           "icon": "lucide-ghost",
           "title": "git-history-view"
         }
+      },
+      {
+        "id": "d944be9128eb4c6b",
+        "type": "leaf",
+        "state": {
+          "type": "related-notes-by-tag-view",
+          "state": {},
+          "icon": "tag",
+          "title": "Related notes by tag"
+        }
+      },
+      {
+        "id": "c58b50b659753996",
+        "type": "leaf",
+        "state": {
+          "type": "bible-view",
+          "state": {},
+          "icon": "book-open-text",
+          "title": "Bible Sidecar"
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "index-notes:New note by copying metadata of focused note": false,
       "random-note:Open random note": false,
       "notebook-navigator:Notebook Navigator": false,
       "the-queue:Toggle Queue": false,
-      "project-browser:Open project browser": false,
       "obsidian-plugin-update-tracker:Plugin Update Tracker": false,
       "obsidian-book-search-plugin:Create new book note": false,
-      "obsidian-task-progress-bar:Open Task Genius view": false,
       "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-bible-reference:Bible Verse Lookup": false,
+      "bible-sidecar:Bible Sidecar": false
     }
   },
-  "active": "c2e1c5f59b0cbb83",
+  "active": "c58b50b659753996",
   "lastOpenFiles": [
     "Fleeting Notes/Worksheet 4.md",
     "Project Notes/ART101/W3 Worksheet.md",
