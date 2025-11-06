@@ -23,9 +23,13 @@ Suggested taxonomy:
 > 
 > > [!example] [[Artwork]]
 > 
-> > [!example] [[Courses]]
+> > [!example] [[Index Notes/Courses|Courses]]
+> 
+> > [!example] [[Structure Notes/Courses|Courses]]
 > 
 > > [!example] [[Index]]: Home
+> 
+> > [!example] [[Project Notes/index|Index]]
 > 
 > > [!example] [[People]]
 > 

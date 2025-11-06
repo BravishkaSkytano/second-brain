@@ -59,3 +59,7 @@ tags:
 > 	- [[Ziggurat]]
 > 
 > ^indexof-courses
+
+> [!example] Courses
+> 
+> ^indexof-courses

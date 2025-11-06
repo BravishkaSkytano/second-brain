@@ -15,3 +15,9 @@ tags:
 > 	- [[ART101]]: ART101 - Visual and Performing Arts
 > 
 > ^indexof-projects
+
+
+
+> [!example] Projects
+> 
+> ^indexof-projects
