@@ -1,7 +1,7 @@
 ---
 date: 2025-10-18
 created: 2025-10-18 21:54
-modified: 2025-11-03 01:01
+modified: 2025-11-05 10:09
 tags:
   - course/ART101
   - worksheet
@@ -37,11 +37,11 @@ description: "Covers: Renaissance period: Painting, Sculpture and Architecture"
 - ![[Cathedral of Florence#^0993c3]]
 - ![[The Last Supper#^7e0309]]
 - ![[Mona Lisa#^741fea]]
-- Pietà – [[Michelangelo]]; sculpture of Mary holding the body of Jesus.
-- David ([[Donatello]] and [[Michelangelo]]) – both depict the biblical hero, Donatello’s in bronze, Michelangelo’s in marble.
-- Battle of Alexander and Darius on the Issus – Albrecht Altdorfer; dramatic historical painting.
-- Moses – Michelangelo; powerful marble statue with detailed anatomy.
-- Adoration of the Trinity – [[Albrecht Dürer]]; complex depiction of heaven and earth.
-- Transfiguration of Christ – [[Raphael]]; shows Christ’s divine transformation.
-- St. Peter’s Cathedral – in Vatican City; major work of [[Renaissance]] architecture.
-- Sistine Chapel ceiling – [[Michelangelo]]; scenes from Genesis including _The Creation of Adam_.
+- ![[Pietà#^17cbe7]]
+- ![[David (Donatello and Michelangelo)#^7a2cc0]]
+- ![[Battle of Alexander and Darius on the Issus#^37438c]]
+- ![[Moses (sculpture)#^4e5036]]
+- ![[Adoration of the Trinity#^64655d]]
+- ![[Transfiguration of Christ#^77f14d]]
+- ![[St. Peter’s Cathedral#^7ff03e]]
+- [[Sistine Chapel ceiling]]

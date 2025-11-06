@@ -10,10 +10,11 @@
     "Glossary"
   ],
   "excludedDirectories": [
-    "z - Attachments",
-    "z - Templates"
+    "00-09 System & Templates/02 Templates"
   ],
-  "excludedDirectoriesForLinking": [],
+  "excludedDirectoriesForLinking": [
+    "00-09 System & Templates/02 Templates"
+  ],
   "virtualLinkSuffix": "🔗",
   "virtualLinkAliasSuffix": "🔗",
   "useMarkdownLinks": false,
