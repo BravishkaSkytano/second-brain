@@ -262,7 +262,7 @@
     },
     {
       "type": "note",
-      "path": "index.md"
+      "path": "README.md"
     }
   ],
   "checkForUpdatesOnStart": true,
@@ -429,10 +429,6 @@
       "folder": true,
       "tag": false
     },
-    "index.md": {
-      "folder": true,
-      "tag": false
-    },
     "00-09 System & Templates/02 Templates/index.md": {
       "folder": true,
       "tag": false
@@ -446,6 +442,10 @@
       "tag": false
     },
     "00-09 System & Templates/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "README.md": {
       "folder": true,
       "tag": false
     }
