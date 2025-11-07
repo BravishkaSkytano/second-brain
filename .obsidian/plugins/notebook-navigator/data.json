@@ -389,10 +389,6 @@
       "folder": true,
       "tag": false
     },
-    "20–29 Education & Career/index.md": {
-      "folder": true,
-      "tag": false
-    },
     "40–49 Craft & Design/index.md": {
       "folder": true,
       "tag": false
@@ -446,6 +442,10 @@
       "tag": false
     },
     "README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/README.md": {
       "folder": true,
       "tag": false
     }
