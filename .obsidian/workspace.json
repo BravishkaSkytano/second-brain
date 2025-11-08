@@ -183,24 +183,6 @@
         "currentTab": 4
       },
       {
-        "id": "dfe59b75bbf925f5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ecf02a139fa35854",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
-      },
-      {
         "id": "9b03cff215b5d68a",
         "type": "tabs",
         "children": [
@@ -252,9 +234,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "8e9bcdd91748f3c7",
+            "type": "leaf",
+            "state": {
+              "type": "bible-view",
+              "state": {},
+              "icon": "book-open-text",
+              "title": "Bible Sidecar"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -285,13 +277,15 @@
       "tasknotes:Open pomodoro stats": false,
       "tasknotes:Create new task": false,
       "callout-manager:Insert Callout": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "bible-sidecar:Bible Sidecar": false,
+      "obsidian-bible-reference:Bible Verse Lookup": false
     }
   },
-  "active": "b4629804e6199fa8",
+  "active": "f3335a415bea5fbf",
   "lastOpenFiles": [
-    "20–29 Education & Career/README.md",
     "10–19 Personal & Faith/README.md",
+    "20–29 Education & Career/README.md",
     "README.md",
     "README.md",
     "Projects/University/ART101/Sistine Chapel ceiling.md",

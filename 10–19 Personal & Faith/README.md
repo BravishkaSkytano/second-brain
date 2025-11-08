@@ -2,7 +2,7 @@
 title: 10-19 Personal & Faith
 date: 2025-11-03
 created: 2025-11-03 18:08
-modified: 2025-11-07 12:44
+modified: 2025-11-08 11:57
 tags:
   - _jd/10-19/meta_idx
 feature:
@@ -10,7 +10,7 @@ icon: rpg-awesome:ra-leaf
 description: My spiritual life, personal growth, character development, journals, and life planning.
 ---
 
-### 💖 Overview
+## 💖 Overview
 
 > *"Above all else, guard your heart, for everything you do flows from it." – Proverbs 4:23*
 
@@ -18,7 +18,7 @@ This space is for nurturing your relationship with God, caring for your mind and
 
 ---
 
-### 📔 Journaling
+## 📔 Journaling
 
 * [[11 Journaling/11.11 Daily Logs]]
 * [[11 Journaling/11.12 Reflections]]
@@ -27,7 +27,7 @@ This space is for nurturing your relationship with God, caring for your mind and
 
 ---
 
-### 🙏 Faith & Study
+## 🙏 Faith & Study
 
 * [[12 Bible Study/12.11 Study Notes]]
 * [[12 Bible Study/12.12 Themes & Lessons]]
@@ -38,7 +38,7 @@ This space is for nurturing your relationship with God, caring for your mind and
 
 ---
 
-### 🧠 Mental & Emotional Health
+## 🧠 Mental & Emotional Health
 
 * [[14 Mental Health/14.11 Mood Tracker]]
 * [[14 Mental Health/14.12 Coping Tools]]
@@ -47,7 +47,7 @@ This space is for nurturing your relationship with God, caring for your mind and
 
 ---
 
-### 💪 Physical Health
+## 💪 Physical Health
 
 * [[15 Health/15.11 Nutrition & Meals]]
 * [[15 Health/15.12 Fitness]]
@@ -56,7 +56,7 @@ This space is for nurturing your relationship with God, caring for your mind and
 
 ---
 
-### 🎯 Goals & Life Planning
+## 🎯 Goals & Life Planning
 
 * [[16 Goals & Planning/16.11 Short-Term Goals]]
 * [[16 Goals & Planning/16.12 Long-Term Vision]]
@@ -65,7 +65,7 @@ This space is for nurturing your relationship with God, caring for your mind and
 
 ---
 
-### 📦 Archives
+## 📦 Archives
 
 * [[10.09 Archive for Personal & Faith]]
 * [[11.09 Archive for Journal & Reflection]]
@@ -77,7 +77,7 @@ This space is for nurturing your relationship with God, caring for your mind and
 
 ---
 
-### 🌸 Quick Actions
+## 🌸 Quick Actions
 
 * ➕ [[Create New Journal Entry]]
 * 📖 [[Current Bible Study Topic]]
