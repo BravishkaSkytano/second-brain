@@ -278,11 +278,10 @@
       "tasknotes:Create new task": false,
       "callout-manager:Insert Callout": false,
       "omnisearch:Omnisearch": false,
-      "bible-sidecar:Bible Sidecar": false,
-      "obsidian-bible-reference:Bible Verse Lookup": false
+      "bible-sidecar:Bible Sidecar": false
     }
   },
-  "active": "f3335a415bea5fbf",
+  "active": "1862072666159b8c",
   "lastOpenFiles": [
     "10–19 Personal & Faith/README.md",
     "20–29 Education & Career/README.md",
