@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a7b19f47fc4b297f",
+        "id": "7a1f986f51d9cab0",
         "type": "tabs",
         "children": [
           {
-            "id": "b4629804e6199fa8",
+            "id": "c9484f4374667aeb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10–19 Personal & Faith/README.md",
+                "file": "Be Transformed - Yoela Olson.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Be Transformed - Yoela Olson"
             }
           }
         ]
@@ -281,9 +281,10 @@
       "bible-sidecar:Bible Sidecar": false
     }
   },
-  "active": "1862072666159b8c",
+  "active": "c9484f4374667aeb",
   "lastOpenFiles": [
     "10–19 Personal & Faith/README.md",
+    "Be Transformed - Yoela Olson.md",
     "20–29 Education & Career/README.md",
     "README.md",
     "README.md",
@@ -322,7 +323,6 @@
     "40–49 Craft & Design/index.md",
     "40–49 Craft & Design/40 Knitting & Crochet/index.md",
     "10–19 Personal & Faith/11 Faith & Spiritual Growth/index.md",
-    "10–19 Personal & Faith/13 Ministry & Service/index.md",
     "40–49 Craft & Design/46 Design & Planning",
     "40–49 Craft & Design/43 Tools & Materials",
     "40–49 Craft & Design/45 Tutorials and Techniques",

@@ -1,6 +1,6 @@
 {
   "autorun": true,
   "folder": "10–19 Personal & Faith/17 Journals & Reflections",
-  "template": "00-00 System & Templates/02 Templates/journal",
-  "format": "YYYY/YY.MM.DD"
+  "template": "00-09 System & Templates/02 Templates/journal",
+  "format": "YYYY/YY-MM-DD"
 }
