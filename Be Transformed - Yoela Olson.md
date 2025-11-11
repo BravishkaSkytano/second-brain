@@ -1,9 +1,10 @@
 ---
 date: 2025-11-09
 created: 2025-11-09 17:29
-modified: 2025-11-09 18:22
+modified: 2025-11-11 00:50
 tags:
 ---
+
 > **"What lesson changed or impacted you the most?"**
 
 It actually took me a few minutes to answer this question. At first, I thought it might be one of the lessons on emotions, but those didn’t really _change_ me—they just gave me some clarity and reassurance that I was already moving in the right direction. Then I thought back to the longest and hardest cry session I’ve ever had with God, and that brought me to lesson four: **“Getting to Know Our Heavenly Father.”**
