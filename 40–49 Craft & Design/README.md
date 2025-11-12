@@ -12,8 +12,8 @@ icon: phosphor:ph-yarn
 > [!help] What does this area hold?
 > Knitting, crochet, microlocs, fiber arts, tutorials, tools, and project planning.
 
-| **Folder**                        | **Description**                                                   | **Example Notes**                                                                   |
-| --------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| **Folder**                     | **Description**                                                   | **Example Notes**                                                                   |
+| ------------------------------ | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | **40 Knitting & Crochet**      | Techniques, stitch patterns, and project notes for yarn crafts.   | `40.01 Stitches Reference`, `40.02 Pattern Ideas`, `40.03 WIPs (Works in Progress)` |
 | **41 Microlocs & Haircare**    | Notes on microlocs routines, growth tracking, and techniques.     | `41.01 Installation Tips`, `41.02 Maintenance Routines`, `41.03 Growth Tracker`     |
 | **42 Fiber Arts Projects**     | Logs for projects like weaving, tapestry, or other fiber work.    | `42.01 Shawl Projects`, `42.02 Weaving Experiments`, `42.03 Finished Pieces`        |
@@ -27,6 +27,12 @@ icon: phosphor:ph-yarn
 
 
 
+
+
 > [!example] Meta-index of: JD / 40-49
+> 
+> > [!example] [[40–49 Craft & Design/40 Knitting & Crochet/README|README]]: 40 Knitting & Crochet
+> 
+> > [!example] [[40–49 Craft & Design/49 Reference & Resources/README|README]]: 49 Reference & Resources
 > 
 > ^indexof-jd-

@@ -429,15 +429,23 @@
       "folder": true,
       "tag": false
     },
-    "40–49 Craft & Design/40 Knitting & Crochet/index.md": {
-      "folder": true,
-      "tag": false
-    },
     "30–39 Creative & Writing/README.md": {
       "folder": true,
       "tag": false
     },
     "00-09 System & Templates/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "40–49 Craft & Design/49 Reference & Resources/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "40–49 Craft & Design/40 Knitting & Crochet/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "40–49 Craft & Design/README.md": {
       "folder": true,
       "tag": false
     },
