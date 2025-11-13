@@ -2,12 +2,13 @@
 title: The Thought Archive
 date: 2025-11-03
 created: 2025-11-03 22:21
-modified: 2025-11-13 14:59
+modified: 2025-11-13 15:11
 tags:
 feature:
 icon: rpg-awesome:ra-queen-crown
 aliases:
-  - Home - Dashboard
+  - Home
+  - Dashboard
 ---
 
 ## The Thought Archive
