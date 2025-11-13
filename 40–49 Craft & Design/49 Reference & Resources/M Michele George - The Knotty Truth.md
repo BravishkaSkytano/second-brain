@@ -1,6 +1,6 @@
 ---
 created: 2025-08-10 21:59
-modified: 2025-08-10 22:25
+modified: 2025-11-05 22:28
 bookTitle: The Knotty Truth
 subtitle: "Creating Beautiful Locks on a Dime!: A Comprehensive Guide to Creating Locks"
 author(s):
@@ -10,13 +10,12 @@ publish: 2011-01-31
 pages: 270
 isbn10: 983262500
 isbn13: 9780983262503
-cover: http://books.google.com/books/content?id=h3uSXwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 status: reading
 tags:
   - source/book
   - genre/Beauty
   - genre/Personal
-view-count: 1
+  - _jd/40-49/49
 aliases:
   - The Knotty Truth (Book)
 feature: "[[http://books.google.com/books/content?id=h3uSXwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api]]"

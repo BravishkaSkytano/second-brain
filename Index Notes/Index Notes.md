@@ -29,6 +29,8 @@ Suggested taxonomy:
 > 
 > > [!example] [[Project Notes/index|Index]]
 > 
+> > [!example] [[Project Notes/index|Index]]
+> 
 > > [!example] [[People]]
 > 
 > > [!example] [[Projects]]
