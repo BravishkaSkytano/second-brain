@@ -19,3 +19,7 @@ tags:
 > [!example] Projects
 > 
 > ^indexof-projects
+
+> [!example] Projects
+> 
+> ^indexof-projects

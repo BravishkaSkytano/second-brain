@@ -13,3 +13,7 @@ description: Techniques, stitch patterns, and project notes for yarn crafts.
 > [!example] JD / 40-49 / 40
 > 
 > ^indexof-jd-
+
+> [!example] JD / 40-49 / 40
+> 
+> ^indexof-jd-

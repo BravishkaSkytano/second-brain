@@ -15,3 +15,7 @@ tags:
 > [!example] Courses
 > 
 > ^indexof-courses
+
+> [!example] Courses
+> 
+> ^indexof-courses

@@ -12,6 +12,7 @@ tags:
 
 > [!example] Project
 > - **University**
-> 	- [[ART101]]: ART101 - Visual and Performing Arts
+> 	- **[[ART101]]: ART101 - Visual and Performing Arts**
 > 
 > ^indexof-project
+

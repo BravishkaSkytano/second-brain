@@ -36,3 +36,21 @@ Suggested taxonomy:
 > > [!example] [[Projects]]
 > 
 > ^indexof-root000
+
+> [!example] Meta-index
+> 
+> > [!example] [[Artwork]]
+> 
+> > [!example] [[Index Notes/Courses|Courses]]
+> 
+> > [!example] [[Structure Notes/Courses|Courses]]
+> 
+> > [!example] [[Index]]: Home
+> 
+> > [!example] [[Project Notes/index|Index]]
+> 
+> > [!example] [[People]]
+> 
+> > [!example] [[Projects]]
+> 
+> ^indexof-root000

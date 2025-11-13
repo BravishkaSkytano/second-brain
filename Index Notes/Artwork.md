@@ -40,3 +40,34 @@ feature:
 > 	- [[Gothic art]]
 > 
 > ^indexof-artwork
+
+
+> [!example] Artwork
+> - **[[ART101]]: ART101 - Visual and Performing Arts**
+> - [[Adoration of the Trinity]]
+> - [[Transfiguration of Christ]]
+> - **[[Mosaic]]**
+> 	- [[Hagia Sophia]]
+> - **Museum**
+> 	- [[Hagia Sophia]]
+> - **Painting**
+> 	- [[Battle of Alexander and Darius on the Issus]]
+> 	- [[Fresco]]
+> 	- [[Mona Lisa]]
+> 	- [[Oil on canvas]]
+> 	- [[Tempera]]
+> 	- [[The Creation of Adam (painting)]]
+> 	- [[The Last Supper]]
+> 	- **[[Fresco]]**
+> 		- [[The Creation of Adam (painting)]]
+> 	- **Technique**
+> 		- [[Fresco]]
+> - **Sculpture**
+> 	- [[David (Donatello and Michelangelo)]]
+> 	- [[Pietà]]
+> 	- **Marble**
+> 		- [[Moses (sculpture)]]
+> - **Style**
+> 	- [[Gothic art]]
+> 
+> ^indexof-artwork

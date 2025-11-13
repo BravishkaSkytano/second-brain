@@ -27,3 +27,21 @@ icon: rpg-awesome:ra-queen-crown
 > > [!example] [[40–49 Craft & Design/README|README]]: 40-49 Craft & Design
 > 
 > ^indexof-jd
+
+> [!example] Meta-index of: JD
+> 
+> > [!example] [[50–59 Research & Reference/index|Index]]: 50-59 Research & Reference
+> 
+> > [!example] [[60–69 Archives & Backups/index|Index]]: 60-69 Archives & Backups
+> 
+> > [!example] [[00-09 System & Templates/README|README]]: 00-09 System & Templates
+> 
+> > [!example] [[10–19 Personal & Faith/README|README]]: 10-19 Personal & Faith
+> 
+> > [!example] [[20–29 Education & Career/README|README]]: 20-29 Education & Career
+> 
+> > [!example] [[30–39 Creative & Writing/README|README]]: 30-39 Creative & Writing
+> 
+> > [!example] [[40–49 Craft & Design/README|README]]: 40-49 Craft & Design
+> 
+> ^indexof-jd

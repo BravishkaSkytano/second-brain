@@ -36,3 +36,11 @@ icon: phosphor:ph-yarn
 > > [!example] [[40–49 Craft & Design/49 Reference & Resources/README|README]]: 49 Reference & Resources
 > 
 > ^indexof-jd-
+
+> [!example] Meta-index of: JD / 40-49
+> 
+> > [!example] [[40–49 Craft & Design/40 Knitting & Crochet/README|README]]: 40 Knitting & Crochet
+> 
+> > [!example] [[40–49 Craft & Design/49 Reference & Resources/README|README]]: 49 Reference & Resources
+> 
+> ^indexof-jd-

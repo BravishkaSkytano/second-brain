@@ -13,3 +13,8 @@ description: Guides, books, blogs, or external resources for craft and design.
 > - [[M Michele George - The Knotty Truth]]
 > 
 > ^indexof-jd-
+
+> [!example] JD / 40-49 / 49
+> - [[M Michele George - The Knotty Truth]]
+> 
+> ^indexof-jd-
