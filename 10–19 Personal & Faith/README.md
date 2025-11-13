@@ -2,7 +2,7 @@
 title: 10-19 Personal & Faith
 date: 2025-11-03
 created: 2025-11-03 18:08
-modified: 2025-11-08 11:57
+modified: 2025-11-13 15:24
 tags:
   - _jd/10-19/meta_idx
 feature:
@@ -89,3 +89,5 @@ This space is for nurturing your relationship with God, caring for your mind and
 > [!example] Meta-index of: JD / 10-19
 > 
 > ^indexof-jd-
+
+%% Error: Cannot create a waypoint in a note that's not the folder note. For more information, check the instructions [here](https://github.com/IdreesInc/Waypoint) %%

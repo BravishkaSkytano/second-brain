@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "10–19 Personal & Faith/README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -30,8 +30,21 @@
               "icon": "lucide-file",
               "title": "README"
             }
+          },
+          {
+            "id": "2052ca8a18d9fae8",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://github.com/akosbalasko/zoottelkeeper-obsidian-plugin"
+              },
+              "icon": "lucide-file",
+              "title": "GitHub - akosbalasko/zoottelkeeper-obsidian-plugin: Obsidian plugin of Zoottelkeeper: An automated folder-level index file generator and maintainer."
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -281,17 +294,17 @@
       "bible-sidecar:Bible Sidecar": false
     }
   },
-  "active": "c9484f4374667aeb",
+  "active": "2052ca8a18d9fae8",
   "lastOpenFiles": [
-    "Projects/Projects.md",
+    "10–19 Personal & Faith/README.md",
     "README.md",
+    "Projects/Projects.md",
     "Be Transformed - Yoela Olson.md",
     "index.md",
     "40–49 Craft & Design/README.md",
     "40–49 Craft & Design/49 Reference & Resources/README.md",
     "40–49 Craft & Design/49 Reference & Resources/M Michele George - The Knotty Truth.md",
     "40–49 Craft & Design/40 Knitting & Crochet/README.md",
-    "10–19 Personal & Faith/README.md",
     "20–29 Education & Career/README.md",
     "Projects/University/ART101/Sistine Chapel ceiling.md",
     "Structure Notes/Courses.md",
