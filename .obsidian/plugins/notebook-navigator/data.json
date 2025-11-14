@@ -301,19 +301,7 @@
       "folder": true,
       "tag": false
     },
-    "10–19 Personal & Faith/12 Mental & Emotional Health/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "10–19 Personal & Faith/13 Faith & Bible Study/README.md": {
-      "folder": true,
-      "tag": false
-    },
     "10–19 Personal & Faith/11 Journals & Reflections/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "10–19 Personal & Faith/14 Health & Self-Care/README.md": {
       "folder": true,
       "tag": false
     },
@@ -529,10 +517,6 @@
       "folder": true,
       "tag": false
     },
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101.md": {
-      "folder": true,
-      "tag": false
-    },
     "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/w4 Worksheet.md": {
       "folder": true,
       "tag": false
@@ -542,6 +526,18 @@
       "tag": false
     },
     "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Week 3 – Renaissance Worksheet & Study Guide.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10–19 Personal & Faith/12 Faith & Bible Study/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10–19 Personal & Faith/13 Health & Self-Care/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101.md": {
       "folder": true,
       "tag": false
     }

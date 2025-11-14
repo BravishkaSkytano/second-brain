@@ -24,11 +24,9 @@ This space is for nurturing your relationship with God, caring for your mind and
 > 
 > > [!example] [[10–19 Personal & Faith/11 Journals & Reflections/README|README]]: 11 Journals and Reflections
 > 
-> > [!example] [[10–19 Personal & Faith/12 Mental & Emotional Health/README|README]]: 12 Mental & Emotional Health
+> > [!example] [[10–19 Personal & Faith/12 Faith & Bible Study/README|README]]: 12 Faith & Bible Study
 > 
-> > [!example] [[10–19 Personal & Faith/13 Faith & Bible Study/README|README]]: 13 Faith & Bible Study
-> 
-> > [!example] [[10–19 Personal & Faith/14 Health & Self-Care/README|README]]: 14 Health and Self-Care
+> > [!example] [[10–19 Personal & Faith/13 Health & Self-Care/README|README]]: 13 Health and Self-Care
 > 
 > > [!example] [[10–19 Personal & Faith/15 Personal Planning & Goals/README|README]]: 15 Personal Planning & Goals
 > 
