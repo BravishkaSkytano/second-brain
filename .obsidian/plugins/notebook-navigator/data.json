@@ -1,7 +1,28 @@
 {
   "fileVisibility": "supported",
-  "excludedFolders": [],
-  "excludedFiles": [],
+  "hiddenTags": [],
+  "vaultProfiles": [
+    {
+      "id": "default",
+      "name": "Default",
+      "fileVisibility": "supported",
+      "hiddenFolders": [],
+      "hiddenTags": [],
+      "hiddenFiles": [],
+      "navigationBanner": null,
+      "shortcuts": [
+        {
+          "type": "folder",
+          "path": "Inbox"
+        },
+        {
+          "type": "note",
+          "path": "README.md"
+        }
+      ]
+    }
+  ],
+  "vaultProfile": "default",
   "autoRevealActiveFile": true,
   "autoRevealIgnoreRightSidebar": true,
   "multiSelectModifier": "cmdCtrl",
@@ -18,7 +39,6 @@
   "dateFormat": "MMM d, yyyy",
   "timeFormat": "h:mm a",
   "skipAutoScroll": false,
-  "navigationBanner": null,
   "showSectionIcons": true,
   "showShortcuts": true,
   "showRecentNotes": true,
@@ -26,6 +46,22 @@
   "collapseBehavior": "all",
   "smartCollapse": true,
   "colorIconOnly": false,
+  "toolbarVisibility": {
+    "navigation": {
+      "shortcuts": true,
+      "expandCollapse": true,
+      "hiddenItems": true,
+      "rootReorder": true,
+      "newFolder": true
+    },
+    "list": {
+      "search": true,
+      "descendants": true,
+      "sort": true,
+      "appearance": true,
+      "newNote": true
+    }
+  },
   "showNoteCount": true,
   "separateNoteCounts": true,
   "navIndent": 16,
@@ -48,7 +84,6 @@
   "showAllTagsFolder": true,
   "showUntagged": true,
   "tagSortOrder": "frequency-desc",
-  "hiddenTags": [],
   "keepEmptyTagsProperty": false,
   "defaultFolderSort": "modified-desc",
   "listPaneTitle": "header",
@@ -255,16 +290,6 @@
       }
     ]
   },
-  "shortcuts": [
-    {
-      "type": "folder",
-      "path": "Inbox"
-    },
-    {
-      "type": "note",
-      "path": "README.md"
-    }
-  ],
   "checkForUpdatesOnStart": true,
   "confirmBeforeDelete": true,
   "customVaultName": "",
@@ -393,59 +418,11 @@
       "folder": true,
       "tag": false
     },
-    "50–59 Research & Reference/index.md": {
-      "folder": true,
-      "tag": false
-    },
-    "60–69 Archives & Backups/index.md": {
-      "folder": true,
-      "tag": false
-    },
-    "10–19 Personal & Faith/10 Personal Overview/index.md": {
-      "folder": true,
-      "tag": false
-    },
-    "10–19 Personal & Faith/11 Faith & Spiritual Growth/index.md": {
-      "folder": true,
-      "tag": false
-    },
-    "10–19 Personal & Faith/12 Theology & Biblical Study/index.md": {
-      "folder": true,
-      "tag": false
-    },
-    "10–19 Personal & Faith/13 Ministry & Service/index.md": {
-      "folder": true,
-      "tag": false
-    },
-    "10–19 Personal & Faith/14 Character & Personal Growth/index.md": {
-      "folder": true,
-      "tag": false
-    },
-    "10–19 Personal & Faith/15 Relationships & Community/index.md": {
-      "folder": true,
-      "tag": false
-    },
     "00-09 System & Templates/02 Templates/index.md": {
       "folder": true,
       "tag": false
     },
-    "30–39 Creative & Writing/README.md": {
-      "folder": true,
-      "tag": false
-    },
     "00-09 System & Templates/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "40–49 Craft & Design/49 Reference & Resources/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "40–49 Craft & Design/40 Knitting & Crochet/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "40–49 Craft & Design/README.md": {
       "folder": true,
       "tag": false
     },
@@ -454,6 +431,134 @@
       "tag": false
     },
     "20–29 Education & Career/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10–19 Personal & Faith/12 Mental & Emotional Health/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10–19 Personal & Faith/13 Faith & Bible Study/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10–19 Personal & Faith/11 Journals & Reflections/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10–19 Personal & Faith/14 Health & Self-Care/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10–19 Personal & Faith/15 Personal Planning & Goals/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/21 Learning & Research/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/22 Career Growth & Planning/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/23 Teaching & Mentorship/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "30–39 Writing/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10–19 Personal & Faith/10 Management for Personal & Faith/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/20 Management for Education & Career/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "30–39 Writing/30 Management for Writing/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "30–39 Writing/31 Creative Writing/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "30–39 Writing/32 Nonfiction & Essays/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "30–39 Writing/33 Writing Craft & Technique/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "50–59 Craft & Hobbies/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "40-49 Worldbuilding/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "40-49 Worldbuilding/40 Management for Worldbuilding/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "40-49 Worldbuilding/41 Foundations & References/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "40-49 Worldbuilding/42 World Projects/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "40-49 Worldbuilding/43 Meta & Inspiration/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "50–59 Craft & Hobbies/50 Management for Crafts & Hobbies/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "50–59 Craft & Hobbies/51 Project Logs & Portfolios/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "50–59 Craft & Hobbies/52 Learning & Skills/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "50–59 Craft & Hobbies/53 Inspiration & References/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "50–59 Craft & Hobbies/54 Hobby Research & Ideas/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "60-69 Finances/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "60-69 Finances/60 Management for Finances/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "60-69 Finances/61 Budgeting & Planning/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "60-69 Finances/62 Accounts & Income/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "60-69 Finances/63 Learning & Resources/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "60-69 Finances/64 Giving & Stewardship/README.md": {
       "folder": true,
       "tag": false
     }

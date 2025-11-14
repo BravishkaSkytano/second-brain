@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10–19 Personal & Faith/README.md",
+                "file": "60-69 Finances/64 Giving & Stewardship/README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -30,21 +30,8 @@
               "icon": "lucide-file",
               "title": "README"
             }
-          },
-          {
-            "id": "2052ca8a18d9fae8",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://github.com/akosbalasko/zoottelkeeper-obsidian-plugin"
-              },
-              "icon": "lucide-file",
-              "title": "GitHub - akosbalasko/zoottelkeeper-obsidian-plugin: Obsidian plugin of Zoottelkeeper: An automated folder-level index file generator and maintainer."
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -294,35 +281,44 @@
       "bible-sidecar:Bible Sidecar": false
     }
   },
-  "active": "2052ca8a18d9fae8",
+  "active": "c9484f4374667aeb",
   "lastOpenFiles": [
-    "10–19 Personal & Faith/README.md",
-    "README.md",
-    "Projects/Projects.md",
-    "Be Transformed - Yoela Olson.md",
-    "index.md",
-    "40–49 Craft & Design/README.md",
-    "40–49 Craft & Design/49 Reference & Resources/README.md",
-    "40–49 Craft & Design/49 Reference & Resources/M Michele George - The Knotty Truth.md",
-    "40–49 Craft & Design/40 Knitting & Crochet/README.md",
-    "20–29 Education & Career/README.md",
-    "Projects/University/ART101/Sistine Chapel ceiling.md",
-    "Structure Notes/Courses.md",
-    "Structure Notes",
-    "Project Notes/index.md",
-    "Project Notes",
-    "Projects/University/ART101/Week 3 – Renaissance Worksheet & Study Guide.md",
-    "Projects/University/ART101/St. Peter’s Cathedral.md",
-    "Projects/University/ART101/Transfiguration of Christ.md",
-    "00-09 System & Templates/02 Templates/default.md",
-    "Projects/University/ART101/Adoration of the Trinity.md",
-    "Projects/University/ART101/Moses (sculpture).md",
-    "Projects/University/ART101/Battle of Alexander and Darius on the Issus.md",
-    "Projects/University/ART101/Mona Lisa.md",
-    "Projects/University/ART101/David (Donatello and Michelangelo).md",
-    "Projects/University/ART101/Pietà.md",
-    "Projects/University/ART101/ART101.md",
-    "00-09 System & Templates/README.md",
+    "60-69 Finances/63 Learning & Resources/README.md",
+    "60-69 Finances/64 Giving & Stewardship/README.md",
+    "60-69 Finances/62 Accounts & Income/README.md",
+    "60-69 Finances/61 Budgeting & Planning/README.md",
+    "60-69 Finances/60 Management for Finances/README.md",
+    "60-69 Finances/README.md",
+    "60-69 Finances/64 Giving & Stewardship",
+    "60-69 Finances/63 Learning & Resources",
+    "60-69 Finances/62 Accounts & Income",
+    "60-69 Finances/61 Budgeting & Planning",
+    "60-69 Finances/60 Management for Finances",
+    "50–59 Craft & Hobbies/M Michele George - The Knotty Truth.md",
+    "60-69 Finances",
+    "50–59 Craft & Hobbies/49 Reference & Resources/README.md",
+    "50–59 Craft & Hobbies/54 Hobby Research & Ideas/README.md",
+    "50–59 Craft & Hobbies/53 Inspiration & References/README.md",
+    "50–59 Craft & Hobbies/52 Learning & Skills/README.md",
+    "50–59 Craft & Hobbies/51 Project Logs & Portfolios/README.md",
+    "50–59 Craft & Hobbies/50 Management for Crafts & Hobbies/README.md",
+    "40-49 Worldbuilding/43 Meta & Inspiration/README.md",
+    "50–59 Craft & Hobbies/54 Hobby Research & Ideas",
+    "50–59 Craft & Hobbies/53 Inspiration & References",
+    "50–59 Craft & Hobbies/52 Learning & Skills",
+    "50–59 Craft & Hobbies/51 Project Logs & Portfolios",
+    "40-49 Worldbuilding/42 World Projects/README.md",
+    "40-49 Worldbuilding/41 Foundations & References/README.md",
+    "40-49 Worldbuilding/40 Management for Worldbuilding/README.md",
+    "40-49 Worldbuilding/README.md",
+    "30–39 Writing/README.md",
+    "50–59 Craft & Hobbies/README.md",
+    "30–39 Writing/33 Writing Craft & Technique/README.md",
+    "30–39 Writing/32 Nonfiction & Essays/README.md",
+    "30–39 Writing/31 Creative Writing/README.md",
+    "30–39 Writing/30 Management for Writing/README.md",
+    "20–29 Education & Career/20 Management for Education & Career/README.md",
+    "10–19 Personal & Faith/10 Management for Personal & Faith/README.md",
     "00-09 System & Templates/05 Covers & Thumbnails/Hagia Sophia-1761596077883.webp",
     "00-09 System & Templates/05 Covers & Thumbnails/resized/da1a18bfc8153cfd0d79f67afff72fd5_86cf658e.webp",
     "00-09 System & Templates/05 Covers & Thumbnails/resized/cc336482177d16a73c37e26ee763092f_86cf658e.webp",
@@ -332,15 +328,6 @@
     "00-09 System & Templates/05 Covers & Thumbnails/resized/aa95c93851718909de74e39234f4ef0d_86cf658e.webp",
     "00-09 System & Templates/05 Covers & Thumbnails/resized/57e6c84b189c8c05165e269688dff147_86cf658e.webp",
     "00-09 System & Templates/05 Covers & Thumbnails/resized/33c978864ba65f24be94803770139f53_86cf658e.webp",
-    "00-09 System & Templates/05 Covers & Thumbnails/resized/66b724a1ac6b379f36760f42e0da5050_86cf658e.webp",
-    "Projects/University/ART101/The Rose Window of Chartres Cathedral.md",
-    "00-09 System & Templates/05 Covers & Thumbnails",
-    "00-09 System & Templates/06 Tag Notes",
-    "40–49 Craft & Design/46 Design & Planning",
-    "40–49 Craft & Design/43 Tools & Materials",
-    "40–49 Craft & Design/45 Tutorials and Techniques",
-    "40–49 Craft & Design/48 Completed Projects",
-    "40–49 Craft & Design/44 Inspiration & Ideas",
-    "40–49 Craft & Design/47 Problem Solving & Notes"
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/66b724a1ac6b379f36760f42e0da5050_86cf658e.webp"
   ]
 }
