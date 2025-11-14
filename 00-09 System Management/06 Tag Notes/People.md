@@ -11,7 +11,6 @@ feature:
 > [!example] Person
 > - **Architect**
 > 	- [[Leonardo da Vinci]]
-> 	- [[Michelangelo]]
 > 	- [[Raphael]]
 > - **Engineer**
 > 	- [[Leonardo da Vinci]]
@@ -21,7 +20,6 @@ feature:
 > 	- [[Albrecht Dürer]]
 > 	- [[Leonardo da Vinci]]
 > 	- [[Masaccio]]
-> 	- [[Michelangelo]]
 > 	- [[Raphael]]
 > 	- [[Sandro Botticelli]]
 > - **Scientist**
@@ -29,7 +27,6 @@ feature:
 > - **Sculptor**
 > 	- [[Donatello]]
 > 	- [[Leonardo da Vinci]]
-> 	- [[Michelangelo]]
 > 	- [[Phidias]]
 > 
 > ^indexof-person

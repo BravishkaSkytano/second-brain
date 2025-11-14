@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101.md",
+                "file": "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Week 3 – Renaissance Worksheet & Study Guide.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ART101"
+              "title": "Week 3 – Renaissance Worksheet & Study Guide"
             }
           }
         ]
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101.md",
+                "file": "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Week 3 – Renaissance Worksheet & Study Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ART101"
+              "title": "Backlinks for Week 3 – Renaissance Worksheet & Study Guide"
             }
           },
           {
@@ -134,12 +134,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101.md",
+                "file": "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Week 3 – Renaissance Worksheet & Study Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ART101"
+              "title": "Outgoing links from Week 3 – Renaissance Worksheet & Study Guide"
             }
           },
           {
@@ -148,13 +148,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101.md",
+                "file": "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Week 3 – Renaissance Worksheet & Study Guide.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ART101"
+              "title": "Outline of Week 3 – Renaissance Worksheet & Study Guide"
             }
           },
           {
@@ -163,7 +163,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101.md"
+                "file": "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Week 3 – Renaissance Worksheet & Study Guide.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -289,13 +289,23 @@
   },
   "active": "c9484f4374667aeb",
   "lastOpenFiles": [
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Albrecht Dürer.md",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/d440480f9936c539624e10b896895d21_86cf658e.webp",
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Week 3 – Renaissance Worksheet & Study Guide.md",
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Leonardo da Vinci.md",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/816409ff59f4667e17e6c5fe292f73c1_86cf658e.webp",
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Michelangelo.md",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/12b03493b4ab88404be9da572057960e_86cf658e.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized",
+    "00-09 System & Templates/05 Covers & Thumbnails",
+    "00-09 System & Templates",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101.md",
     "00-09 System Management/06 Tag Notes/Artwork.md",
     "00-09 System Management/06 Tag Notes/People.md",
     "00-09 System Management/06 Tag Notes/Courses.md",
     "00-09 System Management/05 Covers & Thumbnails/resized/e837bdd890432a2446a86a11cd1c290b_86cf658e.webp",
     "00-09 System Management/05 Covers & Thumbnails/resized/61501553041c3fcaeed496439dad29a7_86cf658e.webp",
     "00-09 System Management/05 Covers & Thumbnails/resized/e4c00f5994b00f6402a8af1e47d98016_86cf658e.webp",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101.md",
     "20–29 Education & Career/README.md",
     "10–19 Personal & Faith/13 Health & Self-Care/README.md",
     "10–19 Personal & Faith/12 Faith & Bible Study/README.md",
@@ -312,25 +322,15 @@
     "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Masaccio.md",
     "00-09 System Management/02 Task & Project Management/“How Should We Then Live” pt. 5.md",
     "00-09 System Management/02 Task & Project Management/ART101 Quiz 5.md",
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Week 3 – Renaissance Worksheet & Study Guide.md",
     "Index Notes/Index Notes.md",
     "00-09 System Management/05 Covers & Thumbnails/resized/0639f7aebf8311970493f9e2fb60b268_86cf658e.webp",
     "00-09 System Management/05 Covers & Thumbnails/resized/791f843de7f4f40abd86c71dab2ba23c_86cf658e.webp",
     "00-09 System Management/01 Inbox for System/Git Submodules.md",
     "Permanent Notes/index.md",
-    "00-09 System Management/01 Inbox for System/Sardis, the Dead Church.md",
-    "00-09 System Management/01 Inbox for System/Smyrna, the Suffering Church.md",
-    "00-09 System Management/01 Inbox for System/Thyatira, the Adulterous Church.md",
     "30–39 Writing/31 Creative Writing/31.01 Inbox",
     "30–39 Writing/32 Nonfiction & Essays/32.01 Inbox",
     "40-49 Worldbuilding/40 Management for Worldbuilding/40.01 Inbox",
     "00-09 System Management/05 Covers & Thumbnails/resized/cb5dc533b068cafe825cde78aadc64c7_86cf658e.webp",
-    "00-09 System Management/05 Covers & Thumbnails/resized/71a8e8612a2d940ccc3459c4918d8b79_86cf658e.webp",
-    "00-09 System Management/05 Covers & Thumbnails/resized/7a19f8587b82c1ba444c0be4de651a05_86cf658e.webp",
-    "00-09 System Management/05 Covers & Thumbnails/resized/c8ac1186c28d271767056e21bba194b1_86cf658e.webp",
-    "00-09 System & Templates/05 Covers & Thumbnails/resized",
-    "00-09 System & Templates/05 Covers & Thumbnails",
-    "00-09 System & Templates",
     "30–39 Writing/30 Management for Writing/30.01 Inbox",
     "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox",
     "10–19 Personal & Faith/10 Management for Personal & Faith/10.01 Inbox",

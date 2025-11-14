@@ -1,6 +1,10 @@
 ---
-date: 2025-11-03
-created: 2025-11-03 00:19
+cover: 20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Michelangelo-500x579.webp
+thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/12b03493b4ab88404be9da572057960e_86cf658e.webp
+modified: 2025-11-14 12:44
+---
+
+[[Sistine Chapel ceiling]]reated: 2025-11-03 00:19
 modified: 2025-11-03 00:22
 feature: Projects/University/ART101/Michelangelo-500x579.webp
 tags:
@@ -12,7 +16,7 @@ thumbnail: z - Attachments/resized/ba8ea9091a065c73e276d5b48b32ae19_86cf658e.web
 ---
 
 > [!tldr] Michelangelo
-> Italian painter, sculptor, and architect; known for _David_, _Pietà_, and the _Sistine Chapel ceiling_.
+> Italian painter, sculptor, and architect; known for _David_, _Pietà_, and the _[[Sistine Chapel ceiling]]_.
 > ![[Michelangelo-500x579.webp|250x290]]
 
 ^729b42

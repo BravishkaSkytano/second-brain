@@ -1,7 +1,7 @@
 ---
 date: 2025-10-18
 created: 2025-10-18 21:54
-modified: 2025-11-05 10:09
+modified: 2025-11-14 12:43
 tags:
   - course/ART101
   - worksheet
@@ -14,7 +14,7 @@ description: "Covers: Renaissance period: Painting, Sculpture and Architecture"
 1. ![[Renaissance#^5b4a5f]]
 2. ![[Renaissance man#^fdd91a]]
 3. ![[Iconoclasm#^9957df]]
-4. ![[Humanism]]
+4. ![[Humanism#^dca863]]
 5. ![[Classical#^c1c548]]
 6. ![[Cruciform#^453e0d]]
 7. ![[Etching or Engraving#^622f7a]]
