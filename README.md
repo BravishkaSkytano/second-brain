@@ -24,7 +24,7 @@ Wander through, follow the threads, and see where the echoes lead.
 
 > [!example] Meta-index of: JD
 > 
-> > [!example] [[00-09 System & Templates/README|README]]: 00-09 System & Templates
+> > [!example] [[00-09 System Management/README|README]]: 00-09 System Management
 > 
 > > [!example] [[10–19 Personal & Faith/README|README]]: 10-19 Personal & Faith
 > 

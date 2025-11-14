@@ -22,12 +22,12 @@ Thumbs.db
 # 💻 Ignore Obsidian workspace and appearance files
 # These track open tabs, layout, theme, and other local UI details.
 # They change automatically and differ per device.
-/.obsidian/workspace.json
-/.obsidian/workspace-mobile.json
-/.obsidian/appearance.json
-/.obsidian/app.json
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/appearance.json
+.obsidian/app.json
 
 # 🧩 Optional: ignore plugin caches or transient data
 # Some plugins store device-specific cache or usage data in `data.json`.
-/.obsidian/plugins/*/data.json
-/.obsidian/plugins/*/cache.json
+.obsidian/plugins/*/data.json
+.obsidian/plugins/*/cache.json

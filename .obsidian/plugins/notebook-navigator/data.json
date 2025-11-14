@@ -12,10 +12,6 @@
       "navigationBanner": null,
       "shortcuts": [
         {
-          "type": "folder",
-          "path": "Inbox"
-        },
-        {
           "type": "note",
           "path": "README.md"
         }
@@ -106,7 +102,6 @@
   "frontmatterModifiedField": "modified",
   "frontmatterDateFormat": "yyyy-MM-dd HH:mm",
   "saveMetadataToFrontmatter": true,
-  "iconizeFormat": false,
   "fileNameRows": 2,
   "showFileDate": true,
   "alphabeticalDateMode": "modified",
@@ -294,135 +289,7 @@
   "confirmBeforeDelete": true,
   "customVaultName": "",
   "pinnedNotes": {
-    "private/30-39 Worldbuilding/30-39 Worldbuilding.md": {
-      "folder": true,
-      "tag": false
-    },
-    "private/50-59 Journal/50-59 Journal.md": {
-      "folder": true,
-      "tag": false
-    },
-    "private/10-19 Study Notes/10-19 Study Notes.md": {
-      "folder": true,
-      "tag": false
-    },
-    "private/20-29 Prose/20-29 Prose.md": {
-      "folder": true,
-      "tag": false
-    },
-    "private/10-19 Study Notes/12 Apologetics/12 Apologetics.md": {
-      "folder": true,
-      "tag": false
-    },
-    "private/50-59 Journal/2024/2024.md": {
-      "folder": true,
-      "tag": false
-    },
-    "private/10-19 Study Notes/11 Bible/11 Bible.md": {
-      "folder": true,
-      "tag": false
-    },
-    "private/10-19 Study Notes/13 English and Communication/13 English and Communication.md": {
-      "folder": true,
-      "tag": false
-    },
-    "private/10-19 Study Notes/16 Government/16 Government.md": {
-      "folder": true,
-      "tag": false
-    },
-    "private/10-19 Study Notes/17 History/17 History.md": {
-      "folder": true,
-      "tag": false
-    },
-    "private/10-19 Study Notes/14 Philosophy/14 Philosophy.md": {
-      "folder": true,
-      "tag": false
-    },
-    "private/20-29 Prose/Fiction/Fiction.md": {
-      "folder": true,
-      "tag": false
-    },
-    "private/10-19 Study Notes/15 Computer science/15 Computer science.md": {
-      "folder": true,
-      "tag": false
-    },
-    "private/10-19 Study Notes/REL1010/REL1010.md": {
-      "folder": true,
-      "tag": false
-    },
-    "private/10-19 Study Notes/SOC2110/SOC2110.md": {
-      "folder": true,
-      "tag": false
-    },
-    "private/20-29 Prose/Poetry/Poetry.md": {
-      "folder": true,
-      "tag": false
-    },
-    "private/10-19 Study Notes/12 Apologetics/APO391/APO391.md": {
-      "folder": true,
-      "tag": false
-    },
-    "private/50-59 Journal/2024/2024-11/2024-11.md": {
-      "folder": true,
-      "tag": false
-    },
-    "private/10-19 Study Notes/13 English and Communication/ENG101/ENG101.md": {
-      "folder": true,
-      "tag": false
-    },
-    "private/10-19 Study Notes/13 English and Communication/COM101/COM101.md": {
-      "folder": true,
-      "tag": false
-    },
-    "private/10-19 Study Notes/14 Philosophy/PHL113/PHL113.md": {
-      "folder": true,
-      "tag": false
-    },
-    "private/20-29 Prose/Fiction/Ilmaria story/Ilmaria story.md": {
-      "folder": true,
-      "tag": false
-    },
-    "private/20-29 Prose/Fiction/Light in the Shadows/Light in the Shadows.md": {
-      "folder": true,
-      "tag": false
-    },
-    "Inbox/Inbox.md": {
-      "folder": true,
-      "tag": false
-    },
-    "Projects/University/ART101/ART101.md": {
-      "folder": true,
-      "tag": false
-    },
-    "Projects/University/ART101/w4 Worksheet.md": {
-      "folder": true,
-      "tag": false
-    },
-    "Projects/Projects.md": {
-      "folder": true,
-      "tag": false
-    },
-    "Projects/University/ART101/W5 Worksheet.md": {
-      "folder": true,
-      "tag": false
-    },
-    "Projects/University/ART101/Week 3 – Renaissance Worksheet & Study Guide.md": {
-      "folder": true,
-      "tag": false
-    },
-    "Index Notes/Index Notes.md": {
-      "folder": true,
-      "tag": false
-    },
     "40–49 Craft & Design/index.md": {
-      "folder": true,
-      "tag": false
-    },
-    "00-09 System & Templates/02 Templates/index.md": {
-      "folder": true,
-      "tag": false
-    },
-    "00-09 System & Templates/README.md": {
       "folder": true,
       "tag": false
     },
@@ -561,19 +428,131 @@
     "60-69 Finances/64 Giving & Stewardship/README.md": {
       "folder": true,
       "tag": false
+    },
+    "00-09 System Management/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "00-09 System Management/03 Templates/index.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/10-19 Study Notes.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/11 Bible/11 Bible.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/12 Apologetics/12 Apologetics.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/13 English and Communication/13 English and Communication.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/17 History/17 History.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/16 Government/16 Government.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/REL1010/REL1010.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/14 Philosophy/14 Philosophy.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/SOC2110/SOC2110.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/15 Computer science/15 Computer science.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/13 English and Communication/ENG101/ENG101.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/12 Apologetics/APO391/APO391.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/13 English and Communication/COM101/COM101.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/14 Philosophy/PHL113/PHL113.md": {
+      "folder": true,
+      "tag": false
+    },
+    "30–39 Writing/30 Management for Writing/30.01 Inbox/20-29 Prose/20-29 Prose.md": {
+      "folder": true,
+      "tag": false
+    },
+    "30–39 Writing/30 Management for Writing/30.01 Inbox/20-29 Prose/Fiction/Fiction.md": {
+      "folder": true,
+      "tag": false
+    },
+    "30–39 Writing/30 Management for Writing/30.01 Inbox/20-29 Prose/Poetry/Poetry.md": {
+      "folder": true,
+      "tag": false
+    },
+    "30–39 Writing/30 Management for Writing/30.01 Inbox/20-29 Prose/Fiction/Light in the Shadows/Light in the Shadows.md": {
+      "folder": true,
+      "tag": false
+    },
+    "30–39 Writing/30 Management for Writing/30.01 Inbox/20-29 Prose/Fiction/Ilmaria story/Ilmaria story.md": {
+      "folder": true,
+      "tag": false
+    },
+    "40-49 Worldbuilding/40 Management for Worldbuilding/40.01 Inbox/30-39 Worldbuilding/30-39 Worldbuilding.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10–19 Personal & Faith/10 Management for Personal & Faith/10.01 Inbox/50-59 Journal/50-59 Journal.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10–19 Personal & Faith/10 Management for Personal & Faith/10.01 Inbox/50-59 Journal/2024/2024.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10–19 Personal & Faith/10 Management for Personal & Faith/10.01 Inbox/50-59 Journal/2024/2024-11/2024-11.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/w4 Worksheet.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/W5 Worksheet.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Week 3 – Renaissance Worksheet & Study Guide.md": {
+      "folder": true,
+      "tag": false
     }
   },
   "fileIcons": {},
   "fileColors": {},
   "folderIcons": {
-    "Literature Notes": "rpg-awesome:ra-book",
-    "/": "rpg-awesome:ra-queen-crown",
-    "Inbox": "rpg-awesome:ra-fast-ship",
-    "Journal": "rpg-awesome:ra-locked-fortress",
-    "Projects/University/ART101": "rpg-awesome:ra-burst-blob",
-    "Projects": "phosphor:ph-toolbox",
-    "Index Notes": "rpg-awesome:ra-nodular",
-    "10–19 Personal & Faith": "rpg-awesome:ra-leaf"
+    "Literature Notes": "rpg-awesome:book",
+    "/": "rpg-awesome:queen-crown",
+    "10–19 Personal & Faith": "rpg-awesome:leaf",
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101": "rpg-awesome:burst-blob"
   },
   "folderColors": {},
   "folderBackgroundColors": {},
@@ -584,11 +563,13 @@
   "tagBackgroundColors": {},
   "tagSortOverrides": {},
   "tagAppearances": {},
+  "navigationSeparators": {},
   "recentColors": [],
   "lastShownVersion": "",
   "latestKnownRelease": "1.8.1",
   "lastAnnouncedRelease": "1.8.1",
   "lastReleaseCheckAt": 1763062805184,
   "rootFolderOrder": [],
-  "rootTagOrder": []
+  "rootTagOrder": [],
+  "iconizeFormat": false
 }

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "60-69 Finances/64 Giving & Stewardship/README.md",
+                "file": "00-09 System Management/01 Inbox for System/Ephesus, the Passionless Church.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Ephesus, the Passionless Church"
+            }
+          },
+          {
+            "id": "e3e6bf07c3e4c258",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-09 System Management/01 Inbox for System/Narcigesis.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Narcigesis"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -115,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project Notes/University/ART101/W3 Worksheet.md",
+                "file": "00-09 System Management/01 Inbox for System/Narcigesis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +150,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for W3 Worksheet"
+              "title": "Backlinks for Narcigesis"
             }
           },
           {
@@ -134,12 +159,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "00-09 System Management/01 Inbox for System/Narcigesis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from Narcigesis"
             }
           },
           {
@@ -148,13 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "00-09 System Management/01 Inbox for System/Narcigesis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of Narcigesis"
             }
           },
           {
@@ -163,12 +188,18 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Project Notes/University/ART101/W3 Worksheet.md"
+                "file": "00-09 System Management/01 Inbox for System/Narcigesis.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "88c8c2ae5a7b9ad0",
+        "type": "tabs",
+        "children": [
           {
             "id": "a40e74654dcf99c5",
             "type": "leaf",
@@ -179,8 +210,7 @@
               "title": "Related notes by tag"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "9b03cff215b5d68a",
@@ -281,53 +311,53 @@
       "bible-sidecar:Bible Sidecar": false
     }
   },
-  "active": "c9484f4374667aeb",
+  "active": "e3e6bf07c3e4c258",
   "lastOpenFiles": [
-    "60-69 Finances/63 Learning & Resources/README.md",
-    "60-69 Finances/64 Giving & Stewardship/README.md",
-    "60-69 Finances/62 Accounts & Income/README.md",
-    "60-69 Finances/61 Budgeting & Planning/README.md",
-    "60-69 Finances/60 Management for Finances/README.md",
-    "60-69 Finances/README.md",
-    "60-69 Finances/64 Giving & Stewardship",
-    "60-69 Finances/63 Learning & Resources",
-    "60-69 Finances/62 Accounts & Income",
-    "60-69 Finances/61 Budgeting & Planning",
-    "60-69 Finances/60 Management for Finances",
-    "50–59 Craft & Hobbies/M Michele George - The Knotty Truth.md",
-    "60-69 Finances",
-    "50–59 Craft & Hobbies/49 Reference & Resources/README.md",
-    "50–59 Craft & Hobbies/54 Hobby Research & Ideas/README.md",
-    "50–59 Craft & Hobbies/53 Inspiration & References/README.md",
-    "50–59 Craft & Hobbies/52 Learning & Skills/README.md",
-    "50–59 Craft & Hobbies/51 Project Logs & Portfolios/README.md",
-    "50–59 Craft & Hobbies/50 Management for Crafts & Hobbies/README.md",
-    "40-49 Worldbuilding/43 Meta & Inspiration/README.md",
-    "50–59 Craft & Hobbies/54 Hobby Research & Ideas",
-    "50–59 Craft & Hobbies/53 Inspiration & References",
-    "50–59 Craft & Hobbies/52 Learning & Skills",
-    "50–59 Craft & Hobbies/51 Project Logs & Portfolios",
-    "40-49 Worldbuilding/42 World Projects/README.md",
-    "40-49 Worldbuilding/41 Foundations & References/README.md",
-    "40-49 Worldbuilding/40 Management for Worldbuilding/README.md",
+    "Inbox/Inbox.md",
+    "00-09 System Management/01 Inbox for System/Narcigesis.md",
+    "00-09 System Management/01 Inbox for System/Asia Minor.md",
     "40-49 Worldbuilding/README.md",
-    "30–39 Writing/README.md",
-    "50–59 Craft & Hobbies/README.md",
-    "30–39 Writing/33 Writing Craft & Technique/README.md",
+    "Projects/Worldbuilding.md",
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Sistine Chapel ceiling.md",
+    "00-09 System Management/05 Covers & Thumbnails/Masaccio-290x470.webp",
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Masaccio.md",
+    "00-09 System Management/02 Task & Project Management/“How Should We Then Live” pt. 5.md",
+    "00-09 System Management/02 Task & Project Management/ART101 Quiz 5.md",
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Week 3 – Renaissance Worksheet & Study Guide.md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101.md",
+    "00-09 System Management/06 Tag Notes/Courses.md",
+    "Index Notes/Index Notes.md",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/61501553041c3fcaeed496439dad29a7_86cf658e.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/0639f7aebf8311970493f9e2fb60b268_86cf658e.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/791f843de7f4f40abd86c71dab2ba23c_86cf658e.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/e4c00f5994b00f6402a8af1e47d98016_86cf658e.webp",
+    "00-09 System Management/06 Tag Notes/Artwork.md",
+    "00-09 System Management/01 Inbox for System/Git Submodules.md",
+    "Permanent Notes/index.md",
+    "00-09 System Management/01 Inbox for System/Sardis, the Dead Church.md",
+    "00-09 System Management/01 Inbox for System/Smyrna, the Suffering Church.md",
+    "00-09 System Management/01 Inbox for System/Thyatira, the Adulterous Church.md",
+    "00-09 System Management/01 Inbox for System/Ephesus, the Passionless Church.md",
+    "00-09 System Management/README.md",
+    "30–39 Writing/31 Creative Writing/31.01 Inbox",
+    "30–39 Writing/32 Nonfiction & Essays/32.01 Inbox",
+    "Project Notes/index.md",
+    "40-49 Worldbuilding/40 Management for Worldbuilding/40.01 Inbox",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/cb5dc533b068cafe825cde78aadc64c7_86cf658e.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/71a8e8612a2d940ccc3459c4918d8b79_86cf658e.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/7a19f8587b82c1ba444c0be4de651a05_86cf658e.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/c8ac1186c28d271767056e21bba194b1_86cf658e.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized/e837bdd890432a2446a86a11cd1c290b_86cf658e.webp",
+    "00-09 System & Templates/05 Covers & Thumbnails/resized",
+    "00-09 System & Templates/05 Covers & Thumbnails",
+    "00-09 System & Templates",
+    "30–39 Writing/30 Management for Writing/30.01 Inbox",
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox",
+    "10–19 Personal & Faith/10 Management for Personal & Faith/10.01 Inbox",
+    "Structure Notes/Courses.md",
     "30–39 Writing/32 Nonfiction & Essays/README.md",
-    "30–39 Writing/31 Creative Writing/README.md",
-    "30–39 Writing/30 Management for Writing/README.md",
-    "20–29 Education & Career/20 Management for Education & Career/README.md",
-    "10–19 Personal & Faith/10 Management for Personal & Faith/README.md",
-    "00-09 System & Templates/05 Covers & Thumbnails/Hagia Sophia-1761596077883.webp",
-    "00-09 System & Templates/05 Covers & Thumbnails/resized/da1a18bfc8153cfd0d79f67afff72fd5_86cf658e.webp",
-    "00-09 System & Templates/05 Covers & Thumbnails/resized/cc336482177d16a73c37e26ee763092f_86cf658e.webp",
-    "00-09 System & Templates/05 Covers & Thumbnails/resized/99fa97d45483c2ebbd39a64c19c30203_86cf658e.webp",
-    "00-09 System & Templates/05 Covers & Thumbnails/resized/c8819991c6256cb359806655a1b281b7_86cf658e.webp",
-    "00-09 System & Templates/05 Covers & Thumbnails/resized/9dd98e3ccc0ee7fcc1721619f37f5f0f_86cf658e.webp",
-    "00-09 System & Templates/05 Covers & Thumbnails/resized/aa95c93851718909de74e39234f4ef0d_86cf658e.webp",
-    "00-09 System & Templates/05 Covers & Thumbnails/resized/57e6c84b189c8c05165e269688dff147_86cf658e.webp",
-    "00-09 System & Templates/05 Covers & Thumbnails/resized/33c978864ba65f24be94803770139f53_86cf658e.webp",
-    "00-09 System & Templates/05 Covers & Thumbnails/resized/66b724a1ac6b379f36760f42e0da5050_86cf658e.webp"
+    "00-09 System Management/09 Archive for System",
+    "20–29 Education & Career/21 Learning & Research/README.md",
+    "60-69 Finances/64 Giving & Stewardship/README.md"
   ]
 }
