@@ -1,7 +1,7 @@
 ---
 date: 2025-11-16
 created: 2025-11-16 19:25
-modified: 2025-11-16 22:42
+modified: 2025-11-17 15:36
 tags:
   - course/ART101
   - worksheet
@@ -57,22 +57,21 @@ tags:
 ![[The Hay Wain#^tldr]]
 
 ![[The Sower (Millet)#^tldr]]
-- **Rouen Cathedral (series)** — Monet’s paintings of the cathedral in different light.
-    
-- **The Raft of the Medusa** — Géricault’s dramatic scene of shipwreck survivors.
-    
-- **Interior of My Studio** — Courbet’s large Realist painting showing his studio filled with people.
-    
-- **Le Moulin de la Galette** — Renoir’s lively outdoor dance scene.
-    
-- **The Starry Night** — Van Gogh’s swirling night sky over a quiet town.
-    
-- **The Third of May, 1808** — Goya’s emotional scene of Spanish rebels being executed.
-    
-- **A Sunday on La Grande Jatte** — Seurat’s pointillist park scene with figures in profile.
-    
-- **American Gothic** — Grant Wood’s farmer and daughter with a pitchfork in front of a house.
-    
-- **British Parliament** — Turner’s glowing, atmospheric painting of the Houses of Parliament burning.
-    
-c
+
+![[Rouen Cathedral paintings#^tldr]]
+
+![[The Raft of the Medusa#^tldr]]
+
+![[Interior of My Studio#^tldr]]
+
+![[Le Moulin de la Galette#^tldr]]
+
+![[The Starry Night#^tldr]]
+
+![[The Third of May, 1808#^tldr]]
+
+![[A Sunday on La Grande Jatte#^tldr]]
+
+![[American Gothic#^tldr]] — Grant Wood’s farmer and daughter with a pitchfork in front of a house.
+
+![[British Parliament#^tldr]] — Turner’s glowing, atmospheric painting of the Houses of Parliament burning.

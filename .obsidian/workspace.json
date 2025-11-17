@@ -8,8 +8,9 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4408a66c1c9a9f78",
+            "id": "22096d7bf9d197b7",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -27,8 +28,57 @@
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Week 5 - Enlightenment and Modern Period"
+            }
+          },
+          {
+            "id": "c99d7cb18125c119",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Third of May, 1808.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "The Third of May, 1808"
+            }
+          },
+          {
+            "id": "b3248e068fe0ea02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/A Sunday on La Grande Jatte.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "A Sunday on La Grande Jatte"
             }
           }
         ]
@@ -93,6 +143,45 @@
               "icon": "notebook",
               "title": "Notebook Navigator"
             }
+          },
+          {
+            "id": "11f346acbb4aa385",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "168e51d5da63cfcf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f3335a415bea5fbf",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
         "currentTab": 3
@@ -110,39 +199,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b81c58ab1371f620",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Week 5 - Enlightenment and Modern Period.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Week 5 - Enlightenment and Modern Period"
-            }
-          },
-          {
-            "id": "1e74998102f74e12",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Week 3 – Renaissance Worksheet & Study Guide.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Week 3 – Renaissance Worksheet & Study Guide"
-            }
-          },
-          {
             "id": "484293aad7380e3b",
             "type": "leaf",
             "state": {
@@ -158,18 +214,56 @@
             }
           },
           {
+            "id": "b94baf0685bb4cce",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Week 5 - Enlightenment and Modern Period.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7974165208358066,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Week 5 - Enlightenment and Modern Period"
+            }
+          },
+          {
             "id": "f2a572b0a1615544",
             "type": "leaf",
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Week 3 – Renaissance Worksheet & Study Guide.md"
+                "file": "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Week 5 - Enlightenment and Modern Period.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "88c8c2ae5a7b9ad0",
@@ -195,64 +289,7 @@
               "title": "Bible Sidecar"
             }
           }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "9b03cff215b5d68a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "11f346acbb4aa385",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
-            "id": "168e51d5da63cfcf",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": true,
-                "showSearch": true,
-                "searchQuery": "period"
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "d25955834b158f1a",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
-              "state": {},
-              "icon": "history",
-              "title": "History"
-            }
-          },
-          {
-            "id": "f3335a415bea5fbf",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -286,44 +323,44 @@
       "bible-sidecar:Bible Sidecar": false
     }
   },
-  "active": "4408a66c1c9a9f78",
+  "active": "22096d7bf9d197b7",
   "lastOpenFiles": [
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README.md",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/README.md",
-    "00-09 System Management/06 Tag Notes/History - Movements.md",
-    "00-09 System Management/06 Tag Notes/History - Styles.md",
-    "00-09 System Management/06 Tag Notes/History - Periods.md",
-    "00-09 System Management/06 Tag Notes/Genres.md",
-    "00-09 System Management/06 Tag Notes/Themes.md",
-    "00-09 System Management/06 Tag Notes/Mediums.md",
-    "00-09 System Management/06 Tag Notes/Mediums - Oil.md",
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Oil on canvas.md",
-    "00-09 System Management/06 Tag Notes/period.md",
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Hellenistic.md",
-    "00-09 System Management/06 Tag Notes/Periods.md",
-    "00-09 System Management/06 Tag Notes/History.md",
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Renaissance.md",
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Battle of Alexander and Darius on the Issus.md",
-    "00-09 System Management/06 Tag Notes/Regions.md",
-    "00-09 System Management/06 Tag Notes/Artwork.md",
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Fresco.md",
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Gothic art.md",
-    "00-09 System Management/05 Covers & Thumbnails/resized/3b5c62ac3369d9aa941e942773c74f0c_86cf658e.webp",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Third of May, 1808.md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/A Sunday on La Grande Jatte.md",
+    "00-09 System Management/05 Covers & Thumbnails/resized/43721e5df0b2cfef62d6ae27acbc1fb9_86cf658e.webp",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/A Sunday on La Grande Jatte-960x639.webp",
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Week 5 - Enlightenment and Modern Period.md",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Surrealism.md",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Art Deco.md",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Fauvism.md",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Symbolism.md",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Expressionism.md",
-    "00-09 System Management/05 Covers & Thumbnails/resized/2034d7b9d23406ca640d1356cfea4c4c_86cf658e.webp",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Sower (Millet)-500x616.webp",
-    "00-09 System Management/05 Covers & Thumbnails/resized/a50d1823a3c9ae51ccee9b4c657aafa5_86cf658e.webp",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Hay Wain-960x662.webp",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Arrangement in Gray and Black No 1-300x271.webp",
-    "00-09 System Management/05 Covers & Thumbnails/resized/b16fe8cedaeb5e762a2612bbb71dc73d_86cf658e.webp",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Arrangement in Gray and Black No 1-960x854.webp",
-    "00-09 System Management/05 Covers & Thumbnails/resized/62e30b0acc367b2ccd4cca7e80f6d6c7_86cf658e.webp",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Oath of the Horatii-960x744.webp",
+    "00-09 System Management/05 Covers & Thumbnails/resized/da8f85a5ef57b1c4ebb6cdb970c10204_86cf658e.webp",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Third of May, 1808-960x741.webp",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Starry Night.md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Le Moulin de la Galette.md",
+    "00-09 System Management/05 Covers & Thumbnails/resized/4b1f553ed2542adda7e2ab274e460c9a_86cf658e.webp",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Starry Night-960x760.webp",
+    "00-09 System Management/05 Covers & Thumbnails/resized/fe9942264e4534a614c26c5125f44929_86cf658e.webp",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Le Moulin de la Galette-500x619.webp",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Interior of My Studio.md",
+    "00-09 System Management/05 Covers & Thumbnails/resized/52d52a435a7859089a158babed45e670_86cf658e.webp",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Interior of My Studio-960x566.webp",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Raft of the Medusa.md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README.md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Romanticism.md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Rouen Cathedral paintings.md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Sower (Millet).md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Hay Wain.md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Oath of the Horatii.md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Arrangement in Gray and Black No 1.md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Impressionism.md",
+    "Art Movements.md",
+    "00-09 System Management/03 Templates/default.md",
+    "theme/emotion.md",
+    "theme",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Realism.md",
+    "00-09 System Management/03 Templates/period.md",
+    "00-09 System Management/03 Templates/theme.md",
+    "00-09 System Management/03 Templates/region.md",
+    "00-09 System Management/03 Templates/medium.md",
+    "00-09 System Management/03 Templates/genre.md",
+    "00-09 System Management/03 Templates/style.md",
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101",
     "00-09 System & Templates/05 Covers & Thumbnails/resized",
     "00-09 System & Templates/05 Covers & Thumbnails",
@@ -332,7 +369,6 @@
     "30–39 Writing/32 Nonfiction & Essays/32.01 Inbox",
     "40-49 Worldbuilding/40 Management for Worldbuilding/40.01 Inbox",
     "30–39 Writing/30 Management for Writing/30.01 Inbox",
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox",
-    "10–19 Personal & Faith/10 Management for Personal & Faith/10.01 Inbox"
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox"
   ]
 }

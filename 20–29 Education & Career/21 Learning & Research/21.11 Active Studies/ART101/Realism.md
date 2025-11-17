@@ -1,16 +1,23 @@
 ---
 date: 2025-11-16
 created: 2025-11-16 21:18
-modified:
+modified: 2025-11-17 14:04
 tags:
   - course/ART101
-  - history/movement/realism
-  - history/style/realism
-  - period/19th-century
-  - region/europe
+  - history/movement
+description: An art style that depicts everyday life and ordinary people as they truly are, without idealizing.
 ---
 
-> [!tldr] Realism
-> An art style that depicts everyday life and ordinary people as they truly are, without idealizing.
+> [!summary] Realism
+> **Overview:** depicted ordinary people and everyday life truthfully, without idealization.
+> **Period:** [[19th Century]]
+> **Region:** [[France]]  
+> **Key Artists:** [[Gustave Courbet]], [[Jean-François Millet]], [[Édouard Manet]]
 
 ^tldr
+
+## Characteristics
+- Rural workers  
+- Harsh realities  
+- Social commentary  
+- Earthy color palette  

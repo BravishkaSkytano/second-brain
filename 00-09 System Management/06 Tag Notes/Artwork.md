@@ -13,7 +13,15 @@ feature:
 
 > [!example] Artwork
 > - **[[20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README|README]]: ART101 - Visual and Performing Arts**
+> - [[A Sunday on La Grande Jatte]]
 > - [[Adoration of the Trinity]]
+> - [[Interior of My Studio]]
+> - [[Le Moulin de la Galette]]
+> - [[Oath of the Horatii]]
+> - [[Rouen Cathedral paintings]]
+> - [[The Raft of the Medusa]]
+> - [[The Starry Night]]
+> - [[The Third of May, 1808]]
 > - [[Transfiguration of Christ]]
 > - **[[Mosaic]]**
 > 	- [[Hagia Sophia]]
@@ -23,7 +31,6 @@ feature:
 > 	- [[Arrangement in Gray and Black No 1]]
 > 	- [[Battle of Alexander and Darius on the Issus]]
 > 	- [[Mona Lisa]]
-> 	- [[Oath of the Horatii]]
 > 	- [[Tempera]]
 > 	- [[The Creation of Adam (painting)]]
 > 	- [[The Hay Wain]]

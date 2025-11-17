@@ -8,10 +8,7 @@ tags:
 
 
 > [!example] Medium / Oil
-> - [[Arrangement in Gray and Black No 1]]
-> - [[Oath of the Horatii]]
 > - [[Oil on canvas]]
-> - [[The Hay Wain]]
 > - [[The Sower (Millet)]]
 > 
 > ^indexof-medium-oil

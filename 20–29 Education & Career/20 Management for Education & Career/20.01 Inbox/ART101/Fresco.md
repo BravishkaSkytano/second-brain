@@ -12,7 +12,7 @@ thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/791f843de7f4f
 ---
 
 > [!tldr] Fresco
-> A painting technique where artists apply water-based paint onto freshly laid wet plaster, so the colors soak in and become part of the wall as it dries. This makes the [[Artwork]] long-lasting and vibrant. Frescoes were commonly used for murals in churches and public buildings.
+> A painting technique where artists apply water-based paint onto freshly laid wet plaster, so the colors soak in and become part of the wall as it dries. This makes the [[00-09 System Management/06 Tag Notes/Artwork]] long-lasting and vibrant. Frescoes were commonly used for murals in churches and public buildings.
 > 
 > ![[The Creation of Adam.webp|The Creation of Adam by Michelangelo]]
 

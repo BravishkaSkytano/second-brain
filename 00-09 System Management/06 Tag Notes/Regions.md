@@ -13,18 +13,14 @@ tags:
 > 	- [[Art Nouveau]]
 > 	- [[Neoclassicism]]
 > 	- [[Post-Impressionism]]
-> 	- [[Realism]]
 > 	- [[Rococo]]
-> 	- [[Romanticism]]
 > 	- [[Surrealism]]
 > 	- [[Symbolism]]
 > - **France**
 > 	- [[Claude Monet]]
 > 	- [[Édouard Manet]]
 > 	- [[Fauvism]]
-> 	- [[Impressionism]]
 > 	- [[Jacques-Louis David]]
-> 	- [[Oath of the Horatii]]
 > 	- [[Pierre-Auguste Renoir]]
 > 	- [[The Sower (Millet)]]
 > - **Germany**
@@ -33,10 +29,7 @@ tags:
 > 	- [[Vincent van Gogh]]
 > - **Spain**
 > 	- [[Pablo Picasso]]
-> - **United-kingdom**
-> 	- [[The Hay Wain]]
 > - **United-states**
-> 	- [[Arrangement in Gray and Black No 1]]
 > 	- [[Art Deco]]
 > 
 > ^indexof-region

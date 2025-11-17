@@ -1,7 +1,7 @@
 ---
 date: 2025-11-16
 created: 2025-11-16 22:41
-modified: 2025-11-16 22:45
+modified: 2025-11-17 14:34
 tags:
   - course/ART101
   - artwork/painting
@@ -19,8 +19,15 @@ thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/2034d7b9d2340
 ---
 
 > [!tldr] The Sower
-> Millet’s painting of a farmer striding across a field scattering seeds.
-> ![[The Sower (Millet)-500x616.webp|250x308]]
+> ![[The Sower (Millet)-500x616.webp|Millet’s painting of a farmer striding across a field scattering seeds]]
+> **Type:** [[Painting]]  
+> **Medium:** [[Oil on canvas]]  
+> **Genre:** [[daily life]], [[Landscape]]  
+> **Themes:** [[struggle]], [[daily life]], [[Nature]]
+> **Artist:** [[Jean-François Millet]]  
+> **Movement:** [[Realism]]  
+> **Region:** [[France]]  
+> **Period:** [[19th Century]]
 
 ^tldr
 

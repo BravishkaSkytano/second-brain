@@ -18,5 +18,5 @@ cover: 00-09 System Management/05 Covers & Thumbnails/Byzantine art-176030403717
 
 ^f45b4c
 
-Byzantine [[Artwork]] is still maintained in Eastern Orthodox countries, specifically Greece, Cyprus, Serbia, Bulgaria, Romania, and Russia.
+Byzantine [[00-09 System Management/06 Tag Notes/Artwork]] is still maintained in Eastern Orthodox countries, specifically Greece, Cyprus, Serbia, Bulgaria, Romania, and Russia.
 

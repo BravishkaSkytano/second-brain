@@ -16,13 +16,10 @@ tags:
 > - **[[Fauvism]]**
 > - **Gothic**
 > 	- [[Gothic art]]
-> - **[[Impressionism]]**
 > - **[[Neoclassicism]]**
 > - **Post-impressionism**
 > 	- [[Post-Impressionism]]
-> - **[[Realism]]**
 > - **[[Rococo]]**
-> - **[[Romanticism]]**
 > - **[[Surrealism]]**
 > - **[[Symbolism]]**
 > 

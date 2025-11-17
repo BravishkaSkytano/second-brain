@@ -14,22 +14,16 @@ tags:
 > - **18th-century**
 > 	- [[Jacques-Louis David]]
 > 	- [[Neoclassicism]]
-> 	- [[Oath of the Horatii]]
 > 	- [[Rococo]]
 > - **19th-century**
-> 	- [[Arrangement in Gray and Black No 1]]
 > 	- [[Art Nouveau]]
 > 	- [[Claude Monet]]
 > 	- [[Édouard Manet]]
-> 	- [[Impressionism]]
 > 	- [[Jacques-Louis David]]
 > 	- [[Neoclassicism]]
 > 	- [[Pierre-Auguste Renoir]]
 > 	- [[Post-Impressionism]]
-> 	- [[Realism]]
-> 	- [[Romanticism]]
 > 	- [[Symbolism]]
-> 	- [[The Hay Wain]]
 > 	- [[The Sower (Millet)]]
 > 	- [[Vincent van Gogh]]
 > - **20th-century**

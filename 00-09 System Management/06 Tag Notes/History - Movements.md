@@ -9,6 +9,9 @@ tags:
 
 > [!example] History / Movement
 > - [[Humanism]]
+> - [[Impressionism]]
+> - [[Realism]]
+> - [[Romanticism]]
 > - **Art-deco**
 > 	- [[Art Deco]]
 > - **Art-nouveau**
@@ -17,23 +20,19 @@ tags:
 > 	- [[Pablo Picasso]]
 > - **[[Expressionism]]**
 > - **[[Fauvism]]**
-> - **[[Impressionism]]**
+> - **Impressionism**
 > 	- [[Claude Monet]]
 > 	- [[Édouard Manet]]
 > 	- [[Pierre-Auguste Renoir]]
 > - **[[Neoclassicism]]**
 > 	- [[Jacques-Louis David]]
-> 	- [[Oath of the Horatii]]
 > - **Post-impressionism**
 > 	- [[Post-Impressionism]]
 > 	- [[Vincent van Gogh]]
-> - **[[Realism]]**
-> 	- [[Arrangement in Gray and Black No 1]]
+> - **Realism**
 > 	- [[Édouard Manet]]
 > 	- [[The Sower (Millet)]]
 > - **[[Rococo]]**
-> - **[[Romanticism]]**
-> 	- [[The Hay Wain]]
 > - **[[Surrealism]]**
 > 	- [[Pablo Picasso]]
 > - **[[Symbolism]]**

@@ -1,27 +1,27 @@
 ---
 date: 2025-11-16
 created: 2025-11-16 22:18
-modified: 2025-11-16 22:27
+modified: 2025-11-17 14:30
 tags:
   - course/ART101
   - artwork/painting
-  - medium/oil
-  - genre/portrait
-  - theme/emotion
-  - theme/daily-life
-  - history/movement/realism
-  - region/united-states
-  - period/19th-century
 aliases:
   - Whistler's Mother
   - Portrait of the Painter's Mother
 cover: 20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Arrangement in Gray and Black No 1-960x854.webp
-thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/b16fe8cedaeb5e762a2612bbb71dc73d_86cf658e.webp
+thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/b16fe8cedaeb5e762a2612bbb71dc73d_86cf658e.webp
 ---
 
-> [!tldr] Arrangement in Gray and Black No. 1
-> Whistler’s portrait of his mother, seated in profile.
-> ![[Arrangement in Gray and Black No 1-960x854.webp|480x427]]
+> [!summary] Arrangement in Gray and Black No. 1
+> ![[Arrangement in Gray and Black No 1-960x854.webp|A somber portrait of Whistler's mother in profile.|480x427]]
+> **Type:** [[Painting]]
+> **Medium:** [[Oil on canvas]]
+> **Genre:** [[Portrait]]
+> **Themes:** Emotion, Daily life 
+> **Artist:** [[James McNeill Whistler]]
+> **Movement:** [[Realism]]
+> **Region:** [[United States]]
+> **Period:** [[19th Century]]
 
 ^tldr
 
