@@ -12,8 +12,9 @@ feature:
 - Example: Michelangelo’s _David_ (a sculpture) is an _artwork_, but not a _painting_.
 
 > [!example] Artwork
-> - **[[ART101]]: ART101 - Visual and Performing Arts**
+> - **[[20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README|README]]: ART101 - Visual and Performing Arts**
 > - [[Adoration of the Trinity]]
+> - [[Romanticism]]
 > - [[Transfiguration of Christ]]
 > - **[[Mosaic]]**
 > 	- [[Hagia Sophia]]
@@ -38,6 +39,7 @@ feature:
 > 		- [[Moses (sculpture)]]
 > - **Style**
 > 	- [[Gothic art]]
+> 	- [[Rococo]]
 > 
 > ^indexof-artwork
 

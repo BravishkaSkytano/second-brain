@@ -22,3 +22,22 @@ Wander through, follow the threads, and see where the echoes lead.
 
 ---
 
+
+
+> [!example] Meta-index of: JD
+> 
+> > [!example] [[00-09 System Management/README|README]]: 00-09 System Management
+> 
+> > [!example] [[10–19 Personal & Faith/README|README]]: 10-19 Personal & Faith
+> 
+> > [!example] [[20–29 Education & Career/README|README]]: 20-29 Education & Career
+> 
+> > [!example] [[30–39 Writing/README|README]]: 30-39 Writing
+> 
+> > [!example] [[40-49 Worldbuilding/README|README]]: 40-49 Worldbuilding
+> 
+> > [!example] [[50–59 Craft & Hobbies/README|README]]: 50-59 Craft & Hobbies
+> 
+> > [!example] [[60-69 Finances/README|README]]: 60-69 Finances
+> 
+> ^indexof-jd

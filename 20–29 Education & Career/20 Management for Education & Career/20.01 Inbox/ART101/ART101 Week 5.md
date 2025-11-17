@@ -21,7 +21,7 @@ tags:
   - task
 contexts: []
 projects:
-  - "[[ART101]]"
+  - "[[20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README]]"
 description: "Covers: Enlightenment and Modern period: Painting, Sculpture and Architecture, and other non-traditional forms of art."
 ---
 

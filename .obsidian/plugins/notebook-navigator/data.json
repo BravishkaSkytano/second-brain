@@ -517,15 +517,7 @@
       "folder": true,
       "tag": false
     },
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/w4 Worksheet.md": {
-      "folder": true,
-      "tag": false
-    },
     "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/W5 Worksheet.md": {
-      "folder": true,
-      "tag": false
-    },
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Week 3 – Renaissance Worksheet & Study Guide.md": {
       "folder": true,
       "tag": false
     },
@@ -537,7 +529,19 @@
       "folder": true,
       "tag": false
     },
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101.md": {
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Week 3 – Renaissance Worksheet & Study Guide.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/W4 Worksheet.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/README.md": {
       "folder": true,
       "tag": false
     }
@@ -563,7 +567,7 @@
   "recentColors": [],
   "lastShownVersion": "",
   "latestKnownRelease": "1.8.4",
-  "lastAnnouncedRelease": "1.8.1",
+  "lastAnnouncedRelease": "1.8.4",
   "lastReleaseCheckAt": 1763338938468,
   "rootFolderOrder": [],
   "rootTagOrder": [],

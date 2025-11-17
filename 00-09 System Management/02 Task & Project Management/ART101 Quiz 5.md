@@ -23,6 +23,6 @@ tags:
   - quiz
   - task
 projects:
-  - "[[ART101]]"
+  - "[[20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README]]"
 ---
 
