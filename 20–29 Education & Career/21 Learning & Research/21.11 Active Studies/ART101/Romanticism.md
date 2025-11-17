@@ -4,8 +4,10 @@ created: 2025-11-16 19:40
 modified: 2025-11-16 19:48
 tags:
   - course/ART101
-  - history/movement
-  - artwork
+  - history/movement/romanticism
+  - history/style/romanticism
+  - period/19th-century
+  - region/europe
 ---
 
 > [!tldr] Romanticism

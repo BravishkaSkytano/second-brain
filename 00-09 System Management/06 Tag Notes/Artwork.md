@@ -14,32 +14,31 @@ feature:
 > [!example] Artwork
 > - **[[20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README|README]]: ART101 - Visual and Performing Arts**
 > - [[Adoration of the Trinity]]
-> - [[Romanticism]]
 > - [[Transfiguration of Christ]]
 > - **[[Mosaic]]**
 > 	- [[Hagia Sophia]]
 > - **Museum**
 > 	- [[Hagia Sophia]]
 > - **Painting**
+> 	- [[Arrangement in Gray and Black No 1]]
 > 	- [[Battle of Alexander and Darius on the Issus]]
-> 	- [[Fresco]]
 > 	- [[Mona Lisa]]
-> 	- [[Oil on canvas]]
+> 	- [[Oath of the Horatii]]
 > 	- [[Tempera]]
 > 	- [[The Creation of Adam (painting)]]
+> 	- [[The Hay Wain]]
 > 	- [[The Last Supper]]
-> 	- **[[Fresco]]**
+> 	- [[The Sower (Millet)]]
+> 	- **Fresco**
 > 		- [[The Creation of Adam (painting)]]
 > 	- **Technique**
 > 		- [[Fresco]]
+> 		- [[Oil on canvas]]
 > - **Sculpture**
 > 	- [[David (Donatello and Michelangelo)]]
 > 	- [[Pietà]]
 > 	- **Marble**
 > 		- [[Moses (sculpture)]]
-> - **Style**
-> 	- [[Gothic art]]
-> 	- [[Rococo]]
 > 
 > ^indexof-artwork
 

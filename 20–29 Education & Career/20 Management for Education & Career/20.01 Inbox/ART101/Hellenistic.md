@@ -4,7 +4,7 @@ created: 2025-10-05 23:56
 modified: 2025-11-03 01:29
 tags:
   - course/ART101
-  - history/period
+  - period
 ---
 
 > [!summary] Hellenistic

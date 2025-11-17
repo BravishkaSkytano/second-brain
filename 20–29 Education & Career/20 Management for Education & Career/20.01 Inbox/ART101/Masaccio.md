@@ -4,9 +4,10 @@ created: 2025-11-03 00:07
 modified: 2025-11-03 00:27
 tags:
   - course/ART101
-  - person/painter
+  - people/artist/painter
 feature: Projects/University/ART101/Projects/University/ART101/Masaccio-290x470/Masaccio-290x470.webp
-thumbnail: z - Attachments/resized/c84ca337f00674fb38ed2850681dfa65_86cf658e.webp
+thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/cfdc0e86f42cb8e0800868ae28e8baa8_86cf658e.webp
+cover: 00-09 System Management/05 Covers & Thumbnails/Masaccio-290x470.webp
 ---
 
 > [!tldr] Masaccio

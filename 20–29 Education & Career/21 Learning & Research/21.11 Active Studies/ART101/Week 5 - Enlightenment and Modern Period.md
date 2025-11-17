@@ -1,7 +1,7 @@
 ---
 date: 2025-11-16
 created: 2025-11-16 19:25
-modified: 2025-11-16 19:47
+modified: 2025-11-16 22:42
 tags:
   - course/ART101
   - worksheet
@@ -16,65 +16,47 @@ tags:
 
 ![[Romanticism#^tldr]]
 
-**4. Realism:**  
-An art style that depicts everyday life and ordinary people as they truly are, without idealizing.
+![[Realism#^tldr]]
 
-**5. Art Nouveau:**  
-A decorative style featuring flowing lines, organic shapes, flowers, and natural forms.
+![[Art Nouveau#^tldr]]
 
-**6. Impressionism:**  
-A style focused on capturing moments of light and color with quick brushstrokes and outdoor scenes.
+![[Impressionism#^tldr]]
 
-**7. Post-Impressionism:**  
-A movement after Impressionism where artists used bold colors, expressive brushwork, and symbolic meaning.
+![[Post-Impressionism#^tldr]]
 
-**8. Expressionism:**  
-An art style that distorts reality to express strong emotions and inner feelings.
+![[Expressionism#^tldr]]
 
-**9. Symbolism:**  
-A movement where artists used symbols, dreams, and imagination to express ideas and emotions.
+![[Symbolism#^tldr]]
 
-**10. Fauvism:**  
-A style known for its wild, unnatural colors and bold, simplified forms (“the wild beasts”).
+![[Fauvism#^tldr]]
 
-**11. Art Deco:**  
-A sleek, modern style with geometric shapes, symmetry, and luxurious materials.
+![[Art Deco#^tldr]]
 
-**12. Surrealism:**  
-An art movement inspired by dreams and the unconscious mind, showing strange, illogical scenes.
+![[Surrealism#^tldr]]
 
 ## People to Know
 
-**13. Manet:**  
-A French painter who bridged Realism and Impressionism and challenged traditional art.
+![[Édouard Manet#^tldr]]
 
-**14. Monet:**  
-A founder of Impressionism known for his paintings of light, water, and nature.
+![[Claude Monet#^tldr]]
 
-**15. Renoir:**  
-An Impressionist painter famous for warm, lively scenes of people and leisure.
+![[Pierre-Auguste Renoir#^tldr]]
 
-**16. Van Gogh:**  
-A Post-Impressionist known for expressive brushwork, vivid colors, and emotional intensity.
+![[Vincent van Gogh#^tldr]]
 
-**17. Picasso:**  
-A groundbreaking modern artist and co-founder of Cubism, known for constantly reinventing his style.
+![[Pablo Picasso#^tldr]]
 
-**18. Jacques-Louis David:**  
-A leading Neoclassical painter known for dramatic, moral, and political scenes.
+![[Jacques-Louis David#^tldr]]
 
 ## Specific Artworks to Identify by Sight
 
-Here are short identifiers you can study:
+![[Arrangement in Gray and Black No 1#^tldr]]
 
-- **Arrangement in Gray and Black No. 1** — Whistler’s portrait of his mother, seated in profile.
-    
-- **Oath of the Horatii** — David’s Neoclassical scene of three brothers swearing an oath.
-    
-- **The Hay Wain** — Constable’s landscape with a wagon crossing a rural river.
-    
-- **The Sower** — Millet’s painting of a farmer striding across a field scattering seeds.
-    
+![[Oath of the Horatii#^tldr]]
+
+![[The Hay Wain#^tldr]]
+
+![[The Sower (Millet)#^tldr]]
 - **Rouen Cathedral (series)** — Monet’s paintings of the cathedral in different light.
     
 - **The Raft of the Medusa** — Géricault’s dramatic scene of shipwreck survivors.

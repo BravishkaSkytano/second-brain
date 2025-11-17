@@ -1,32 +1,41 @@
 ---
 date: 2025-11-03
 created: 2025-11-03 01:12
-modified: 2025-11-03 01:13
+modified: 2025-11-16 22:04
 tags:
-  - person/idx
+  - people/idx
 feature:
 ---
 
 
-> [!example] Person
-> - **Architect**
-> 	- [[Leonardo da Vinci]]
-> 	- [[Raphael]]
+
+
+> [!example] People
+> - **Artist**
+> 	- **Architect**
+> 		- [[Leonardo da Vinci]]
+> 		- [[Raphael]]
+> 	- **Painter**
+> 		- [[Albrecht Dürer]]
+> 		- [[Claude Monet]]
+> 		- [[Édouard Manet]]
+> 		- [[Jacques-Louis David]]
+> 		- [[Leonardo da Vinci]]
+> 		- [[Masaccio]]
+> 		- [[Pablo Picasso]]
+> 		- [[Pierre-Auguste Renoir]]
+> 		- [[Raphael]]
+> 		- [[Sandro Botticelli]]
+> 		- [[Vincent van Gogh]]
+> 	- **Sculptor**
+> 		- [[Donatello]]
+> 		- [[Leonardo da Vinci]]
+> 		- [[Phidias]]
 > - **Engineer**
 > 	- [[Leonardo da Vinci]]
 > - **Inventor**
 > 	- [[Leonardo da Vinci]]
-> - **Painter**
-> 	- [[Albrecht Dürer]]
-> 	- [[Leonardo da Vinci]]
-> 	- [[Masaccio]]
-> 	- [[Raphael]]
-> 	- [[Sandro Botticelli]]
 > - **Scientist**
 > 	- [[Leonardo da Vinci]]
-> - **Sculptor**
-> 	- [[Donatello]]
-> 	- [[Leonardo da Vinci]]
-> 	- [[Phidias]]
 > 
-> ^indexof-person
+> ^indexof-people

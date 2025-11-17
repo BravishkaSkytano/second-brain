@@ -42,7 +42,7 @@ view-count: 1
 > [!QUOTE] Nelson Mandela
 > It always seems impossible until it is done.
 
-> [!QUOTE] Pablo Picasso
+> [!QUOTE] [[Pablo Picasso]]
 > Only put off until tomorrow what you are willing to die having left undone.
 
 > [!QUOTE] Scott McKnight, the Jesus Creed

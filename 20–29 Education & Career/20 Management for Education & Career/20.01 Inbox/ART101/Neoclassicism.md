@@ -5,7 +5,11 @@ modified: 2025-11-03 00:34
 feature:
 tags:
   - course/ART101
-  - history/movement
+  - history/movement/neoclassicism
+  - history/style/neoclassicism
+  - period/18th-century
+  - period/19th-century
+  - region/europe
 aliases:
   - Neoclassical
 ---

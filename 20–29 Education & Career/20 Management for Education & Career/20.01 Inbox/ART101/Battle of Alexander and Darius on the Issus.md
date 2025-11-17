@@ -5,7 +5,6 @@ modified: 2025-11-05 10:01
 tags:
   - course/ART101
   - artwork/painting
-  - history
 feature:
 ---
 

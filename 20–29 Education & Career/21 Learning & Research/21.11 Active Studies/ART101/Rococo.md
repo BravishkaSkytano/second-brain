@@ -1,10 +1,13 @@
 ---
 date: 2025-11-16
 created: 2025-11-16 19:36
-modified: 2025-11-16 19:48
+modified: 2025-11-16 22:51
 tags:
   - course/ART101
-  - artwork/style
+  - history/movement/rococo
+  - history/style/rococo
+  - period/18th-century
+  - region/europe
 ---
 
 > [!tldr] Rococo

@@ -1,11 +1,12 @@
 ---
 date: 2025-11-03
 created: 2025-11-03 00:06
-modified: 2025-11-03 00:06
+modified: 2025-11-16 23:10
 feature:
 tags:
   - course/ART101
-  - artwork/painting
+  - artwork/painting/technique
+  - medium/oil
 ---
 
 > [!tldr] Oil on canvas

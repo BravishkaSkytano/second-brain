@@ -1,17 +1,17 @@
 ---
 date: 2025-10-12
 created: 2025-10-12 18:44
-modified: 2025-11-03 02:08
+modified: 2025-11-16 22:58
 tags:
   - course/ART101
-  - artwork/style
   - architecture/style
+  - history/style/gothic
 aliases:
   - Gothic
 image: z - Attachments/The Rose Window of Chartres Cathedral-South Transept.webp
-thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/99fa97d45483c2ebbd39a64c19c30203_86cf658e.webp
+thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/3b5c62ac3369d9aa941e942773c74f0c_86cf658e.webp
 feature: "[[The Rose Window of Chartres Cathedral-South Transept.webp]]"
-cover: 00-09 System & Templates/05 Covers & Thumbnails/The Rose Window of Chartres Cathedral-South Transept.webp
+cover: 00-09 System Management/05 Covers & Thumbnails/The Rose Window of Chartres Cathedral-South Transept.webp
 ---
 
 > [!tldr] Gothic art

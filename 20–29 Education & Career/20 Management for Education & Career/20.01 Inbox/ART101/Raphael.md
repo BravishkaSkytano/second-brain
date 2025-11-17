@@ -5,9 +5,10 @@ modified: 2025-11-03 00:34
 feature: Projects/University/ART101/Raphael-500x682.webp
 tags:
   - course/ART101
-  - person/painter
-  - person/architect
-thumbnail: z - Attachments/resized/054f142b030a993bc480ad2c565dcff6_86cf658e.webp
+  - people/artist/painter
+  - people/artist/architect
+thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/0613a1ceaea6231b8b91d1353b230d8b_86cf658e.webp
+cover: 20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Raphael-500x682.webp
 ---
 
 > [!tldr] Raphael

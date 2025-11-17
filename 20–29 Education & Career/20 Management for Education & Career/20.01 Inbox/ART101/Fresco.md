@@ -1,18 +1,14 @@
 ---
 date: 2025-10-12
 created: 2025-10-12 19:36
-modified: 2025-11-03 02:06
+modified: 2025-11-16 22:59
 tags:
   - course/ART101
-  - artwork/painting
   - artwork/painting/technique
-  - artwork/painting/fresco
-image: z - Attachments/The Creation of Adam.webp
-thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/791f843de7f4f40abd86c71dab2ba23c_86cf658e.webp
-feature: "[[The Creation of Adam.webp]]"
 aliases:
   - frescoes
 cover: 00-09 System Management/05 Covers & Thumbnails/The Creation of Adam.webp
+thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/791f843de7f4f40abd86c71dab2ba23c_86cf658e.webp
 ---
 
 > [!tldr] Fresco

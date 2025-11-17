@@ -5,7 +5,7 @@ modified: 2025-11-02 23:56
 feature:
 tags:
   - course/ART101
-  - history
+  - period
 ---
 
 > [!tldr] Renaissance

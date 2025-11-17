@@ -208,7 +208,6 @@
     "Insurmountable": null,
     "Intact": null,
     "InterestedIn": null,
-    "Into": null,
     "InvestIn": null,
     "IsKnownFor": null,
     "ItCan": null,
@@ -334,7 +333,6 @@
     "PronounKnew": null,
     "Proofread": null,
     "ProperNouns": null,
-    "PunctuationClusters": null,
     "QuantifierNeedsOf": null,
     "QuiteMany": null,
     "QuiteQuiet": null,
@@ -455,7 +453,9 @@
     "WouldNeverHave": null,
     "WroughtIron": null
   },
-  "userDictionary": [],
+  "userDictionary": [
+    "U.S."
+  ],
   "dialect": 0,
   "delay": -1,
   "lintEnabled": true

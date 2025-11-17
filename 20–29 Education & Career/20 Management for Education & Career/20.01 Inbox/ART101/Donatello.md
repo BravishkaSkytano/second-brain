@@ -5,8 +5,9 @@ modified: 2025-11-03 00:25
 feature: Projects/University/ART101/Donatello-500x529.webp
 tags:
   - course/ART101
-  - person/sculptor
-thumbnail: z - Attachments/resized/09d9195c403524489f771dae332c5005_86cf658e.webp
+  - people/artist/sculptor
+thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/37a0545dc36636e58ceb113ca8b9a4c4_86cf658e.webp
+cover: 20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Donatello-500x529.webp
 ---
 
 > [!tldr] Donatello

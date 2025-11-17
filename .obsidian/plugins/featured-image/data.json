@@ -1,9 +1,9 @@
 {
   "showNotificationsOnUpdate": true,
   "frontmatterProperty": "cover",
-  "thumbnailsFolder": "00-09 System & Templates/05 Covers & Thumbnails",
+  "thumbnailsFolder": "00-09 System Management/05 Covers & Thumbnails",
   "excludedFolders": [
-    "00-09 System & Templates/02 Templates"
+    "00-09 System Management/03 Templates"
   ],
   "createResizedThumbnail": true,
   "resizedFrontmatterProperty": "thumbnail",
