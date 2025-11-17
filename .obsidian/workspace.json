@@ -271,7 +271,6 @@
       "templater-obsidian:Templater": false,
       "notebook-navigator:Notebook Navigator": false,
       "random-note:Open random note": false,
-      "the-queue:Toggle Queue": false,
       "index-notes:New note by copying metadata of focused note": false,
       "tasknotes:Open mini calendar": false,
       "tasknotes:Open advanced calendar": false,
@@ -287,7 +286,7 @@
       "bible-sidecar:Bible Sidecar": false
     }
   },
-  "active": "c9484f4374667aeb",
+  "active": "1862072666159b8c",
   "lastOpenFiles": [
     "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Albrecht Dürer.md",
     "00-09 System & Templates/05 Covers & Thumbnails/resized/d440480f9936c539624e10b896895d21_86cf658e.webp",
