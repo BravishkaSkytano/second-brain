@@ -34,10 +34,8 @@ tags:
 > 	- [[Pierre-Auguste Renoir]]
 > 	- [[Surrealism]]
 > - **High-renaissance**
-> 	- **[[20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README|README]]: ART101 - Visual and Performing Arts**
 > 	- [[Leonardo da Vinci]]
 > - **Renaissance**
-> 	- **[[20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README|README]]: ART101 - Visual and Performing Arts**
 > 	- [[St. Peter’s Cathedral|St]]
 > 
 > ^indexof-period

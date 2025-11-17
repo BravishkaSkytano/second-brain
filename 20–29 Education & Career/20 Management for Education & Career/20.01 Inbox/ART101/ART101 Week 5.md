@@ -1,11 +1,11 @@
 ---
-status: open
+status: done
 priority: normal
 due: 2025-11-03T02:59
 scheduled: 2025-11-02
 timeEstimate: 120
 created: 2025-11-02T17:34:08.750-05:00
-modified: 2025-11-02 23:33
+modified: 2025-11-17T17:50:09.542-05:00
 reminders:
   - id: rem_1762122848750_4ivkyt4oo
     type: relative
@@ -23,6 +23,7 @@ contexts: []
 projects:
   - "[[20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README]]"
 description: "Covers: Enlightenment and Modern period: Painting, Sculpture and Architecture, and other non-traditional forms of art."
+completed: 2025-11-17
 ---
 
 - [[W5 Worksheet]]

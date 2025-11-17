@@ -10,7 +10,6 @@
           {
             "id": "22096d7bf9d197b7",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -28,18 +27,17 @@
                   "unlinkedCollapsed": true
                 }
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "Week 5 - Enlightenment and Modern Period"
             }
           },
           {
-            "id": "5189ef690b2202d2",
+            "id": "9dacbdf7a31e7d23",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Houses of Parliament (Monet series).md",
+                "file": "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,22 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Houses of Parliament (Monet series)"
-            }
-          },
-          {
-            "id": "3a3201084da0e6bf",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://en.wikipedia.org/wiki/Houses_of_Parliament_(Monet_series)"
-              },
-              "icon": "lucide-file",
-              "title": "Houses of Parliament (Monet series) - Wikipedia"
+              "title": "README"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,7 +194,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Week 5 - Enlightenment and Modern Period.md",
+                "file": "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -235,7 +222,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Week 5 - Enlightenment and Modern Period"
+              "title": "Graph of README"
             }
           },
           {
@@ -244,7 +231,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Week 5 - Enlightenment and Modern Period.md"
+                "file": "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -312,11 +299,14 @@
       "wikipedia-search:Open Article": false
     }
   },
-  "active": "22096d7bf9d197b7",
+  "active": "9dacbdf7a31e7d23",
   "lastOpenFiles": [
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Houses of Parliament (Monet series).md",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/British Parliament.md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Week 4 Worksheet.md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README.md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/README.md",
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Week 5 - Enlightenment and Modern Period.md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/British Parliament.md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Houses of Parliament (Monet series).md",
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/American Gothic.md",
     "00-09 System Management/05 Covers & Thumbnails/resized/7b444f17ae2b70fd48b339fe708b81fc_86cf658e.webp",
     "00-09 System Management/05 Covers & Thumbnails/external/29b9edc747421f915687d86127320ce1.jpg",
@@ -328,7 +318,6 @@
     "Rococo.md",
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/A Sunday on La Grande Jatte.md",
     "00-09 System Management/03 Templates/movement.md",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/README.md",
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Rococo.md",
     "10–19 Personal & Faith/10 Management for Personal & Faith/10.01 Inbox/Be Transformed - Yoela Olson.md",
     "50–59 Craft & Hobbies/M Michele George - The Knotty Truth.md",
@@ -350,8 +339,6 @@
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Starry Night-960x760.webp",
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Interior of My Studio.md",
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Raft of the Medusa.md",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README.md",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Rouen Cathedral paintings.md",
     "theme",
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101",
     "00-09 System & Templates/05 Covers & Thumbnails/resized",
