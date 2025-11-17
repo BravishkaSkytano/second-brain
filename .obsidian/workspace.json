@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "c99d7cb18125c119",
+            "id": "5189ef690b2202d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Third of May, 1808.md",
+                "file": "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Houses of Parliament (Monet series).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,31 +54,19 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The Third of May, 1808"
+              "title": "Houses of Parliament (Monet series)"
             }
           },
           {
-            "id": "b3248e068fe0ea02",
+            "id": "3a3201084da0e6bf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "surfing-view",
               "state": {
-                "file": "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/A Sunday on La Grande Jatte.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "url": "https://en.wikipedia.org/wiki/Houses_of_Parliament_(Monet_series)"
               },
               "icon": "lucide-file",
-              "title": "A Sunday on La Grande Jatte"
+              "title": "Houses of Parliament (Monet series) - Wikipedia"
             }
           }
         ]
@@ -188,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 569.5
+    "width": 316.5
   },
   "right": {
     "id": "0e214fe4a7b36a8e",
@@ -320,55 +308,57 @@
       "tasknotes:Create new task": false,
       "callout-manager:Insert Callout": false,
       "omnisearch:Omnisearch": false,
-      "bible-sidecar:Bible Sidecar": false
+      "bible-sidecar:Bible Sidecar": false,
+      "wikipedia-search:Open Article": false
     }
   },
   "active": "22096d7bf9d197b7",
   "lastOpenFiles": [
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Houses of Parliament (Monet series).md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/British Parliament.md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Week 5 - Enlightenment and Modern Period.md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/American Gothic.md",
+    "00-09 System Management/05 Covers & Thumbnails/resized/7b444f17ae2b70fd48b339fe708b81fc_86cf658e.webp",
+    "00-09 System Management/05 Covers & Thumbnails/external/29b9edc747421f915687d86127320ce1.jpg",
+    "00-09 System Management/05 Covers & Thumbnails/external",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Romanticism.md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Symbolism (movement).md",
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Third of May, 1808.md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Third of May 1808.md",
+    "Rococo.md",
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/A Sunday on La Grande Jatte.md",
+    "00-09 System Management/03 Templates/movement.md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/README.md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Rococo.md",
+    "10–19 Personal & Faith/10 Management for Personal & Faith/10.01 Inbox/Be Transformed - Yoela Olson.md",
+    "50–59 Craft & Hobbies/M Michele George - The Knotty Truth.md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Oath of the Horatii.md",
+    "00-09 System Management/03 Templates/artwork.md",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Symbolism.md",
+    "A Sunday Afternoon on the Island of La Grande Jatte - Wikipedia.md",
+    "00-09 System Management/05 Covers & Thumbnails/resized/6903c4cd0255d0d16f65fad64da3d1d4_86cf658e.webp",
+    "00-09 System Management/05 Covers & Thumbnails/youtube/wNB9Vm6MoDQ.webp",
+    "00-09 System Management/05 Covers & Thumbnails/youtube",
+    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/A Sunday Afternoon on the Island of La Grande Jatte.md",
     "00-09 System Management/05 Covers & Thumbnails/resized/43721e5df0b2cfef62d6ae27acbc1fb9_86cf658e.webp",
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/A Sunday on La Grande Jatte-960x639.webp",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Week 5 - Enlightenment and Modern Period.md",
     "00-09 System Management/05 Covers & Thumbnails/resized/da8f85a5ef57b1c4ebb6cdb970c10204_86cf658e.webp",
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Third of May, 1808-960x741.webp",
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Starry Night.md",
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Le Moulin de la Galette.md",
     "00-09 System Management/05 Covers & Thumbnails/resized/4b1f553ed2542adda7e2ab274e460c9a_86cf658e.webp",
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Starry Night-960x760.webp",
-    "00-09 System Management/05 Covers & Thumbnails/resized/fe9942264e4534a614c26c5125f44929_86cf658e.webp",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Le Moulin de la Galette-500x619.webp",
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Interior of My Studio.md",
-    "00-09 System Management/05 Covers & Thumbnails/resized/52d52a435a7859089a158babed45e670_86cf658e.webp",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Interior of My Studio-960x566.webp",
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Raft of the Medusa.md",
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README.md",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Romanticism.md",
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Rouen Cathedral paintings.md",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Sower (Millet).md",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Hay Wain.md",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Oath of the Horatii.md",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Arrangement in Gray and Black No 1.md",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Impressionism.md",
-    "Art Movements.md",
-    "00-09 System Management/03 Templates/default.md",
-    "theme/emotion.md",
     "theme",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Realism.md",
-    "00-09 System Management/03 Templates/period.md",
-    "00-09 System Management/03 Templates/theme.md",
-    "00-09 System Management/03 Templates/region.md",
-    "00-09 System Management/03 Templates/medium.md",
-    "00-09 System Management/03 Templates/genre.md",
-    "00-09 System Management/03 Templates/style.md",
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101",
     "00-09 System & Templates/05 Covers & Thumbnails/resized",
     "00-09 System & Templates/05 Covers & Thumbnails",
     "00-09 System & Templates",
     "30–39 Writing/31 Creative Writing/31.01 Inbox",
     "30–39 Writing/32 Nonfiction & Essays/32.01 Inbox",
-    "40-49 Worldbuilding/40 Management for Worldbuilding/40.01 Inbox",
-    "30–39 Writing/30 Management for Writing/30.01 Inbox",
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox"
+    "40-49 Worldbuilding/40 Management for Worldbuilding/40.01 Inbox"
   ]
 }

@@ -2,33 +2,34 @@
 date: <% tp.date.now("YYYY-MM-DD") %>
 created: <% tp.date.now("YYYY-MM-DD HH:mm") %>
 modified:
+description: "{description}"
 tags:
   - history
   - movement
 <%"---"%>
 
-> [!summary] {{title}}  
-> **Period:**  
-> **Region:**  
-> **Key Artists:**  
-> **Main Styles:**  
+> [!summary] {title}
+> **Overview:** {description}
+> **Period:** 
+> **Region:** 
+> **Key Figures:** 
+> **Influences:** 
 
 ^tldr
 
 ## Overview
-Brief explanation of the movement.
+
+> {intro}
+> 
+> **~ *Wikipedia***
 
 ## Characteristics
 - Themes  
 - Visual traits  
 - Ideals  
 
-## Key Artists
-List with links.
-
-## Important Artworks
-Backlinks will also show them automatically.
-
 ## Historical Context
 
 ## Resources
+
+- [{title} - Wikipedia]({url})

@@ -13,9 +13,7 @@ tags:
 > 	- [[Art Nouveau]]
 > 	- [[Neoclassicism]]
 > 	- [[Post-Impressionism]]
-> 	- [[Rococo]]
 > 	- [[Surrealism]]
-> 	- [[Symbolism]]
 > - **France**
 > 	- [[Claude Monet]]
 > 	- [[Édouard Manet]]

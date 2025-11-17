@@ -15,6 +15,8 @@ feature:
 > - **[[20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README|README]]: ART101 - Visual and Performing Arts**
 > - [[A Sunday on La Grande Jatte]]
 > - [[Adoration of the Trinity]]
+> - [[American Gothic]]
+> - [[Houses of Parliament (Monet series)]]
 > - [[Interior of My Studio]]
 > - [[Le Moulin de la Galette]]
 > - [[Oath of the Horatii]]

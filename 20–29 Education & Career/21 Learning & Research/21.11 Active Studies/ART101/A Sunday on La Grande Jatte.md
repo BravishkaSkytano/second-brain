@@ -1,7 +1,7 @@
 ---
 date: 2025-11-17
 created: 2025-11-17 15:35
-modified: 2025-11-17 15:47
+modified: 2025-11-17 16:33
 tags:
   - artwork
 description: Seurat’s pointillist park scene with figures in profile.
@@ -26,6 +26,9 @@ aliases:
 ^tldr
 
 ## Description
+
+> A Sunday Afternoon on the Island of La Grande Jatte (French: Un dimanche après-midi à l'Île de la Grande Jatte) was painted from 1884 to 1886 and is Georges Seurat's most famous work. A leading example of pointillist technique, executed on a large canvas, it is a founding work of the neo-impressionist movement. Seurat's composition includes a number of Parisians at a park on the banks of the River Seine. It is held in the collection of the Art Institute of Chicago.
+> **~ *Wikipedia***
 
 ## Resources
 

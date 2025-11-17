@@ -22,7 +22,7 @@
   "autoRevealActiveFile": true,
   "autoRevealIgnoreRightSidebar": true,
   "multiSelectModifier": "cmdCtrl",
-  "startView": "files",
+  "startView": "navigation",
   "homepage": null,
   "mobileHomepage": null,
   "useMobileHomepage": false,

@@ -19,8 +19,6 @@ tags:
 > - **[[Neoclassicism]]**
 > - **Post-impressionism**
 > 	- [[Post-Impressionism]]
-> - **[[Rococo]]**
 > - **[[Surrealism]]**
-> - **[[Symbolism]]**
 > 
 > ^indexof-history-style

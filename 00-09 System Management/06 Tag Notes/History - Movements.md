@@ -32,9 +32,7 @@ tags:
 > - **Realism**
 > 	- [[Édouard Manet]]
 > 	- [[The Sower (Millet)]]
-> - **[[Rococo]]**
 > - **[[Surrealism]]**
 > 	- [[Pablo Picasso]]
-> - **[[Symbolism]]**
 > 
 > ^indexof-history-movement

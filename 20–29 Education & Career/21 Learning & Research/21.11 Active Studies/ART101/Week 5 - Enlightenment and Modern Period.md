@@ -1,7 +1,7 @@
 ---
 date: 2025-11-16
 created: 2025-11-16 19:25
-modified: 2025-11-17 15:36
+modified: 2025-11-17 17:31
 tags:
   - course/ART101
   - worksheet
@@ -26,7 +26,7 @@ tags:
 
 ![[Expressionism#^tldr]]
 
-![[Symbolism#^tldr]]
+![[Symbolism (movement)#^tldr]]
 
 ![[Fauvism#^tldr]]
 
@@ -72,6 +72,4 @@ tags:
 
 ![[A Sunday on La Grande Jatte#^tldr]]
 
-![[American Gothic#^tldr]] — Grant Wood’s farmer and daughter with a pitchfork in front of a house.
-
-![[British Parliament#^tldr]] — Turner’s glowing, atmospheric painting of the Houses of Parliament burning.
+![[American Gothic#^tldr]]

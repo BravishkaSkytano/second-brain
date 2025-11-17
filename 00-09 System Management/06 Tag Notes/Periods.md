@@ -14,7 +14,6 @@ tags:
 > - **18th-century**
 > 	- [[Jacques-Louis David]]
 > 	- [[Neoclassicism]]
-> 	- [[Rococo]]
 > - **19th-century**
 > 	- [[Art Nouveau]]
 > 	- [[Claude Monet]]
@@ -23,7 +22,6 @@ tags:
 > 	- [[Neoclassicism]]
 > 	- [[Pierre-Auguste Renoir]]
 > 	- [[Post-Impressionism]]
-> 	- [[Symbolism]]
 > 	- [[The Sower (Millet)]]
 > 	- [[Vincent van Gogh]]
 > - **20th-century**

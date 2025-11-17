@@ -19,7 +19,7 @@
   "keepEmptyProperty": false,
   "preserveTemplateImages": false,
   "requireExclamationForYouTube": true,
-  "downloadExternalImages": false,
+  "downloadExternalImages": true,
   "downloadYoutubeThumbnails": true,
   "debugMode": false,
   "dryRun": false,
