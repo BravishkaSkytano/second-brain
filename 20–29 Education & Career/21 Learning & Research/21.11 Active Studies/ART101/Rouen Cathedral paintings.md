@@ -5,7 +5,7 @@ modified: 2025-11-17 14:41
 tags:
   - artwork
 description: Monet's paintings of the cathedral in different light.
-cover: 20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Rouen Cathedral paintings-500x782.webp
+image: 20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Rouen Cathedral paintings-500x782.webp
 thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/8367432faa1c61949b38b94b38cecd4c_86cf658e.webp
 ---
 

@@ -5,7 +5,7 @@ modified: 2025-11-17 14:48
 tags:
   - artwork
 description: Géricault’s dramatic scene of shipwreck survivors.
-cover: 20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Raft of the Medusa-960x655.webp
+image: 20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Raft of the Medusa-960x655.webp
 thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/5f25441f84ab7cb1d3b8f5d473bd35dd_86cf658e.webp
 ---
 

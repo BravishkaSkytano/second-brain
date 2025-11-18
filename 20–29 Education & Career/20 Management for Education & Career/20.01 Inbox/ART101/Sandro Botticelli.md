@@ -6,10 +6,10 @@ feature: Projects/University/ART101/Botticelli-500x546.webp
 tags:
   - course/ART101
   - people/artist/painter
-thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/b46975efbf123e88178ece1ad4050d80_86cf658e.webp
 aliases:
   - Botticelli
-cover: 20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Botticelli-500x546.webp
+image: 20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Botticelli-500x546.webp
+thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/b46975efbf123e88178ece1ad4050d80_86cf658e.webp
 ---
 
 > [!tldr] Botticelli

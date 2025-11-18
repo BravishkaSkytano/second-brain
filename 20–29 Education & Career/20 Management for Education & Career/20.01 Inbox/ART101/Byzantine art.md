@@ -4,10 +4,9 @@ created: 2025-10-12 1[[Eastern Roman Empire|Byzantine Empire]]025-10-12 18:28
 modified: 2025-10-12 18:29
 tags:
   - course/ART101
-image: z - Attachments/Byzantine art-1760304037177.webp
-thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/e4c00f5994b00f6402a8af1e47d98016_86cf658e.webp
+image: 00-09 System Management/05 Covers & Thumbnails/Byzantine art-1760304037177.webp
 feature: "[[Byzantine art-1760304037177.webp]]"
-cover: 00-09 System Management/05 Covers & Thumbnails/Byzantine art-1760304037177.webp
+thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/e4c00f5994b00f6402a8af1e47d98016_86cf658e.webp
 ---
 
 > [!tldr] Byzantine art

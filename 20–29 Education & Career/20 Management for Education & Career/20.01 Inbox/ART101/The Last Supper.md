@@ -6,7 +6,8 @@ tags:
   - course/ART101
   - artwork/painting
 feature: Projects/University/ART101/The Last Supper-500x250.webp
-thumbnail: z - Attachments/resized/255bd3f4a2e00c66cb069edb13b56844_86cf658e.webp
+thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/ad9113553e4d4c37ed33091f4e03189d_86cf658e.webp
+image: 20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/The Last Supper-500x250.webp
 ---
 
 > [!tldr] The Last Supper

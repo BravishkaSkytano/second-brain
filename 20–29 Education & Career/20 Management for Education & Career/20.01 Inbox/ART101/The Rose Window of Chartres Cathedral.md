@@ -5,10 +5,9 @@ modified: 2025-10-12 21:04
 tags:
   - course/ART101
 state: "[[Drafting]]"
-image: z - Attachments/The Rose Window of Chartres Cathedral - West Transept.webp
-thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/cc336482177d16a73c37e26ee763092f_86cf658e.webp
+image: 00-09 System Management/05 Covers & Thumbnails/The Rose Window of Chartres Cathedral - West Transept.webp
 feature: "[[The Rose Window of Chartres Cathedral - West Transept.webp]]"
-cover: 00-09 System & Templates/05 Covers & Thumbnails/The Rose Window of Chartres Cathedral - West Transept.webp
+thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/3fec811dda96986e65d9d1fa85f8a938_86cf658e.webp
 ---
 
 ![[The Rose Window of Chartres Cathedral - West Transept.webp|282x188]]

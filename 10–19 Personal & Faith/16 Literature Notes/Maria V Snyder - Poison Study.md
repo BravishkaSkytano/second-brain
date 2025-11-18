@@ -1,12 +1,34 @@
 ---
-created: 2024-02-28 15:00
-modified: 2025-08-10 21:16
+date: 2025-11-18
+created: 2025-11-18 14:26
+modified: 2025-11-18 14:31
+book_title: Poison Study
+authors:
+  - "[[Maria V Snyder]]"
+publisher: Mira Books
+published: 2024
+pages: 0
+isbn10: 778368157
+isbn13: 9780778368151
+cover: http://books.google.com/books/content?id=2dpW0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+status: unread
 tags:
-  - 📥/🌱
-view-count: 1
+  - book
+categories:
+  - "[[Fiction]]"
+rating:
+aliases:
+  - Poison Study
+  - Poison Study by Maria V Snyder
 ---
 
+![cover|150](http://books.google.com/books/content?id=2dpW0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api)
+
+
+## Notes
+
 ## Quotes
+
 
 > [!quote] Yelena
 > I had learned the hard way that avoiding problems didn’t work. Run and hide were my trademark impulses, which only led to being trapped in a corner with no recourse other than to blindly strike out.

@@ -5,10 +5,9 @@ modified: 2025-10-12 20:47
 tags:
   - course/ART101
 state: "[[Shortlisted]]"
-image: z - Attachments/The Last Judgment relief sculpture by Gislebertus-1760308783744.webp
-thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/da1a18bfc8153cfd0d79f67afff72fd5_86cf658e.webp
+image: 00-09 System Management/05 Covers & Thumbnails/The Last Judgment relief sculpture by Gislebertus-1760308783744.webp
 feature: "[[The Last Judgment relief sculpture by Gislebertus-1760308783744.webp]]"
-cover: 00-09 System & Templates/05 Covers & Thumbnails/The Last Judgment relief sculpture by Gislebertus-1760308783744.webp
+thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/5b58ec762a7605ea5abc56a7c603ec42_86cf658e.webp
 ---
 
 > [!tldr] Romanesque art

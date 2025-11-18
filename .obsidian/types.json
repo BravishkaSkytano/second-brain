@@ -8,6 +8,7 @@
     "date": "date",
     "lastmod": "datetime",
     "state": "text",
-    "type": "multitext"
+    "type": "multitext",
+    "rating": "number"
   }
 }

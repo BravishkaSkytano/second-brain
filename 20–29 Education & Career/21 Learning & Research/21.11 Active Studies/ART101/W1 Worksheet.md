@@ -1,7 +1,7 @@
 ---
 date: 2025-10-05
 created: 2025-10-05 23:35
-modified: 2025-10-27 21:10
+modified: 2025-11-18 13:50
 tags:
   - course/ART101
   - worksheet

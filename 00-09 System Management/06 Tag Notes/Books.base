@@ -1,0 +1,54 @@
+model:
+  version: 1
+  kind: Table
+  columns: []
+pluginVersion: 1.0.0
+filters:
+  and:
+    - file.tags.contains("book")
+views:
+  - type: cards
+    name: All Books
+    order:
+      - book_title
+      - authors
+      - categories
+      - status
+    image: note.cover
+    imageFit: contain
+  - type: cards
+    name: Unread
+    filters:
+      and:
+        - status == "unread"
+    order:
+      - bookTitle
+      - subtitle
+      - author(s)
+      - file.folder
+    image: note.cover
+    imageFit: contain
+  - type: cards
+    name: Reading
+    filters:
+      and:
+        - status == "reading"
+    order:
+      - bookTitle
+      - subtitle
+      - author(s)
+      - file.folder
+    image: note.cover
+    imageFit: contain
+  - type: cards
+    name: Read
+    filters:
+      and:
+        - status == "read"
+    order:
+      - bookTitle
+      - subtitle
+      - author(s)
+      - file.folder
+    image: note.cover
+    imageFit: contain

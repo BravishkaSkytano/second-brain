@@ -6,7 +6,8 @@ tags:
   - course/ART101
   - artwork/painting
 feature: Projects/University/ART101/Mona Lisa-500x745.webp
-thumbnail: z - Attachments/resized/06f859bf53d39c9ba094bc5e2fddda8a_86cf658e.webp
+thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/26c70c24e912380d2fd1f95eecc3e3c7_86cf658e.webp
+image: 20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Mona Lisa-500x745.webp
 ---
 
 > [!tldr] Mona Lisa

@@ -8,7 +8,7 @@ description: Courbet’s large Realist painting showing his studio filled with p
 aliases:
   - The Artist's Studio
   - The Painter's Studio
-cover: 20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Interior of My Studio-960x566.webp
+image: 20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Interior of My Studio-960x566.webp
 thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/52d52a435a7859089a158babed45e670_86cf658e.webp
 ---
 

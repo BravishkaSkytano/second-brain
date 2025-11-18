@@ -6,8 +6,8 @@ feature: Projects/University/ART101/Albrecht Dürer-500x705.webp
 tags:
   - course/ART101
   - people/artist/painter
-thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/d440480f9936c539624e10b896895d21_86cf658e.webp
-cover: 20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Albrecht Dürer-500x705.webp
+image: 20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Albrecht Dürer-500x705.webp
+thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/d440480f9936c539624e10b896895d21_86cf658e.webp
 ---
 
 > [!tldr] Albrecht Dürer

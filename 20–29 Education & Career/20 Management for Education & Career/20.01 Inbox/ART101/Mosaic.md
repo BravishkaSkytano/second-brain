@@ -6,10 +6,9 @@ tags:
   - course/ART101
   - artwork/mosaic
 state: "[[Idea]]"
-image: z - Attachments/The Theodora Panels.webp
-thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/aa95c93851718909de74e39234f4ef0d_86cf658e.webp
+image: 00-09 System Management/05 Covers & Thumbnails/The Theodora Panels.webp
 feature: "[[The Theodora Panels.webp]]"
-cover: 00-09 System & Templates/05 Covers & Thumbnails/The Theodora Panels.webp
+thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/4309f0a34b02589317106ad0fd9a6697_86cf658e.webp
 ---
 
 > [!tldr] Mosaic

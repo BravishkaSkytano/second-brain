@@ -26,7 +26,7 @@ This space is for nurturing your relationship with God, caring for your mind and
 > 
 > > [!example] [[10–19 Personal & Faith/12 Faith & Bible Study/README|README]]: 12 Faith & Bible Study
 > 
-> > [!example] [[10–19 Personal & Faith/13 Health & Self-Care/README|README]]: 13 Health and Self-Care
+> > [!example] [[10–19 Personal & Faith/13 Health & Self-Care/README|README]]: 13 Health & Self-Care
 > 
 > > [!example] [[10–19 Personal & Faith/15 Personal Planning & Goals/README|README]]: 15 Personal Planning & Goals
 > 

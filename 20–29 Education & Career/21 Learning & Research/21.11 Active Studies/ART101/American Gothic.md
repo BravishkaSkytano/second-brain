@@ -5,7 +5,7 @@ modified: 2025-11-17 17:21
 tags:
   - artwork
 description: 1930 painting by Grant Wood of a farmer and daughter with a pitchfork in front of a house.
-cover: 00-09 System Management/05 Covers & Thumbnails/external/29b9edc747421f915687d86127320ce1.jpg
+image: 00-09 System Management/05 Covers & Thumbnails/external/29b9edc747421f915687d86127320ce1.jpg
 thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/7b444f17ae2b70fd48b339fe708b81fc_86cf658e.webp
 ---
 

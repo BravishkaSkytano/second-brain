@@ -7,8 +7,8 @@ tags:
   - artwork/painting/technique
 aliases:
   - frescoes
-cover: 00-09 System Management/05 Covers & Thumbnails/The Creation of Adam.webp
-thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/791f843de7f4f40abd86c71dab2ba23c_86cf658e.webp
+image: 00-09 System Management/05 Covers & Thumbnails/The Creation of Adam.webp
+thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/791f843de7f4f40abd86c71dab2ba23c_86cf658e.webp
 ---
 
 > [!tldr] Fresco

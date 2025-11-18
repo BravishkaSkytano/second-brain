@@ -7,8 +7,8 @@ tags:
 categories:
   - character
   - branch
-cover: 30–39 Writing/30 Management for Writing/30.01 Inbox/20-29 Prose/Fiction/Ilmaria story/Characters/images/seraphina-vantus.jpg
-thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/cb5dc533b068cafe825cde78aadc64c7_86cf658e.webp
+image: 30–39 Writing/30 Management for Writing/30.01 Inbox/20-29 Prose/Fiction/Ilmaria story/Characters/images/seraphina-vantus.jpg
+thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/cb5dc533b068cafe825cde78aadc64c7_86cf658e.webp
 ---
 
 ![[seraphina-vantus.jpg]]

@@ -9,8 +9,8 @@ tags:
   - religion/Islam
   - religion/Christianity
 feature: z - Attachments/Hagia Sophia-1761596077883.webp
-thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/0639f7aebf8311970493f9e2fb60b268_86cf658e.webp
-cover: 00-09 System Management/05 Covers & Thumbnails/Hagia Sophia-1761596077883.webp
+image: 00-09 System Management/05 Covers & Thumbnails/Hagia Sophia-1761596077883.webp
+thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/0639f7aebf8311970493f9e2fb60b268_86cf658e.webp
 ---
 
 ![[Hagia Sophia-1761596077883.webp]]

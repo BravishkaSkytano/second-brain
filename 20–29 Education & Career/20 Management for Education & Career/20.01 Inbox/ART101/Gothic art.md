@@ -8,10 +8,9 @@ tags:
   - history/style/gothic
 aliases:
   - Gothic
-image: z - Attachments/The Rose Window of Chartres Cathedral-South Transept.webp
-thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/3b5c62ac3369d9aa941e942773c74f0c_86cf658e.webp
+image: 00-09 System Management/05 Covers & Thumbnails/The Rose Window of Chartres Cathedral-South Transept.webp
 feature: "[[The Rose Window of Chartres Cathedral-South Transept.webp]]"
-cover: 00-09 System Management/05 Covers & Thumbnails/The Rose Window of Chartres Cathedral-South Transept.webp
+thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/3b5c62ac3369d9aa941e942773c74f0c_86cf658e.webp
 ---
 
 > [!tldr] Gothic art

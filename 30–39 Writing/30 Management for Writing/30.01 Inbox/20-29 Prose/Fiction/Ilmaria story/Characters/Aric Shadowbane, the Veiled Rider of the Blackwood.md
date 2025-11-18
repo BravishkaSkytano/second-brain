@@ -13,8 +13,8 @@ aliases:
   - Veiled Rider of the Blackwood
 banner: "![[aric-shadowbane.jpg]]"
 banner_y: 0.232
-cover: 30–39 Writing/30 Management for Writing/30.01 Inbox/20-29 Prose/Fiction/Ilmaria story/Characters/images/aric-shadowbane.jpg
-thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/c8ac1186c28d271767056e21bba194b1_86cf658e.webp
+image: 30–39 Writing/30 Management for Writing/30.01 Inbox/20-29 Prose/Fiction/Ilmaria story/Characters/images/aric-shadowbane.jpg
+thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/c8ac1186c28d271767056e21bba194b1_86cf658e.webp
 ---
 
 ![[aric-shadowbane.jpg]]

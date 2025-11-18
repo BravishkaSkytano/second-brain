@@ -8,7 +8,7 @@ tags:
 aliases:
   - Whistler's Mother
   - Portrait of the Painter's Mother
-cover: 20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Arrangement in Gray and Black No 1-960x854.webp
+image: 20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Arrangement in Gray and Black No 1-960x854.webp
 thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/b16fe8cedaeb5e762a2612bbb71dc73d_86cf658e.webp
 ---
 

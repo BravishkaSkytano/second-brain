@@ -5,7 +5,7 @@ modified: 2025-11-17 15:13
 tags:
   - artwork
 description:
-cover: 20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Le Moulin de la Galette-500x619.webp
+image: 20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Le Moulin de la Galette-500x619.webp
 thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/fe9942264e4534a614c26c5125f44929_86cf658e.webp
 ---
 

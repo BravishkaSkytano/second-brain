@@ -6,7 +6,7 @@ tags:
   - course/ART101
   - artwork/painting
 description: Constable's landscape with a wagon crossing a rural river.
-cover: 20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Hay Wain-960x662.webp
+image: 20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/The Hay Wain-960x662.webp
 thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/a50d1823a3c9ae51ccee9b4c657aafa5_86cf658e.webp
 ---
 

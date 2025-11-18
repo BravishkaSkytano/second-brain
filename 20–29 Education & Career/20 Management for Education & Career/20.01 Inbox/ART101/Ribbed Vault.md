@@ -5,10 +5,9 @@ modified: 2025-10-12 21:00
 tags:
   - course/ART101
 state: "[[Final]]"
-image: z - Attachments/Ribbed Vault-1760316107980.webp
-thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/33c978864ba65f24be94803770139f53_86cf658e.webp
+image: 00-09 System Management/05 Covers & Thumbnails/Ribbed Vault-1760316107980.webp
 feature: "[[Ribbed Vault-1760316107980.webp]]"
-cover: 00-09 System & Templates/05 Covers & Thumbnails/Ribbed Vault-1760316107980.webp
+thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/c8ef403cc619e65b380f296e8931cfc4_86cf658e.webp
 ---
 
 > [!tldr] Ribbed Vault

@@ -6,10 +6,11 @@ tags:
   - course/ART101
   - place
 feature: Projects/University/ART101/Cathedral of Florence-500x335.webp
-thumbnail: z - Attachments/resized/344c5c7f2612efc12b36a05b08587351_86cf658e.webp
+thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/3b2073eb439aafbf66c494e8a6b9cf96_86cf658e.webp
 aliases:
   - Il Duomo
   - Duomo di Firenze
+image: 20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Cathedral of Florence-500x335.webp
 ---
 
 > [!tldr] Cathedral of Florence

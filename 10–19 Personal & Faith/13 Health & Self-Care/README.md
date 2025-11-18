@@ -1,11 +1,10 @@
 ---
-title: 13 Health and Self-Care
+title: 13 Health & Self-Care
 date: 2025-11-03
 created: 2025-11-03 22:15
-modified: 2025-11-14 12:29
+modified: 2025-11-18 14:44
 tags:
-  - _jd/10-19/13/idx
-feature:
+  - _jd/10-19/13/meta_idx
 ---
 
 Health and self-care are two areas that I struggle with, especially when it comes to mental health. So much stems from the mind and emotions, so if you don't take care of those, your body, and your spirit will suffer.
@@ -16,6 +15,8 @@ Health and self-care are two areas that I struggle with, especially when it come
 
 ---
 
-> [!example] JD / 10-19 / 13
+> [!example] Meta-index of: JD / 10-19 / 13
+> 
+> > [!example] [[10–19 Personal & Faith/13 Health & Self-Care/13.19 Literature Notes/README|README]]: 13.19 Literature Notes
 > 
 > ^indexof-jd-

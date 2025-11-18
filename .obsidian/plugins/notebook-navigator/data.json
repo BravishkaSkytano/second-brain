@@ -14,6 +14,10 @@
         {
           "type": "note",
           "path": "README.md"
+        },
+        {
+          "type": "note",
+          "path": "00-09 System Management/06 Tag Notes/Books.base"
         }
       ]
     }
@@ -542,6 +546,10 @@
       "tag": false
     },
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Week 4 Worksheet.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10–19 Personal & Faith/13 Health & Self-Care/13.19 Literature Notes/README.md": {
       "folder": true,
       "tag": false
     }

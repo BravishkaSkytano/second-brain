@@ -7,8 +7,8 @@ tags:
   - course/ART101
   - people/artist/painter
   - people/artist/architect
-thumbnail: 00-09 System & Templates/05 Covers & Thumbnails/resized/0613a1ceaea6231b8b91d1353b230d8b_86cf658e.webp
-cover: 20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Raphael-500x682.webp
+image: 20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Raphael-500x682.webp
+thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/0613a1ceaea6231b8b91d1353b230d8b_86cf658e.webp
 ---
 
 > [!tldr] Raphael
