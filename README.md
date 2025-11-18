@@ -2,7 +2,7 @@
 title: The Thought Archive
 date: 2025-11-03
 created: 2025-11-03 22:21
-modified: 2025-11-18 17:38
+modified: 2025-11-18 17:51
 tags:
 feature:
 icon: rpg-awesome:ra-queen-crown
