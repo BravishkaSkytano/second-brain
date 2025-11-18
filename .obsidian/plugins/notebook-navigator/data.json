@@ -126,8 +126,7 @@
   "showFeatureImage": true,
   "featureImageProperties": [
     "thumbnail",
-    "feature",
-    "cover",
+    "image",
     "banner"
   ],
   "forceSquareFeatureImage": true,

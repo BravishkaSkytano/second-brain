@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10–19 Personal & Faith/11 Journals & Reflections/README.md",
+                "file": "10–19 Personal & Faith/12 Faith & Bible Study/README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -134,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -154,7 +154,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "10–19 Personal & Faith/11 Journals & Reflections/README.md"
+                "file": "10–19 Personal & Faith/12 Faith & Bible Study/README.md"
               },
               "icon": "lucide-info",
               "title": "File properties for README"
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10–19 Personal & Faith/11 Journals & Reflections/README.md",
+                "file": "10–19 Personal & Faith/12 Faith & Bible Study/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -181,7 +181,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "10–19 Personal & Faith/11 Journals & Reflections/README.md"
+                "file": "10–19 Personal & Faith/12 Faith & Bible Study/README.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -193,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10–19 Personal & Faith/11 Journals & Reflections/README.md",
+                "file": "10–19 Personal & Faith/12 Faith & Bible Study/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10–19 Personal & Faith/11 Journals & Reflections/README.md",
+                "file": "10–19 Personal & Faith/12 Faith & Bible Study/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -282,8 +282,9 @@
       "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "ef06cfb3f519336f",
+  "active": "168e51d5da63cfcf",
   "lastOpenFiles": [
+    "10–19 Personal & Faith/11 Journals & Reflections/README.md",
     "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Fresco.md",
     "00-09 System Management/06 Tag Notes/Books.base",
     "00-09 System Management/03 Templates/book.md",
