@@ -8,3 +8,8 @@ tags:
 banner: https://cdn.pixabay.com/photo/2017/08/10/04/03/book-2617987_1280.jpg
 ---
 
+
+
+> [!example] JD / 10-19 / 12
+> 
+> ^indexof-jd-

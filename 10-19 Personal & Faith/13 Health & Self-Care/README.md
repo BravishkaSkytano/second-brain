@@ -15,3 +15,10 @@ Health and self-care are two areas that I struggle with, especially when it come
 
 ---
 
+
+
+> [!example] Meta-index of: JD / 10-19 / 13
+> 
+> > [!example] [[10-19 Personal & Faith/13 Health & Self-Care/13.19 Literature Notes/README|README]]: 13.19 Literature Notes
+> 
+> ^indexof-jd-

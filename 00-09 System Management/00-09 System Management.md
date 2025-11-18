@@ -1,5 +1,4 @@
 ---
-title: 00-09 System Management
 date: 2025-11-03
 description: Vault setup, Obsidian customizations, templates, workflows, and automation notes.
 created: 2025-11-03 20:57

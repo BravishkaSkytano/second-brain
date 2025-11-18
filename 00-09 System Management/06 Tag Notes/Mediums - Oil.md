@@ -8,5 +8,7 @@ tags:
 
 
 > [!example] Medium / Oil
+> - [[Oil on canvas]]
+> - [[The Sower (Millet)]]
 > 
 > ^indexof-medium-oil

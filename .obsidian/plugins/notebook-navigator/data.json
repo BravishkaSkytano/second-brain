@@ -75,8 +75,8 @@
   "inheritFolderColors": false,
   "enableFolderNotes": true,
   "folderNoteType": "markdown",
-  "folderNoteName": "README",
-  "folderNoteProperties": "",
+  "folderNoteName": "",
+  "folderNoteProperties": "BC-folder-note-field: \"down\"",
   "hideFolderNoteInList": false,
   "pinCreatedFolderNote": true,
   "showTags": true,
@@ -304,14 +304,6 @@
       "folder": true,
       "tag": false
     },
-    "10–19 Personal & Faith/11 Journals & Reflections/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "10–19 Personal & Faith/15 Personal Planning & Goals/README.md": {
-      "folder": true,
-      "tag": false
-    },
     "20–29 Education & Career/21 Learning & Research/README.md": {
       "folder": true,
       "tag": false
@@ -325,10 +317,6 @@
       "tag": false
     },
     "30–39 Writing/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "10–19 Personal & Faith/10 Management for Personal & Faith/README.md": {
       "folder": true,
       "tag": false
     },
@@ -420,10 +408,6 @@
       "folder": true,
       "tag": false
     },
-    "00-09 System Management/README.md": {
-      "folder": true,
-      "tag": false
-    },
     "00-09 System Management/03 Templates/index.md": {
       "folder": true,
       "tag": false
@@ -508,27 +492,7 @@
       "folder": true,
       "tag": false
     },
-    "10–19 Personal & Faith/10 Management for Personal & Faith/10.01 Inbox/50-59 Journal/50-59 Journal.md": {
-      "folder": true,
-      "tag": false
-    },
-    "10–19 Personal & Faith/10 Management for Personal & Faith/10.01 Inbox/50-59 Journal/2024/2024.md": {
-      "folder": true,
-      "tag": false
-    },
-    "10–19 Personal & Faith/10 Management for Personal & Faith/10.01 Inbox/50-59 Journal/2024/2024-11/2024-11.md": {
-      "folder": true,
-      "tag": false
-    },
     "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/W5 Worksheet.md": {
-      "folder": true,
-      "tag": false
-    },
-    "10–19 Personal & Faith/12 Faith & Bible Study/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "10–19 Personal & Faith/13 Health & Self-Care/README.md": {
       "folder": true,
       "tag": false
     },
@@ -548,7 +512,47 @@
       "folder": true,
       "tag": false
     },
-    "10–19 Personal & Faith/13 Health & Self-Care/13.19 Literature Notes/README.md": {
+    "00-09 System Management/00-09 System Management.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10-19 Personal & Faith/10 Management for Personal & Faith/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10-19 Personal & Faith/11 Journals & Reflections/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10-19 Personal & Faith/12 Faith & Bible Study/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10-19 Personal & Faith/13 Health & Self-Care/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10-19 Personal & Faith/15 Personal Planning & Goals/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10-19 Personal & Faith/13 Health & Self-Care/13.19 Literature Notes/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10-19 Personal & Faith/10 Management for Personal & Faith/10.01 Inbox/50-59 Journal/50-59 Journal.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10-19 Personal & Faith/10 Management for Personal & Faith/10.01 Inbox/50-59 Journal/2024/2024.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10-19 Personal & Faith/10 Management for Personal & Faith/10.01 Inbox/50-59 Journal/2024/2024-11/2024-11.md": {
+      "folder": true,
+      "tag": false
+    },
+    "00-09 System Management/01 Inbox for System/01 Inbox for System.md": {
       "folder": true,
       "tag": false
     }
@@ -558,8 +562,8 @@
   "folderIcons": {
     "Literature Notes": "rpg-awesome:book",
     "/": "rpg-awesome:queen-crown",
-    "10–19 Personal & Faith": "rpg-awesome:leaf",
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101": "rpg-awesome:burst-blob"
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101": "rpg-awesome:burst-blob",
+    "10-19 Personal & Faith": "rpg-awesome:leaf"
   },
   "folderColors": {},
   "folderBackgroundColors": {},

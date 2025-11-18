@@ -10,3 +10,9 @@ tags:
 
 
 
+
+
+> [!example] JD / 20-29 / 21 / 11
+> - **[[20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README|README]]: ART101 - Visual and Performing Arts**
+> 
+> ^indexof-jd-

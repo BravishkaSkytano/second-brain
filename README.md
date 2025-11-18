@@ -2,14 +2,14 @@
 title: The Thought Archive
 date: 2025-11-03
 created: 2025-11-03 22:21
-modified: 2025-11-13 15:36
+modified: 2025-11-18 17:38
 tags:
-  - _jd/meta_idx
 feature:
 icon: rpg-awesome:ra-queen-crown
 aliases:
   - Home
   - Dashboard
+BC-list-note-field: down
 ---
 
 ## The Thought Archive
@@ -20,24 +20,18 @@ This is a living collection of ideas gathered from my explorations in education,
 
 Wander through, follow the threads, and see where the echoes lead.
 
----
+## JDex
 
-
-
-
-
-
-
-> [!example] Meta-index of: JD
-> 
-> > [!example] [[00-09 System Management/README|README]]: 00-09 System Management
-> 
-> > [!example] [[10–19 Personal & Faith/README|README]]: 10-19 Personal & Faith
-> 
-> > [!example] [[20–29 Education & Career/README|README]]: 20-29 Education & Career
-> 
-> > [!example] [[30–39 Writing/README|README]]: 30-39 Writing
-> 
-> > [!example] [[40-49 Worldbuilding/README|README]]: 40-49 Worldbuilding
-> 
-> ^indexof-jd
+- [[00-09 System Management]]
+	- [[01 Inbox for System]]
+	- [[02 Task & Project Management]]
+	- [[03 Templates]]
+	- [[04 Links for System]]
+	- [[05 Covers & Thumbnails]]
+	- [[06 Tag Notes]]
+	- [[08 Someday for System]]
+	- [[09 Archive for System]]
+- [[10-19 Personal & Faith]]
+	- 10 Management for Personal & Faith
+	- 11 Journals & Reflection
+	- 12 Faith & Bible Study

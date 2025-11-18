@@ -60,4 +60,12 @@ tags:
 
 > [!example] Meta-index of: JD / 40-49
 > 
+> > [!example] [[40-49 Worldbuilding/40 Management for Worldbuilding/README|README]]: 40 Management for Worldbuilding
+> 
+> > [!example] [[40-49 Worldbuilding/41 Foundations & References/README|README]]: 41 Foundations & References
+> 
+> > [!example] [[40-49 Worldbuilding/42 World Projects/README|README]]: 42 World Projects
+> 
+> > [!example] [[40-49 Worldbuilding/43 Meta & Inspiration/README|README]]: 43 Meta & Inspiration
+> 
 > ^indexof-jd-

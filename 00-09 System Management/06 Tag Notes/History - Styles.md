@@ -8,5 +8,17 @@ tags:
 
 
 > [!example] History / Style
+> - **Art-deco**
+> 	- [[Art Deco]]
+> - **Art-nouveau**
+> 	- [[Art Nouveau]]
+> - **[[Expressionism]]**
+> - **[[Fauvism]]**
+> - **Gothic**
+> 	- [[Gothic art]]
+> - **[[Neoclassicism]]**
+> - **Post-impressionism**
+> 	- [[Post-Impressionism]]
+> - **[[Surrealism]]**
 > 
 > ^indexof-history-style
