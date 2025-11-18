@@ -13,7 +13,7 @@ isbn13: 9780778368151
 cover: http://books.google.com/books/content?id=2dpW0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 status: unread
 tags:
-  - book
+  - source/book
 categories:
   - "[[Fiction]]"
 rating:

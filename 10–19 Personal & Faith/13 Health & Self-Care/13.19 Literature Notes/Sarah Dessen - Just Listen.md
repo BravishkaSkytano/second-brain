@@ -13,7 +13,7 @@ isbn13: 9781101128527
 cover: http://books.google.com/books/content?id=4a6kCAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
 status: unread
 tags:
-  - book
+  - source/book
   - _jd/10-19/13/19
 categories:
   - "[[Young Adult Fiction]]"

@@ -5,7 +5,7 @@ model:
 pluginVersion: 1.0.0
 filters:
   and:
-    - file.tags.contains("book")
+    - file.tags.contains("source/book")
 views:
   - type: cards
     name: All Books
