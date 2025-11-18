@@ -10,10 +10,6 @@ tags:
 > [!example] Genre
 > - **Beauty**
 > 	- [[M Michele George - The Knotty Truth]]
-> - **Daily-life**
-> 	- [[The Sower (Millet)]]
-> - **Landscape**
-> 	- [[The Sower (Millet)]]
 > - **Personal**
 > 	- [[M Michele George - The Knotty Truth]]
 > 

@@ -8,8 +8,3 @@ tags:
 ---
 
 
-> [!example] Meta-index of: JD / 20-29 / 21
-> 
-> > [!example] [[20–29 Education & Career/21 Learning & Research/21.11 Active Studies/README|README]]: 21.11 Active Studies
-> 
-> ^indexof-jd-

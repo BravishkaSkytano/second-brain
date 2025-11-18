@@ -9,6 +9,3 @@ feature:
 ---
 
 
-> [!example] JD / 10-19 / 15
-> 
-> ^indexof-jd-

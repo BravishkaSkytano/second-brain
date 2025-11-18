@@ -8,11 +8,5 @@ tags:
 
 
 > [!example] Theme
-> - **Daily-life**
-> 	- [[The Sower (Millet)]]
-> - **Nature**
-> 	- [[The Sower (Millet)]]
-> - **Struggle**
-> 	- [[The Sower (Millet)]]
 > 
 > ^indexof-theme

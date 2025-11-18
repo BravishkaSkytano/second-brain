@@ -8,16 +8,3 @@ tags:
 ---
 
 
-> [!example] Meta-index of: JD / 60-69
-> 
-> > [!example] [[60-69 Finances/60 Management for Finances/README|README]]: 60 Management for Finances
-> 
-> > [!example] [[60-69 Finances/61 Budgeting & Planning/README|README]]: 61 Budgeting & Planning
-> 
-> > [!example] [[60-69 Finances/62 Accounts & Income/README|README]]: 62 Accounts & Income
-> 
-> > [!example] [[60-69 Finances/63 Learning & Resources/README|README]]: 63 Learning & Resources
-> 
-> > [!example] [[60-69 Finances/64 Giving & Stewardship/README|README]]: 64 Giving & Stewardship
-> 
-> ^indexof-jd-

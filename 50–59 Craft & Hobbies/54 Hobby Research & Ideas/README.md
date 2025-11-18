@@ -8,6 +8,3 @@ tags:
 ---
 
 
-> [!example] JD / 50-59 / 54
-> 
-> ^indexof-jd-
