@@ -1,18 +1,14 @@
 ---
-modified: 2025-11-14 12:44
-image: 20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Michelangelo-500x579.webp
-thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/12b03493b4ab88404be9da572057960e_86cf658e.webp
----
-
-[[Sistine Chapel ceiling]]reated: 2025-11-03 00:19
-modified: 2025-11-03 00:22
-feature: Projects/University/ART101/Michelangelo-500x579.webp
+date: 2025-11-03
+created: 2025-11-03 00:19
+modified: 2025-11-18 14:57
 tags:
   - course/ART101
   - person/painter
   - person/sculptor
   - person/architect
-thumbnail: z - Attachments/resized/ba8ea9091a065c73e276d5b48b32ae19_86cf658e.webp
+image: 20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Michelangelo-500x579.webp
+thumbnail: 00-09 System Management/05 Covers & Thumbnails/resized/12b03493b4ab88404be9da572057960e_86cf658e.webp
 ---
 
 > [!tldr] Michelangelo

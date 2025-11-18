@@ -71,6 +71,7 @@ aliases:
 > - [[Leonardo da Vinci]]
 > - [[Martyrium]]
 > - [[Masaccio]]
+> - [[Michelangelo]]
 > - [[Mona Lisa]]
 > - [[Mosaic]]
 > - [[Moses (sculpture)]]

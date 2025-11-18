@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "67f5771145c9935d",
+        "id": "ad0a890d3f8dad88",
         "type": "tabs",
         "children": [
           {
-            "id": "22096d7bf9d197b7",
+            "id": "ef06cfb3f519336f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Albrecht Dürer.md",
+                "file": "10–19 Personal & Faith/11 Journals & Reflections/README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,44 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Albrecht Dürer"
-            }
-          },
-          {
-            "id": "9595e31819bb49d2",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "00-09 System Management/06 Tag Notes/Books.base",
-                "viewName": "All Books"
-              },
-              "icon": "lucide-layout-grid",
-              "title": "Books"
-            }
-          },
-          {
-            "id": "904f92d973f8837c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-09 System Management/03 Templates/book.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "book"
+              "title": "README"
             }
           }
         ]
@@ -186,55 +149,30 @@
         "type": "tabs",
         "children": [
           {
+            "id": "25e8eec51afbb627",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "10–19 Personal & Faith/11 Journals & Reflections/README.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for README"
+            }
+          },
+          {
             "id": "484293aad7380e3b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Week 3 – Renaissance Worksheet & Study Guide.md",
+                "file": "10–19 Personal & Faith/11 Journals & Reflections/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Week 3 – Renaissance Worksheet & Study Guide"
-            }
-          },
-          {
-            "id": "b94baf0685bb4cce",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Albrecht Dürer.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": true,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.7974165208358066,
-                  "close": true
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Graph of Albrecht Dürer"
+              "title": "Outline of README"
             }
           },
           {
@@ -243,7 +181,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README.md"
+                "file": "10–19 Personal & Faith/11 Journals & Reflections/README.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -255,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Albrecht Dürer.md",
+                "file": "10–19 Personal & Faith/11 Journals & Reflections/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -265,7 +203,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Albrecht Dürer"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -274,16 +212,15 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Albrecht Dürer.md",
+                "file": "10–19 Personal & Faith/11 Journals & Reflections/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Albrecht Dürer"
+              "title": "Outgoing links from README"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "88c8c2ae5a7b9ad0",
@@ -341,23 +278,29 @@
       "callout-manager:Insert Callout": true,
       "omnisearch:Omnisearch": true,
       "bible-sidecar:Bible Sidecar": true,
-      "wikipedia-search:Open Article": true
+      "wikipedia-search:Open Article": true,
+      "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "22096d7bf9d197b7",
+  "active": "ef06cfb3f519336f",
   "lastOpenFiles": [
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Fresco.md",
+    "00-09 System Management/06 Tag Notes/Books.base",
+    "00-09 System Management/03 Templates/book.md",
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Gothic art.md",
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Albrecht Dürer.md",
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Leonardo da Vinci.md",
+    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/Michelangelo.md",
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README.md",
     "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/README.md",
     "20–29 Education & Career/21 Learning & Research/README.md",
     "10–19 Personal & Faith/13 Health & Self-Care/13.19 Literature Notes/README.md",
     "10–19 Personal & Faith/13 Health & Self-Care/README.md",
-    "00-09 System Management/06 Tag Notes/Books.base",
     "10–19 Personal & Faith/13 Health & Self-Care/13.19 Literature Notes/Sarah Dessen - Just Listen.md",
     "10–19 Personal & Faith/16 Literature Notes/Maria V Snyder - Poison Study.md",
     "10–19 Personal & Faith/13 Health & Self-Care/13.19 Literature Notes",
     "Literature Notes/Girl in Pieces - Kathleen Glasgow.md",
     "Literature Notes/Just Listen - Sarah Dessen.md",
-    "00-09 System Management/03 Templates/book.md",
     "Literature Notes/Maria V Snyder - Poison Study.md",
     "00-09 System Management/03 Templates/default.md",
     "10–19 Personal & Faith/16 Literature Notes",
@@ -385,11 +328,6 @@
     "00-09 System Management/02 Task & Project Management/Views/tasks-default.base",
     "00-09 System Management/02 Task & Project Management/Views/relationships.base",
     "00-09 System Management/02 Task & Project Management/Views/agenda-default.base",
-    "00-09 System Management/02 Task & Project Management/Views",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/British Parliament.md",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Houses of Parliament (Monet series).md",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/American Gothic.md",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Romanticism.md",
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Symbolism (movement).md"
+    "00-09 System Management/02 Task & Project Management/Views"
   ]
 }
