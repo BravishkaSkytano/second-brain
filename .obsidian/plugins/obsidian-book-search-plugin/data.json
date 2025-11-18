@@ -1,0 +1,20 @@
+{
+  "folder": "",
+  "fileNameFormat": "{{author}} - {{title}}",
+  "frontmatter": "",
+  "content": "",
+  "useDefaultFrontmatter": true,
+  "defaultFrontmatterKeyType": "Camel Case",
+  "templateFile": "00-09 System Management/03 Templates/book.md",
+  "serviceProvider": "google",
+  "naverClientId": "",
+  "naverClientSecret": "",
+  "localePreference": "default",
+  "apiKey": "",
+  "openPageOnCompletion": true,
+  "showCoverImageInSearch": true,
+  "enableCoverImageSave": false,
+  "enableCoverImageEdgeCurl": true,
+  "coverImagePath": "",
+  "askForLocale": false
+}

@@ -1,0 +1,14 @@
+{
+  "defaultSortMode": "name",
+  "defaultFilterMode": 1,
+  "excludedTags": "",
+  "defaultGroupState": "expanded",
+  "showMatchedTags": false,
+  "excludedFolders": [
+    {
+      "path": "/z - Templates",
+      "includeChildren": true,
+      "id": "1761604303228"
+    }
+  ]
+}

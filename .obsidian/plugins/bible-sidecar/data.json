@@ -1,0 +1,10 @@
+{
+  "bibleVersion": "BSB",
+  "copyFormat": "callout",
+  "copyVerseReference": true,
+  "verseReferenceStyle": "~",
+  "verseReferenceFormat": "full",
+  "verseReferenceInternalLinking": false,
+  "verseReferenceInternalLinkingFormat": "short",
+  "bibleLanguage": "en"
+}

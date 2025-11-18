@@ -1,0 +1,499 @@
+{
+  "tasksFolder": "00-09 System Management/02 Task & Project Management",
+  "moveArchivedTasks": true,
+  "archiveFolder": "00-09 System Management/09 Archive/TaskNotes",
+  "taskTag": "task",
+  "taskIdentificationMethod": "tag",
+  "hideIdentifyingTagsInCards": true,
+  "taskPropertyName": "",
+  "taskPropertyValue": "",
+  "excludedFolders": "00-09 System Management/03 Templates, 00-09 System Management/09 Archive",
+  "defaultTaskPriority": "normal",
+  "defaultTaskStatus": "open",
+  "taskOrgFiltersCollapsed": false,
+  "taskFilenameFormat": "zettel",
+  "storeTitleInFilename": true,
+  "customFilenameTemplate": "{title}",
+  "taskCreationDefaults": {
+    "defaultContexts": "",
+    "defaultTags": "",
+    "defaultProjects": "",
+    "useParentNoteAsProject": true,
+    "defaultTimeEstimate": 60,
+    "defaultRecurrence": "none",
+    "defaultDueDate": "next-week",
+    "defaultScheduledDate": "tomorrow",
+    "bodyTemplate": "",
+    "useBodyTemplate": false,
+    "defaultReminders": [
+      {
+        "id": "reminder_1762122122856",
+        "type": "relative",
+        "relatedTo": "due",
+        "offset": 1,
+        "unit": "hours",
+        "direction": "before",
+        "description": "Reminder"
+      },
+      {
+        "id": "reminder_1762122132280",
+        "type": "relative",
+        "relatedTo": "due",
+        "offset": 1,
+        "unit": "days",
+        "direction": "before",
+        "description": "Tomorrow"
+      }
+    ]
+  },
+  "calendarViewSettings": {
+    "defaultView": "timeGridWeek",
+    "customDayCount": 3,
+    "slotDuration": "00:30:00",
+    "slotMinTime": "00:00:00",
+    "slotMaxTime": "24:00:00",
+    "scrollTime": "08:00:00",
+    "firstDay": 1,
+    "timeFormat": "24",
+    "showWeekends": true,
+    "locale": "",
+    "defaultShowScheduled": true,
+    "defaultShowDue": true,
+    "defaultShowDueWhenScheduled": true,
+    "defaultShowTimeEntries": false,
+    "defaultShowRecurring": true,
+    "defaultShowICSEvents": true,
+    "enableTimeblocking": true,
+    "defaultShowTimeblocks": true,
+    "nowIndicator": true,
+    "selectMirror": true,
+    "weekNumbers": false,
+    "showTodayHighlight": true,
+    "eventMinHeight": 15
+  },
+  "pomodoroWorkDuration": 50,
+  "pomodoroShortBreakDuration": 10,
+  "pomodoroLongBreakDuration": 30,
+  "pomodoroLongBreakInterval": 4,
+  "pomodoroAutoStartBreaks": false,
+  "pomodoroAutoStartWork": false,
+  "pomodoroNotifications": true,
+  "pomodoroSoundEnabled": true,
+  "pomodoroSoundVolume": 50,
+  "pomodoroStorageLocation": "daily-notes",
+  "enableTaskLinkOverlay": true,
+  "enableInstantTaskConvert": true,
+  "useDefaultsOnInstantConvert": true,
+  "enableNaturalLanguageInput": true,
+  "nlpDefaultToScheduled": true,
+  "nlpLanguage": "en",
+  "uiLanguage": "system",
+  "statusSuggestionTrigger": "*",
+  "singleClickAction": "openNote",
+  "doubleClickAction": "edit",
+  "projectAutosuggest": {
+    "enableFuzzy": false,
+    "rows": [
+      "{title|n(Title)}",
+      "{aliases|n(Aliases)}",
+      "{file.path|n(Path)}"
+    ],
+    "showAdvanced": false,
+    "requiredTags": [
+      "project",
+      "course"
+    ],
+    "includeFolders": [],
+    "propertyKey": "",
+    "propertyValue": ""
+  },
+  "inlineTaskConvertFolder": "{{currentNotePath}}",
+  "disableNoteIndexing": false,
+  "suggestionDebounceMs": 0,
+  "fieldMapping": {
+    "title": "title",
+    "status": "status",
+    "priority": "priority",
+    "due": "due",
+    "scheduled": "scheduled",
+    "contexts": "contexts",
+    "projects": "projects",
+    "timeEstimate": "timeEstimate",
+    "completedDate": "completed",
+    "dateCreated": "created",
+    "dateModified": "modified",
+    "recurrence": "recurrence",
+    "recurrenceAnchor": "recurrence_anchor",
+    "archiveTag": "archived",
+    "timeEntries": "timeEntries",
+    "completeInstances": "complete_instances",
+    "skippedInstances": "skipped_instances",
+    "blockedBy": "blockedBy",
+    "pomodoros": "pomodoros",
+    "icsEventId": "icsEventId",
+    "icsEventTag": "ics_event",
+    "reminders": "reminders"
+  },
+  "customStatuses": [
+    {
+      "id": "none",
+      "value": "none",
+      "label": "None",
+      "color": "#cccccc",
+      "isCompleted": false,
+      "order": 0,
+      "autoArchive": false,
+      "autoArchiveDelay": 5
+    },
+    {
+      "id": "open",
+      "value": "open",
+      "label": "Open",
+      "color": "#808080",
+      "isCompleted": false,
+      "order": 1,
+      "autoArchive": false,
+      "autoArchiveDelay": 5
+    },
+    {
+      "id": "in-progress",
+      "value": "in-progress",
+      "label": "In progress",
+      "color": "#0066cc",
+      "isCompleted": false,
+      "order": 2,
+      "autoArchive": false,
+      "autoArchiveDelay": 5
+    },
+    {
+      "id": "done",
+      "value": "done",
+      "label": "Done",
+      "color": "#00aa00",
+      "isCompleted": true,
+      "order": 3,
+      "autoArchive": false,
+      "autoArchiveDelay": 5
+    },
+    {
+      "id": "status_1762121886004",
+      "value": "on-hold",
+      "label": "On Hold",
+      "color": "#f2b764",
+      "completed": false,
+      "isCompleted": false,
+      "order": 4,
+      "autoArchive": false,
+      "autoArchiveDelay": 5
+    },
+    {
+      "id": "status_1762121934124",
+      "value": "archive",
+      "label": "Archived",
+      "color": "#f264cc",
+      "completed": false,
+      "isCompleted": true,
+      "order": 5,
+      "autoArchive": true,
+      "autoArchiveDelay": 5
+    }
+  ],
+  "customPriorities": [
+    {
+      "id": "none",
+      "value": "none",
+      "label": "None",
+      "color": "#cccccc",
+      "weight": 0
+    },
+    {
+      "id": "low",
+      "value": "low",
+      "label": "Low",
+      "color": "#00aa00",
+      "weight": 1
+    },
+    {
+      "id": "normal",
+      "value": "normal",
+      "label": "Normal",
+      "color": "#ffaa00",
+      "weight": 2
+    },
+    {
+      "id": "high",
+      "value": "high",
+      "label": "High",
+      "color": "#ff0000",
+      "weight": 3
+    }
+  ],
+  "recurrenceMigrated": true,
+  "showTrackedTasksInStatusBar": true,
+  "autoStopTimeTrackingOnComplete": true,
+  "autoStopTimeTrackingNotification": true,
+  "showProjectSubtasks": true,
+  "showExpandableSubtasks": true,
+  "projectSubtasksPosition": "top",
+  "showTaskCardInNote": true,
+  "subtaskChevronPosition": "right",
+  "viewsButtonAlignment": "right",
+  "hideCompletedFromOverdue": true,
+  "icsIntegration": {
+    "defaultNoteTemplate": "",
+    "defaultNoteFolder": "",
+    "icsNoteFilenameFormat": "title",
+    "customICSNoteFilenameTemplate": "{title}",
+    "enableAutoExport": false,
+    "autoExportPath": "tasknotes-calendar.ics",
+    "autoExportInterval": 60
+  },
+  "savedViews": [
+    {
+      "id": "mhin6x2vmgsshed2p",
+      "name": "Default",
+      "query": {
+        "type": "group",
+        "id": "root",
+        "conjunction": "and",
+        "children": [],
+        "sortKey": "scheduled",
+        "sortDirection": "desc",
+        "groupKey": "project",
+        "subgroupKey": "priority"
+      },
+      "visibleProperties": [
+        "status",
+        "priority",
+        "due",
+        "scheduled",
+        "projects",
+        "contexts",
+        "tags",
+        "blocked",
+        "blocking",
+        "timeEstimate"
+      ]
+    }
+  ],
+  "enableNotifications": true,
+  "notificationType": "in-app",
+  "enableAPI": false,
+  "apiPort": 8080,
+  "apiAuthToken": "",
+  "webhooks": [],
+  "userFields": [],
+  "defaultVisibleProperties": [
+    "status",
+    "priority",
+    "due",
+    "scheduled",
+    "projects",
+    "contexts",
+    "tags",
+    "blocked",
+    "blocking",
+    "timeEstimate",
+    "recurrence"
+  ],
+  "enableBases": true,
+  "maintainDueDateOffsetInRecurring": false,
+  "useFrontmatterMarkdownLinks": false,
+  "lastSeenVersion": "4.0.1",
+  "pomodoroState": {
+    "isRunning": false,
+    "timeRemaining": 3000
+  },
+  "lastPomodoroDate": "2025-11-18",
+  "nlpTriggers": {
+    "triggers": [
+      {
+        "propertyId": "tags",
+        "trigger": "#",
+        "enabled": true
+      },
+      {
+        "propertyId": "contexts",
+        "trigger": "@",
+        "enabled": true
+      },
+      {
+        "propertyId": "projects",
+        "trigger": "+",
+        "enabled": true
+      },
+      {
+        "propertyId": "status",
+        "trigger": "*",
+        "enabled": true
+      },
+      {
+        "propertyId": "priority",
+        "trigger": "!",
+        "enabled": false
+      }
+    ]
+  },
+  "showRelationships": true,
+  "relationshipsPosition": "bottom",
+  "modalFieldsConfig": {
+    "version": 1,
+    "fields": [
+      {
+        "id": "title",
+        "fieldType": "core",
+        "group": "basic",
+        "displayName": "Title",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 0,
+        "enabled": true,
+        "required": true
+      },
+      {
+        "id": "details",
+        "fieldType": "core",
+        "group": "basic",
+        "displayName": "Details",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 1,
+        "enabled": true
+      },
+      {
+        "id": "contexts",
+        "fieldType": "core",
+        "group": "metadata",
+        "displayName": "Contexts",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 0,
+        "enabled": true
+      },
+      {
+        "id": "tags",
+        "fieldType": "core",
+        "group": "metadata",
+        "displayName": "Tags",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 1,
+        "enabled": true
+      },
+      {
+        "id": "time-estimate",
+        "fieldType": "core",
+        "group": "metadata",
+        "displayName": "Time Estimate",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 2,
+        "enabled": true
+      },
+      {
+        "id": "projects",
+        "fieldType": "organization",
+        "group": "organization",
+        "displayName": "Projects",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 0,
+        "enabled": true
+      },
+      {
+        "id": "subtasks",
+        "fieldType": "organization",
+        "group": "organization",
+        "displayName": "Subtasks",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 1,
+        "enabled": true
+      },
+      {
+        "id": "blocked-by",
+        "fieldType": "dependency",
+        "group": "dependencies",
+        "displayName": "Blocked By",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 0,
+        "enabled": true
+      },
+      {
+        "id": "blocking",
+        "fieldType": "dependency",
+        "group": "dependencies",
+        "displayName": "Blocking",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 1,
+        "enabled": true
+      }
+    ],
+    "groups": [
+      {
+        "id": "basic",
+        "displayName": "Basic Information",
+        "order": 0,
+        "collapsible": false,
+        "defaultCollapsed": false
+      },
+      {
+        "id": "metadata",
+        "displayName": "Metadata",
+        "order": 1,
+        "collapsible": true,
+        "defaultCollapsed": false
+      },
+      {
+        "id": "organization",
+        "displayName": "Organization",
+        "order": 2,
+        "collapsible": true,
+        "defaultCollapsed": false
+      },
+      {
+        "id": "dependencies",
+        "displayName": "Dependencies",
+        "order": 3,
+        "collapsible": true,
+        "defaultCollapsed": false
+      },
+      {
+        "id": "custom",
+        "displayName": "Custom Fields",
+        "order": 4,
+        "collapsible": true,
+        "defaultCollapsed": false
+      }
+    ]
+  },
+  "inlineVisibleProperties": [
+    "status",
+    "priority",
+    "due",
+    "scheduled",
+    "recurrence"
+  ],
+  "commandFileMapping": {
+    "open-calendar-view": "00-09 System Management/02 Task & Project Management/Views/mini-calendar-default.base",
+    "open-kanban-view": "00-09 System Management/02 Task & Project Management/Views/kanban-default.base",
+    "open-tasks-view": "00-09 System Management/02 Task & Project Management/Views/tasks-default.base",
+    "open-advanced-calendar-view": "00-09 System Management/02 Task & Project Management/Views/calendar-default.base",
+    "open-agenda-view": "00-09 System Management/02 Task & Project Management/Views/agenda-default.base",
+    "relationships": "00-09 System Management/02 Task & Project Management/Views/relationships.base"
+  },
+  "oauthSetupMode": "advanced",
+  "lemonSqueezyLicenseKey": "",
+  "googleOAuthClientId": "",
+  "googleOAuthClientSecret": "",
+  "microsoftOAuthClientId": "",
+  "microsoftOAuthClientSecret": "",
+  "enableGoogleCalendar": false,
+  "enableMicrosoftCalendar": false,
+  "enabledGoogleCalendars": [],
+  "googleCalendarSyncTokens": {},
+  "enabledMicrosoftCalendars": [],
+  "microsoftCalendarSyncTokens": {}
+}
