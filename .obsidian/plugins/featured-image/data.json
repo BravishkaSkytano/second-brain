@@ -1,0 +1,40 @@
+{
+  "showNotificationsOnUpdate": true,
+  "frontmatterProperty": "image",
+  "thumbnailsFolder": "00-09 System Management/05 Covers & Thumbnails",
+  "excludedFolders": [
+    "00-09 System Management/03 Templates"
+  ],
+  "createResizedThumbnail": true,
+  "resizedFrontmatterProperty": "thumbnail",
+  "maxResizedWidth": 256,
+  "maxResizedHeight": 144,
+  "fillResizedDimensions": false,
+  "resizedVerticalAlign": "top",
+  "resizedHorizontalAlign": "center",
+  "showAdvancedSettings": true,
+  "mediaLinkFormat": "plain",
+  "useMediaLinks": false,
+  "onlyUpdateExisting": false,
+  "keepEmptyProperty": false,
+  "preserveTemplateImages": false,
+  "requireExclamationForYouTube": true,
+  "downloadExternalImages": true,
+  "downloadYoutubeThumbnails": true,
+  "debugMode": false,
+  "dryRun": false,
+  "imageExtensions": [
+    "png",
+    "jpg",
+    "jpeg",
+    "gif",
+    "webp"
+  ],
+  "captureVideoPoster": true,
+  "videoExtensions": [
+    "mp4",
+    "mov",
+    "m4v",
+    "webm"
+  ]
+}
