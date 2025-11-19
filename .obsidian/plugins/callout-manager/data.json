@@ -1,7 +1,33 @@
 {
   "callouts": {
-    "custom": [],
-    "settings": {}
+    "custom": [
+      "jdex"
+    ],
+    "settings": {
+      "jdex": [
+        {
+          "changes": {
+            "icon": "lucide-compass"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "83, 223, 221"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "83, 223, 221"
+          }
+        }
+      ]
+    }
   },
   "calloutDetection": {
     "obsidian": true,

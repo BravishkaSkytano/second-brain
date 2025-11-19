@@ -203,7 +203,7 @@
         ]
       },
       "tree": {
-        "collapse": false,
+        "collapse": true,
         "show_attributes": [],
         "merge_fields": false,
         "field_group_labels": [

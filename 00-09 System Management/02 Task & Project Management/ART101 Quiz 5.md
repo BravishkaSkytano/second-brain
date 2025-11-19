@@ -23,7 +23,7 @@ tags:
   - quiz
   - task
 projects:
-  - "[[20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README]]"
+  - "[[20-29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README]]"
 completed: 2025-11-17
 ---
 

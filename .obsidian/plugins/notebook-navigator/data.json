@@ -18,6 +18,10 @@
         {
           "type": "note",
           "path": "00-09 System Management/06 Tag Notes/Books.base"
+        },
+        {
+          "type": "note",
+          "path": "The JDex.md"
         }
       ]
     }
@@ -76,7 +80,7 @@
   "enableFolderNotes": true,
   "folderNoteType": "markdown",
   "folderNoteName": "",
-  "folderNoteProperties": "BC-folder-note-field: \"down\"",
+  "folderNoteProperties": "",
   "hideFolderNoteInList": false,
   "pinCreatedFolderNote": true,
   "showTags": true,
@@ -300,27 +304,7 @@
       "folder": true,
       "tag": false
     },
-    "20–29 Education & Career/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "20–29 Education & Career/21 Learning & Research/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "20–29 Education & Career/22 Career Growth & Planning/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "20–29 Education & Career/23 Teaching & Mentorship/README.md": {
-      "folder": true,
-      "tag": false
-    },
     "30–39 Writing/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "20–29 Education & Career/20 Management for Education & Career/README.md": {
       "folder": true,
       "tag": false
     },
@@ -337,10 +321,6 @@
       "tag": false
     },
     "30–39 Writing/33 Writing Craft & Technique/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "50–59 Craft & Hobbies/README.md": {
       "folder": true,
       "tag": false
     },
@@ -361,26 +341,6 @@
       "tag": false
     },
     "40-49 Worldbuilding/43 Meta & Inspiration/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "50–59 Craft & Hobbies/50 Management for Crafts & Hobbies/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "50–59 Craft & Hobbies/51 Project Logs & Portfolios/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "50–59 Craft & Hobbies/52 Learning & Skills/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "50–59 Craft & Hobbies/53 Inspiration & References/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "50–59 Craft & Hobbies/54 Hobby Research & Ideas/README.md": {
       "folder": true,
       "tag": false
     },
@@ -412,62 +372,6 @@
       "folder": true,
       "tag": false
     },
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/10-19 Study Notes.md": {
-      "folder": true,
-      "tag": false
-    },
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/11 Bible/11 Bible.md": {
-      "folder": true,
-      "tag": false
-    },
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/12 Apologetics/12 Apologetics.md": {
-      "folder": true,
-      "tag": false
-    },
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/13 English and Communication/13 English and Communication.md": {
-      "folder": true,
-      "tag": false
-    },
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/17 History/17 History.md": {
-      "folder": true,
-      "tag": false
-    },
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/16 Government/16 Government.md": {
-      "folder": true,
-      "tag": false
-    },
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/REL1010/REL1010.md": {
-      "folder": true,
-      "tag": false
-    },
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/14 Philosophy/14 Philosophy.md": {
-      "folder": true,
-      "tag": false
-    },
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/SOC2110/SOC2110.md": {
-      "folder": true,
-      "tag": false
-    },
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/15 Computer science/15 Computer science.md": {
-      "folder": true,
-      "tag": false
-    },
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/13 English and Communication/ENG101/ENG101.md": {
-      "folder": true,
-      "tag": false
-    },
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/12 Apologetics/APO391/APO391.md": {
-      "folder": true,
-      "tag": false
-    },
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/13 English and Communication/COM101/COM101.md": {
-      "folder": true,
-      "tag": false
-    },
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/10-19 Study Notes/14 Philosophy/PHL113/PHL113.md": {
-      "folder": true,
-      "tag": false
-    },
     "30–39 Writing/30 Management for Writing/30.01 Inbox/20-29 Prose/20-29 Prose.md": {
       "folder": true,
       "tag": false
@@ -492,43 +396,7 @@
       "folder": true,
       "tag": false
     },
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101/W5 Worksheet.md": {
-      "folder": true,
-      "tag": false
-    },
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Week 3 – Renaissance Worksheet & Study Guide.md": {
-      "folder": true,
-      "tag": false
-    },
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "20–29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Week 4 Worksheet.md": {
-      "folder": true,
-      "tag": false
-    },
     "00-09 System Management/00-09 System Management.md": {
-      "folder": true,
-      "tag": false
-    },
-    "10-19 Personal & Faith/10 Management for Personal & Faith/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "10-19 Personal & Faith/11 Journals & Reflections/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "10-19 Personal & Faith/12 Faith & Bible Study/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "10-19 Personal & Faith/13 Health & Self-Care/README.md": {
       "folder": true,
       "tag": false
     },
@@ -536,23 +404,191 @@
       "folder": true,
       "tag": false
     },
-    "10-19 Personal & Faith/13 Health & Self-Care/13.19 Literature Notes/README.md": {
-      "folder": true,
-      "tag": false
-    },
-    "10-19 Personal & Faith/10 Management for Personal & Faith/10.01 Inbox/50-59 Journal/50-59 Journal.md": {
-      "folder": true,
-      "tag": false
-    },
-    "10-19 Personal & Faith/10 Management for Personal & Faith/10.01 Inbox/50-59 Journal/2024/2024.md": {
-      "folder": true,
-      "tag": false
-    },
-    "10-19 Personal & Faith/10 Management for Personal & Faith/10.01 Inbox/50-59 Journal/2024/2024-11/2024-11.md": {
-      "folder": true,
-      "tag": false
-    },
     "00-09 System Management/01 Inbox for System/01 Inbox for System.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10-19 Personal & Faith/10 Management/10.01 Inbox/50-59 Journal/50-59 Journal.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10-19 Personal & Faith/10 Management/10.01 Inbox/50-59 Journal/2024/2024.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10-19 Personal & Faith/10 Management/10.01 Inbox/50-59 Journal/2024/2024-11/2024-11.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10-19 Personal & Faith/10 Management/10 Management.md": {
+      "folder": true,
+      "tag": false
+    },
+    "00-09 System Management/03 Templates/03 Templates.md": {
+      "folder": true,
+      "tag": false
+    },
+    "00-09 System Management/04 Links for System/04 Links for System.md": {
+      "folder": true,
+      "tag": false
+    },
+    "00-09 System Management/05 Covers & Thumbnails/05 Covers & Thumbnails.md": {
+      "folder": true,
+      "tag": false
+    },
+    "00-09 System Management/06 Tag Notes/06 Tag Notes.md": {
+      "folder": true,
+      "tag": false
+    },
+    "00-09 System Management/08 Someday for System/08 Someday for System.md": {
+      "folder": true,
+      "tag": false
+    },
+    "00-09 System Management/09 Archive for System/09 Archive for System.md": {
+      "folder": true,
+      "tag": false
+    },
+    "00-09 System Management/02 Task & Project Management/02 Task & Project Management.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10-19 Personal & Faith/11 Journals & Reflections/11 Journals & Reflections.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10-19 Personal & Faith/12 Faith & Bible Study/12 Faith & Bible Study.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10-19 Personal & Faith/13 Health & Self-Care/13 Health & Self-Care.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10-19 Personal & Faith/10 Management/10.01 Inbox/10.01 Inbox.md": {
+      "folder": true,
+      "tag": false
+    },
+    "10-19 Personal & Faith/13 Health & Self-Care/13.11 Literature Notes/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "50–59 Crafts & Hobbies/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "50–59 Crafts & Hobbies/50 Management for Crafts & Hobbies/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "50–59 Crafts & Hobbies/51 Project Logs & Portfolios/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "50–59 Crafts & Hobbies/52 Learning & Skills/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "50–59 Crafts & Hobbies/53 Inspiration & References/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "50–59 Crafts & Hobbies/54 Hobby Research & Ideas/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/21 Learning & Research/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/22 Career Growth & Planning/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/23 Teaching & Mentorship/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/21 Learning & Research/21.11 Active Studies/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/README.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Week 3 – Renaissance Worksheet & Study Guide.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/21 Learning & Research/21.11 Active Studies/ART101/Week 4 Worksheet.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/20-29 Education & Career.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/20 Management/20.01 Inbox/10-19 Study Notes/10-19 Study Notes.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/20 Management/20.01 Inbox/ART101/W5 Worksheet.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/20 Management/20.01 Inbox/10-19 Study Notes/11 Bible/11 Bible.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/20 Management/20.01 Inbox/10-19 Study Notes/12 Apologetics/12 Apologetics.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/20 Management/20.01 Inbox/10-19 Study Notes/13 English and Communication/13 English and Communication.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/20 Management/20.01 Inbox/10-19 Study Notes/15 Computer science/15 Computer science.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/20 Management/20.01 Inbox/10-19 Study Notes/14 Philosophy/14 Philosophy.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/20 Management/20.01 Inbox/10-19 Study Notes/16 Government/16 Government.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/20 Management/20.01 Inbox/10-19 Study Notes/17 History/17 History.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/20 Management/20.01 Inbox/10-19 Study Notes/REL1010/REL1010.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/20 Management/20.01 Inbox/10-19 Study Notes/SOC2110/SOC2110.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/20 Management/20.01 Inbox/10-19 Study Notes/12 Apologetics/APO391/APO391.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/20 Management/20.01 Inbox/10-19 Study Notes/13 English and Communication/COM101/COM101.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/20 Management/20.01 Inbox/10-19 Study Notes/14 Philosophy/PHL113/PHL113.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/20 Management/20.01 Inbox/10-19 Study Notes/13 English and Communication/ENG101/ENG101.md": {
+      "folder": true,
+      "tag": false
+    },
+    "20-29 Education & Career/20 Management/20 Management.md": {
       "folder": true,
       "tag": false
     }
@@ -562,8 +598,8 @@
   "folderIcons": {
     "Literature Notes": "rpg-awesome:book",
     "/": "rpg-awesome:queen-crown",
-    "20–29 Education & Career/20 Management for Education & Career/20.01 Inbox/ART101": "rpg-awesome:burst-blob",
-    "10-19 Personal & Faith": "rpg-awesome:leaf"
+    "10-19 Personal & Faith": "rpg-awesome:leaf",
+    "20-29 Education & Career/20 Management/20.01 Inbox/ART101": "rpg-awesome:burst-blob"
   },
   "folderColors": {},
   "folderBackgroundColors": {},

@@ -2,7 +2,7 @@
 title: The Thought Archive
 date: 2025-11-03
 created: 2025-11-03 22:21
-modified: 2025-11-18 17:51
+modified: 2025-11-18 20:11
 tags:
 feature:
 icon: rpg-awesome:ra-queen-crown
@@ -20,18 +20,3 @@ This is a living collection of ideas gathered from my explorations in education,
 
 Wander through, follow the threads, and see where the echoes lead.
 
-## JDex
-
-- [[00-09 System Management]]
-	- [[01 Inbox for System]]
-	- [[02 Task & Project Management]]
-	- [[03 Templates]]
-	- [[04 Links for System]]
-	- [[05 Covers & Thumbnails]]
-	- [[06 Tag Notes]]
-	- [[08 Someday for System]]
-	- [[09 Archive for System]]
-- [[10-19 Personal & Faith]]
-	- 10 Management for Personal & Faith
-	- 11 Journals & Reflection
-	- 12 Faith & Bible Study
