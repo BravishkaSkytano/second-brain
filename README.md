@@ -1,22 +1,9 @@
----
-title: The Thought Archive
-date: 2025-11-03
-created: 2025-11-03 22:21
-modified: 2025-11-18 20:11
-tags:
-feature:
-icon: rpg-awesome:ra-queen-crown
-aliases:
-  - Home
-  - Dashboard
-BC-list-note-field: down
----
+# My Second Brain
 
-## The Thought Archive
+Within this repository, I store my second brain files.
 
-Welcome to **The Thought Archive** — _Echoes of learning, stitched together._
+Each branch corresponds to the app/platform that I use for that specific branch.
 
-This is a living collection of ideas gathered from my explorations in education, faith, psychology, technology, crafts, and games. Each note is a thread in an ever-growing tapestry of thought — connected, revisited, and refined over time. Here, curiosity leads the way, and knowledge becomes something woven rather than stored.
+The main branch hosts the default folder structure that I like to use (Johnny.Decimal) for easy import into new apps/platforms for testing.
 
-Wander through, follow the threads, and see where the echoes lead.
-
+## JDex
