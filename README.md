@@ -377,3 +377,67 @@ The main branch hosts the default folder structure that I like to use (Johnny.De
 - 59.03 Event Planning (craft fairs, local groups)
 - 59.04 Inspiration Library
 
+### 60–69 Literature Notes
+
+#### 61 Reading Log
+
+- 61.01 Current Reads
+- 61.02 Completed Books Archive
+- 61.03 DNF (Did Not Finish) Notes
+- 61.04 TBR (To Be Read) List
+
+#### 62 Book Summaries & Analysis
+
+- 62.01 Plot Summaries
+- 62.02 Themes & Motifs
+- 62.03 Symbolism & Imagery
+- 62.04 Critical Interpretations
+
+#### 63 Characters
+
+- 63.01 Main Characters
+- 63.02 Supporting Characters
+- 63.03 Character Arcs
+- 63.04 Relationships & Dynamics
+
+#### 64 Quotes & Passages
+
+- 64.01 Favorite Quotes
+- 64.02 Significant Passages (with notes)
+- 64.03 Literary Devices & Examples
+- 64.04 Quote Indexing (tags, topics)
+
+#### 65 Author Studies
+
+- 65.01 Author Biographies
+- 65.02 Author Themes & Style
+- 65.03 Bibliographies
+- 65.04 Contextual Research (history, culture)
+
+#### 66 Genre & Comparative Studies
+
+- 66.01 Genre Notes (fantasy, classic lit, sci-fi, etc.)
+- 66.02 Comparative Essays & Notes
+- 66.03 Cross-book Themes
+- 66.04 Adaptations (film, TV, stage)
+
+#### 67 School Literature
+
+- 67.01 Assigned Reading Notes
+- 67.02 Essay Prep & Outlines
+- 67.03 Class Discussions & Lectures
+- 67.04 Study Guides & Exam Prep
+
+#### 68 Personal Reflections
+
+- 68.01 Emotional Responses
+- 68.02 Lessons & Takeaways
+- 68.03 Personal Ratings & Reviews
+- 68.04 Reading Habits & Goals
+
+#### 69 Literature Resources
+
+- 69.01 Articles, Essays, Criticism
+- 69.02 Video/Podcast Commentary
+- 69.03 Booklists & Recommendations
+- 69.04 Research Archive
