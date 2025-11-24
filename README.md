@@ -182,3 +182,68 @@ The main branch hosts the default folder structure that I like to use (Johnny.De
 - 29.03 Templates (resume, cover letter, project plans)
 - 29.04 Reference Materials
 
+### 30–39 Writing
+
+#### 31 Creative Writing – Projects
+
+- 31.01 Story Ideas & Concepts
+- 31.02 Active Projects (short stories, novels, scripts)
+- 31.03 Completed/Archived Projects
+- 31.04 Characters, Worlds, Lore
+
+#### 32 Creative Writing – Craft
+
+- 32.01 Writing Exercises
+- 32.02 Style & Technique Notes
+- 32.03 Prompts & Inspiration
+- 32.04 Feedback & Revisions
+
+#### 33 Academic Writing – Assignments
+
+- 33.01 Current Essays & Papers
+- 33.02 Research & Sources
+- 33.03 Drafts & Outlines
+- 33.04 Submitted Work Archive
+
+#### 34 Academic Writing – Skills
+
+- 34.01 Grammar & Structure Resources
+- 34.02 Citation & Formatting (APA/MLA/etc.)
+- 34.03 Templates & Checklists
+- 34.04 Feedback & Improvement Notes
+
+#### 35 Writing Administration
+
+- 35.01 Deadlines & Calendars
+- 35.02 Submission Guidelines
+- 35.03 Writing Goals & Tracking
+- 35.04 Competitions, Calls for Submissions
+
+#### 36 Research & Reference
+
+- 36.01 Reference Books & Articles
+- 36.02 Topic-Based Research Repositories
+- 36.03 Bibliographies
+- 36.04 Notes & Excerpts
+
+#### 37 Writing Tools
+
+- 37.01 Software (Scrivener, Word, Google Docs, etc.)
+- 37.02 Templates (story beats, essay outlines)
+- 37.03 Style Guides
+- 37.04 Productivity Tools
+
+#### 38 Collaboration & Sharing
+
+- 38.01 Writing Groups & Workshops
+- 38.02 Peer Reviews
+- 38.03 Co-writing Projects
+- 38.04 Public Sharing (blogs, print, contests)
+
+#### 39 Inspiration Archive
+
+- 39.01 Quotes, Scenes, Ideas
+- 39.02 Books, Articles, Media that Inspire
+- 39.03 Personal Notes & Observations
+- 39.04 Saved Writing Snippets
+
