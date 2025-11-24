@@ -177,71 +177,52 @@ The main branch hosts the default folder structure that I like to use (Johnny.De
     - 39.02 Books, Articles, Media that Inspire
     - 39.03 Personal Notes & Observations
     - 39.04 Saved Writing Snippets
-
-### 40–49 Worldbuilding
-
-#### 41 Foundations
-
-- 41.01 Core Concept / Premise
-- 41.02 Themes & Tone
-- 41.03 Genre & Influences
-- 41.04 Canon Rules (what is always true)
-
-#### 42 Geography & Locations
-
-- 42.01 World Maps (global, regional, local)
-- 42.02 Continents, Regions, Countries
-- 42.03 Cities, Towns, Settlements
-- 42.04 Landmarks & Points of Interest
-
-#### 43 Cultures & Societies
-
-- 43.01 Ethnic Groups & Peoples
-- 43.02 Languages & Naming Conventions
-- 43.03 Social Norms, Traditions, Holidays
-- 43.04 Art, Music, Cuisine, Fashion
-
-#### 44 Governments & Power Structures
-
-- 44.01 Political Systems
-- 44.02 Factions, Organizations, Guilds
-- 44.03 Laws, Justice, Crime
-- 44.04 Military, Defense, Conflict History
-
-#### 45 Magic, Technology & Systems
-
-- 45.01 Magic Systems (rules, mechanics, limitations)
-- 45.02 Technology Levels & Innovations
-- 45.03 Items, Artifacts, Weapons
-- 45.04 Science, Mysticism, Religion
-
-#### 46 History & Timeline
-
-- 46.01 Major Eras & Epochs
-- 46.02 Key Events
-- 46.03 Important Figures
-- 46.04 Myths, Legends, Origin Stories
-
-#### 47 Species & Creatures
-
-- 47.01 Sentient Species
-- 47.02 Wildlife & Monsters
-- 47.03 Biology, Evolution, Physiology
-- 47.04 Ecosystems & Environments
-
-#### 48 Characters (World-Specific)
-
-- 48.01 Major Characters
-- 48.02 Minor Characters
-- 48.03 Character Relationships
-- 48.04 Character Timelines & Backstories
-
-#### 49 Assets & Reference
-
-- 49.01 Visual References (art, mood boards)
-- 49.02 Maps, Diagrams, Schematics
-- 49.03 Glossary & Index
-- 49.04 External Research & Inspiration
+- **40–49 Worldbuilding**
+  - *41 Foundations*
+    - 41.01 Core Concept / Premise
+    - 41.02 Themes & Tone
+    - 41.03 Genre & Influences
+    - 41.04 Canon Rules (what is always true)
+  - *42 Geography & Locations*
+    - 42.01 World Maps (global, regional, local)
+    - 42.02 Continents, Regions, Countries
+    - 42.03 Cities, Towns, Settlements
+    - 42.04 Landmarks & Points of Interest
+  - *43 Cultures & Societies*
+    - 43.01 Ethnic Groups & Peoples
+    - 43.02 Languages & Naming Conventions
+    - 43.03 Social Norms, Traditions, Holidays
+    - 43.04 Art, Music, Cuisine, Fashion
+  - *44 Governments & Power Structures*
+    - 44.01 Political Systems
+    - 44.02 Factions, Organizations, Guilds
+    - 44.03 Laws, Justice, Crime
+    - 44.04 Military, Defense, Conflict History
+  - *45 Magic, Technology, & Religious Systems*
+    - 45.01 Magic Systems (rules, mechanics, limitations)
+    - 45.02 Technology Levels & Innovations
+    - 45.03 Items, Artifacts, Weapons
+    - 45.04 Science, Mysticism, Religion
+  - *46 History & Timeline*
+    - 46.01 Major Eras & Epochs
+    - 46.02 Key Events
+    - 46.03 Important Figures
+    - 46.04 Myths, Legends, Origin Stories
+  - *47 Species & Creatures*
+    - 47.01 Sentient Species
+    - 47.02 Wildlife & Monsters
+    - 47.03 Biology, Evolution, Physiology
+    - 47.04 Ecosystems & Environments
+  - *48 Characters (World-Specific)*
+    - 48.01 Major Characters
+    - 48.02 Minor Characters
+    - 48.03 Character Relationships
+    - 48.04 Character Timelines & Backstories
+  - *49 Assets & Reference*
+    - 49.01 Visual References (art, mood boards)
+    - 49.02 Maps, Diagrams, Schematics
+    - 49.03 Glossary & Index
+    - 49.04 External Research & Inspiration
 
 ### 50–59 Crafts & Hobbies
 
