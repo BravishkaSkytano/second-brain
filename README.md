@@ -39,7 +39,7 @@ The main branch hosts the default folder structure that I like to use (Johnny.De
     - 05.02 Device Notes & Settings
     - 05.03 Software & App List
     - 05.04 Backups & Digital Safety
-  - *06 Communications & Documents*
+  - *06 Documents & Communications*
     - 06.01 Email Management
     - 06.02 Letters, Forms, Official Documents
     - 06.03 Receipts & Scans
@@ -53,7 +53,7 @@ The main branch hosts the default folder structure that I like to use (Johnny.De
     - 08.01 Contracts & Agreements
     - 08.02 Warranties & Manuals
     - 08.03 Insurance Papers
-    - 08.04 Long-Term Storage / Deep Archive
+    - 08.04 Deep Archive
   - *09 Goals & Tracking*
     - 09.01 Life Goals Overview
     - 09.02 Habit Tracking & Metrics
