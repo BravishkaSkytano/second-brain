@@ -117,3 +117,68 @@ The main branch hosts the default folder structure that I like to use (Johnny.De
 - 15.03 Templates (journaling, study, goals)
 - 15.04 Inspirational Quotes / Verses
 
+### 20–29 Education & Career
+
+#### 21 Formal Education
+
+- 21.01 Past Education Records
+- 21.02 Current Programs / Courses
+- 21.03 Certificates & Transcripts
+- 21.04 Assignments & Study Notes
+
+#### 22 Professional Development
+
+- 22.01 Skill-Building Courses
+- 22.02 Workshops / Webinars
+- 22.03 Certifications (active & planned)
+- 22.04 Learning Plans & Progress Tracking
+
+#### 23 Career Planning
+
+- 23.01 Resume & Portfolio
+- 23.02 Job Search Materials
+- 23.03 Career Goals & Roadmaps
+- 23.04 Performance Reviews & Feedback
+
+#### 24 Work Projects
+
+- 24.01 Current Projects
+- 24.02 Completed Projects Archive
+- 24.03 Templates & SOPs
+- 24.04 Work Research / Brainstorms
+
+#### 25 Work Administration
+
+- 25.01 HR Documents
+- 25.02 Payroll & Benefits
+- 25.03 Policies & Procedures
+- 25.04 Work Schedules & Meetings
+
+#### 26 Industry Research
+
+- 26.01 Market Trends
+- 26.02 Competitor / Peer Research
+- 26.03 Articles, Papers, Key Resources
+- 26.04 Personal Research Notes
+
+#### 27 Networking
+
+- 27.01 Contacts & Directories
+- 27.02 Mentors & Coaching
+- 27.03 Professional Organizations
+- 27.04 Event Notes & Follow-ups
+
+#### 28 Career Finances
+
+- 28.01 Salary Planning
+- 28.02 Side Income / Freelance Work
+- 28.03 Business Expenses
+- 28.04 Tax Documents (Career/Work-Related)
+
+#### 29 Career Tools & Resources
+
+- 29.01 Software & Accounts
+- 29.02 Learning Libraries (videos, books, links)
+- 29.03 Templates (resume, cover letter, project plans)
+- 29.04 Reference Materials
+
