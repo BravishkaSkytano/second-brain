@@ -80,3 +80,40 @@ The main branch hosts the default folder structure that I like to use (Johnny.De
 - 09.03 Milestones & Achievements
 - 09.04 Year-in-Review Notes
 
+### 10–19 Personal & Faith
+
+#### 11 Personal Journaling
+
+- 11.01 Daily Journal
+- 11.02 Gratitude & Reflection
+- 11.03 Emotional Processing / Life Events
+- 11.04 Prayer Journal
+
+#### 12 Spiritual Growth & Goals
+
+- 12.01 Annual Faith Goals
+- 12.02 Monthly/Quarterly Check-ins
+- 12.03 Habit Tracking (Prayer, Reading, Worship)
+- 12.04 Sermon/Application Reflections
+
+#### 13 Bible Study
+
+- 13.01 Book Studies (Genesis → Revelation)
+- 13.02 Thematic Studies (e.g., Grace, Wisdom, Justice)
+- 13.03 Word & Language Studies
+- 13.04 Study Resources & Notes
+
+#### 14 Faith-Based Projects
+
+- 14.01 Volunteer/Service Projects
+- 14.02 Church Involvement
+- 14.03 Giving/Charity Tracking
+- 14.04 Personal Ministry or Creative Faith Projects
+
+#### 15 Faith Resources
+
+- 15.01 Books & Study Guides
+- 15.02 Podcasts, Sermons, Courses
+- 15.03 Templates (journaling, study, goals)
+- 15.04 Inspirational Quotes / Verses
+
