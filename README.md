@@ -223,71 +223,52 @@ The main branch hosts the default folder structure that I like to use (Johnny.De
     - 49.02 Maps, Diagrams, Schematics
     - 49.03 Glossary & Index
     - 49.04 External Research & Inspiration
-
-### 50–59 Crafts & Hobbies
-
-#### 51 General Crafting
-
-- 51.01 Tools & Supplies Inventory
-- 51.02 Techniques & How-Tos
-- 51.03 Safety & Maintenance
-- 51.04 Templates, Patterns, Guides
-
-#### 52 Fiber Arts (Sewing, Knitting, Crochet, etc.)
-
-- 52.01 Patterns & Project Plans
-- 52.02 Works in Progress (WIPs)
-- 52.03 Finished Projects Archive
-- 52.04 Fabric, Yarn, Notions Inventory
-
-#### 53 Visual Arts (Drawing, Painting, Digital Art)
-
-- 53.01 Sketches & Ideas
-- 53.02 Active Pieces
-- 53.03 Completed Works
-- 53.04 Techniques, Brushes, Color Palettes
-
-#### 54 DIY & Maker Projects
-
-- 54.01 Woodworking, Electronics, Build Plans
-- 54.02 In-Progress Builds
-- 54.03 Finished Builds
-- 54.04 Tools, Materials, Measurements
-
-#### 55 Collecting Hobbies
-
-- 55.01 Collection Catalog
-- 55.02 Wishlist & Acquisitions
-- 55.03 Storage & Display Plans
-- 55.04 Research & Valuation
-
-#### 56 Games & Recreation
-
-- 56.01 Board Games / TTRPG Materials
-- 56.02 Campaigns & Character Sheets
-- 56.03 House Rules & Homebrew
-- 56.04 Scorekeeping, Logs, Achievements
-
-#### 57 Music & Performance
-
-- 57.01 Instruments & Gear
-- 57.02 Practice Logs
-- 57.03 Compositions / Recordings
-- 57.04 Lessons & Learning Materials
-
-#### 58 Creative Media Production
-
-- 58.01 Photography / Videography Projects
-- 58.02 Editing & Post-Production
-- 58.03 Media Archive
-- 58.04 Equipment & Settings Notes
-
-#### 59 Hobby Management
-
-- 59.01 Budgeting & Purchases
-- 59.02 Project Tracking
-- 59.03 Event Planning (craft fairs, local groups)
-- 59.04 Inspiration Library
+- **50–59 Crafts & Hobbies**
+  - *51 General Crafting*
+    - 51.01 Tools & Supplies Inventory
+    - 51.02 Techniques & How-Tos
+    - 51.03 Safety & Maintenance
+    - 51.04 Templates, Patterns, Guides
+  - *52 Fiber Arts (Sewing, Knitting, Crochet, etc.)*
+    - 52.01 Patterns & Project Plans
+    - 52.02 Works in Progress (WIPs)
+    - 52.03 Finished Projects Archive
+    - 52.04 Fabric, Yarn, Notions Inventory
+  - *53 Visual Arts (Drawing, Painting, Digital Art)*
+    - 53.01 Sketches & Ideas
+    - 53.02 Active Pieces
+    - 53.03 Completed Works
+    - 53.04 Techniques, Brushes, Color Palettes
+  - *54 DIY & Maker Projects*
+    - 54.01 Woodworking, Electronics, Build Plans
+    - 54.02 In-Progress Builds
+    - 54.03 Finished Builds
+    - 54.04 Tools, Materials, Measurements
+  - *55 Collecting Hobbies*
+    - 55.01 Collection Catalog
+    - 55.02 Wishlist & Acquisitions
+    - 55.03 Storage & Display Plans
+    - 55.04 Research & Valuation
+  - *56 Games & Recreation*
+    - 56.01 Board Games / TTRPG Materials
+    - 56.02 Campaigns & Character Sheets
+    - 56.03 House Rules & Homebrew
+    - 56.04 Scorekeeping, Logs, Achievements
+  - *57 Music & Performance*
+    - 57.01 Instruments & Gear
+    - 57.02 Practice Logs
+    - 57.03 Compositions / Recordings
+    - 57.04 Lessons & Learning Materials
+  - *58 Creative Media Production*
+    - 58.01 Photography / Videography Projects
+    - 58.02 Editing & Post-Production
+    - 58.03 Media Archive
+    - 58.04 Equipment & Settings Notes
+  - *59 Hobby Management*
+    - 59.01 Budgeting & Purchases
+    - 59.02 Project Tracking
+    - 59.03 Event Planning (craft fairs, local groups)
+    - 59.04 Inspiration Library
 
 ### 60–69 Literature Notes
 
