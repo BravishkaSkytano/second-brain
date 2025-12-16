@@ -47,3 +47,11 @@ Here they are:
 
 A special mention goes to [Markdown Links](https://marketplace.visualstudio.com/items?itemName=tchayen.markdown-links) and [Markdown Notes](https://marketplace.visualstudio.com/items?itemName=kortina.vscode-markdown-notes) which have now been replaced by our own implementation but were foundational to Foam's beginnings.
 
+
+[get-started-with-vscode]: docs/getting-started/get-started-with-vscode "Using Foam with VS Code Features"
+[inbox]: inbox "Inbox"
+[spell-checking]: docs/features/spell-checking "Spell Checking"
+[paste-images-from-clipboard]: docs/features/paste-images-from-clipboard "Paste Images from Clipboard"
+[daily-notes]: docs/features/daily-notes "Daily Notes"
+[todo]: todo "Todo"
+[link-reference-definitions]: docs/features/link-reference-definitions "Link Reference Definitions"
