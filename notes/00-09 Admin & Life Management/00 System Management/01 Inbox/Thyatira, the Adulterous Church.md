@@ -1,0 +1,16 @@
+---
+created: 2025-07-30 15:56
+modified: 2025-08-10 20:48
+tags:
+  - church-history
+aliases:
+  - Thyatira
+  - adulterous church
+view-count: 1
+---
+
+Thyatira was founded by the Lydians and conquered Alexander the Great's general Seleucus Nicanor in the third century B.C. and it became a wealthy commercial city. When one mentioned Thyatira, what came to mind were their cloth making and dying industries and the expensive purple dye that extracted from murex shellfish. The Lydia mentioned in Acts was a Jewish overseas agent for a Thyatian cloth manufactor.
+
+The church there was praised for growing in their faith, but they were condemned for allowing a false prophetess to lead some members into idolatry and immorality. Jesus called the congregation to repent and turn away from their false teacher, who refused the forgiveness and mercy that He offered her. The church was given two choices–repent, or every single adulterer will experience great oppression until death eventually claims them.
+
+The message to Thyatira can be summarized by three commands---remember the threat of discipline and death, stand your ground, and become conquerors. God knows about the patience you practice each day, and He knows how you have endured through the valleys you’ve walked through. He searches the minds and hearts of all His Creation, and He will reward and judge accordingly. God doesn’t punish you for the acts of your friends, your children, or even your parents. He focuses on what you personally have done to further His Kingdom and spread the Good News. If we remain with Him, we will be given authority to rule over different areas in our communities and be a bright, shining star for God’s Kingdom.
