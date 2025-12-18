@@ -16,6 +16,7 @@
     "davidanson.vscode-markdownlint",
     "catppuccin.catppuccin-vsc",
     "catppuccin.catppuccin-vsc-icons",
-    "shopify.theme-check-vscode"
+    "shopify.theme-check-vscode",
+    "vsls-contrib.gitdoc"
   ]
 }
