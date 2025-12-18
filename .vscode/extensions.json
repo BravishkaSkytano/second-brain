@@ -15,6 +15,7 @@
     "philipbe.theme-gray-matter",
     "davidanson.vscode-markdownlint",
     "catppuccin.catppuccin-vsc",
-    "catppuccin.catppuccin-vsc-icons"
+    "catppuccin.catppuccin-vsc-icons",
+    "shopify.theme-check-vscode"
   ]
 }
