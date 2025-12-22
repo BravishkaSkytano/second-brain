@@ -15,12 +15,11 @@
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
   "files.exclude": {
-    "_site/**": true,
-    ".jekyll-cache/": true
+    "node_modules/**": true
   },
   "files.insertFinalNewline": true,
   "markdown.styles": [
     ".vscode/custom-tag-style.css"
   ],
-  "gitdoc.enabled": true
+  "gitdoc.enabled": false
 }
