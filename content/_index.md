@@ -12,3 +12,8 @@ Wander through, follow the threads, and see where the echoes lead.
 {{< admonition >}}
 My notes are organized using the [Johnny.Decimal system](https://johnnydecimal.com/), you can [view the master index (JDex) here](/second-brain/notes/00-09/00/00.01-jdex/) and the site index (TTAdex) through the link in the nav menu.
 {{< /admonition >}}
+
+{{< admonition [type="warning"] [title="This site is under heavy development!"] >}}
+I'm still working on transitioning my notes to this new workflow, and that will take time.
+All current links should stay the same, unless, of course, a major break happens somewhere.
+{{< /admonition >}}

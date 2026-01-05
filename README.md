@@ -315,3 +315,10 @@ The main branch hosts the default folder structure that I like to use (Johnny.De
     - 69.02 Video/Podcast Commentary
     - 69.03 Booklists & Recommendations
     - 69.04 Research Archive
+
+## To-Do
+
+- [ ] Add 'people' taxomony
+- [ ] Add 'books' taxomony
+- [ ] Add 'movies' taxomony
+- [ ] Add 'shows' taxomony
