@@ -11,11 +11,15 @@
       "strings": false
     }
   },
-  "git.enableSmartCommit": true,
-  "git.postCommitCommand": "sync",
   "files.exclude": {
     "node_modules/**": true
   },
   "files.insertFinalNewline": true,
-  "gitdoc.enabled": true
+  "git.enableSmartCommit": true,
+  "git.postCommitCommand": "sync",
+  "gitdoc.enabled": true,
+  "gitdoc.autoPull": "afterDelay",
+  "gitdoc.autoPush": "afterDelay",
+  "gitdoc.autoPullDelay": 300000,
+  "gitdoc.autoCommitDelay": 300000
 }
