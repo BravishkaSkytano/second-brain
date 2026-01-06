@@ -4,12 +4,6 @@ title = "The Thought Archive"
 copyright = 'Yoela O.' # Used in the footer copyright mention.
 enableRobotsTXT = true # IMPORTANT: set to true if you want to use the theme's genAI/LLM web crawler blocking feature.
 
-[permalinks]
-  [permalinks.page]
-    notes = '/:sectionslugs/:slug/'
-  [permalinks.section]
-    notes = '/:sectionslugs/'
-
 [taxonomies]
   category = 'categories'
   tag = 'tags'
@@ -37,10 +31,6 @@ enableRobotsTXT = true # IMPORTANT: set to true if you want to use the theme's g
     name = 'Graph'
     pageRef = '/graph'
     weight = 40
-  [[menus.main]]
-    name = 'TTAdex'
-    pageRef = '/ttadex'
-    weight = 50
 
 [markup]
   [markup.highlight]
