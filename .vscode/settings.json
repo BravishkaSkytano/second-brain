@@ -4,7 +4,6 @@
   "editor.wrappingIndent": "indent",
   "editor.overviewRulerBorder": false,
   "editor.lineHeight": 24,
-  "foam.edit.linkReferenceDefinitions": "withoutExtensions",
   "[markdown]": {
     "editor.quickSuggestions": {
       "other": true,
@@ -18,8 +17,5 @@
     "node_modules/**": true
   },
   "files.insertFinalNewline": true,
-  "markdown.styles": [
-    ".vscode/custom-tag-style.css"
-  ],
-  "gitdoc.enabled": false
+  "gitdoc.enabled": true
 }
