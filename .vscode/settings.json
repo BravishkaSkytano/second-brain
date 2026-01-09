@@ -20,6 +20,6 @@
   "gitdoc.enabled": true,
   "gitdoc.autoPull": "afterDelay",
   "gitdoc.autoPush": "afterDelay",
-  "gitdoc.autoPullDelay": 300000,
-  "gitdoc.autoCommitDelay": 300000
+  "gitdoc.autoPullDelay": 50000,
+  "gitdoc.autoCommitDelay": 30000
 }

@@ -80,7 +80,7 @@ Here’s the key rule that usually settles it:
 
 If you’re tempted to do this:
 
-```
+```bash
 places/
   countries/
   cities/
@@ -91,7 +91,7 @@ places/
 
 Instead:
 
-```
+```bash
 places/
   new-zealand.md   # category: country
   paris.md         # category: city
@@ -123,7 +123,7 @@ If a subfolder wouldn’t meaningfully change *how you work* in VS Code, it prob
 
 ## A clean, future-proof setup (example)
 
-```
+```bash
 content/
   people/
   places/
