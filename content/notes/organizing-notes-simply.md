@@ -1,6 +1,11 @@
 ---
 title: Organizing Notes Simply, According to ChatGPT
 date: 2026-01-06
+categories:
+  - Organization
+tags:
+  - ChatGPT
+  - folders-vs-categories-vs-tags
 ---
 ## A simple mental model (sticky and calm)
 
@@ -8,7 +13,8 @@ Think in **layers of permanence**:
 
 ### 1. **Folders = what a note *is***
 
-These change rarely. They should feel obvious even if someone else browses your repo.
+These change rarely.
+They should feel obvious even if someone else browses your repo.
 
 Examples:
 
@@ -19,7 +25,8 @@ Examples:
 * `projects`
 * `sources` (books, papers, articles)
 
-If you ask “*What kind of thing is this note?*” and the answer is stable, it belongs in a **folder**.
+If you ask “*What kind of thing is this note?*” and the answer is stable,
+it belongs in a **folder**.
 
 👉 Your instinct here is solid. This already replaces Johnny Decimal cleanly.
 
@@ -68,7 +75,8 @@ Examples:
 * `colonial-history`
 * `island-nation`
 
-Tags are for discovery, not structure. Think butterfly nets, not filing cabinets 🦋
+Tags are for discovery, not structure.
+Think butterfly nets, not filing cabinets 🦋
 
 ---
 
@@ -104,7 +112,8 @@ Let Hugo handle the slicing.
 
 ## When subfolders *do* make sense
 
-Use subfolders only when they represent **authoring or lifecycle differences**, not conceptual ones.
+Use subfolders only when they represent **authoring or lifecycle differences**,
+not conceptual ones.
 
 Good uses:
 
@@ -117,7 +126,8 @@ Bad uses:
 
 * Taxonomy you already express with categories or tags
 
-If a subfolder wouldn’t meaningfully change *how you work* in VS Code, it probably doesn’t belong.
+If a subfolder wouldn’t meaningfully change *how you work* in VS Code,
+it probably doesn’t belong.
 
 ---
 

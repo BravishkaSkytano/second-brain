@@ -1,3 +1,5 @@
 ---
 title: 'Christianity'
+categories:
+  - Religion
 ---
