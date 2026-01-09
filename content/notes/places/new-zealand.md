@@ -1,8 +1,7 @@
 ---
 title: 'New Zealand'
 date: 2025-12-20
-categories:
-  - countries
+categories: ['Country']
 tags:
   - Polynesian
   - scenic

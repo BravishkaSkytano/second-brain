@@ -1,8 +1,19 @@
 ---
 title: 'Nicolaus Copernicus'
 date: 2025-12-20
-categories:
-  - People
+categories: ['Historical Figure']
+tags:
+  - Renaissance
+  - polymath
+  - polyglot
+  - math
+  - astronomy
+  - Catholicism
+  - physician
+  - governor
+  - diplomat
+  - economics
+  - pioneer
 ---
 
 > Nicolaus Copernicus (19 February 1473 – 24 May 1543) was a Renaissance polymath, active as a mathematician, astronomer, and Catholic canon, who formulated a model of the universe that placed the Sun rather than Earth at its center. In all likelihood, Copernicus developed his model independently of Aristarchus of Samos, an ancient Greek astronomer who had formulated such a model some eighteen centuries earlier.The publication of Copernicus's model in his book De revolutionibus orbium coelestium (On the Revolutions of the Celestial Spheres), just before his death in 1543, was a major event in the history of science, triggering the Copernican Revolution and making a pioneering contribution to the Scientific Revolution.
