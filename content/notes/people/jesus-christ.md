@@ -1,7 +1,7 @@
 ---
 title: 'Jesus Christ'
 date: 2025-12-22
-categories: ['biblical-figure']
+categories: ['Biblical Figure']
 tags:
   - messiah
   - christ
@@ -10,4 +10,5 @@ tags:
   - miracle-worker
   - theology
   - incarnation
+  - in-progress
 ---

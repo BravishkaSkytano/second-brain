@@ -1,12 +1,14 @@
 ---
 title: 'Galileo Galilei'
 date: 2025-12-20
-categories: ["historical-figure"]
+categories: ['Historical Figure']
 tags:
-  - italian
-  - astronomer
-  - physicist
-  - engineer
+  - Italian
+  - astronomy
+  - physics
+  - engineering
+  - pioneer
+  - in-progress
 ---
 
 > Galileo di Vincenzo Bonaiuti de' Galilei (15 February 1564 – 8 January 1642), commonly referred to as **Galileo Galilei** ( GAL-il-AY-oh GAL-il-AY, US also  GAL-il-EE-oh -⁠, Italian: [ɡaliˈlɛːo ɡaliˈlɛːi]) or simply Galileo, was an Italian astronomer, physicist and engineer, sometimes described as a polymath. He was born in the city of Pisa, then part of the Duchy of Florence. Galileo has been called the father of observational astronomy, modern-era classical physics, the scientific method, and modern science.Galileo studied speed and velocity, gravity and free fall, the principle of relativity, inertia, projectile motion and also worked in applied science and technology, describing the properties of the pendulum and "hydrostatic balances". He was one of the earliest Renaissance developers of the thermoscope and the inventor of various military compasses, and used the telescope for scientific observations of celestial objects. With an improved telescope he built, he observed the stars of the Milky Way, the phases of Venus, the four largest satellites of Jupiter, Saturn's rings, lunar craters and sunspots. He also built an early microscope.
