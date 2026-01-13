@@ -13,6 +13,7 @@
     "catppuccin.catppuccin-vsc-icons",
     "shopify.theme-check-vscode",
     "vsls-contrib.gitdoc",
-    "tamasfe.even-better-toml"
+    "tamasfe.even-better-toml",
+    "eliostruyf.vscode-front-matter"
   ]
 }
