@@ -5,4 +5,4 @@ draft: true
 ---
 This is a draft post
 
-Here is a link to [[This is my first post]]
+Here is a link to [[This is my first post|the first post]]
