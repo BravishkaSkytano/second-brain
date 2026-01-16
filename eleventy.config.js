@@ -77,10 +77,10 @@ export default async function(eleventyConfig) {
 		metadata: {
 			language: "en",
 			title: "The Thought Archive",
-			subtitle: "This is a longer description about your blog.",
-			base: "https://example.com/",
+			subtitle: "Echoes of learning, stitched together; A space where curiosity never settles.",
+			base: "https://the-thought-archive.netlify.app/",
 			author: {
-				name: "Your Name"
+				name: "Yoela O."
 			}
 		}
 	});
