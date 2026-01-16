@@ -173,7 +173,7 @@ export const config = {
 	// pathPrefix: "/",
 };
 
-export function md (linkMapCache) {
+export default function (md, linkMapCache) {
   // Recognize Mediawiki links ([[text]])
   md.linkify.add("[[", {
     validate: /^\s?([^\[\]\|\n\r]+)(\|[^\[\]\|\n\r]+)?\s?\]\]/,
