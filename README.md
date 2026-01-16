@@ -1,47 +1,91 @@
-# eleventy-base-blog v9
+# Second Brain – Content Organization Guide
 
-A starter repository showing how to build a blog with the [Eleventy](https://www.11ty.dev/) site generator (using the [v3.0 release](https://github.com/11ty/eleventy/releases/tag/v3.0.0)).
+This repository is a Second Brain published with 11ty.
+Its structure is intentionally simple, stable, and resistant to over-tinkering.
 
-## Getting Started
+## Core Principle
 
-* [Want a more generic/detailed getting started guide?](https://www.11ty.dev/docs/getting-started/)
+Folders define what a note *is*.  
+Categories define its primary type.  
+Tags describe qualities, themes, and connections.
 
-1. Make a directory and navigate to it:
+If a note feels hard to place, the note is complex, not the system.
 
-```
-mkdir my-blog-name
-cd my-blog-name
-```
+---
 
-2. Clone this Repository
+## Canonical Folder List
 
-```
-git clone https://github.com/11ty/eleventy-base-blog.git .
-```
+These top-level folders are considered canonical and should rarely change.
 
-_Optional:_ Review `eleventy.config.js` and `_data/metadata.js` to configure the site’s options and data.
+- `people/` – Individual beings with identity (real, biblical, or fictional)
+- `places/` – Physical or imagined locations
+- `concepts/` – Abstract ideas, frameworks, and theories
+- `organizations/` – Structured groups and institutions
+- `projects/` – Time-bound or outcome-oriented work
+- `sources/` – Books, articles, papers, and other reference material
 
-3. Install dependencies
+Do not create new top-level folders without sustained pressure from real usage.
 
-```
-npm install
-```
+---
 
-4. Run Eleventy
+## Categories
 
-Generate a production-ready build to the `_site` folder:
+Categories represent a note’s primary subtype.
+They are usually singular and relatively stable.
 
-```
-npx @11ty/eleventy
-```
+Examples:
+- `places` → country, city, region, landmark, fictional-world
+- `people` → biblical, historical, fictional, author
+- `concepts` → theology, education, ecology, writing
+- `sources` → book, paper, article, video
 
-Or build and host on a local development server:
+Categories are used for Hugo list pages and navigation.
 
-```
-npx @11ty/eleventy --serve
-```
+---
 
-Or you can run [debug mode](https://www.11ty.dev/docs/debugging/) to see all the internals.
+## Tags
+
+Tags are descriptive, non-exclusive, and flexible.
+They capture themes, associations, and secondary attributes.
+
+Examples:
+- polynesian
+- scenic
+- theology
+- worldbuilding
+- leadership
+
+Tags are for discovery and cross-linking, not structure.
+
+---
+
+## Subfolders
+
+Subfolders are avoided unless they reflect workflow or lifecycle differences.
+Approved uses include:
+
+- `projects/active/` and `projects/archive/`
+- `journal/YYYY/`
+
+Do not duplicate category logic with subfolders.
+
+---
+
+## Decision Rule
+
+When creating a new note (`hugo new --kind TYPE notes/TYPE/note`):
+1. Choose the folder by asking “What kind of thing is this?”
+2. Assign one category that best fits
+3. Add tags only if they help future discovery
+
+This system favors clarity, longevity, and ease of use over perfect classification.
+
+## To-Do
+
+- [ ] Add 'people' taxomony
+- [ ] Add 'books' taxomony
+- [ ] Add 'movies' taxomony
+- [ ] Add 'shows' taxomony
 
 ## Features
 
@@ -77,23 +121,6 @@ Or you can run [debug mode](https://www.11ty.dev/docs/debugging/) to see all the
 	- `sitemap.xml`
 	- Zero-maintenance tag pages ([View on the Demo](https://eleventy-base-blog.netlify.app/tags/))
 	- Content not found (404) page
-
-## Demos
-
-- [Netlify](https://eleventy-base-blog.netlify.app/)
-- [Vercel](https://demo-base-blog.11ty.dev/)
-- [Cloudflare Pages](https://eleventy-base-blog-d2a.pages.dev/)
-- [GitHub Pages](https://11ty.github.io/eleventy-base-blog/)
-
-## Deploy this to your own site
-
-Deploy this Eleventy site in just a few clicks on these services:
-
-- Read more about [Deploying an Eleventy project](https://www.11ty.dev/docs/deployment/) to the web.
-- [Deploy this to **Netlify**](https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)
-- [Deploy this to **Vercel**](https://vercel.com/import/project?template=11ty%2Feleventy-base-blog)
-- Look in `.github/workflows/gh-pages.yml.sample` for information on [Deploying to **GitHub Pages**](https://www.11ty.dev/docs/deployment/#deploy-an-eleventy-project-to-git-hub-pages).
-- [Try it out on **Stackblitz**](https://stackblitz.com/github/11ty/eleventy-base-blog)
 
 ### Implementation Notes
 
