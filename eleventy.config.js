@@ -195,11 +195,8 @@ export default function (md, linkMapCache) {
   })
 };
 
-const routes = require('./handlers/routes'); // own module with named exports routes.route1 and routes.route2
-import express from 'express'; // without trailing .js
-
 // This regex finds all wikilinks in a string
-const wikilinkRegExp = "/(?<!!)\[\[([^|]+?)(\|([\s\S]+?))?\]\]/g";
+const wikilinkRegExp = /(?<!!)\[\[([^|]+?)(\|([\s\S]+?))?\]\]/g;
 
 const parseWikilinks = (arr) => arr.map(link => {
   const parts = link.slice(2, -2).split("|");
