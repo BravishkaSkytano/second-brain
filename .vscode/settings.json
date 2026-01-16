@@ -1,0 +1,25 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.minimap.enabled": false,
+  "editor.wrappingIndent": "indent",
+  "editor.overviewRulerBorder": false,
+  "editor.lineHeight": 24,
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": false
+    }
+  },
+  "files.exclude": {
+    "node_modules/**": true
+  },
+  "files.insertFinalNewline": true,
+  "git.enableSmartCommit": true,
+  "git.postCommitCommand": "sync",
+  "gitdoc.enabled": false,
+  "gitdoc.autoPull": "afterDelay",
+  "gitdoc.autoPush": "afterDelay",
+  "gitdoc.autoPullDelay": 50000,
+  "gitdoc.autoCommitDelay": 30000
+}
