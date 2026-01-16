@@ -3,4 +3,8 @@ export default {
 		"posts"
 	],
 	"layout": "layouts/post.njk",
+	
+  eleventyComputed: {
+    backlinks: (data) => backlinks(data),
+  },
 };

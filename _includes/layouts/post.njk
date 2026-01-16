@@ -26,3 +26,14 @@ layout: layouts/base.njk
 </ul>
 {%- endif %}
 {%- endif %}
+
+{% if backlinks.length > 0 %}
+    <nav>
+        <h3>Linking here</h3>
+        <ul>
+            {%- for link in backlinks %}
+                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {%- endfor %}
+        </ul>
+    </nav>
+{% endif %}
