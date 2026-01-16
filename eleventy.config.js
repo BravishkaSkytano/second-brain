@@ -129,12 +129,13 @@ export default async function(eleventyConfig) {
 
 	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
+
 	// Interlinker
 	eleventyConfig.addPlugin(InterlinkerPlugin, {
 		defaultLayout: 'layouts/embed.liquid'
 	});
 
-	
+	eleventyConfig.setLibrary("md", markdownIt());
   // Recognize Mediawiki links ([[text]])
   md.linkify.add("[[", {
     validate: /^\s?([^\[\]\|\n\r]+)(\|[^\[\]\|\n\r]+)?\s?\]\]/,
