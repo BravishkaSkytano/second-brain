@@ -8,18 +8,16 @@
     <link
     rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}"> {#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
     <meta name="generator" content="{{ eleventy.generator }}">
-    <style>{% include "node_modules/luxacss/css/luxa.css" %}</style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/luxacss@latest/dist/compressed/luxa.min.css"/>
+    <link
+    rel="stylesheet" href="/bundle.css">
     {#- Add the heading-anchors web component to the JavaScript bundle #}
     <script type="module">
       {% include "node_modules/@zachleat/heading-anchors/heading-anchors.js" %}</script>
   </head>
   <body>
     <main class="container-80">
-      <section class="row">
-        <h1>Hello World!</h1>
-        <p>My first website with
-          <strong>Luxa CSS</strong>!</p>
-      </section>
+      {{ ccontent | safe }}
     </main>
     <a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
     <header>
