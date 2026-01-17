@@ -16,10 +16,6 @@
       {% include "node_modules/@zachleat/heading-anchors/heading-anchors.js" %}</script>
   </head>
   <body>
-    <main class="container-80">
-      {{ content | safe }}
-    </main>
-    <a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
     <header>
       <a href="/" class="home-link">{{ metadata.title }}</a>
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
@@ -34,10 +30,8 @@
         </ul>
       </nav>
     </header>
-    <main id="main">
-      <heading-anchors>
-        {{ content | safe }}
-      </heading-anchors>
+    <main class="container-80">
+      {{ content | safe }}
     </main>
     <footer>
       <p>
