@@ -46,6 +46,7 @@
 	},
 	"dependencies": {
 		"@photogabble/eleventy-plugin-interlinker": "^1.1.2",
-		"@zachleat/heading-anchors": "^1.0.5"
+		"@zachleat/heading-anchors": "^1.0.5",
+		"luxacss": "^2.0.4"
 	}
 }
