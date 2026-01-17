@@ -1,7 +1,6 @@
 import markdownIt from "markdown-it";
 import InterlinkerPlugin from "@photogabble/eleventy-plugin-interlinker";
 
-/** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
 	// Drafts, see also _data/eleventyDataSchema.js
 	eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
