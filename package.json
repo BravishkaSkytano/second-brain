@@ -1,39 +1,39 @@
 {
-	"name": "thought-archive",
-	"version": "9.0.0",
-	"description": "",
+	"name": "the-thought-archive",
+	"version": "1.3.0",
+	"description": "A Second Brain/blog created using Eleventy and WebC.",
 	"type": "module",
 	"scripts": {
-		"build": "npx @11ty/eleventy",
-		"build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
-		"start": "npx @11ty/eleventy --serve --quiet",
+		"build": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy",
+		"watch": "npx @11ty/eleventy --watch",
+		"start": "npx @11ty/eleventy --serve --incremental --quiet",
+		"test": "npx @11ty/eleventy --dryrun",
 		"debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
-		"debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
-		"benchmark": "cross-env DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"
+		"clean": "rimraf _site .cache"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/BravishkaSkytano/second-brain.git"
 	},
-	"author": {
-		"name": "Yoela O",
-		"email": "virtuousscholar01@gmail.com",
-		"url": "https://the-thought-archive.netlify.app/"
-	},
 	"license": "MIT",
 	"engines": {
 		"node": ">=18"
-	},
-	"funding": {
-		"type": "opencollective",
-		"url": "https://opencollective.com/11ty"
 	},
 	"bugs": {
 		"url": "https://github.com/BravishkaSkytano/second-brain/issues"
 	},
 	"homepage": "https://github.com/BravishkaSkytano/second-brain#readme",
-	"dependencies": {
+	"devDependencies": {
 		"@11ty/eleventy": "^3.1.2",
+		"@11ty/eleventy-img": "^6.0.4",
+		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
+		"@11ty/eleventy-plugin-webc": "^0.11.2",
+		"cross-env": "^10.1.0",
+		"emoji-short-name": "^2.0.0",
+		"linkedom": "^0.18.12",
+		"rimraf": "^6.1.2",
 		"@photogabble/eleventy-plugin-interlinker": "^1.1.2"
+	"dependencies": {
+		"@11ty/is-land": "^5.0.1"
 	}
 }

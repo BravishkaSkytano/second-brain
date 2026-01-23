@@ -1,0 +1,87 @@
+<style webc:scoped>
+:host {
+	--theme-demo-bg: #ddd;
+	--theme-demo-fg: #333;
+	display: block;
+	border: 2px solid var(--theme-demo-bg);
+	border-radius: .5em;
+	margin-bottom: 1em;
+	overflow: hidden;
+}
+:host-context(.theme-dark) {
+	--theme-demo-bg: lightblue;
+}
+:host > .content {
+	padding: 1rem;
+}
+:host > .content:has(> pre) {
+	padding: 0;
+}
+:host > .content pre[class*="language-"] {
+	border-end-start-radius: 0;
+	border-end-end-radius: 0;
+}
+:host > .content > p:first-child {
+	margin-top: 0;
+}
+:host > .content > p:last-child {
+	margin-bottom: 0;
+}
+:host .hed {
+	padding: .4em 1rem;
+	margin: 0;
+}
+:host > .source pre {
+	margin: 0;
+	border-radius: 0;
+	box-shadow: 0 0 0 2px var(--theme-demo-bg);
+}
+:host > .source-wrap pre,
+:host > .source-wrap code {
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+:host > .source summary {
+	float: left;
+	white-space: nowrap;
+	font-size: 0.9375em; /* 15px /16 */
+	border-top-right-radius: .3em;
+	padding-bottom: .5em;
+}
+:host > .source[open] summary {
+	background-color: var(--theme-demo-bg);
+	color: var(--theme-demo-fg);
+}
+:host:not(:has(is-land)),
+:host:has(is-land[ready]) {
+	--theme-demo-bg: lightblue;
+	--theme-demo-fg: #222;
+}
+:host-context(.theme-dark):not(:has(is-land)),
+:host-context(.theme-dark):has(is-land[ready]) {
+	--theme-demo-bg: #aaaaf5;
+}
+:host copy-to-clipboard {
+	display: inline-flex;
+	padding: .4em 1rem .5em;
+}
+</style>
+<!--- Unscoped CSS --->
+<style>
+is-land:not(:defined) .demo-predefined-only,
+is-land[ready] .demo-predefined-only {
+	visibility: hidden;
+}
+</style>
+<div class="content">
+	<slot></slot>
+</div>
+<details class="source" :class="wrap === '' ? 'source-wrap' : ''">
+	<summary class="hed">View Source</summary>
+	<copy-to-clipboard></copy-to-clipboard>
+	<script webc:type="js">
+	export default function({ webc, slots }) {
+		return `<syntax-highlight @language="html">${webc.escapeText(slots.text.default)}</pre>`
+	}
+	</script>
+</details>

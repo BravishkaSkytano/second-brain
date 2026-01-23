@@ -1,0 +1,144 @@
+<!---
+table-of-contents finds the anchor links in the content to create a table of contents
+--->
+<script webc:setup>
+function getLevel(el) {
+	return parseInt(el.tagName.slice(1), 10);
+}
+export function generateHtml(headings) {
+	let html = [];
+	let previousLevel = 2;
+	for(let el of headings) {
+		let level = getLevel(el);
+		if(level === previousLevel) {
+			html.push("</li>");
+		} else if(level < previousLevel) {
+			html.push("</ul>")
+		} else if(level > previousLevel) {
+			html.push("<ul>")
+		}
+
+		let text = Array.from(el.childNodes).map(node => {
+			if(node.nodeType === 3) {
+				return node.nodeValue.trim();
+			}
+			return "";
+		}).join("");
+		html.push(`<li><a href="#${el.getAttribute("id")}">${text}</a>`);
+		previousLevel = level;
+	}
+	return `<details open>
+	<summary>On this page</summary>
+	<ul>${html.join("")}</ul>
+</details>`;
+}
+</script>
+<style webc:scoped>
+:host {
+	display: block;
+	margin: 1em 0;
+}
+:host ul {
+	list-style: none;
+	padding: 0;
+	margin: .25em 0;
+}
+:host ul ul {
+	margin-left: 1em;
+}
+:host li {
+	margin: .75em 0;
+}
+:host a {
+	display: block;
+}
+:host .active {
+	font-weight: bold;
+}
+</style>
+<script webc:type="js">
+export default function({ content, selectFromHtml, generateHtml }) {
+	let headings = selectFromHtml(content, ":is(h2, h3, h4, h5, h6)[id]" );
+	return generateHtml(headings);
+}
+</script>
+
+<script>
+class TableOfContents extends HTMLElement {
+	static SELECTOR = ":is(h2, h3, h4, h5, h6)[id]";
+	static ACTIVE_CLASS = "active";
+
+	static findHeading(element) {
+		while(element) {
+			if(element.matches(TableOfContents.SELECTOR)) {
+				return element;
+			}
+			element = element.previousElementSibling;
+		}
+	}
+
+	static getSiblingsForHeading(heading) {
+		let nodes = [];
+		let sibling = heading;
+		while(sibling = sibling.nextElementSibling) {
+			if(sibling.matches(TableOfContents.SELECTOR)) {
+				break;
+			}
+
+			nodes.push(sibling);
+		}
+		return nodes;
+	}
+
+	constructor() {
+		super();
+		this.state = {};
+	}
+
+	target(targetsSelector) {
+		let observer = new IntersectionObserver((entries) => {
+			let state = this.state;
+			for (let entry of entries) {
+				let heading = TableOfContents.findHeading(entry.target);
+				if(heading) {
+					let id = heading.getAttribute("id");
+					if(!(id in state)) {
+						state[id] = 0;
+					}
+					if(entry.isIntersecting) {
+						state[id]++;
+					} else if(state[id] > 0) {
+						state[id]--;
+					}
+				}
+			}
+			
+			for(let id in state) {
+				let tocHeading = this.querySelector(`a[href="#${id}"]`);
+				tocHeading?.classList[state[id] > 0 ? "add" : "remove"](TableOfContents.ACTIVE_CLASS);
+			}
+		}, {
+			// rootMargin: "0px 0px -90% 0px",
+			// threshold: .01,
+		});
+
+		let headings = document.querySelectorAll(targetsSelector);
+		for(let heading of headings) {
+			observer.observe(heading);
+
+			for(let sibling of TableOfContents.getSiblingsForHeading(heading)) {
+				observer.observe(sibling);
+			}
+		}
+	}
+
+	connectedCallback() {
+		// Improve by using sibling elements between 
+		this.target(TableOfContents.SELECTOR)
+	}
+}
+
+if(("customElements" in window)) {
+	window.customElements.define("table-of-contents", TableOfContents);
+}
+</script>

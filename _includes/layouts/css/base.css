@@ -1,0 +1,82 @@
+:root {
+	--font-family: system-ui, sans-serif;
+	--background-color: #fff;
+	--color-accent: #c0481d;
+	--text-color: #333;
+	--text-color-link: #082840;
+	--text-color-link-active: var(--color-accent);
+	color-scheme: light;
+}
+:root:where(.theme-dark) {
+	--background-color: #15202b;
+	--color-accent: #1493fb;
+	--text-color: #dad8d8;
+	--text-color-link: inherit;
+	--text-color-link-active: var(--color-accent);
+	color-scheme: dark;
+}
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+/* :root {
+  color-scheme: light dark;
+} */
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+main,
+footer {
+	margin: 0 auto;
+	max-width: 60em;
+}
+@media (min-width: 48em) {
+	footer {
+		/* Extra padding for intersection observer */
+		margin-bottom: 20vh;
+	}
+}
+:is(h1, h2, h3, h4):first-child {
+	margin-top: 0;
+}
+input,
+select,
+button {
+	font-family: inherit;
+	font-size: inherit;
+	background: inherit;
+	color: inherit;
+	border: 2px solid;
+	border-radius: 0.6em;
+}
+
+a[href],
+a[href]:visited {
+	color: var(--text-color-link);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+/* via https://www.zachleat.com/web/fluid-images/ */
+img {
+  max-width: 100%;
+}
+img[width][height] {
+  height: auto;
+}
+img[src$=".svg"] {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
