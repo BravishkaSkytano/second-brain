@@ -1,43 +1,16 @@
 import pluginWebc from "@11ty/eleventy-plugin-webc";
-import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import { IdAttributePlugin } from "@11ty/eleventy";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
-import emojiShortName from "emoji-short-name";
-import { parseHTML } from "linkedom";
-
-import fs from 'fs';
-import path from 'path';
-import postcss from 'postcss';
-import tailwindcss from '@tailwindcss/postcss';
+const isDev = process.env.ELEVENTY_ENV === "development";
 
 /** @param {import('@11ty/eleventy').UserConfig} eleventyConfig */
 export default async function (eleventyConfig) {
-	eleventyConfig.on('eleventy.before', async () => {
-    const tailwindInputPath = path.resolve('./_includes/layouts/css/styles.css');
-    const tailwindOutputPath = './_site/css/styles.css';
-    const cssContent = fs.readFileSync(tailwindInputPath, 'utf8');
-    const outputDir = path.dirname(tailwindOutputPath);
-
-    if (!fs.existsSync(outputDir)) {
-      fs.mkdirSync(outputDir, { recursive: true });
-    }
-
-    const result = await postcss([tailwindcss()]).process(cssContent, {
-      from: tailwindInputPath,
-      to: tailwindOutputPath,
-    });
-
-    fs.writeFileSync(tailwindOutputPath, result.css);
-	});
 	
 	eleventyConfig.ignores.add("./README.md");
-	eleventyConfig.addWatchTarget("./_components/**/*.css");
-
-	eleventyConfig.addPlugin(pluginSyntaxHighlight, {
-		preAttributes: {
-			"tabindex": "0"
-		}
-	});
+	eleventyConfig.addPassthroughCopy({
+    "node_modules/flyonui/flyonui.js": "js/flyonui.js"
+  });
 
 	eleventyConfig.addPlugin(pluginWebc, {
 		components: [
@@ -46,27 +19,52 @@ export default async function (eleventyConfig) {
 		]
 	});
 
-	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-		formats: ["webp", "jpeg"],
-		urlPath: "/img/",
+	eleventyConfig.addPlugin(IdAttributePlugin, {
+		selector: "h2,h3,h4,h5,h6",
 
-		defaultAttributes: {
-			loading: "lazy",
-			decoding: "async"
+		// swaps html entities (like &amp;) to their counterparts before slugify-ing
+		decodeEntities: true,
+
+		// check for duplicate `id` attributes in application code?
+		checkDuplicates: "error", // `false` to disable
+
+		// by default we use Eleventy’s built-in `slugify` filter:
+		slugify: eleventyConfig.getFilter("slugify"),
+
+		filter: function({ page }) {
+			if(page.inputPath.endsWith("test-skipped.html")) {
+				return false; // skip
+			}
+
+			return true;
 		}
 	});
+
+	if (!isDev) {
+		eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+			formats: ["webp", "jpeg"],
+			urlPath: "/img/",
+			cacheOptions: { duration: "1w" },
+			defaultAttributes: {
+				loading: "lazy",
+				decoding: "async"
+			}
+		});
+	}
 
 	eleventyConfig.setServerOptions({
 		domDiff: false
 	});
 
-	eleventyConfig.addJavaScriptFunction("emojiShortName", (emoji) => {
-		return emojiShortName[emoji];
-	})
+};
 
-	eleventyConfig.addJavaScriptFunction("selectFromHtml", (html, selector) => {
-		const { document } = parseHTML(html);
-		return document.querySelectorAll(selector);
-	});
-
+export const config = {
+	dir: {
+		input: 'content',
+		output: '_site',
+		includes: '../_includes',
+		data: '../_data'
+	},
+	markdownTemplateEngine: "webc",
+	htmlTemplateEngine: "webc",
 };

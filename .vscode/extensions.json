@@ -11,9 +11,9 @@
     "davidanson.vscode-markdownlint",
     "catppuccin.catppuccin-vsc",
     "catppuccin.catppuccin-vsc-icons",
-    "shopify.theme-check-vscode",
     "vsls-contrib.gitdoc",
     "eliostruyf.vscode-front-matter",
-    "ecmel.vscode-html-css"
+    "ecmel.vscode-html-css",
+    "bradlc.vscode-tailwindcss"
   ]
 }

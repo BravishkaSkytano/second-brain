@@ -1,6 +1,0 @@
-<style webc:scoped>
-:host {
-	margin: 1rem 0;
-}
-</style>
-<slot></slot>

@@ -1,154 +1,60 @@
----js
-let layout = "layouts/base.webc";
-// Hi
 ---
-<h1>Welcome to Tugboat <accessible-emoji emoji="🛟"></accessible-emoji></h1>
+layout: "layouts/base.webc"
+---
 
-<p @text="pkg.description"></p>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
 
-<h2>Features</h2>
-
-<p>Bundled WebC components:</p>
-
-<ul>
-	<li><accessible-emoji emoji="🏝"></accessible-emoji> <code>is-land</code> <em>(client-JavaScript)</em> to use Islands architecture to control how components load and initialize (using <a href="https://www.11ty.dev/docs/plugins/partial-hydration/"><code>@11ty/is-land</code></a>)</li>
-	<li><accessible-emoji emoji="🌌"></accessible-emoji> <code>color-schemer</code> for zero-added-specificity dark/light mode support.</li>
-	<li><accessible-emoji emoji="🗣"></accessible-emoji> <code>visually-hidden</code> to hide content but keep it <a href="https://www.a11yproject.com/posts/how-to-hide-content/">accessible to screen readers</a>.</li>
-	<li><accessible-emoji emoji="💾"></accessible-emoji> <code>syntax-highlight</code> for syntax highlighting (using <a href="https://www.11ty.dev/docs/plugins/syntaxhighlight/"><code>@11ty/eleventy-plugin-syntaxhighlight</code></a>).</li>
-	<li><accessible-emoji emoji="🔗"></accessible-emoji> <code>favicon-link</code> will show a favicon image in an external link.</li>
-	<li><accessible-emoji emoji="⏰"></accessible-emoji> <code>time-difference</code> <em>(client-JavaScript)</em> to show human readable time differences for visitor-localized time zones.</li>
-	<li><accessible-emoji emoji="🎭"></accessible-emoji> <code>accessible-emoji</code> to show screen-reader friendly emoji.</li>
-	<li><accessible-emoji emoji="🎪"></accessible-emoji> <code>live-demo</code> will both render a block of code and show the server-rendered code, syntax highlighted with a copy to clipboard button.</li>
-	<li><accessible-emoji emoji="📋"></accessible-emoji> <code>table-of-contents</code> creates a list of server-rendered anchor links to point to headings in the document to create a table of contents (shown in the sidebar. Active state is highlighted with <em>client-JavaScript</em>.</li>
-</ul>
-
-<p>Other features:</p>
-
-<ul>
-	<li><accessible-emoji emoji="🖼"></accessible-emoji> Images are build-time optimized using the <a href="https://www.11ty.dev/docs/plugins/image/">Eleventy Image</a> utility.</li>
-</ul>
-
-<h2>Demos</h2>
-
-<h3>Fancy Links</h3>
-
-<p>Use the <code>favicon-link</code> component to easily show a link with a favicon image shown alongside the content.</p>
-
-<live-demo>
-<a webc:is="favicon-link" href="https://www.11ty.dev/">Eleventy</a>
-<a webc:is="favicon-link" href="https://zachleat.com/">Zach Leatherman</a>
-<a webc:is="favicon-link" href="https://mxb.dev/">Max Böck</a>
-<a webc:is="favicon-link" href="https://sia.codes/">Sia Karamalegos</a>
-<a webc:is="favicon-link" href="https://jennschiffer.com/">Jenn Schiffer</a>
-<a webc:is="favicon-link" href="https://ryanmulligan.dev/">Ryan Mulligan</a>
-<a webc:is="favicon-link" href="https://samtan.dev/">Sam Tancharoensuksavai</a>
-<a webc:is="favicon-link" href="https://georgefrancis.dev/">George Francis</a>
-<a webc:is="favicon-link" href="https://www.sarasoueidan.com/">Sara Soueidan</a>
-</live-demo>
-
-<h3>Dark/Light Mode</h3>
-
-<live-demo @wrap>
-<color-schemer></color-schemer>
-<p>Note that this value is synchronized with all other color-schemer instances on the page (there’s another one in the footer).</p>
-</live-demo>
-
-<h3>Time Difference</h3>
-
-<p>The <code>time-difference</code> component shows the difference between a date/time and now in the user’s local time zone.</p>
-
-<live-demo>
+<h5>Body text</h5>
 <p>
-	This page was published: <time-difference :@date="Date.now()" live units="minutes"></time-difference>
+  Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis
+  mollis, est non commodo luctus. Duis mollis, est non commodo luctus.Duis
+  mollis, est non commodo luctus.
 </p>
-</live-demo>
-
-<h3>Islands Architecture</h3>
-
-<p>Use islands architecture to “hydrate” components that use client-side JavaScript when conditions are met. This island initializes a <code>time-difference</code> web component when the island is visible:</p>
-
-<live-demo>
 <p>
-	<is-land on:visible>
-		This page was published: <time-difference :@date="Date.now()" live units="minutes"></time-difference>
-	</is-land>
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id molestiae fuga
+  eius et deserunt veritatis accusamus consequatur officia, itaque sunt. Quae
+  quia neque obcaecati unde nisi praesentium natus eveniet nesciunt!
 </p>
-</live-demo>
-
-<p>This island will only activate when you interact with it:</p>
-
-<live-demo>
 <p>
-	<is-land on:visible on:interaction>
-		This page was published: <time-difference :@date="Date.now()" live units="minutes"></time-difference>
-		<button class="demo-predefined-only">Click this button to activate the Island</button>
-	</is-land>
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti aspernatur
+  sit vel? Hic laudantium nostrum consectetur officia voluptates doloribus sed
+  blanditiis error saepe tenetur quae perferendis cupiditate, facere magni id!
 </p>
-</live-demo>
-
-<h3>Image Optimization</h3>
-
-<p>A very large <code>1600×1200</code> source image has been downscaled to <code>400w</code> and <code>800w</code> output sizes in three separate image formats (<code>avif</code>, <code>webp</code>, and <code>jpeg</code>). The image component includes the <code>width</code> and <code>height</code> attributes to eliminate <a href="https://web.dev/cls/">Content Layout Shift</a>, decides whether the <code>picture</code> syntax is necessary, and generates optimal markup using <code>srcset</code>.</p>
-
-<live-demo @wrap>
-<img src="img/sung-jin-cho-5dgq-7DySyE-unsplash.jpg" eleventy:formats="avif,webp,jpeg" eleventy:width="400,800" alt="A photo of a small blue and white tugboat next to a very large shipping container ship full of multi-colored shipping containers." sizes="100vw">
-
-<p><em>Photo by <a href="https://unsplash.com/de/@mbuff?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sung Jin Cho</a> on <a href="https://unsplash.com/photos/5dgq-7DySyE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>.</em></p>
-</live-demo>
-
-
-<h3>Syntax Highlighting</h3>
-
-<p>Here’s some server-rendered (no client-JavaScript) syntax highlighted code:</p>
-
-<live-demo>
-<template webc:is="syntax-highlight" @language="html">
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="">
-		<title></title>
-	</head>
-	<body>
-		<header>
-			<h1></h1>
-		</header>
-		<main>
-		</main>
-	</body>
-</html>
-</template>
-</live-demo>
-
-<p>The <code>@language</code> <a href="https://www.11ty.dev/docs/languages/webc/#props-(properties)">prop</a> is optional, and falls back to an unstyled code block:</p>
-
-<live-demo>
-<template webc:is="syntax-highlight">
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="">
-		<title></title>
-	</head>
-	<body>
-		<header>
-			<h1></h1>
-		</header>
-		<main>
-		</main>
-	</body>
-</html>
-</template>
-</live-demo>
-
-<h3>Accessible Emoji</h3>
-
-<live-demo>
-<accessible-emoji emoji="✅"></accessible-emoji>
-<accessible-emoji emoji="🏝"></accessible-emoji>
-<accessible-emoji emoji="🫠"></accessible-emoji>
-</live-demo>
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero est voluptatum
+  eveniet magnam maiores? Ullam mollitia corporis asperiores ducimus dolore, id
+  ex facilis eaque enim, iste minima quam placeat dicta?
+</p>
+<p>
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error quod dolor
+  similique esse illo facere aut, labore blanditiis suscipit, ea dolorum tempore
+  vitae! Dolorum inventore animi ut ipsam velit recusandae.
+</p>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur
+  corrupti odit nemo quia facere atque eligendi voluptate, saepe rerum
+  cupiditate odio nesciunt mollitia dolores pariatur sint repellat nam?
+  Mollitia, commodi.
+</p>
+<h5>Small text</h5>
+<small>
+  Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis
+  mollis, est non commodo luctus. Duis mollis, est non commodo luctus.Duis
+  mollis, est non commodo luctus.
+</small>
+<h5>Muted Text</h5>
+<p class="muted">
+  Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis
+  mollis, est non commodo luctus. Duis mollis, est non commodo luctus.Duis
+  mollis, est non commodo luctus.
+</p>
+<h5>Gradient Text</h5>
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. And
+  <span class="gradient">I'm gradient!</span>
+</p>

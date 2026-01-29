@@ -4,12 +4,15 @@
 	"description": "A Second Brain/blog created using Eleventy and WebC.",
 	"type": "module",
 	"scripts": {
-		"build": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy",
-		"watch": "npx @11ty/eleventy --watch",
-		"start": "npx @11ty/eleventy --serve --incremental --quiet",
-		"test": "npx @11ty/eleventy --dryrun",
+		"build:css": "tailwindcss -i _includes/layouts/css/styles.css -o _site/css/styles.css --minify",
+		"build:11ty": "npx @11ty/eleventy",
+		"build": "npm run build:css && npm run build:11ty",
+		"dev:css": "tailwindcss -i _includes/layouts/css/styles.css -o _site/css/styles.css --watch",
+		"dev:11ty": "cross-env ELEVENTY_ENV=development npx @11ty/eleventy --serve --quiet",
+		"dev:test": "npx @11ty/eleventy --dryrun",
+		"start": "concurrently \"npm:dev:css\" \"npm:dev:11ty\"",
 		"debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
-		"clean": "rimraf _site .cache"
+		"clean": "rimraf _site .cache node_modules/.cache"
 	},
 	"repository": {
 		"type": "git",
@@ -27,12 +30,18 @@
 		"@11ty/eleventy": "^3.1.2",
 		"@11ty/eleventy-img": "^6.0.4",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
-		"@11ty/eleventy-plugin-webc": "^0.11.2",
+		"@11ty/eleventy-plugin-webc": "^0.12.0-beta.7",
+		"@iconify/json": "^2.2.431",
+		"@iconify/tailwind4": "^1.2.1",
+		"@tailwindcss/cli": "^4.1.18",
+		"concurrently": "^9.2.1",
 		"cross-env": "^10.1.0",
-		"emoji-short-name": "^2.0.0",
-		"linkedom": "^0.18.12",
+		"flyonui": "^2.4.1",
+		"prettier": "^3.8.1",
+		"prettier-plugin-tailwindcss": "^0.7.2",
 		"rimraf": "^6.1.2",
-		"@photogabble/eleventy-plugin-interlinker": "^1.1.2"
+		"tailwindcss": "^4.1.18"
+	},
 	"dependencies": {
 		"@11ty/is-land": "^5.0.1"
 	}
