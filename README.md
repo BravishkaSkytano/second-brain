@@ -1,84 +1,4 @@
-# Second Brain – Content Organization Guide
-
-This repository is a Second Brain published with 11ty.
-Its structure is intentionally simple, stable, and resistant to over-tinkering.
-
-## Core Principle
-
-Folders define what a note *is*.  
-Categories define its primary type.  
-Tags describe qualities, themes, and connections.
-
-If a note feels hard to place, the note is complex, not the system.
-
----
-
-## Canonical Folder List
-
-These top-level folders are considered canonical and should rarely change.
-
-- `people/` – Individual beings with identity (real, biblical, or fictional)
-- `places/` – Physical or imagined locations
-- `concepts/` – Abstract ideas, frameworks, and theories
-- `organizations/` – Structured groups and institutions
-- `projects/` – Time-bound or outcome-oriented work
-- `sources/` – Books, articles, papers, and other reference material
-
-Do not create new top-level folders without sustained pressure from real usage.
-
----
-
-## Categories
-
-Categories represent a note’s primary subtype.
-They are usually singular and relatively stable.
-
-Examples:
-- `places` → country, city, region, landmark, fictional-world
-- `people` → biblical, historical, fictional, author
-- `concepts` → theology, education, ecology, writing
-- `sources` → book, paper, article, video
-
-Categories are used for Hugo list pages and navigation.
-
----
-
-## Tags
-
-Tags are descriptive, non-exclusive, and flexible.
-They capture themes, associations, and secondary attributes.
-
-Examples:
-- polynesian
-- scenic
-- theology
-- worldbuilding
-- leadership
-
-Tags are for discovery and cross-linking, not structure.
-
----
-
-## Subfolders
-
-Subfolders are avoided unless they reflect workflow or lifecycle differences.
-Approved uses include:
-
-- `projects/active/` and `projects/archive/`
-- `journal/YYYY/`
-
-Do not duplicate category logic with subfolders.
-
----
-
-## Decision Rule
-
-When creating a new note (`hugo new --kind TYPE notes/TYPE/note`):
-1. Choose the folder by asking “What kind of thing is this?”
-2. Assign one category that best fits
-3. Add tags only if they help future discovery
-
-This system favors clarity, longevity, and ease of use over perfect classification.
+# The Living Index
 
 ## To-Do
 
@@ -87,3 +7,127 @@ This system favors clarity, longevity, and ease of use over perfect classificati
 - [ ] Add 'books' taxomony
 - [ ] Add 'movies' taxomony
 - [ ] Add 'shows' taxomony
+
+## Colors
+
+### Dark mode (default garden at dusk)
+
+| Role      | Color     | Purpose         |
+| --------- | --------- | --------------- |
+| bg        | `#1f2d24` | page background |
+| surface   | `#f4f1ec` | note cards      |
+| fg        | `#2a2a2a` | main text       |
+| muted     | `#6b6b5f` | metadata        |
+| primary   | `#4f7c5b` | links, headings |
+| secondary | `#b08a4f` | hover, UI       |
+| accent    | `#8b3f2f` | rare emphasis   |
+
+### Light mode (overcast afternoon)
+
+| Role      | New Mapping |
+| --------- | ----------- |
+| bg        | `#f4f1ec`   |
+| surface   | `#ffffff`   |
+| fg        | `#2a2a2a`   |
+| muted     | `#6b6b5f`   |
+| primary   | `#4f7c5b`   |
+| secondary | `#8b3f2f`   |
+| accent    | `#b08a4f`   |
+
+## Seasons
+
+### 🌸 Spring – emergence
+
+**Feeling:** fresh, hopeful, sketchbook
+
+- Background: light parchment or soft green wash
+- Accent: fresh leaf green
+- Effect: none or tiny floating pollen dots
+- Copy tone: “notes sprouting”
+
+Use when you’re actively adding new ideas.
+
+```css
+.season-spring {
+  --bg: #f2f7f1;        /* pale green parchment */
+  --surface: #ffffff;  /* clean paper */
+  --fg: #2a2a2a;
+  --muted: #6f7f73;
+
+  --primary: #5a8f6b;   /* young leaf */
+  --secondary: #d4a373; /* soft sunlight */
+  --accent: #c97c5d;    /* budding warmth */
+}
+```
+
+### 🍃 Summer – growth
+
+**Feeling:** lush, steady, confident
+
+- Background: warm cream or pale moss
+- Accent: deep green
+- Effect: disabled
+- Highest readability
+
+This is your “default working season.”
+
+```css
+.season-summer {
+  --bg: #eef3ea;        /* warm cream-green */
+  --surface: #ffffff;
+  --fg: #2a2a2a;
+  --muted: #5f6f64;
+
+  --primary: #3f6f55;   /* deep healthy green */
+  --secondary: #8fb996; /* soft foliage */
+  --accent: #b08968;    /* warm earth */
+}
+```
+
+### 🍂 Autumn – reflection (your favorite)
+
+**Feeling:** calm, nostalgic, thoughtful
+
+- Background: forest dusk
+- Accent: gold + rust
+- Effect: falling leaves (very subtle)
+- Best for essays, synthesis, long notes
+
+This becomes the soul of your site.
+
+```css
+.season-autumn {
+  --bg: #1f2d24;        /* forest dusk */
+  --surface: #f4f1ec;   /* parchment */
+  --fg: #2a2a2a;
+  --muted: #6b6b5f;
+
+  --primary: #4f7c5b;   /* moss */
+  --secondary: #b08a4f; /* gold */
+  --accent: #8b3f2f;    /* fallen leaf */
+}
+```
+
+### ❄️ Winter – dormancy
+
+**Feeling:** quiet, minimal, archival
+
+- Background: cool gray or blue dusk
+- Accent: muted silver
+- Effect: none
+- Fewer UI elements visible
+
+Perfect for “I’m not adding much, just maintaining.”
+
+```css
+.season-winter {
+  --bg: #1b1f26;        /* cold dusk */
+  --surface: #e9ecef;   /* pale frost paper */
+  --fg: #23262b;
+  --muted: #7a8088;
+
+  --primary: #5c6f82;   /* steel blue */
+  --secondary: #9aa3ad; /* silver */
+  --accent: #6b7280;    /* ash */
+}
+```

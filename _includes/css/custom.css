@@ -1,0 +1,58 @@
+:root {
+  --padding-sm: clamp(1rem, 3%, 1.5rem);
+  --padding-md: clamp(1.5rem, 6%, 3rem);
+  --padding-lg: clamp(3rem, 12%, 6rem);
+  --block-flow-sm: min(2rem, 4vh);
+  --block-flow-md: min(4rem, 8vh);
+  --block-flow-lg: min(8rem, 16vh);
+}
+
+:is(body, .block-flow)>*+* {
+  margin-block-start:
+    var(- -block-flow, var(- -block-flow-md));
+}
+
+body {
+  background-image: url("/img/LAND_11B.GIF");
+}
+
+.container {
+  width: min(100vw - 3rem, 80ch);
+  margin-inline: auto;
+  padding: var(--padding-sm);
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+#headline {
+  display: flex;
+  flex: 1;
+  white-space: nowrap;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  font-size: 18px;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: calc(var(--font-size) * 0.2);
+  text-transform: uppercase;
+}
+
+#headline::after {
+  content: '';
+  background: repeating-linear-gradient(90deg, var(--accent), var(--accent) 2px, transparent 0, transparent 8px);
+  display: block;
+  width: 100%;
+  margin-left: 20px;
+  right: 10px;
+}
+
+#headline a {
+  color: inherit;
+}
+
+footer svg {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  fill: var(--foreground);
+}

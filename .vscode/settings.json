@@ -12,7 +12,10 @@
     }
   },
   "files.exclude": {
-    "node_modules/**": true
+    "node_modules/**": true,
+    ".agents/**": true,
+    ".obsidian/**": true,
+    ".github/skills/**": true
   },
   "files.insertFinalNewline": true,
   "git.enableSmartCommit": true,
@@ -21,5 +24,14 @@
   "gitdoc.autoPull": "afterDelay",
   "gitdoc.autoPush": "afterDelay",
   "gitdoc.autoPullDelay": 50000,
-  "gitdoc.autoCommitDelay": 30000
+  "gitdoc.autoCommitDelay": 30000,
+  "editor.linkedEditing": true,
+  "indentRainbow.indicatorStyle": "classic",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.colorTheme": "Catppuccin Macchiato",
+  "editor.tabSize": 2,
+  "tailwindCSS.emmetCompletions": true,
+  "[liquid]": {
+    "editor.defaultFormatter": "Shopify.theme-check-vscode"
+  }
 }

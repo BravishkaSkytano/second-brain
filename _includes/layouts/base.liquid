@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta
+      name="viewport"
+      content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width"
+    >
+    <title>
+      {{ title }}
+      |||
+      {{ metadata.title }}
+    </title>
+    <meta
+      name="description"
+      content="{% if description %}{{ description }}{% else %}{{ metadata.description }}{% endif %}"
+    >
+    <meta name="author" content="{{ metadata.author.name }}">
+    <meta name="generator" content="{{ eleventy.generator }}">
+
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+    <link rel="shortcut icon" href="./favicon.png">
+    {% comment %} Add the contents of a file to the bundle  {% endcomment %}
+    {% css %}
+    {% render 'css/terminal.css' %}
+    {% render 'css/custom.css' %}
+    {% endcss %}
+
+    {% comment %} Renders the CSS bundle using a separate file, if you can't set CSP directive style-src: 'unsafe-inline'  {% endcomment %}
+    <link rel="stylesheet" href="{% getBundleFileUrl 'css' %}">
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="headline">
+        <a href="/">{{ metadata.title }}</a>
+      </h1>
+      <main>
+        {{ content }}
+      </main>
+      <footer>
+        <hr>
+        <p>
+          Built with ❤️ by <a href="{{ metadata.author.url }}">{{ metadata.author.name }}</a>, using
+          <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a> and
+          <a href="https://panr.github.io/terminal-css/">Terminal CSS</a>.
+        </p>
+      </footer>
+    </div>
+
+    <!-- This page `{{ page.url }}` was built on {% currentBuildDate %} -->
+    <script type="module" src="{% getBundleFileUrl 'js' %}"></script>
+    {% getBundle "fontawesome" %}
+  </body>
+</html>
