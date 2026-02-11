@@ -165,7 +165,7 @@ export default async function (eleventyConfig) {
         .filter((i) => i.data.section === section)
         .filter((i) => !i.page.filePathStem.endsWith("/index"))
         .sort((a, b) => b.date - a.date) // 👈 most recently modified
-        .slice(0, 4); // 👈 limit to #
+        .slice(0, 6); // 👈 limit to 6
 
       return {
         section,

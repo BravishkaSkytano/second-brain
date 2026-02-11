@@ -1,48 +1,62 @@
 ---
 layout: base
 ---
-<!-- HERO -->
 {% render 'header', title: site.title, description: site.description %}
-<!-- END HERO -->
-<p class="terminal-prompt">echo $content</p>
 {{ content }}
 <hr>
 {% for section in collections.homepageSections %}
   <!-- LATEST ENTRIES IN {{ section.section | upcase }} -->
   <section>
     <p class="terminal-prompt">list {{ section.section }}</p>
-    <nav class="terminal-menu">
-      <ul>
+    <div class="card-container">
+      <div class="cards">
         {% for item in section.items %}
-          <li>
-            <a href="{{ item.url }}">
-              {{ item.data.title }}
-            </a>
-          </li>
+          <div class="card">
+            <div class="terminal-card">
+              <header>{{ item.data.title }}</header>
+              <div>
+                {{ item.content | truncate: 160 }}
+              </div>
+              <footer>
+                <a class="btn btn-primary btn-block" href="{{ item.url }}"> Read Entry → </a>
+              </footer>
+            </div>
+          </div>
         {% endfor %}
-      </ul>
-    </nav>
-    <p>
-      View all
-      <a href="/{{ section.section }}/">
-        {{ section.section }}
-      </a>
-    </p>
-  </section>
-{% endfor %}
-{% comment %}
-  <hr>
-  <!-- FEATURED POST -->
-  <section>
-    <h2>Featured</h2>
-
-    <div class="terminal-card">
-      <header>Featured Log</header>
-      <div>
-        <h3>Designing for Humans, Not Frameworks</h3>
-        <p>A breakdown of why simple HTML + CSS still beats complex stacks for personal publishing.</p>
-        <a class="btn btn-primary" href="/posts/designing-for-humans.html"> Read Entry → </a>
       </div>
     </div>
+    <a class="btn btn-primary btn-block" style="margin-top: 1rem;" href="/{{ section.section }}/">
+      View all {{ section.section }} →
+    </a>
   </section>
-{% endcomment %}
+{% endfor %}
+
+<style>
+  .card-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cards {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 15px;
+  }
+
+  /* Style the cards */
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .terminal-card {
+    display: flex;
+    flex-direction: column; /* stack header, content, and button vertically */
+    height: 100%; /* make it stretch fully inside .card */
+  }
+
+  .terminal-card footer {
+    margin-top: auto;
+  }
+</style>

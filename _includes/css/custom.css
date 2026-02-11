@@ -23,20 +23,13 @@
   --progress-bar-fill: #ff8bd5;
 
   --display-h1-decoration: block;
+
+  /* Contextual Spacing */
+  font-size: clamp(1rem, 4vw, 3rem);
 }
 
 .container {
   padding: 1.5rem clamp(1rem, 5%, 3rem);
-}
-
-/* ===== Retro Sun ASCII Banner ===== */
-.sun-banner {
-  color: var(--primary-color);
-  text-align: center;
-  margin: 2em 0;
-  text-shadow:
-    0 0 6px rgba(255, 94, 196, 0.8),
-    0 0 14px rgba(90, 247, 255, 0.4);
 }
 
 /* ===== Animated Gradient Headings ===== */
@@ -92,17 +85,4 @@ a:hover,
   box-shadow:
     0 0 6px #ff5ec4,
     0 0 12px #5af7ff;
-}
-
-/* ===== Subtle Retro Grid ===== */
-body::after {
-  content: "";
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  background:
-    linear-gradient(rgba(255, 94, 196, 0.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(90, 247, 255, 0.05) 1px, transparent 1px);
-  background-size: 48px 48px;
-  opacity: 0.25;
 }

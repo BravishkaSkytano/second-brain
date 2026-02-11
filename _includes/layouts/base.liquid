@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
       {{ title }}
-      ::
+      |
       {{ site.title }}
     </title>
     <meta
@@ -30,27 +30,8 @@
     <div class="container">
       <!-- NAVIGATION -->
       {% assign navPages = collections.all | eleventyNavigation %}
-      {% render 'nav', title: site.title, navPages: navPages, current_page: page.url %}
+      {% render 'nav', title: site.title, navPages: navPages, current_page: page.url, breadcrumbs: breadcrumbs %}
       <!-- END NAVIGATION -->
-
-      {% if breadcrumbs and breadcrumbs.size > 0 %}
-        <hr>
-        <section>
-          <p class="terminal-prompt">pwd</p>
-          <!-- BREADCRUMB -->
-          <nav aria-label="Breadcrumb">
-            <a href="/">~</a>/
-            {% for crumb in breadcrumbs %}
-              {% if forloop.last %}
-                {{ crumb.label }}
-              {% else %}
-                <a href="{{ crumb.url }}">{{ crumb.label }}</a>/
-              {% endif %}
-            {% endfor %}
-          </nav>
-          <!-- END BREADCRUMB -->
-        </section>
-      {% endif %}
       <hr>
       {{ content }}
       <hr>
