@@ -3,13 +3,10 @@ import {
   InputPathToUrlTransformPlugin,
   HtmlBasePlugin,
 } from "@11ty/eleventy";
-import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
-import fontAwesomePlugin from "@11ty/font-awesome";
 
-import pluginFilters from "./_config/filters.js";
 const EXCLUDED_SECTIONS = new Set(["404", "index", "section"]);
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
@@ -29,7 +26,6 @@ export default async function (eleventyConfig) {
   // For example, `./public/css/` ends up in `_site/css/`
   eleventyConfig.addPassthroughCopy({
     "./public/": "/",
-    "./feed/pretty-atom-feed.xsl": "/",
     "./node_modules/terminal.css/dist/terminal.min.css":
       "dist/terminal.min.css",
   });
@@ -67,31 +63,6 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPlugin(HtmlBasePlugin);
   eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
 
-  eleventyConfig.addPlugin(feedPlugin, {
-    type: "atom", // or "rss", "json"
-    outputPath: "/feed/feed.xml",
-    stylesheet: "pretty-atom-feed.xsl",
-    templateData: {
-      eleventyNavigation: {
-        key: "Feed",
-        order: 4,
-      },
-    },
-    collection: {
-      name: "posts",
-      limit: 10,
-    },
-    metadata: {
-      language: "en",
-      title: "Blog Title",
-      subtitle: "This is a longer description about your blog.",
-      base: "https://example.com/",
-      author: {
-        name: "Your Name",
-      },
-    },
-  });
-
   // Image optimization: https://www.11ty.dev/docs/plugins/image/#eleventy-transform
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     // Output formats for each image.
@@ -113,18 +84,10 @@ export default async function (eleventyConfig) {
     },
   });
 
-  // Filters
-  eleventyConfig.addPlugin(pluginFilters);
-
   eleventyConfig.addPlugin(IdAttributePlugin, {
     // by default we use Eleventy’s built-in `slugify` filter:
     // slugify: eleventyConfig.getFilter("slugify"),
     // selector: "h1,h2,h3,h4,h5,h6", // default
-  });
-
-  eleventyConfig.addPlugin(fontAwesomePlugin, {
-    transform: false, // disable the Eleventy transform
-    shortcode: "icon", // enable the {% icon %} shortcode ({% icon "fab:font-awesome" %})
   });
 
   eleventyConfig.addShortcode("currentBuildDate", () => {
@@ -232,5 +195,5 @@ export const config = {
   // it will transform any absolute URLs in your HTML to include this
   // folder name and does **not** affect where things go in the output folder.
 
-  // pathPrefix: "/",
+  // pathPrefix: "/second-brain/",
 };
