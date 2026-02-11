@@ -1,58 +1,180 @@
 :root {
-  --padding-sm: clamp(1rem, 3%, 1.5rem);
-  --padding-md: clamp(1.5rem, 6%, 3rem);
-  --padding-lg: clamp(3rem, 12%, 6rem);
-  --block-flow-sm: min(2rem, 4vh);
-  --block-flow-md: min(4rem, 8vh);
-  --block-flow-lg: min(8rem, 16vh);
-}
+  /* Typography */
+  --global-font-size: 15px;
+  --global-line-height: 1.6;
+  --font-stack: "Fira Code", "JetBrains Mono", monospace;
 
-:is(body, .block-flow)>*+* {
-  margin-block-start:
-    var(- -block-flow, var(- -block-flow-md));
-}
+  /* Core colors */
+  --background-color: #12061e;
+  --font-color: #f4e9ff;
+  --invert-font-color: #12061e;
 
-body {
-  background-image: url("/img/LAND_11B.GIF");
+  /* Synthwave palette */
+  --primary-color: #ff5ec4;
+  --secondary-color: #5af7ff;
+  --error-color: #ff3b6f;
+
+  /* Surfaces */
+  --block-background-color: #1a0b2e;
+  --code-bg-color: #22103c;
+
+  /* UI */
+  --progress-bar-background: #2a144d;
+  --progress-bar-fill: #ff8bd5;
+
+  --display-h1-decoration: block;
 }
 
 .container {
-  width: min(100vw - 3rem, 80ch);
-  margin-inline: auto;
-  padding: var(--padding-sm);
-  background-color: var(--background);
-  color: var(--foreground);
+  padding: 1.5rem clamp(1rem, 5%, 3rem);
 }
 
-#headline {
-  display: flex;
-  flex: 1;
+/* ===== Retro Sun ASCII Banner ===== */
+.sun-banner {
+  color: var(--primary-color);
+  text-align: center;
+  margin: 2em 0;
+  text-shadow:
+    0 0 6px rgba(255, 94, 196, 0.8),
+    0 0 14px rgba(90, 247, 255, 0.4);
+}
+
+/* ===== Animated Gradient Headings ===== */
+h1,
+h2 {
+  background: linear-gradient(90deg,
+      #ff5ec4,
+      #ffb86c,
+      #5af7ff,
+      #ff5ec4);
+  background-size: 300% 300%;
+  animation: synthwave-gradient 12s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes synthwave-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* ===== Neon Hover Glow ===== */
+a:hover,
+.btn:hover {
+  text-shadow:
+    0 0 6px rgba(255, 94, 196, 0.9),
+    0 0 12px rgba(90, 247, 255, 0.6);
+}
+
+/* ===== Card Glow ===== */
+.terminal-card {
+  border-color: var(--primary-color);
+  box-shadow:
+    0 0 0 1px rgba(255, 94, 196, 0.4),
+    0 0 20px rgba(255, 94, 196, 0.25);
+}
+
+/* ===== Cursor Glow ===== */
+.terminal-prompt {
+  margin-bottom: 1ch;
+}
+
+.terminal-prompt::after {
+  box-shadow:
+    0 0 6px #ff5ec4,
+    0 0 12px #5af7ff;
+}
+
+/* ===== Subtle Retro Grid ===== */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(rgba(255, 94, 196, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(90, 247, 255, 0.05) 1px, transparent 1px);
+  background-size: 48px 48px;
+  opacity: 0.25;
+}
+
+.post-log {
+  max-width: 52ch;
+}
+
+.post-log h1 {
+  margin-top: 0.5em;
+}
+
+.post-log .log-body {
+  white-space: normal;
+}
+
+.post-log hr {
+  border-bottom-style: dotted;
+}
+
+.post-essay {
+  max-width: 68ch;
+}
+
+.post-essay p {
+  margin-bottom: 1.4em;
+}
+
+.post-essay blockquote {
+  font-style: italic;
+  color: var(--secondary-color);
+}
+
+.post-status {
+  display: inline-block;
+  margin: 0.5em 0;
+  padding: 0.2em 0.6em;
+  font-size: 0.85em;
+  border: 1px solid currentColor;
+}
+
+.status-seed {
+  color: var(--secondary-color);
+}
+
+.status-growing {
+  color: var(--primary-color);
+}
+
+.status-evergreen {
+  color: #5cff8d;
+}
+
+.post-backlinks {
+  font-size: 0.9em;
+  opacity: 0.85;
+}
+
+.post-tended {
+  font-size: 0.85em;
+  color: var(--secondary-color);
+  margin-top: 1.5em;
+}
+
+footer .copyright {
+  position: relative;
   white-space: nowrap;
-  line-height: 1;
-  letter-spacing: 0.04em;
-  font-size: 18px;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: calc(var(--font-size) * 0.2);
-  text-transform: uppercase;
-}
-
-#headline::after {
-  content: '';
-  background: repeating-linear-gradient(90deg, var(--accent), var(--accent) 2px, transparent 0, transparent 8px);
-  display: block;
-  width: 100%;
-  margin-left: 20px;
-  right: 10px;
-}
-
-#headline a {
-  color: inherit;
-}
-
-footer svg {
-  width: 16px;
-  height: 16px;
-  vertical-align: middle;
-  fill: var(--foreground);
+  line-height: var(--global-line-height);
+  float: none;
+  margin: 0;
+  margin-top: calc(var(--global-space) * 2);
+  margin-bottom: calc(var(--global-space) * 2);
+  padding: calc(var(--global-space) * 2)0;
+  font-weight: 600
 }

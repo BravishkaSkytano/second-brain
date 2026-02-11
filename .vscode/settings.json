@@ -5,11 +5,18 @@
   "editor.overviewRulerBorder": false,
   "editor.lineHeight": 24,
   "[markdown]": {
+    "editor.wordWrapColumn": 100,
+    "editor.wordWrap": "bounded",
     "editor.quickSuggestions": {
       "other": true,
       "comments": false,
       "strings": false
     }
+  },
+  "[liquid]": {
+    "editor.wordWrapColumn": 100,
+    "editor.wordWrap": "bounded",
+    "editor.defaultFormatter": "Shopify.theme-check-vscode"
   },
   "files.exclude": {
     "node_modules/**": true,
@@ -20,18 +27,12 @@
   "files.insertFinalNewline": true,
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
-  "gitdoc.enabled": false,
-  "gitdoc.autoPull": "afterDelay",
-  "gitdoc.autoPush": "afterDelay",
-  "gitdoc.autoPullDelay": 50000,
-  "gitdoc.autoCommitDelay": 30000,
   "editor.linkedEditing": true,
   "indentRainbow.indicatorStyle": "classic",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "workbench.colorTheme": "Catppuccin Macchiato",
   "editor.tabSize": 2,
-  "tailwindCSS.emmetCompletions": true,
-  "[liquid]": {
-    "editor.defaultFormatter": "Shopify.theme-check-vscode"
+  "emmet.includeLanguages": {
+    "liquid": "html"
   }
 }

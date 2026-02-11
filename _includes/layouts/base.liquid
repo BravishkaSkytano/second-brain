@@ -2,49 +2,65 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta
-      name="viewport"
-      content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
       {{ title }}
-      |||
-      {{ metadata.title }}
+      ::
+      {{ site.title }}
     </title>
     <meta
       name="description"
-      content="{% if description %}{{ description }}{% else %}{{ metadata.description }}{% endif %}"
+      content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}"
     >
-    <meta name="author" content="{{ metadata.author.name }}">
+    <meta name="author" content="{{ site.author.name }}">
     <meta name="generator" content="{{ eleventy.generator }}">
 
-    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ site.title }}">
     <link rel="shortcut icon" href="./favicon.png">
+    <link rel="stylesheet" href="/dist/terminal.min.css">
     {% comment %} Add the contents of a file to the bundle  {% endcomment %}
     {% css %}
-    {% render 'css/terminal.css' %}
     {% render 'css/custom.css' %}
     {% endcss %}
 
     {% comment %} Renders the CSS bundle using a separate file, if you can't set CSP directive style-src: 'unsafe-inline'  {% endcomment %}
     <link rel="stylesheet" href="{% getBundleFileUrl 'css' %}">
   </head>
-  <body>
+  <body class="terminal">
     <div class="container">
-      <h1 id="headline">
-        <a href="/">{{ metadata.title }}</a>
-      </h1>
-      <main>
-        {{ content }}
-      </main>
-      <footer>
-        <hr>
-        <p>
-          Built with ❤️ by <a href="{{ metadata.author.url }}">{{ metadata.author.name }}</a>, using
-          <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a> and
-          <a href="https://panr.github.io/terminal-css/">Terminal CSS</a>.
-        </p>
-      </footer>
+      <!-- NAVIGATION -->
+      {% assign navPages = collections.all | eleventyNavigation %}
+      {% render 'nav', title: site.title, navPages: navPages, current_page: page.url %}
+      <!-- END NAVIGATION -->
+
+      <!-- HERO -->
+      {% render 'header', title: site.title, description: site.description %}
+
+      <hr>
+      {{ content }}
+      <hr>
+
+      {% if breadcrumbs and breadcrumbs.size > 0 %}
+        <section>
+          <p class="terminal-prompt">pwd</p>
+          <!-- BREADCRUMB -->
+          <nav aria-label="Breadcrumb">
+            <a href="/">~</a>/
+            {% for crumb in breadcrumbs %}
+              {% if forloop.last %}
+                {{ crumb.label }}
+              {% else %}
+                <a href="{{ crumb.url }}">{{ crumb.label }}</a>/
+              {% endif %}
+            {% endfor %}
+          </nav>
+          <!-- END BREADCRUMB -->
+        {% endif %}
+      </section>
+      <hr>
+      <!-- FOOTER -->
+      {% render 'footer', author: site.author.name, eleventy: eleventy.generator %}
+      <!-- END FOOTER -->
     </div>
 
     <!-- This page `{{ page.url }}` was built on {% currentBuildDate %} -->

@@ -1,0 +1,20 @@
+<div class="terminal-nav">
+  <div class="terminal-logo">
+    <div class="logo terminal-prompt">
+      <a href="/">{{ title }}</a>
+    </div>
+  </div>
+  {% if navPages.size > 1 %}
+    <nav class="terminal-menu">
+      <ul>
+        {%- for entry in navPages %}
+          <li>
+            <a href="{{ entry.url }}" class="menu-item {% if entry.url == current_page %}active{% endif %}">
+              {{- entry.title -}}
+            </a>
+          </li>
+        {%- endfor %}
+      </ul>
+    </nav>
+  {% endif %}
+</div>

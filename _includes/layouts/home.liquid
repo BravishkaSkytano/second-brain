@@ -1,0 +1,45 @@
+---
+layout: base
+---
+<p class="terminal-prompt">echo $content</p>
+{{ content }}
+<hr>
+{% for section in collections.homepageSections %}
+  <!-- LATEST ENTRIES IN {{ section.section | upcase }} -->
+  <section>
+    <p class="terminal-prompt">list {{ section.section }}</p>
+    <nav class="terminal-menu">
+      <ul>
+        {% for item in section.items %}
+          <li>
+            <a href="{{ item.url }}">
+              {{ item.data.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+    <p>
+      View all
+      <a href="/{{ section.section }}/">
+        {{ section.section }}
+      </a>
+    </p>
+  </section>
+{% endfor %}
+{% comment %}
+  <hr>
+  <!-- FEATURED POST -->
+  <section>
+    <h2>Featured</h2>
+
+    <div class="terminal-card">
+      <header>Featured Log</header>
+      <div>
+        <h3>Designing for Humans, Not Frameworks</h3>
+        <p>A breakdown of why simple HTML + CSS still beats complex stacks for personal publishing.</p>
+        <a class="btn btn-primary" href="/posts/designing-for-humans.html"> Read Entry → </a>
+      </div>
+    </div>
+  </section>
+{% endcomment %}

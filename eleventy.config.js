@@ -10,6 +10,7 @@ import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import fontAwesomePlugin from "@11ty/font-awesome";
 
 import pluginFilters from "./_config/filters.js";
+const EXCLUDED_SECTIONS = new Set(["404", "index", "section"]);
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function (eleventyConfig) {
@@ -28,11 +29,9 @@ export default async function (eleventyConfig) {
   // For example, `./public/css/` ends up in `_site/css/`
   eleventyConfig.addPassthroughCopy({
     "./public/": "/",
-  });
-  eleventyConfig.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
-  eleventyConfig.addPassthroughCopy({
-    "./node_modules/neobrutalismcss/dist/index.min.css":
-      "./dist/neobrutalism.css",
+    "./feed/pretty-atom-feed.xsl": "/",
+    "./node_modules/terminal.css/dist/terminal.min.css":
+      "dist/terminal.min.css",
   });
 
   // Run Eleventy when these files change:
@@ -144,23 +143,79 @@ export default async function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("home", "layouts/home.liquid");
   eleventyConfig.addLayoutAlias("page", "layouts/page.liquid");
   eleventyConfig.addLayoutAlias("post", "layouts/post.liquid");
-  eleventyConfig.addLayoutAlias("note", "layouts/note.liquid");
+
+  eleventyConfig.addGlobalData("eleventyComputed", {
+    section: (data) => {
+      if (!data.page?.filePathStem) return;
+      return data.page.filePathStem.split("/")[1];
+    },
+    breadcrumbs: (data) => {
+      if (!data.page?.filePathStem) return [];
+
+      const parts = data.page.filePathStem
+        .replace(/^\/+/, "")
+        .split("/")
+        .filter((part) => part !== "index");
+
+      let url = "";
+      return parts.map((part) => {
+        url += `/${part}`;
+        return {
+          label: part.replace(/-/g, " "),
+          url: url + "/",
+        };
+      });
+    },
+  });
+
+  eleventyConfig.addCollection("content", (api) =>
+    api
+      .getFilteredByGlob("**/*.md")
+      .filter((item) => !EXCLUDED_SECTIONS.has(item.data.section)),
+  );
+
+  eleventyConfig.addCollection("sections", (api) => {
+    const items = api.getAll();
+
+    const sections = new Set(
+      items.map((item) => item.data.section).filter(Boolean),
+    );
+
+    return [...sections].map((section) => ({
+      section,
+      items: items
+        .filter((item) => item.data.section === section)
+        .filter((i) => !i.page.filePathStem.endsWith("/index"))
+        .sort((a, b) => b.date - a.date),
+    }));
+  });
+
+  eleventyConfig.addCollection("homepageSections", (api) => {
+    const items = api
+      .getAll()
+      .filter((item) => !EXCLUDED_SECTIONS.has(item.data.section));
+
+    const sections = new Set(items.map((i) => i.data.section));
+
+    return [...sections].map((section) => {
+      const sectionItems = items
+        .filter((i) => i.data.section === section)
+        .filter((i) => !i.page.filePathStem.endsWith("/index"))
+        .sort((a, b) => b.date - a.date) // 👈 most recently modified
+        .slice(0, 4); // 👈 limit to #
+
+      return {
+        section,
+        items: sectionItems,
+      };
+    });
+  });
 }
 
 export const config = {
-  // Control which files Eleventy will process
-  // e.g.: *.md, *.njk, *.html, *.liquid
-  templateFormats: ["md", "njk", "html", "liquid", "11ty.js"],
-
-  // Pre-process *.md files with: (default: `liquid`)
-  markdownTemplateEngine: "njk",
-
-  // Pre-process *.html files with: (default: `liquid`)
-  htmlTemplateEngine: "njk",
-
-  // These are all optional:
+  templateFormats: ["md", "html", "liquid", "11ty.js"],
   dir: {
-    input: "content", // default: "."
+    input: "./content", // default: "."
     includes: "../_includes", // default: "_includes" (`input` relative)
     data: "../_data", // default: "_data" (`input` relative)
     output: "_site",

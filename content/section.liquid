@@ -1,0 +1,19 @@
+---
+layout: base
+pagination:
+  data: collections.sections
+  size: 1
+  alias: sectionData
+permalink: "/{{ sectionData.section }}/"
+---
+<h1>{{ sectionData.section | capitalize }}</h1>
+
+<ul>
+  {% for item in sectionData.items %}
+    <li>
+      <a href="{{ item.url }}">
+        {{ item.data.title }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
