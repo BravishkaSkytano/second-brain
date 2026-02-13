@@ -1,6 +1,6 @@
 :root {
   /* Typography */
-  --global-font-size: 15px;
+  --global-font-size: clamp(1rem, 4vw, 1.2rem);
   --global-line-height: 1.6;
   --font-stack: "Fira Code", "JetBrains Mono", monospace;
 
@@ -24,17 +24,28 @@
 
   --display-h1-decoration: block;
 
-  /* Contextual Spacing */
-  font-size: clamp(1rem, 4vw, 3rem);
+  /* Contextual UI */
+  /* https: //moderncss.dev/contextual-spacing-for-intrinsic-web-design/ */
+  --padding-sm: clamp(1rem, 3%, 1.5rem);
+  --padding-md: clamp(1.5rem, 6%, 3rem);
+  --padding-lg: clamp(3rem, 12%, 6rem);
+  --block-flow-sm: min(2rem, 4vh);
+  --block-flow-md: min(4rem, 8vh);
+  --block-flow-lg: min(8rem, 16vh);
+}
 }
 
 .container {
-  padding: 1.5rem clamp(1rem, 5%, 3rem);
+  padding: var(--padding-sm);
 }
 
 /* ===== Animated Gradient Headings ===== */
 h1,
-h2 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   background: linear-gradient(90deg,
       #ff5ec4,
       #ffb86c,
@@ -44,6 +55,7 @@ h2 {
   animation: synthwave-gradient 12s ease infinite;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding: 15px 0;
 }
 
 @keyframes synthwave-gradient {
@@ -58,6 +70,30 @@ h2 {
   100% {
     background-position: 0% 50%;
   }
+}
+
+h1::before {
+  content: "# ";
+}
+
+h2::before {
+  content: "## ";
+}
+
+h3::before {
+  content: "### ";
+}
+
+h4::before {
+  content: "#### ";
+}
+
+h5::before {
+  content: "##### ";
+}
+
+h6::before {
+  content: "###### ";
 }
 
 /* ===== Neon Hover Glow ===== */

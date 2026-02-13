@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-{% render 'header', title: site.title, description: site.description %}
+{% render 'header', title: title, description: description %}
 {{ content }}
 <hr>
 {% for section in collections.homepageSections %}
@@ -29,6 +29,7 @@ layout: base
       View all {{ section.section }} →
     </a>
   </section>
+  <hr>
 {% endfor %}
 
 <style>

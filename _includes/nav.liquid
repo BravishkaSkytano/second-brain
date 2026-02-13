@@ -1,13 +1,15 @@
 <div class="terminal-nav">
   <div class="terminal-logo">
     <div class="logo terminal-prompt">
-      <a href="/">{{ title }}</a>/
-      {% if breadcrumbs and breadcrumbs.size > 0 %}
+      <a href="/">~</a>
+      /
+      {% if breadcrumbs and breadcrumbs.size > 1 %}
         {% for crumb in breadcrumbs %}
           {% if forloop.last %}
             {{ crumb.label }}
           {% else %}
-            <a href="{{ crumb.url }}">{{ crumb.label }}</a>/
+            <a href="{{ crumb.url }}">{{ crumb.label }}</a>
+            /
           {% endif %}
         {% endfor %}
       {% endif %}
