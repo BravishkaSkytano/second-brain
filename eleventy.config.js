@@ -176,6 +176,7 @@ export default async function (eleventyConfig) {
 }
 
 export const config = {
+  markdownTemplateEngine: false,
   templateFormats: ["md", "html", "liquid", "11ty.js"],
   dir: {
     input: "./content", // default: "."
@@ -195,5 +196,5 @@ export const config = {
   // it will transform any absolute URLs in your HTML to include this
   // folder name and does **not** affect where things go in the output folder.
 
-  // pathPrefix: "/second-brain/",
+  pathPrefix: "/second-brain/",
 };

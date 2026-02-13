@@ -15,7 +15,7 @@ layout: base
             <div class="terminal-card">
               <header>{{ item.data.title }}</header>
               <div>
-                {{ item.content | truncate: 160 }}
+                {{ item.description }}
               </div>
               <footer>
                 <a class="btn btn-primary btn-block" href="{{ item.url }}"> Read Entry → </a>

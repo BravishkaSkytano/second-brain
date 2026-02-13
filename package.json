@@ -7,8 +7,7 @@
     "build": "npx @11ty/eleventy",
     "start": "cross-env ELEVENTY_ENV=development npx @11ty/eleventy --serve --quiet",
     "test": "npx @11ty/eleventy --dryrun",
-    "clean": "rimraf _site .cache node_modules/.cache",
-    "build-ghpages": "npx @11ty/eleventy --pathprefix=/second-brain/"
+    "clean": "rimraf _site .cache node_modules/.cache"
   },
   "repository": {
     "type": "git",
