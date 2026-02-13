@@ -33,10 +33,31 @@
   --block-flow-md: min(4rem, 8vh);
   --block-flow-lg: min(8rem, 16vh);
 }
+
+html {
+  /* https: //css-tricks.com/perfect-full-page-background-image/ */
+  background: url("/background.PNG") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background-color: inherit;
+}
+
+:is(body)>*+* {
+  margin-block-start:
+    var(--block-flow-sm, var(--block-flow-md));
 }
 
 .container {
+  margin: var(--padding-md);
+  width: min(100vw - 3rem, 80ch);
+  margin-inline: auto;
   padding: var(--padding-sm);
+  background-color: var(--background-color);
 }
 
 /* ===== Animated Gradient Headings ===== */
