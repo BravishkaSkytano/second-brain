@@ -13,7 +13,7 @@
   {% if lastmod %}
     <p>
       <strong>Last Modified:</strong>
-      <time datetime="{{ lastmod | date: "%Y-%m-%d %H:%M" }}">{{ lastmod | date: '%a, %b %d, %Y' }}</time>
+      <time datetime="{{ modified | date: "%Y-%m-%d" }}">{{ modified | date: '%a, %b %d, %Y' }}</time>
     </p>
   {% endif %}
 </header>

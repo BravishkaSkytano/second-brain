@@ -1,9 +1,12 @@
 name: Deploy to GitHub Pages using 11ty
 
 on:
-  schedule:
-    - cron: "5 4 * * *"
-  pull_request:
+  push:
+    branches: ["master"]
+    paths-ignore:
+      - ".github/**"
+      - "README.md"
+  workflow_dispatch:
 
 jobs:
   deploy:
