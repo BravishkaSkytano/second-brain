@@ -26,13 +26,17 @@
     "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-navigation": "^1.0.5",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@tailwindcss/typography": "^0.5.19",
     "cross-env": "^10.1.0",
-    "luxon": "^3.7.2",
+    "daisyui": "^5.5.18",
+    "postcss": "^8.5.6",
     "rimraf": "^6.1.2",
+    "tailwindcss": "^4.1.18",
     "zod": "^4.3.6",
     "zod-validation-error": "^5.0.0"
   },
   "dependencies": {
-    "terminal.css": "^0.7.5"
+    "theme-change": "^2.5.0"
   }
 }

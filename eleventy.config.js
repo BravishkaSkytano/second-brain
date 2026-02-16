@@ -1,3 +1,7 @@
+import fs from "fs";
+import path from "path";
+import postcss from "postcss";
+import tailwindcss from "@tailwindcss/postcss";
 import {
   IdAttributePlugin,
   InputPathToUrlTransformPlugin,
@@ -11,6 +15,24 @@ const EXCLUDED_SECTIONS = new Set(["404", "index", "section"]);
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function (eleventyConfig) {
+  eleventyConfig.on("eleventy.before", async () => {
+    const tailwindInputPath = path.resolve("./_includes/css/index.css");
+    const tailwindOutputPath = "./_site/css/index.css";
+    const cssContent = fs.readFileSync(tailwindInputPath, "utf8");
+    const outputDir = path.dirname(tailwindOutputPath);
+
+    if (!fs.existsSync(outputDir)) {
+      fs.mkdirSync(outputDir, { recursive: true });
+    }
+
+    const result = await postcss([tailwindcss()]).process(cssContent, {
+      from: tailwindInputPath,
+      to: tailwindOutputPath,
+    });
+
+    fs.writeFileSync(tailwindOutputPath, result.css);
+  });
+
   // Drafts, see also _data/eleventyDataSchema.js
   eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
     if (data.draft) {
@@ -26,8 +48,6 @@ export default async function (eleventyConfig) {
   // For example, `./public/css/` ends up in `_site/css/`
   eleventyConfig.addPassthroughCopy({
     "./public/": "/",
-    "./node_modules/terminal.css/dist/terminal.min.css":
-      "dist/terminal.min.css",
   });
 
   // Run Eleventy when these files change:
@@ -40,20 +60,20 @@ export default async function (eleventyConfig) {
 
   // Per-page bundles, see https://github.com/11ty/eleventy-plugin-bundle
   // Bundle <style> content and adds a {% css %} paired shortcode
-  eleventyConfig.addBundle("css", {
-    toFileDirectory: "dist",
-    // Add all <style> content to `css` bundle (use <style eleventy:ignore> to opt-out)
-    // Supported selectors: https://www.npmjs.com/package/posthtml-match-helper
-    bundleHtmlContentFromSelector: "style",
-  });
+  // eleventyConfig.addBundle("css", {
+  //   toFileDirectory: "css",
+  //   // Add all <style> content to `css` bundle (use <style eleventy:ignore> to opt-out)
+  //   // Supported selectors: https://www.npmjs.com/package/posthtml-match-helper
+  //   bundleHtmlContentFromSelector: "style",
+  // });
 
   // Bundle <script> content and adds a {% js %} paired shortcode
-  eleventyConfig.addBundle("js", {
-    toFileDirectory: "dist",
-    // Add all <script> content to the `js` bundle (use <script eleventy:ignore> to opt-out)
-    // Supported selectors: https://www.npmjs.com/package/posthtml-match-helper
-    bundleHtmlContentFromSelector: "script",
-  });
+  // eleventyConfig.addBundle("js", {
+  //   toFileDirectory: "js",
+  //   // Add all <script> content to the `js` bundle (use <script eleventy:ignore> to opt-out)
+  //   // Supported selectors: https://www.npmjs.com/package/posthtml-match-helper
+  //   bundleHtmlContentFromSelector: "script",
+  // });
 
   // Official plugins
   eleventyConfig.addPlugin(pluginSyntaxHighlight, {
