@@ -1,0 +1,63 @@
+---
+layout: base
+---
+{{ content }}
+
+<div class="flex w-full flex-col">
+  <div class="divider divider-primary"></div>
+</div>
+
+{% assign navPages = collections.all | eleventyNavigation: title %}
+{% assign topLeafPages = '' | split: '' %}
+{% assign nestedLeafPages = '' | split: '' %}
+
+{% for entry in navPages %}
+  {% assign hasGrandchildren = false %}
+  {% if entry.children %}
+    {% for child in entry.children %}
+      {% if child.children %}
+        {% assign hasGrandchildren = true %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
+  {% if entry.children == empty and hasGrandchildren == false %}
+    {% assign topLeafPages = topLeafPages | push: entry %}
+  {% else %}
+    {% assign nestedLeafPages = nestedLeafPages | push: entry %}
+  {% endif %}
+{% endfor %}
+
+<h2>Top Leaf Pages</h2>
+<div class="not-prose">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+    {% for entry in topLeafPages sort: date reversed %}
+      <div class="card bg-accent text-accent-content w-full shadow-sm{% if entry.banner %} image-full{% endif %}">
+        {% if entry.banner %}
+          <figure>
+            <img
+              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              alt="{{ entry.title }}"
+            >
+          </figure>
+        {% endif %}
+        <div class="card-body">
+          <h2 class="card-title">{{ entry.title }}</h2>
+          <p>{{ entry.description }}</p>
+          <div class="card-actions justify-end">
+            <a href="{{ entry.url }}" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<h2>Nested Leaf Pages</h2>
+<ul>
+  {% for entry in nestedLeafPages %}
+    <li>
+      <a href="{{ entry.url }}">{{ entry.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
