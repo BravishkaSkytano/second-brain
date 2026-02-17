@@ -34,7 +34,7 @@
 
     <link rel="stylesheet" href="/css/index.css">
   </head>
-  <body class="bg-base-100 text-base-content">
+  <body class="bg-primary">
     <!-- Drawer container -->
     <div class="drawer lg:drawer-open">
       <input id="site-drawer" type="checkbox" class="drawer-toggle">
@@ -47,8 +47,11 @@
         <!-- Navbar -->
 
         <!-- Page body -->
-        <main id="top" class="p-6 prose prose-sm md:prose-base w-full max-w-4xl mx-auto">
-          {% render 'hero', title: title, description: description %}
+        <main
+          id="top"
+          class="bg-base-100 text-base-content p-6 prose prose-sm md:prose-base w-full max-w-4xl mx-auto mt-5 mb-18"
+        >
+          {% render 'hero', title: title, description: description, date: page.date, modified: modified %}
           {{ content }}
         </main>
         <!-- Footer -->
@@ -65,7 +68,7 @@
     </div>
 
     <div class="fab">
-      <a href="#top" class="btn btn-lg btn-circle btn-primary">^</a>
+      <a href="#top" class="btn btn-lg btn-circle btn-secondary">^</a>
     </div>
 
     <!-- This page `{{ page.url }}` was built on {% currentBuildDate %} -->
