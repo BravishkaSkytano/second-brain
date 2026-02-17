@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
       {{ title }}
-      ::
+      |
       {{ site.title }}
     </title>
     <meta
@@ -15,47 +15,59 @@
     <meta name="author" content="{{ site.author.name }}">
     <meta name="generator" content="{{ eleventy.generator }}">
 
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
+    <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicons/favicon.ico" type="image/x-icon">
 
-    <link rel="stylesheet" href="/dist/terminal.min.css">
-    {% comment %} Add the contents of a file to the bundle  {% endcomment %}
-    {% css %}
-    {% render 'css/custom.css' %}
-    {% endcss %}
-
-    {% comment %} Renders the CSS bundle using a separate file, if you can't set CSP directive style-src: 'unsafe-inline'  {% endcomment %}
-    <link rel="stylesheet" href="{% getBundleFileUrl 'css' %}">
+    <link rel="stylesheet" href="/css/index.css">
   </head>
-  <body class="terminal">
-    <div class="container">
-      <!-- NAVIGATION -->
-      {% assign navPages = collections.all | eleventyNavigation %}
-      {% render 'nav', title: site.title, navPages: navPages, current_page: page.url, breadcrumbs: breadcrumbs %}
-      <!-- END NAVIGATION -->
-      <hr>
-      {{ content }}
+  <body class="bg-base-100 text-base-content">
+    <!-- Drawer container -->
+    <div class="drawer lg:drawer-open">
+      <input id="site-drawer" type="checkbox" class="drawer-toggle">
 
-      <!-- FOOTER -->
-      {% render 'footer', author: site.author.name, eleventy: eleventy.generator %}
-      <!-- END FOOTER -->
+      <!-- Main page content -->
+      <div class="drawer-content flex flex-col min-h-screen">
+        <!-- Navbar -->
+        {% assign navPages = collections.all | eleventyNavigation: 'Home' %}
+        {% render 'nav', title: site.title, navPages: navPages %}
+        <!-- Navbar -->
+
+        <!-- Page body -->
+        <main id="top" class="p-6 prose prose-sm md:prose-base w-full max-w-4xl mx-auto">
+          {% render 'hero', title: title, description: description %}
+          {{ content }}
+        </main>
+        <!-- Footer -->
+        {% render 'footer', author: site.author.name, eleventy: eleventy.generator %}
+      </div>
+
+      <!-- Sidebar -->
+      <div class="drawer-side">
+        <!-- Overlay (click to close on mobile) -->
+        <label for="site-drawer" class="drawer-overlay"></label>
+        {% assign navTree = collections.all | eleventyNavigation %}
+        {% render 'sidebar', navTree: navTree, page: page %}
+      </div>
+    </div>
+
+    <div class="fab">
+      <a href="#top" class="btn btn-lg btn-circle btn-primary">^</a>
     </div>
 
     <!-- This page `{{ page.url }}` was built on {% currentBuildDate %} -->
-    <script type="module" src="{% getBundleFileUrl 'js' %}"></script>
   </body>
 </html>

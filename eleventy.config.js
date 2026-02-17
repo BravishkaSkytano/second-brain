@@ -11,8 +11,6 @@ import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
-const EXCLUDED_SECTIONS = new Set(["404", "index", "section"]);
-
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function (eleventyConfig) {
   eleventyConfig.on("eleventy.before", async () => {
@@ -48,6 +46,8 @@ export default async function (eleventyConfig) {
   // For example, `./public/css/` ends up in `_site/css/`
   eleventyConfig.addPassthroughCopy({
     "./public/": "/",
+    // "./_includes/css/": "/",
+    // "./_includes/js/": "/js/",
   });
 
   // Run Eleventy when these files change:
@@ -107,7 +107,7 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPlugin(IdAttributePlugin, {
     // by default we use Eleventy’s built-in `slugify` filter:
     // slugify: eleventyConfig.getFilter("slugify"),
-    // selector: "h1,h2,h3,h4,h5,h6", // default
+    selector: "h2,h3,h4,h5,h6", // default
   });
 
   eleventyConfig.addShortcode("currentBuildDate", () => {
@@ -126,73 +126,6 @@ export default async function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("home", "layouts/home.liquid");
   eleventyConfig.addLayoutAlias("page", "layouts/page.liquid");
   eleventyConfig.addLayoutAlias("post", "layouts/post.liquid");
-
-  eleventyConfig.addGlobalData("eleventyComputed", {
-    section: (data) => {
-      if (!data.page?.filePathStem) return;
-      return data.page.filePathStem.split("/")[1];
-    },
-    breadcrumbs: (data) => {
-      if (!data.page?.filePathStem) return [];
-
-      const parts = data.page.filePathStem
-        .replace(/^\/+/, "")
-        .split("/")
-        .filter((part) => part !== "index");
-
-      let url = "";
-      return parts.map((part) => {
-        url += `/${part}`;
-        return {
-          label: part.replace(/-/g, " "),
-          url: url + "/",
-        };
-      });
-    },
-  });
-
-  eleventyConfig.addCollection("content", (api) =>
-    api
-      .getFilteredByGlob("**/*.md")
-      .filter((item) => !EXCLUDED_SECTIONS.has(item.data.section)),
-  );
-
-  eleventyConfig.addCollection("sections", (api) => {
-    const items = api.getAll();
-
-    const sections = new Set(
-      items.map((item) => item.data.section).filter(Boolean),
-    );
-
-    return [...sections].map((section) => ({
-      section,
-      items: items
-        .filter((item) => item.data.section === section)
-        .filter((i) => !i.page.filePathStem.endsWith("/index"))
-        .sort((a, b) => b.date - a.date),
-    }));
-  });
-
-  eleventyConfig.addCollection("homepageSections", (api) => {
-    const items = api
-      .getAll()
-      .filter((item) => !EXCLUDED_SECTIONS.has(item.data.section));
-
-    const sections = new Set(items.map((i) => i.data.section));
-
-    return [...sections].map((section) => {
-      const sectionItems = items
-        .filter((i) => i.data.section === section)
-        .filter((i) => !i.page.filePathStem.endsWith("/index"))
-        .sort((a, b) => b.date - a.date) // 👈 most recently modified
-        .slice(0, 6); // 👈 limit to 6
-
-      return {
-        section,
-        items: sectionItems,
-      };
-    });
-  });
 }
 
 export const config = {
