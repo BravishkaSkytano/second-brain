@@ -1,0 +1,12 @@
+<aside class="w-80 bg-base-200 text-base-content min-h-full p-4">
+  <ul class="menu bg-base-200 rounded-box w-full">
+    <li>
+      <a href="/">Home</a>
+    </li>
+
+    {% assign sortedNav = navTree | sort: 'children.size' | reverse %}
+    {% for section in sortedNav %}
+      {% render 'menu-item', section: section, page: page %}
+    {% endfor %}
+  </ul>
+</aside>
