@@ -7,4 +7,5 @@ export default {
       parent: data.parent,
     };
   },
+  layout: "page",
 };

@@ -1,4 +1,4 @@
-<div class="navbar bg-neutral text-neutral-content w-full">
+<div class="navbar bg-primary text-primary-content">
   <div class="flex-none lg:hidden">
     <label for="site-drawer" aria-label="open sidebar" class="btn btn-square btn-ghost">
       <svg
@@ -16,24 +16,5 @@
       </svg>
     </label>
   </div>
-  <div class="mx-2 flex-1 px-2">{{ title }}</div>
-  <div class="flex-none">
-    <ul class="menu menu-horizontal">
-      <label class="input bg-secondary text-secondary-content">
-        <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <g
-            stroke-linejoin="round"
-            stroke-linecap="round"
-            stroke-width="2.5"
-            fill="none"
-            stroke="currentColor"
-          >
-            <circle cx="11" cy="11" r="8"></circle>
-            <path d="m21 21-4.3-4.3"></path>
-          </g>
-        </svg>
-        <input type="search" required placeholder="Search">
-      </label>
-    </ul>
-  </div>
+  <a href="/" class="btn btn-ghost text-xl">{{ title }}</a>
 </div>

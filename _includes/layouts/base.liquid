@@ -34,7 +34,7 @@
 
     <link rel="stylesheet" href="/css/index.css">
   </head>
-  <body class="bg-primary">
+  <body class="bg-neutral">
     <!-- Drawer container -->
     <div class="drawer lg:drawer-open">
       <input id="site-drawer" type="checkbox" class="drawer-toggle">
@@ -42,17 +42,18 @@
       <!-- Main page content -->
       <div class="drawer-content flex flex-col min-h-screen">
         <!-- Navbar -->
-        {% assign navPages = collections.all | eleventyNavigation: 'Home' %}
-        {% render 'nav', title: site.title, navPages: navPages %}
+        {% render 'nav', title: site.title %}
         <!-- Navbar -->
 
         <!-- Page body -->
         <main
           id="top"
-          class="bg-base-100 text-base-content p-6 prose prose-sm md:prose-base w-full max-w-4xl mx-auto mt-5 mb-18"
+          class="bg-base-200 text-base-content prose prose-sm md:prose-base w-full max-w-4xl mx-auto lg:mt-5 lg:mb-18"
         >
-          {% render 'hero', title: title, description: description, date: page.date, modified: modified %}
-          {{ content }}
+          {% render 'hero', title: title, description: description, date: date, modified: modified %}
+          <div class="p-6">
+            {{ content }}
+          </div>
         </main>
         <!-- Footer -->
         {% render 'footer', author: site.author.name, eleventy: eleventy.generator %}

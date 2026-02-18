@@ -1,21 +1,22 @@
-<div class="hero bg-accent text-accent-content p-6">
-  <div class="hero-content text-center">
-    <div class="max-w-md">
-      <h1 class="text-5xl font-bold text-accent-content">{{ title }}</h1>
+<div class="not-prose">
+  <div class="hero bg-secondary text-secondary-content p-6">
+    <div class="hero-content text-center">
+      <div class="max-w-md">
+        <h1 class="text-5xl font-bold text-secondary-content">{{ title }}</h1>
+        {% if description %}
+          <p class="py-6">
+            {{ description }}
+          </p>
+        {% endif %}
 
-      {% if description %}
-        <p class="py-6">
-          {{ description }}
-        </p>
-      {% endif %}
+        {% if date %}
+          <p class="text-sm opacity-70">Published: {{ date | date: '%a, %b %d, %Y' }}</p>
+        {% endif %}
 
-      {% if date %}
-        <p class="text-sm opacity-70">Published: {{ date | date: '%a, %b %d, %Y' }}</p>
-      {% endif %}
-
-      {% if modified %}
-        <p class="text-xs opacity-50">Last updated: {{ modified | date: '%a, %b %d, %Y' }}</p>
-      {% endif %}
+        {% if modified %}
+          <p class="text-xs opacity-50">Last updated: {{ modified | date: '%a, %b %d, %Y' }}</p>
+        {% endif %}
+      </div>
     </div>
   </div>
 </div>
