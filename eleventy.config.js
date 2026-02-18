@@ -10,6 +10,7 @@ import {
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import interlinker from "@photogabble/eleventy-plugin-interlinker";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function (eleventyConfig) {
@@ -108,6 +109,32 @@ export default async function (eleventyConfig) {
     // by default we use Eleventy’s built-in `slugify` filter:
     // slugify: eleventyConfig.getFilter("slugify"),
     selector: "h2,h3,h4,h5,h6", // default
+  });
+
+  eleventyConfig.addPlugin(interlinker, {
+    // defaultLayout is the optional default layout you would like
+    // to use for wrapping your embeds.
+    // e.g. defaultLayout: "layouts/embed.liquid",
+    // defaultLayout: string,
+    // defaultLayoutLang is the optional default engine(s) used to render
+    // your embed layout. This defaults to your 11ty project default for
+    // the embed source file; typically: liquid,md.
+    // defaultLayoutLang: string,
+    // layoutKey is the front-matter value used for a per embed
+    // template, if found it will replace defaultLayout for
+    // that embed. This will always default to `embedLayout`.
+    // layoutKey: string,
+    // layoutTemplateLangKey is the front-matter value used for setting the
+    // layout engine(s) to render the embed's layout. This defaults to your
+    // 11ty project default for the embed source file; typically: liquid,md.
+    // layoutTemplateLangKey: string,
+    // unableToLocateEmbedFn is invoked when an embed is unable
+    // to be found, this is normally due to a typo in the
+    // slug that you are using. This defaults to a function
+    // that returns [UNABLE TO LOCATE EMBED].
+    // unableToLocateEmbedFn: ErrorRenderFn,
+    // deadLinkReport is the desired output format of the dead link report, by default its set to 'console'
+    // deadLinkReport: 'console' | 'json' | 'none',
   });
 
   eleventyConfig.addShortcode("currentBuildDate", () => {
