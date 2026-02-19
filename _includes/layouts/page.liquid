@@ -26,39 +26,50 @@ layout: base
     {% endif %}
   {% endfor %}
 
-  <h2>Entries</h2>
-  <div class="not-prose">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-      {% for entry in topLeafPages sort: date reversed %}
-        <div class="card bg-accent text-accent-content w-full">
-          <div class="card-body">
-            <h2 class="card-title">{{ entry.title }}</h2>
-            <p>
-              {{ entry.data.description }}
-            </p>
-            <div class="card-actions justify-end">
-              <a href="{{ entry.url }}" class="btn">Read More</a>
+  {% if topLeafPages.size > 0 %}
+    <h2>Entries</h2>
+    <div class="not-prose">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {% for entry in topLeafPages sort: date reversed %}
+          {% assign banner = entry.data.banner %}
+          <div class="card bg-accent text-accent-content w-full{% if banner %} image-full{% endif %}">
+            {% if banner %}
+              <figure>
+                <img
+                  src="/{{ banner }}"
+                  alt="{{ entry.title }}"
+                >
+              </figure>
+            {% endif %}
+            <div class="card-body">
+              <h2 class="card-title">{{ entry.title }}</h2>
+              <p>
+                {{ entry.data.description }}
+              </p>
+              <div class="card-actions justify-end">
+                <a href="{{ entry.url }}" class="btn">Read More</a>
+              </div>
             </div>
           </div>
-        </div>
-      {% endfor %}
+        {% endfor %}
+      </div>
     </div>
-  </div>
-
-  <h2>Subfolders</h2>
-  <ul>
-    {% for entry in nestedLeafPages %}
-      <li>
-        <a href="{{ entry.url }}">{{ entry.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-{% else %}
-  <div class="flex w-full flex-col">
-    <div class="divider divider-primary"></div>
-  </div>
-
+  {% endif %}
+  {% if nestedLeafPages.size > 0 %}
+    <h2>Subfolders</h2>
+    <ul>
+      {% for entry in nestedLeafPages %}
+        <li>
+          <a href="{{ entry.url }}">{{ entry.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
   {% if backlinks.length > 0 %}
+    <div class="flex w-full flex-col">
+      <div class="divider divider-primary"></div>
+    </div>
+
     <h2>Linking here</h2>
     <ul>
       {% for link in backlinks %}

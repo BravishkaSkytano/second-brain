@@ -3,7 +3,7 @@ export default {
     if (!data.title) return;
 
     return {
-      key: data.title,
+      key: data.key || data.title,
       parent: data.parent,
     };
   },
