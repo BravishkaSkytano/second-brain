@@ -1,6 +1,100 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
 @plugin "daisyui" {
   themes: garden --default, sunset --prefersdark;
+}
+
+/* Base callout */
+.prose .callout {
+  @apply block rounded-box p-4 my-6 border border-base-300 bg-base-200 text-base-content shadow-sm;
+}
+
+/* Title */
+.prose .callout .callout-title {
+  @apply flex items-start gap-2 font-semibold mb-2 text-base;
+}
+
+/* Title inner */
+.prose .callout .callout-title-inner {
+  @apply font-semibold;
+}
+
+/* Content spacing fix inside prose */
+.prose .callout .callout-content> :first-child {
+  @apply mt-0;
+}
+
+.prose .callout .callout-content> :last-child {
+  @apply mb-0;
+}
+
+/* Collapsible summary */
+.prose details.callout summary {
+  @apply cursor-pointer list-none;
+}
+
+.prose details.callout[open] .callout-fold {
+  @apply rotate-90;
+}
+
+.prose .callout-fold {
+  @apply transition-transform duration-150;
+}
+
+/* Note / Info / Todo */
+.prose .callout[data-callout="note"],
+.prose .callout[data-callout="info"],
+.prose .callout[data-callout="todo"] {
+  @apply border-info bg-info/10 text-base-content;
+}
+
+/* Success / Done */
+.prose .callout[data-callout="success"],
+.prose .callout[data-callout="check"],
+.prose .callout[data-callout="done"] {
+  @apply border-success bg-success/10 text-base-content;
+}
+
+/* Question / Warning / Caution */
+.prose .callout[data-callout="question"],
+.prose .callout[data-callout="help"],
+.prose .callout[data-callout="faq"],
+.prose .callout[data-callout="warning"],
+.prose .callout[data-callout="caution"],
+.prose .callout[data-callout="attention"] {
+  @apply border-warning bg-warning/10 text-base-content;
+}
+
+/* Error / Danger / Fail */
+.prose .callout[data-callout="failure"],
+.prose .callout[data-callout="bug"],
+.prose .callout[data-callout="danger"],
+.prose .callout[data-callout="error"] {
+  @apply border-error bg-error/10 text-base-content;
+}
+
+/* Tip / Hint / Important */
+.prose .callout[data-callout="tip"],
+.prose .callout[data-callout="hint"],
+.prose .callout[data-callout="important"] {
+  @apply border-accent bg-accent/10 text-base-content;
+}
+
+/* Example */
+.prose .callout[data-callout="example"] {
+  @apply border-secondary bg-secondary/10 text-base-content;
+}
+
+/* Summary / Abstract / TLDR */
+.prose .callout[data-callout="summary"],
+.prose .callout[data-callout="abstract"],
+.prose .callout[data-callout="tldr"] {
+  @apply border-primary bg-primary/10 text-base-content;
+}
+
+/* Quote / Cite */
+.prose .callout[data-callout="quote"],
+.prose .callout[data-callout="cite"] {
+  @apply border-neutral bg-neutral/20 text-neutral-content italic;
 }

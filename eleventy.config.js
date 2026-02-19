@@ -14,6 +14,7 @@ import interlinker from "@photogabble/eleventy-plugin-interlinker";
 import markdownIt from "markdown-it";
 import markdownItMark from "markdown-it-mark";
 import markdownItAnchor from "markdown-it-anchor";
+import mdItObsidianCallouts from "markdown-it-obsidian-callouts";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function (eleventyConfig) {
@@ -50,7 +51,7 @@ export default async function (eleventyConfig) {
   // For example, `./public/css/` ends up in `_site/css/`
   eleventyConfig.addPassthroughCopy({
     "./public/": "/",
-    // "./_includes/css/": "/",
+    // "./_includes/css/": "/css/",
     // "./_includes/js/": "/js/",
   });
 
@@ -124,6 +125,7 @@ export default async function (eleventyConfig) {
       permalinkClass: "header-anchor",
       permalinkSymbol: "¶",
     });
+  md.use(mdItObsidianCallouts); // Obsidian-style callouts, e.g. > [!NOTE] This is a note.
 
   eleventyConfig.setLibrary("md", md);
 
