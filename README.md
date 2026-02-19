@@ -3,7 +3,6 @@
 ## To-Do
 
 - [ ] Add site search
-- [ ] Add 'people' taxomony
-- [ ] Add 'books' taxomony
-- [ ] Add 'movies' taxomony
-- [ ] Add 'shows' taxomony
+- [ ] add key frontmatter to computed data
+- [ ] add if statement to page template so that headers only shpw for files that do/don't have parent keys
+- [ ] ignore folders that start with _ or z-
