@@ -24,8 +24,20 @@
       </summary>
 
       <ul>
-        {% assign sortedChildren = section.children | sort: 'children.size' | reverse %}
-        {% for child in sortedChildren %}
+        {% assign folders = '' | split: '' %}
+        {% assign files = '' | split: '' %}
+
+        {% for child in section.children %}
+          {% if child.children and child.children.size > 0 %}
+            {% assign folders = folders | push: child | sort: 'title' %}
+          {% else %}
+            {% assign files = files | push: child | sort: "title" %}
+          {% endif %}
+        {% endfor %}
+
+        {% assign ordered = folders | concat: files %}
+
+        {% for child in ordered %}
           {% render 'menu-item', section: child, page: page %}
         {% endfor %}
       </ul>

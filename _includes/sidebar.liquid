@@ -1,26 +1,22 @@
-<aside class="w-80 bg-secondary text-secondary-content min-h-full p-4">
-  <label class="input bg-neutral text-neutral-content">
-    <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-      <g
-        stroke-linejoin="round"
-        stroke-linecap="round"
-        stroke-width="2.5"
-        fill="none"
-        stroke="currentColor"
-      >
-        <circle cx="11" cy="11" r="8"></circle>
-        <path d="m21 21-4.3-4.3"></path>
-      </g>
-    </svg>
-    <input type="search" class="grow" placeholder="Search">
-  </label>
-  <ul class="menu rounded-box w-full">
-    {% assign sortedNav = navTree | sort: 'children.size' | reverse %}
-    {% for section in sortedNav %}
-      {% render 'menu-item', section: section, page: page %}
-    {% endfor %}
-    <li>
-      <a href="/">Home</a>
-    </li>
-  </ul>
-</aside>
+<ul class="menu rounded-box w-full">
+  {% assign folders = '' | split: '' %}
+  {% assign files = '' | split: '' %}
+
+  {% for item in navTree %}
+    {% if item.children and item.children.size > 0 %}
+      {% assign folders = folders | push: item | sort: 'title' %}
+    {% else %}
+      {% assign files = files | push: item | sort: 'title' %}
+    {% endif %}
+  {% endfor %}
+
+  {% assign orderedRoot = folders | concat: files %}
+
+  {% for section in orderedRoot %}
+    {% render 'menu-item', section: section, page: page %}
+  {% endfor %}
+
+  <li>
+    <a href="/">Home</a>
+  </li>
+</ul>
