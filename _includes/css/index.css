@@ -5,6 +5,27 @@
   themes: garden --default, sunset --prefersdark;
 }
 
+/* Pagefind styled with daisyUI tokens */
+:root {
+  --pagefind-ui-scale: 1;
+
+  /* Use daisyUI theme colors */
+  --pagefind-ui-primary: var(--color-primary);
+  --pagefind-ui-text: var(--color-base-content);
+  --pagefind-ui-background: var(--color-base-200);
+  --pagefind-ui-border: var(--color-base-300);
+  --pagefind-ui-tag: var(--color-accent);
+
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-border-radius: 0.5rem;
+  --pagefind-ui-image-border-radius: 0.75rem;
+  --pagefind-ui-image-box-ratio: 3 / 2;
+
+  --pagefind-ui-font: inherit;
+}
+
+
+/* Obsidian callouts */
 /* Base callout */
 .prose .callout {
   @apply block rounded-box p-4 my-6 border border-base-300 bg-base-200 text-base-content shadow-sm;
