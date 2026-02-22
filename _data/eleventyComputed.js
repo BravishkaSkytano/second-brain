@@ -23,6 +23,6 @@ export default {
     }
 
     return nav;
-  }
+  },
   layout: "page",
 };
