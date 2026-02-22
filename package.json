@@ -4,7 +4,7 @@
   "description": "A digital garden of unfinished thoughts, reflections, and ideas. In progress, on purpose.",
   "type": "module",
   "scripts": {
-    "build": "cross-env ELEVENTY_ENV=production @11ty/eleventy",
+    "build": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy",
     "start": "cross-env ELEVENTY_ENV=development npx @11ty/eleventy --serve --quiet",
     "test": "npx @11ty/eleventy --dryrun",
     "debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
