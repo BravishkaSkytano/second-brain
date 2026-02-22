@@ -2,7 +2,7 @@
 @plugin "@tailwindcss/typography";
 
 @plugin "daisyui" {
-  themes: garden --default, sunset --prefersdark;
+  themes: autumn --default, forest --prefersdark;
 }
 
 /* Pagefind styled with daisyUI tokens */
@@ -10,10 +10,10 @@
   --pagefind-ui-scale: 1;
 
   /* Use daisyUI theme colors */
-  --pagefind-ui-primary: var(--color-primary);
-  --pagefind-ui-text: var(--color-base-content);
-  --pagefind-ui-background: var(--color-base-200);
-  --pagefind-ui-border: var(--color-base-300);
+  --pagefind-ui-primary: var(--color-accent);
+  --pagefind-ui-text: var(--color-secondary-content);
+  --pagefind-ui-background: inherit;
+  --pagefind-ui-border: var(--color-neutral);
   --pagefind-ui-tag: var(--color-accent);
 
   --pagefind-ui-border-width: 1px;

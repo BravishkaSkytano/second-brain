@@ -1,4 +1,7 @@
 <ul class="menu rounded-box w-full">
+  <li>
+    <a href="/">Home</a>
+  </li>
   {% assign folders = '' | split: '' %}
   {% assign files = '' | split: '' %}
 
@@ -15,8 +18,4 @@
   {% for section in orderedRoot %}
     {% render 'menu-item', section: section, page: page %}
   {% endfor %}
-
-  <li>
-    <a href="/">Home</a>
-  </li>
 </ul>

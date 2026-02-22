@@ -1,8 +1,8 @@
 <div class="not-prose">
-  <div class="hero bg-secondary text-secondary-content p-6">
+  <div class="hero bg-primary text-primary-content p-6">
     <div class="hero-content text-center">
       <div class="max-w-md">
-        <h1 class="text-5xl font-bold text-secondary-content">{{ title }}</h1>
+        <h1 class="text-5xl font-bold text-primary-content">{{ title }}</h1>
         {% if description %}
           <p class="py-6">
             {{ description }}
@@ -11,10 +11,9 @@
 
         {% if date %}
           <p class="text-sm opacity-70">Published: {{ date | date: '%a, %b %d, %Y' }}</p>
-        {% endif %}
-
-        {% if modified %}
-          <p class="text-xs opacity-50">Last updated: {{ modified | date: '%a, %b %d, %Y' }}</p>
+          {% if modified %}
+            <p class="text-sm opacity-50">Last updated: {{ modified | date: '%a, %b %d, %Y' }}</p>
+          {% endif %}
         {% endif %}
       </div>
     </div>

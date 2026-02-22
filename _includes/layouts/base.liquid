@@ -32,13 +32,13 @@
     <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicons/favicon.ico" type="image/x-icon">
 
-    <link rel="stylesheet" href="/css/index.css">
     <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
     <script src="/pagefind/pagefind-ui.js"></script>
+    <link rel="stylesheet" href="/css/index.css">
   </head>
   <body class="bg-neutral">
     <!-- Drawer container -->
-    <div class="drawer lg:drawer-open">
+    <div class="drawer">
       <input id="site-drawer" type="checkbox" class="drawer-toggle">
 
       <!-- Main page content -->
@@ -51,13 +51,14 @@
         <main
           data-pagefind-body
           id="top"
-          class="bg-base-200 text-base-content prose prose-sm md:prose-base w-full max-w-4xl mx-auto lg:mt-5 lg:mb-18"
+          class="bg-base-100 text-base-content flex-1 prose prose-sm md:prose-base w-full max-w-4xl mx-auto lg:my-5"
         >
           {% render 'hero', title: title, description: description, date: date, modified: modified %}
           <div class="p-6">
             {{ content }}
           </div>
         </main>
+
         <!-- Footer -->
         {% render 'footer', author: site.author.name, eleventy: eleventy.generator %}
       </div>
@@ -66,7 +67,7 @@
       <div class="drawer-side">
         <!-- Overlay (click to close on mobile) -->
         <label for="site-drawer" class="drawer-overlay"></label>
-        <aside class="w-80 bg-secondary text-secondary-content min-h-full p-4">
+        <aside class="w-80 bg-primary text-primary-content min-h-full p-4">
           {% assign navTree = collections.all | eleventyNavigation %}
           {% render 'sidebar', navTree: navTree, page: page %}
         </aside>
@@ -74,11 +75,11 @@
     </div>
 
     <div class="fab">
-      <a href="#top" class="btn btn-lg btn-circle btn-secondary">^</a>
+      <a href="#top" class="btn btn-lg btn-circle btn-primary">^</a>
     </div>
 
     <dialog id="search_modal" class="modal modal-bottom sm:modal-middle">
-      <div class="modal-box">
+      <div class="modal-box bg-secondary text-secondary-content">
         <div id="search"></div>
       </div>
       <form method="dialog" class="modal-backdrop">

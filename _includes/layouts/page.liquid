@@ -32,7 +32,7 @@ layout: base
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
         {% for entry in topLeafPages sort: date reversed %}
           {% assign banner = entry.data.banner %}
-          <div class="card bg-accent text-accent-content w-full{% if banner %} image-full{% endif %}">
+          <div class="card bg-secondary text-secondary-content w-full{% if banner %} image-full{% endif %}">
             {% if banner %}
               <figure>
                 <img
@@ -47,7 +47,7 @@ layout: base
                 {{ entry.data.description }}
               </p>
               <div class="card-actions justify-end">
-                <a href="{{ entry.url }}" class="btn">Read More</a>
+                <a href="{{ entry.url }}" class="btn btn-soft btn-secondary">Read More</a>
               </div>
             </div>
           </div>
