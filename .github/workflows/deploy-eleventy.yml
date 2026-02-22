@@ -40,7 +40,7 @@ jobs:
         run: npm run build
 
       - name: Run Pagefind
-        run: npx -y pagefind --site _site
+        run: npx -y pagefind --site _site --base /second-brain/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
