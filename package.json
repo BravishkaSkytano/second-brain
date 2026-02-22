@@ -17,7 +17,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=18"
+    "node": ">=22"
   },
   "bugs": {
     "url": "https://github.com/BravishkaSkytano/second-brain/issues"
