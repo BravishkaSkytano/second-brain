@@ -206,6 +206,31 @@ export default async function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("home", "layouts/home.liquid");
   eleventyConfig.addLayoutAlias("page", "layouts/page.liquid");
   eleventyConfig.addLayoutAlias("post", "layouts/post.liquid");
+
+  eleventyConfig.addCollection("stubParents", (collectionApi) => {
+    const items = collectionApi.getAll();
+    const existing = new Set();
+    const needed = new Set();
+
+    for (const item of items) {
+      const slug = item.page.fileSlug;
+      existing.add(slug);
+
+      if (!slug.includes(".")) continue;
+
+      const parts = slug.split(".");
+      for (let i = 1; i < parts.length; i++) {
+        needed.add(parts.slice(0, i).join("."));
+      }
+    }
+
+    return [...needed]
+      .filter((slug) => !existing.has(slug))
+      .map((slug) => ({
+        slug,
+        parts: slug.split("."),
+      }));
+  });
 }
 
 export const config = {

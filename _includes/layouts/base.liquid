@@ -8,10 +8,7 @@
       |
       {{ site.title }}
     </title>
-    <meta
-      name="description"
-      content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}"
-    >
+    <meta name="description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="author" content="{{ site.author.name }}">
     <meta name="generator" content="{{ eleventy.generator }}">
 
@@ -36,6 +33,7 @@
     <script src="/pagefind/pagefind-ui.js"></script>
     <link rel="stylesheet" href="/css/index.css">
   </head>
+
   <body class="bg-neutral">
     <!-- Drawer container -->
     <div class="drawer">

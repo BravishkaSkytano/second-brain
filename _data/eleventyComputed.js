@@ -1,28 +1,25 @@
-function cleanWikiLink(link) {
-  if (!link) return;
-
-  // Remove surrounding [[ ]]
-  let cleaned = link.replace(/^\[\[/, "").replace(/\]\]$/, "");
-
-  // Remove alias if present [[Page|Alias]]
-  cleaned = cleaned.split("|")[0];
-
-  return cleaned.trim();
-}
-
 export default {
-  eleventyNavigation: (data) => {
-    if (!data.title) return;
+  permalink: (data) => {
+    const slug = data.page.fileSlug;
 
-    const nav = {
-      key: data.title
-    };
-
-    if (data.parent) {
-      nav.parent = cleanWikiLink(data.parent);
+    // Only apply dot logic if file has dots
+    if (!slug.includes(".")) {
+      return "/" + slug + "/";
     }
 
-    return nav;
+    const parts = slug.split(".");
+    return "/" + parts.join("/") + "/";
+  },
+
+  eleventyNavigation: (data) => {
+    const slug = data.page.fileSlug;
+    const parts = slug.split(".");
+
+    return {
+      key: slug,
+      parent: parts.length > 1 ? parts.slice(0, -1).join(".") : null,
+      title: data.title || parts[parts.length - 1],
+    };
   },
   layout: "page",
 };
