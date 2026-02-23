@@ -36,7 +36,7 @@
 
   <body class="bg-neutral">
     <!-- Drawer container -->
-    <div class="drawer">
+    <div class="drawer lg:drawer-open">
       <input id="site-drawer" type="checkbox" class="drawer-toggle">
 
       <!-- Main page content -->
@@ -88,7 +88,7 @@
     <!-- This page `{{ page.url }}` was built on {% currentBuildDate %} -->
     <script>
       window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: '#search', baseUrl: '/', showImages: false, resetStyles: false });
+        new PagefindUI({ element: '#search', baseUrl: '/second-brain/', showImages: false, resetStyles: false });
       });
     </script>
     <script>
