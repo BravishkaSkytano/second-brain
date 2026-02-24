@@ -1,6 +1,5 @@
 import fs from "fs";
 import path from "path";
-import postcss from "postcss";
 import tailwindcss from "@tailwindcss/postcss";
 import {
   IdAttributePlugin,
@@ -19,6 +18,7 @@ import mdItObsidianCallouts from "markdown-it-obsidian-callouts";
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function (eleventyConfig) {
   eleventyConfig.on("eleventy.before", async () => {
+    const { default: postcss } = await import("postcss");
     const tailwindInputPath = path.resolve("./_includes/css/index.css");
     const tailwindOutputPath = "./_site/css/index.css";
     const cssContent = fs.readFileSync(tailwindInputPath, "utf8");
