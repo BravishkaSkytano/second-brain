@@ -34,5 +34,8 @@
   "editor.tabSize": 2,
   "emmet.includeLanguages": {
     "liquid": "html"
-  }
+  },
+  "github-actions.workflows.pinned.workflows": [
+    ".github/workflows/deploy-eleventy.yml"
+  ]
 }
