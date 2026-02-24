@@ -47,10 +47,11 @@ export default async function (eleventyConfig) {
     }
   });
 
-  // Copy the contents of the `public` folder to the output folder
+  // Copy the contents the output folder
   // For example, `./public/css/` ends up in `_site/css/`
   eleventyConfig.addPassthroughCopy({
     "./public/": "/",
+    "./content/img/": "/img/",
     // "./_includes/css/": "/css/",
     // "./_includes/js/": "/js/",
   });
@@ -194,6 +195,20 @@ export default async function (eleventyConfig) {
     return new Date().toISOString();
   });
 
+  function findNavItem(nav, key) {
+    for (let item of nav) {
+      if (item.key === key) return item;
+      if (item.children) {
+        const found = findNavItem(item.children, key);
+        if (found) return found;
+      }
+    }
+  }
+
+  eleventyConfig.addFilter("navFind", (nav, key) => {
+    return findNavItem(nav, key);
+  });
+
   // Features to make your build faster (when you need them)
 
   // If your passthrough copy gets heavy and cumbersome, add this line
@@ -206,31 +221,6 @@ export default async function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("home", "layouts/home.liquid");
   eleventyConfig.addLayoutAlias("page", "layouts/page.liquid");
   eleventyConfig.addLayoutAlias("post", "layouts/post.liquid");
-
-  eleventyConfig.addCollection("stubParents", (collectionApi) => {
-    const items = collectionApi.getAll();
-    const existing = new Set();
-    const needed = new Set();
-
-    for (const item of items) {
-      const slug = item.page.fileSlug;
-      existing.add(slug);
-
-      if (!slug.includes(".")) continue;
-
-      const parts = slug.split(".");
-      for (let i = 1; i < parts.length; i++) {
-        needed.add(parts.slice(0, i).join("."));
-      }
-    }
-
-    return [...needed]
-      .filter((slug) => !existing.has(slug))
-      .map((slug) => ({
-        slug,
-        parts: slug.split("."),
-      }));
-  });
 }
 
 export const config = {

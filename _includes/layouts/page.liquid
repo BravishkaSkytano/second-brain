@@ -3,50 +3,41 @@ layout: base
 ---
 {{ content }}
 
-{% assign fileName = page.filePathStem | split: '/' | last %}
-  {% assign navPages = collections.all | eleventyNavigation: title %}
-  {% assign topLeafPages = '' | split: '' %}
-  {% assign nestedLeafPages = '' | split: '' %}
+{% assign navTree = collections.all | eleventyNavigation %}
+{% assign current = navTree | navFind: eleventyNavigation.key %}
 
-  {% for entry in navPages %}
-    {% assign hasGrandchildren = false %}
-    {% if entry.children %}
-      {% for child in entry.children %}
-        {% if child.children %}
-          {% assign hasGrandchildren = true %}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
+{% if current and current.children and current.children.size > 0 %}
+  {% assign leaves = '' | split: '' %}
+  {% assign branches = '' | split: '' %}
 
-    {% if entry.children == empty and hasGrandchildren == false %}
-      {% assign topLeafPages = topLeafPages | push: entry %}
+  {% for child in current.children %}
+    {% if child.children and child.children.size > 0 %}
+      {% assign branches = branches | push: child %}
     {% else %}
-      {% assign nestedLeafPages = nestedLeafPages | push: entry %}
+      {% assign leaves = leaves | push: child %}
     {% endif %}
   {% endfor %}
 
-  {% if topLeafPages.size > 0 %}
+  {% if leaves.size > 0 %}
     <h2>Entries</h2>
     <div class="not-prose">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {% for entry in topLeafPages sort: date reversed %}
+        {% for entry in leaves %}
           {% assign banner = entry.data.banner %}
+
           <div class="card bg-secondary text-secondary-content w-full{% if banner %} image-full{% endif %}">
             {% if banner %}
               <figure>
-                <img
-                  src="/{{ banner }}"
-                  alt="{{ entry.title }}"
-                >
+                <img src="{{ banner }}" alt="{{ entry.title }}">
               </figure>
             {% endif %}
+
             <div class="card-body">
               <h2 class="card-title">{{ entry.title }}</h2>
-              <p>
-                {{ entry.data.description }}
-              </p>
+              <p>{{ entry.data.description }}</p>
+
               <div class="card-actions justify-end">
-                <a href="{{ entry.url }}" class="btn btn-soft btn-secondary">Read More</a>
+                <a href="{{ entry.url }}" class="btn btn-soft btn-secondary"> Read More </a>
               </div>
             </div>
           </div>
@@ -54,27 +45,33 @@ layout: base
       </div>
     </div>
   {% endif %}
-  {% if nestedLeafPages.size > 0 %}
-    <h2>Subfolders</h2>
-    <ul>
-      {% for entry in nestedLeafPages %}
-        <li>
-          <a href="{{ entry.url }}">{{ entry.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
-  {% if backlinks.length > 0 %}
-    <div class="flex w-full flex-col">
-      <div class="divider divider-primary"></div>
-    </div>
 
-    <h2>Backlinks</h2>
+  {% if branches.size > 0 %}
+    <h2>Sections</h2>
     <ul>
-      {% for link in backlinks %}
+      {% for entry in branches %}
         <li>
-          <a href="{{ link.url }}">{{ link.title }}</a>
+          <a href="{{ entry.url }}">
+            {{ entry.title }}
+          </a>
         </li>
       {% endfor %}
     </ul>
   {% endif %}
+{% endif %}
+{% if backlinks.length > 0 %}
+  <div class="flex w-full flex-col">
+    <div class="divider divider-primary"></div>
+  </div>
+
+  <h2>Backlinks</h2>
+  <ul>
+    {% for link in backlinks %}
+      <li>
+        <a href="{{ link.url }}">
+          {{ link.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
