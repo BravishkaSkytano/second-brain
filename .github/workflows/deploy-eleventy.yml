@@ -24,6 +24,7 @@ jobs:
     env:
       ELEVENTY_ENV: production
       NODE_ENV: production
+      ELEVENTY_IMG_CACHE: .cache/eleventy-img
 
     steps:
       - name: Checkout repo (with submodules)
@@ -34,19 +35,16 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 24
+          node-version: 20
           cache: npm
 
-      # 🔥 Cache Eleventy Image + Sharp cache
-      - name: Cache Eleventy image cache
+      - name: Cache Eleventy Images
         uses: actions/cache@v4
         with:
-          path: |
-            .node_modules/.cache/@11ty/eleventy-img
-            node_modules/.cache/sharp
-          key: eleventy-img-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+          path: .cache/eleventy-img
+          key: ${{ runner.os }}-eleventy-img-${{ hashFiles('package-lock.json') }}
           restore-keys: |
-            eleventy-img-${{ runner.os }}-
+            ${{ runner.os }}-eleventy-img-
 
       - name: Install dependencies
         run: npm ci

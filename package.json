@@ -4,10 +4,9 @@
   "description": "A digital garden of unfinished thoughts, reflections, and ideas. In progress, on purpose.",
   "type": "module",
   "scripts": {
-    "build": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy",
-    "start": "cross-env ELEVENTY_ENV=development npx @11ty/eleventy --serve --quiet",
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve --quiet",
     "test": "npx @11ty/eleventy --dryrun",
-    "debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
     "clean": "rimraf _site",
     "pagefind": "npx -y pagefind --site _site"
   },
@@ -30,7 +29,6 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
     "@tailwindcss/postcss": "^4.1.18",
     "@tailwindcss/typography": "^0.5.19",
-    "cross-env": "^10.1.0",
     "daisyui": "^5.5.18",
     "postcss": "^8.5.6",
     "rimraf": "^6.1.2",

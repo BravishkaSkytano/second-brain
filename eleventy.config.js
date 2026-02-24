@@ -47,6 +47,9 @@ export default async function (eleventyConfig) {
     }
   });
 
+  // Point eleventy-img cache to a dedicated folder
+  process.env.ELEVENTY_IMG_CACHE = path.join(".cache", "eleventy-img");
+
   // Copy the contents the output folder
   // For example, `./public/css/` ends up in `_site/css/`
   eleventyConfig.addPassthroughCopy({
