@@ -21,6 +21,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      ELEVENTY_ENV: production
+      NODE_ENV: production
+
     steps:
       - name: Checkout repo (with submodules)
         uses: actions/checkout@v4
@@ -32,6 +36,17 @@ jobs:
         with:
           node-version: 24
           cache: npm
+
+      # 🔥 Cache Eleventy Image + Sharp cache
+      - name: Cache Eleventy image cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            .node_modules/.cache/@11ty/eleventy-img
+            node_modules/.cache/sharp
+          key: eleventy-img-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            eleventy-img-${{ runner.os }}-
 
       - name: Install dependencies
         run: npm ci

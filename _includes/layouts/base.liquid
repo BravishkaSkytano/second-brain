@@ -51,7 +51,14 @@
           id="top"
           class="bg-base-100 text-base-content flex-1 prose prose-sm md:prose-base w-full max-w-4xl mx-auto lg:my-5"
         >
-          {% render 'hero', title: title, description: description, date: date, modified: modified %}
+          {% render 'hero',
+            title: title,
+            description: description,
+            date: date,
+            modified: modified,
+            banner: banner,
+            cover: cover
+          %}
           <div class="p-6">
             {{ content }}
           </div>

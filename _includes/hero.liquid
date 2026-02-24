@@ -1,21 +1,47 @@
 <div class="not-prose">
-  <div class="hero bg-primary text-primary-content p-6">
-    <div class="hero-content text-center">
-      <div class="max-w-md">
-        <h1 class="text-5xl font-bold text-primary-content">{{ title }}</h1>
-        {% if description %}
-          <p class="py-6">
-            {{ description }}
-          </p>
-        {% endif %}
-
-        {% if date %}
-          <p class="text-sm opacity-70">Published: {{ date | date: '%a, %b %d, %Y' }}</p>
-          {% if modified %}
-            <p class="text-sm opacity-50">Last updated: {{ modified | date: '%a, %b %d, %Y' }}</p>
+  {% if cover %}
+    <div class="hero bg-base-300">
+      <div class="hero-content flex-col lg:flex-row">
+        {% image cover, title, "max-w-sm rounded-lg shadow-2xl" %}
+        <div>
+          <h1 class="text-5xl font-bold">{{ title }}</h1>
+          {% if description %}
+            <p class="py-6">
+              {{ description }}
+            </p>
           {% endif %}
-        {% endif %}
+
+          {% if date %}
+            <p class="text-sm opacity-70">Published: {{ date | date: '%a, %b %d, %Y' }}</p>
+            {% if modified %}
+              <p class="text-sm opacity-50">Last updated: {{ modified | date: '%a, %b %d, %Y' }}</p>
+            {% endif %}
+          {% endif %}
+        </div>
       </div>
     </div>
-  </div>
+  {% else %}
+    {% if banner %}
+      {% image banner, title %}
+    {% endif %}
+    <div class="hero bg-primary text-primary-content p-6">
+      <div class="hero-content text-center">
+        <div class="max-w-md">
+          <h1 class="text-5xl font-bold text-primary-content">{{ title }}</h1>
+          {% if description %}
+            <p class="py-6">
+              {{ description }}
+            </p>
+          {% endif %}
+
+          {% if date %}
+            <p class="text-sm opacity-70">Published: {{ date | date: '%a, %b %d, %Y' }}</p>
+            {% if modified %}
+              <p class="text-sm opacity-50">Last updated: {{ modified | date: '%a, %b %d, %Y' }}</p>
+            {% endif %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endif %}
 </div>

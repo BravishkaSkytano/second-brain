@@ -9,7 +9,7 @@ import {
 } from "@11ty/eleventy";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
-import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import Image from "@11ty/eleventy-img";
 import interlinker from "@photogabble/eleventy-plugin-interlinker";
 import markdownIt from "markdown-it";
 import markdownItMark from "markdown-it-mark";
@@ -51,7 +51,7 @@ export default async function (eleventyConfig) {
   // For example, `./public/css/` ends up in `_site/css/`
   eleventyConfig.addPassthroughCopy({
     "./public/": "/",
-    "./content/img/": "/img/",
+    // "./content/img/": "/img/",
     // "./_includes/css/": "/css/",
     // "./_includes/js/": "/js/",
   });
@@ -138,27 +138,6 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPlugin(HtmlBasePlugin);
   eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
 
-  // Image optimization: https://www.11ty.dev/docs/plugins/image/#eleventy-transform
-  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-    // Output formats for each image.
-    formats: ["avif", "webp", "auto"],
-
-    // widths: ["auto"],
-
-    failOnError: false,
-    htmlOptions: {
-      imgAttributes: {
-        // e.g. <img loading decoding> assigned on the HTML tag will override these values.
-        loading: "lazy",
-        decoding: "async",
-      },
-    },
-
-    sharpOptions: {
-      animated: true,
-    },
-  });
-
   eleventyConfig.addPlugin(IdAttributePlugin, {
     // by default we use Eleventy’s built-in `slugify` filter:
     // slugify: eleventyConfig.getFilter("slugify"),
@@ -195,6 +174,35 @@ export default async function (eleventyConfig) {
     return new Date().toISOString();
   });
 
+  eleventyConfig.addAsyncShortcode(
+    "image",
+    async function (src, alt, customClass) {
+      let imagePath = src;
+
+      const inputDir = "content";
+
+      if (!src.startsWith("http")) {
+        imagePath = path.resolve(inputDir, src);
+      }
+
+      const metadata = await Image(imagePath, {
+        widths: [800, 1200, 1600],
+        formats: ["webp"],
+        outputDir: `_site/img/`,
+        urlPath: `/img/`,
+      });
+
+      return Image.generateHTML(metadata, {
+        alt: alt || "",
+        sizes: "auto",
+        loading: "eager",
+        fetchpriority: "high",
+        decoding: "async",
+        class: customClass || "",
+      });
+    },
+  );
+
   function findNavItem(nav, key) {
     for (let item of nav) {
       if (item.key === key) return item;
@@ -221,28 +229,17 @@ export default async function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("home", "layouts/home.liquid");
   eleventyConfig.addLayoutAlias("page", "layouts/page.liquid");
   eleventyConfig.addLayoutAlias("post", "layouts/post.liquid");
+
+  return {
+    markdownTemplateEngine: false,
+    templateFormats: ["md", "html", "liquid", "11ty.js"],
+    dir: {
+      input: "./content", // default: "."
+      includes: "../_includes", // default: "_includes" (`input` relative)
+      data: "../_data", // default: "_data" (`input` relative)
+      output: "_site",
+    },
+
+    pathPrefix: "/second-brain/",
+  };
 }
-
-export const config = {
-  markdownTemplateEngine: false,
-  templateFormats: ["md", "html", "liquid", "11ty.js"],
-  dir: {
-    input: "./content", // default: "."
-    includes: "../_includes", // default: "_includes" (`input` relative)
-    data: "../_data", // default: "_data" (`input` relative)
-    output: "_site",
-  },
-
-  // -----------------------------------------------------------------
-  // Optional items:
-  // -----------------------------------------------------------------
-
-  // If your site deploys to a subdirectory, change `pathPrefix`.
-  // Read more: https://www.11ty.dev/docs/config/#deploy-to-a-subdirectory-with-a-path-prefix
-
-  // When paired with the HTML <base> plugin https://www.11ty.dev/docs/plugins/html-base/
-  // it will transform any absolute URLs in your HTML to include this
-  // folder name and does **not** affect where things go in the output folder.
-
-  pathPrefix: "/second-brain/",
-};

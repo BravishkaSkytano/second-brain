@@ -23,24 +23,39 @@ layout: base
     <div class="not-prose">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
         {% for entry in leaves %}
-          {% assign banner = entry.data.banner %}
-
-          <div class="card bg-secondary text-secondary-content w-full{% if banner %} image-full{% endif %}">
-            {% if banner %}
-              <figure>
-                <img src="{{ banner }}" alt="{{ entry.title }}">
-              </figure>
+          {% if entry.data.banner or entry.data.cover %}
+            {% if entry.data.banner %}
+              {% assign img = entry.data.banner %}
+            {% elsif entry.data.cover %}
+              {% assign img = entry.data.cover %}
             {% endif %}
-
-            <div class="card-body">
-              <h2 class="card-title">{{ entry.title }}</h2>
-              <p>{{ entry.data.description }}</p>
-
-              <div class="card-actions justify-end">
-                <a href="{{ entry.url }}" class="btn btn-soft btn-secondary"> Read More </a>
+            <div class="card bg-base-100 image-full w-full shadow-sm">
+              <figure>
+                {% image img, title %}
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">{{ entry.title }}</h2>
+                <p>
+                  {{ entry.data.description }}
+                </p>
+                <div class="card-actions justify-end">
+                  <a href="{{ entry.url }}" class="btn btn-soft btn-secondary"> Read More </a>
+                </div>
               </div>
             </div>
-          </div>
+          {% else %}
+            <div class="card bg-secondary text-secondary-content w-full">
+              <div class="card-body">
+                <h2 class="card-title">{{ entry.title }}</h2>
+                <p>
+                  {{ entry.data.description }}
+                </p>
+                <div class="card-actions justify-end">
+                  <a href="{{ entry.url }}" class="btn btn-soft btn-secondary"> Read More </a>
+                </div>
+              </div>
+            </div>
+          {% endif %}
         {% endfor %}
       </div>
     </div>
