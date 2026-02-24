@@ -8,7 +8,7 @@
       {% endif %}
     >
       <summary
-        {% if page.url contains section.url %}
+        {% if page.url == section.url %}
           class="menu-active"
         {% endif %}
       >
@@ -50,7 +50,7 @@
     <!-- File icon -->
     <a
       href="{{ section.url }}"
-      {% if page.url contains section.url %}
+      {% if page.url == section.url %}
         class="menu-active"
       {% endif %}
     >

@@ -6,7 +6,7 @@
   {% assign files = '' | split: '' %}
 
   {% for item in navTree %}
-    {% if item.children and item.children.size > 0 %}
+    {% if item.children.size > 0 %}
       {% assign folders = folders | push: item | sort: 'title' %}
     {% else %}
       {% assign files = files | push: item | sort: 'title' %}
