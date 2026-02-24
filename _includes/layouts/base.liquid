@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="/css/index.css">
   </head>
 
-  <body class="bg-neutral">
+  <body class="bg-neutral text-neutral-content">
     <!-- Drawer container -->
     <div class="drawer lg:drawer-open">
       <input id="site-drawer" type="checkbox" class="drawer-toggle">
@@ -45,24 +45,7 @@
         {% render 'nav', title: site.title %}
         <!-- Navbar -->
 
-        <!-- Page body -->
-        <main
-          data-pagefind-body
-          id="top"
-          class="bg-base-100 text-base-content flex-1 prose prose-sm md:prose-base w-full max-w-4xl mx-auto lg:my-5"
-        >
-          {% render 'hero',
-            title: title,
-            description: description,
-            date: date,
-            modified: modified,
-            banner: banner,
-            cover: cover
-          %}
-          <div class="p-6">
-            {{ content }}
-          </div>
-        </main>
+        {{ content }}
 
         <!-- Footer -->
         {% render 'footer', author: site.author.name, eleventy: eleventy.generator %}
@@ -80,7 +63,7 @@
     </div>
 
     <div class="fab">
-      <a href="#top" class="btn btn-lg btn-circle btn-primary">^</a>
+      <a href="#top" class="btn btn-lg btn-circle btn-accent">^</a>
     </div>
 
     <dialog id="search_modal" class="modal modal-bottom sm:modal-middle">

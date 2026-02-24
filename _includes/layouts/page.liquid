@@ -1,45 +1,83 @@
 ---
 layout: base
 ---
-{{ content }}
+<main
+  data-pagefind-body
+  id="top"
+  class="bg-base-100 text-base-content flex-1 prose prose-sm md:prose-base w-full max-w-4xl mx-auto xl:my-8"
+>
+  <!-- Hero Section -->
+  {% render 'hero',
+    title: title,
+    description: description,
+    date: date,
+    modified: modified,
+    banner: banner,
+    cover: cover,
+    page: page,
+    collections: collections
+  %}
+  <div class="p-6">
+    <!-- Page Content -->
+    {{ content }}
+    <!-- Breadcrumbs -->
+    {% assign prefix = page.fileSlug | append: '.' %}
+    {% assign children = collections.all
+      | where_exp: 'item', 'item.fileSlug != page.fileSlug and item.fileSlug contains prefix'
+    %}
 
+    {% if children.size == 0 %}
+      {% render 'breadcrumbs', page: page, collections: collections, showCurrent: true %}
+    {% endif %}
+
+    <!-- Backlinks -->
+    {% if backlinks.length > 0 %}
+      <div class="flex w-full flex-col">
+        <div class="divider divider-primary"></div>
+      </div>
+      <h2>Backlinks</h2>
+      <ul>
+        {% for link in backlinks %}
+          <li>
+            <a href="{{ link.url }}">{{ link.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</main>
+
+<!-- Leaves / Branches Section -->
 {% assign navTree = collections.all | eleventyNavigation %}
 {% assign current = navTree | navFind: eleventyNavigation.key %}
+{% if current.children.size > 0 %}
+  <div class="mb-8 p-5 w-full max-w-7xl mx-auto" data-pagefind-ignore>
+    {% assign leaves = '' | split: '' %}
+    {% assign branches = '' | split: '' %}
 
-{% if current and current.children and current.children.size > 0 %}
-  {% assign leaves = '' | split: '' %}
-  {% assign branches = '' | split: '' %}
+    {% for child in current.children %}
+      {% if child.children and child.children.size > 0 %}
+        {% assign branches = branches | push: child %}
+      {% else %}
+        {% assign leaves = leaves | push: child %}
+      {% endif %}
+    {% endfor %}
 
-  {% for child in current.children %}
-    {% if child.children and child.children.size > 0 %}
-      {% assign branches = branches | push: child %}
-    {% else %}
-      {% assign leaves = leaves | push: child %}
-    {% endif %}
-  {% endfor %}
-
-  {% if leaves.size > 0 %}
-    <h2>Entries</h2>
-    <div class="not-prose">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+    {% if leaves.size > 0 %}
+      <h2 class="text-3xl font-bold m-5">Entries</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-4">
         {% for entry in leaves %}
-          {% if entry.data.banner or entry.data.cover %}
-            {% if entry.data.banner %}
-              {% assign img = entry.data.banner %}
-            {% elsif entry.data.cover %}
-              {% assign img = entry.data.cover %}
-            {% endif %}
+          {% assign img = entry.data.banner | default: entry.data.cover %}
+          {% if img %}
             <div class="card bg-base-100 image-full w-full shadow-sm">
               <figure>
-                {% image img, title %}
+                {% image img, entry.title %}
               </figure>
               <div class="card-body">
                 <h2 class="card-title">{{ entry.title }}</h2>
-                <p>
-                  {{ entry.data.description }}
-                </p>
+                <p>{{ entry.data.description }}</p>
                 <div class="card-actions justify-end">
-                  <a href="{{ entry.url }}" class="btn btn-soft btn-secondary"> Read More </a>
+                  <a href="{{ entry.url }}" class="btn btn-soft btn-secondary">Read More</a>
                 </div>
               </div>
             </div>
@@ -47,46 +85,48 @@ layout: base
             <div class="card bg-secondary text-secondary-content w-full">
               <div class="card-body">
                 <h2 class="card-title">{{ entry.title }}</h2>
-                <p>
-                  {{ entry.data.description }}
-                </p>
+                <p>{{ entry.data.description }}</p>
                 <div class="card-actions justify-end">
-                  <a href="{{ entry.url }}" class="btn btn-soft btn-secondary"> Read More </a>
+                  <a href="{{ entry.url }}" class="btn btn-soft btn-secondary">Read More</a>
                 </div>
               </div>
             </div>
           {% endif %}
         {% endfor %}
       </div>
-    </div>
-  {% endif %}
+    {% endif %}
 
-  {% if branches.size > 0 %}
-    <h2>Sections</h2>
-    <ul>
-      {% for entry in branches %}
-        <li>
-          <a href="{{ entry.url }}">
-            {{ entry.title }}
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
-{% endif %}
-{% if backlinks.length > 0 %}
-  <div class="flex w-full flex-col">
-    <div class="divider divider-primary"></div>
+    {% if branches.size > 0 %}
+      <h2 class="text-3xl font-bold m-5">Sections</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-4">
+        {% for entry in branches %}
+          {% assign img = entry.data.banner %}
+          {% if img %}
+            <div class="card bg-base-100 image-full w-full shadow-sm">
+              <figure>
+                {% image img, entry.title %}
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">{{ entry.title }}</h2>
+                <p>{{ entry.data.description }}</p>
+                <div class="card-actions justify-end">
+                  <a href="{{ entry.url }}" class="btn btn-soft btn-secondary">Read More</a>
+                </div>
+              </div>
+            </div>
+          {% else %}
+            <div class="card bg-secondary text-secondary-content w-full">
+              <div class="card-body">
+                <h2 class="card-title">{{ entry.title }}</h2>
+                <p>{{ entry.data.description }}</p>
+                <div class="card-actions justify-end">
+                  <a href="{{ entry.url }}" class="btn btn-soft btn-secondary">Read More</a>
+                </div>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
   </div>
-
-  <h2>Backlinks</h2>
-  <ul>
-    {% for link in backlinks %}
-      <li>
-        <a href="{{ link.url }}">
-          {{ link.title }}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
 {% endif %}

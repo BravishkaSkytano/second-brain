@@ -4,6 +4,9 @@
       <div class="hero-content flex-col lg:flex-row">
         {% image cover, title, "max-w-sm rounded-lg shadow-2xl" %}
         <div>
+          {% if page.fileSlug contains '.' %}
+            {% render 'breadcrumbs', page: page, collections: collections, showCurrent: false %}
+          {% endif %}
           <h1 class="text-5xl font-bold">{{ title }}</h1>
           {% if description %}
             <p class="py-6">
@@ -12,7 +15,7 @@
           {% endif %}
 
           {% if date %}
-            <p class="text-sm opacity-70">Published: {{ date | date: '%a, %b %d, %Y' }}</p>
+            <p class="text-sm opacity-70 pt-3">Published: {{ date | date: '%a, %b %d, %Y' }}</p>
             {% if modified %}
               <p class="text-sm opacity-50">Last updated: {{ modified | date: '%a, %b %d, %Y' }}</p>
             {% endif %}
@@ -27,7 +30,11 @@
     <div class="hero bg-primary text-primary-content p-6">
       <div class="hero-content text-center">
         <div class="max-w-md">
-          <h1 class="text-5xl font-bold text-primary-content">{{ title }}</h1>
+          <!-- Breadcrumbs -->
+          {% if page.fileSlug contains '.' %}
+            {% render 'breadcrumbs', page: page, collections: collections %}
+          {% endif %}
+          <h1 class="text-5xl font-bold">{{ title }}</h1>
           {% if description %}
             <p class="py-6">
               {{ description }}
@@ -35,7 +42,7 @@
           {% endif %}
 
           {% if date %}
-            <p class="text-sm opacity-70">Published: {{ date | date: '%a, %b %d, %Y' }}</p>
+            <p class="text-sm opacity-70 pt-3">Published: {{ date | date: '%a, %b %d, %Y' }}</p>
             {% if modified %}
               <p class="text-sm opacity-50">Last updated: {{ modified | date: '%a, %b %d, %Y' }}</p>
             {% endif %}

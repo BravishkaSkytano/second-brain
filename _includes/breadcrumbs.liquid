@@ -1,0 +1,31 @@
+{% assign parts = page.fileSlug | split: '.' %}
+{% assign cumulative = '' %}
+<div class="flex w-full flex-col">
+  <div class="divider divider-primary"></div>
+</div>
+
+<div class="breadcrumbs text-sm">
+  <ul>
+    {% for part in parts %}
+      {% if cumulative == '' %}
+        {% assign cumulative = part %}
+      {% else %}
+        {% assign cumulative = cumulative | append: '.' | append: part %}
+      {% endif %}
+
+      {% assign target = collections.all | where: 'fileSlug', cumulative | first %}
+
+      {% if target %}
+        <li>
+          {% if not forloop.last %}
+            <a href="{{ target.url }}">
+              {{ target.data.title }}
+            </a>
+          {% elsif showCurrent == true %}
+            {{ target.data.title }}
+          {% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

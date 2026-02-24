@@ -15,11 +15,16 @@ export default {
     const slug = data.page.fileSlug;
     const parts = slug.split(".");
 
-    return {
+    const nav = {
       key: slug,
-      parent: parts.length > 1 ? parts.slice(0, -1).join(".") : null,
       title: data.title || parts[parts.length - 1],
     };
+
+    if (parts.length > 1) {
+      nav.parent = parts.slice(0, -1).join(".");
+    }
+
+    return nav;
   },
   layout: "page",
 };

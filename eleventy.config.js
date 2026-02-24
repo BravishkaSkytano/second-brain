@@ -204,18 +204,19 @@ export default async function (eleventyConfig) {
   );
 
   function findNavItem(nav, key) {
-    for (let item of nav) {
-      if (item.key === key) return item;
-      if (item.children) {
+    for (const item of nav) {
+      const itemKey = item.key || item.data?.eleventyNavigation?.key;
+      if (!itemKey) continue;
+      if (itemKey === key) return item;
+      if (item.children && item.children.length) {
         const found = findNavItem(item.children, key);
         if (found) return found;
       }
     }
+    return null;
   }
 
-  eleventyConfig.addFilter("navFind", (nav, key) => {
-    return findNavItem(nav, key);
-  });
+  eleventyConfig.addFilter("navFind", (nav, key) => findNavItem(nav, key));
 
   // Features to make your build faster (when you need them)
 
