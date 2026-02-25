@@ -22,7 +22,6 @@ jobs:
 
     env:
       ELEVENTY_ENV: production
-      NODE_ENV: production
       ELEVENTY_IMG_CACHE: .cache/eleventy-img
 
     steps:
