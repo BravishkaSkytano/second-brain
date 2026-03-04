@@ -20,19 +20,6 @@ layout: base
   <div class="bg-base-100 text-base-content p-6">
     <!-- Page Content -->
     {{ content }}
-    <div class="flex w-full flex-col">
-      <div class="divider divider-primary"></div>
-    </div>
-
-    <!-- Breadcrumbs -->
-    {% assign prefix = page.fileSlug | append: '.' %}
-    {% assign crumbs = collections.all
-      | where_exp: 'item', 'item.fileSlug != page.fileSlug and item.fileSlug contains prefix'
-    %}
-
-    {% if crumbs.size == 0 %}
-      {% render 'breadcrumbs', page: page, collections: collections %}
-    {% endif %}
 
     <!-- Backlinks -->
     {% if backlinks.length > 0 %}
@@ -45,15 +32,29 @@ layout: base
         {% endfor %}
       </ul>
     {% endif %}
+    <div class="not-prose">
+      <!-- Breadcrumbs -->
+      {% assign prefix = page.fileSlug | append: '.' %}
+      {% assign crumbs = collections.all
+        | where_exp: 'item', 'item.fileSlug != page.fileSlug and item.fileSlug contains prefix'
+      %}
+
+      {% if crumbs.size == 0 %}
+        <div class="flex w-full flex-col">
+          <div class="divider divider-primary"></div>
+        </div>
+        {% render 'breadcrumbs', page: page, collections: collections %}
+      {% endif %}
+    </div>
   </div>
 
   <!-- Children -->
-  {% assign navTree = collections.all | eleventyNavigation %}
+  {% assign navTree = collections.all | eleventyNavigation | sortNavTree %}
   {% assign current = navTree | navFind: eleventyNavigation.key %}
   {% if current.children.size > 0 %}
-    <div class="not-prose w-full max-w-7xl mx-auto mb-8 p-6" data-pagefind-ignore>
-      <h2 class="text-3xl font-bold m-5">Children</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+    <div class="not-prose w-full max-w-7xl mx-auto mb-8 px-6" data-pagefind-ignore>
+      <h2 class="text-center text-3xl font-bold m-8">Children</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
         {% for entry in current.children %}
           {% assign img = entry.data.cover | default: entry.data.banner %}
           {% if img %}

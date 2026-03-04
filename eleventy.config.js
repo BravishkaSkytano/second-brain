@@ -220,6 +220,25 @@ export default async function (eleventyConfig) {
   }
 
   eleventyConfig.addFilter("navFind", (nav, key) => findNavItem(nav, key));
+  eleventyConfig.addFilter("sortNavTree", function (items) {
+    function sortItems(arr) {
+      return arr
+        .slice()
+        .sort((a, b) =>
+          (a.title || "").localeCompare(b.title || "", undefined, {
+            sensitivity: "base",
+          }),
+        )
+        .map((item) => {
+          if (item.children && item.children.length) {
+            item.children = sortItems(item.children);
+          }
+          return item;
+        });
+    }
+
+    return sortItems(items);
+  });
 
   // Features to make your build faster (when you need them)
 
