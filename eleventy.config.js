@@ -232,7 +232,14 @@ export default async function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("base", "layouts/base.liquid");
   eleventyConfig.addLayoutAlias("home", "layouts/home.liquid");
   eleventyConfig.addLayoutAlias("page", "layouts/page.liquid");
-  eleventyConfig.addLayoutAlias("post", "layouts/post.liquid");
+
+  eleventyConfig.addCollection("modifiedNotes", function (collectionApi) {
+    return collectionApi
+      .getFilteredByGlob("content/**/*.md")
+      .filter((item) => item.data.modified instanceof Date)
+      .sort((a, b) => b.data.modified - a.data.modified)
+      .slice(0, 12); // 👈 limit here
+  });
 
   return {
     markdownTemplateEngine: false,

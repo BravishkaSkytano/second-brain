@@ -1,0 +1,56 @@
+---
+layout: base
+---
+<main
+  id="top"
+  class="flex-1 prose prose-sm md:prose-base w-full max-w-4xl mx-auto xl:my-8"
+>
+  <!-- Hero Section -->
+  {% render 'hero',
+    title: title,
+    description: description,
+    date: date,
+    modified: modified,
+    banner: banner,
+    cover: cover,
+    page: page,
+    collections: collections
+  %}
+  <div class="bg-base-100 text-base-content p-6">
+    <!-- Page Content -->
+    {{ content }}
+  </div>
+
+  <div class="not-prose w-full max-w-7xl mx-auto mb-8 p-6">
+    <h2 class="text-3xl font-bold m-5">Recently Modified Notes</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+      {% for entry in collections.modifiedNotes %}
+        {% assign img = entry.data.banner | default: entry.data.cover %}
+        {% if img %}
+          <div class="card bg-base-100 image-full w-full shadow-sm">
+            <figure>
+              {% image img, entry.data.title %}
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">{{ entry.data.title }}</h2>
+              <p>{{ entry.data.description }}</p>
+              <div class="card-actions justify-end">
+                <a href="{{ entry.url }}" class="btn btn-soft btn-secondary">Read More</a>
+              </div>
+            </div>
+          </div>
+        {% else %}
+          <div class="card bg-secondary text-secondary-content w-full">
+            <div class="card-body">
+              <h2 class="card-title">{{ entry.data.title }}</h2>
+              <p>{{ entry.data.description }}</p>
+              <div class="card-actions justify-end">
+                <a href="{{ entry.url }}" class="btn btn-soft btn-secondary">Read More</a>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</main>

@@ -4,7 +4,7 @@ layout: base
 <main
   data-pagefind-body
   id="top"
-  class="bg-base-100 text-base-content flex-1 prose prose-sm md:prose-base w-full max-w-4xl mx-auto xl:my-8"
+  class="flex-1 prose prose-sm md:prose-base w-full max-w-4xl mx-auto xl:my-8"
 >
   <!-- Hero Section -->
   {% render 'hero',
@@ -17,24 +17,25 @@ layout: base
     page: page,
     collections: collections
   %}
-  <div class="p-6">
+  <div class="bg-base-100 text-base-content p-6">
     <!-- Page Content -->
     {{ content }}
+    <div class="flex w-full flex-col">
+      <div class="divider divider-primary"></div>
+    </div>
+
     <!-- Breadcrumbs -->
     {% assign prefix = page.fileSlug | append: '.' %}
-    {% assign children = collections.all
+    {% assign crumbs = collections.all
       | where_exp: 'item', 'item.fileSlug != page.fileSlug and item.fileSlug contains prefix'
     %}
 
-    {% if children.size == 0 %}
-      {% render 'breadcrumbs', page: page, collections: collections, showCurrent: true %}
+    {% if crumbs.size == 0 %}
+      {% render 'breadcrumbs', page: page, collections: collections %}
     {% endif %}
 
     <!-- Backlinks -->
     {% if backlinks.length > 0 %}
-      <div class="flex w-full flex-col">
-        <div class="divider divider-primary"></div>
-      </div>
       <h2>Backlinks</h2>
       <ul>
         {% for link in backlinks %}
@@ -45,88 +46,42 @@ layout: base
       </ul>
     {% endif %}
   </div>
+
+  <!-- Children -->
+  {% assign navTree = collections.all | eleventyNavigation %}
+  {% assign current = navTree | navFind: eleventyNavigation.key %}
+  {% if current.children.size > 0 %}
+    <div class="not-prose w-full max-w-7xl mx-auto mb-8 p-6" data-pagefind-ignore>
+      <h2 class="text-3xl font-bold m-5">Children</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+        {% for entry in current.children %}
+          {% assign img = entry.data.cover | default: entry.data.banner %}
+          {% if img %}
+            <div class="card bg-base-100 image-full w-full shadow-sm">
+              <figure>
+                {% image img, entry.title %}
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">{{ entry.title }}</h2>
+                <p>{{ entry.data.description }}</p>
+                <div class="card-actions justify-end">
+                  <a href="{{ entry.url }}" class="btn btn-soft btn-secondary">Read More</a>
+                </div>
+              </div>
+            </div>
+          {% else %}
+            <div class="card bg-secondary text-secondary-content w-full">
+              <div class="card-body">
+                <h2 class="card-title">{{ entry.title }}</h2>
+                <p>{{ entry.data.description }}</p>
+                <div class="card-actions justify-end">
+                  <a href="{{ entry.url }}" class="btn btn-soft btn-secondary">Read More</a>
+                </div>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
 </main>
-
-<!-- Leaves / Branches Section -->
-{% assign navTree = collections.all | eleventyNavigation %}
-{% assign current = navTree | navFind: eleventyNavigation.key %}
-{% if current.children.size > 0 %}
-  <div class="mb-8 p-5 w-full max-w-7xl mx-auto" data-pagefind-ignore>
-    {% assign leaves = '' | split: '' %}
-    {% assign branches = '' | split: '' %}
-
-    {% for child in current.children %}
-      {% if child.children and child.children.size > 0 %}
-        {% assign branches = branches | push: child %}
-      {% else %}
-        {% assign leaves = leaves | push: child %}
-      {% endif %}
-    {% endfor %}
-
-    {% if leaves.size > 0 %}
-      <h2 class="text-3xl font-bold m-5">Entries</h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-4">
-        {% for entry in leaves %}
-          {% assign img = entry.data.banner | default: entry.data.cover %}
-          {% if img %}
-            <div class="card bg-base-100 image-full w-full shadow-sm">
-              <figure>
-                {% image img, entry.title %}
-              </figure>
-              <div class="card-body">
-                <h2 class="card-title">{{ entry.title }}</h2>
-                <p>{{ entry.data.description }}</p>
-                <div class="card-actions justify-end">
-                  <a href="{{ entry.url }}" class="btn btn-soft btn-secondary">Read More</a>
-                </div>
-              </div>
-            </div>
-          {% else %}
-            <div class="card bg-secondary text-secondary-content w-full">
-              <div class="card-body">
-                <h2 class="card-title">{{ entry.title }}</h2>
-                <p>{{ entry.data.description }}</p>
-                <div class="card-actions justify-end">
-                  <a href="{{ entry.url }}" class="btn btn-soft btn-secondary">Read More</a>
-                </div>
-              </div>
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-    {% endif %}
-
-    {% if branches.size > 0 %}
-      <h2 class="text-3xl font-bold m-5">Sections</h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-4">
-        {% for entry in branches %}
-          {% assign img = entry.data.banner %}
-          {% if img %}
-            <div class="card bg-base-100 image-full w-full shadow-sm">
-              <figure>
-                {% image img, entry.title %}
-              </figure>
-              <div class="card-body">
-                <h2 class="card-title">{{ entry.title }}</h2>
-                <p>{{ entry.data.description }}</p>
-                <div class="card-actions justify-end">
-                  <a href="{{ entry.url }}" class="btn btn-soft btn-secondary">Read More</a>
-                </div>
-              </div>
-            </div>
-          {% else %}
-            <div class="card bg-secondary text-secondary-content w-full">
-              <div class="card-body">
-                <h2 class="card-title">{{ entry.title }}</h2>
-                <p>{{ entry.data.description }}</p>
-                <div class="card-actions justify-end">
-                  <a href="{{ entry.url }}" class="btn btn-soft btn-secondary">Read More</a>
-                </div>
-              </div>
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-    {% endif %}
-  </div>
-{% endif %}

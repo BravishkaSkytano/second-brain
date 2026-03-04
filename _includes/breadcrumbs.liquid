@@ -1,9 +1,5 @@
 {% assign parts = page.fileSlug | split: '.' %}
 {% assign cumulative = '' %}
-<div class="flex w-full flex-col">
-  <div class="divider divider-primary"></div>
-</div>
-
 <div class="breadcrumbs text-sm">
   <ul>
     {% for part in parts %}
@@ -21,8 +17,6 @@
             <a href="{{ target.url }}">
               {{ target.data.title }}
             </a>
-          {% elsif showCurrent == true %}
-            {{ target.data.title }}
           {% endif %}
         </li>
       {% endif %}
