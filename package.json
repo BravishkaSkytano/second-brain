@@ -7,7 +7,7 @@
     "build": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve --quiet",
     "test": "npx @11ty/eleventy --dryrun",
-    "clean": "rimraf _site",
+    "clean": "rimraf _site .cache",
     "pagefind": "npx -y pagefind --site _site"
   },
   "repository": {

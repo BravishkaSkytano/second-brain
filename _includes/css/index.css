@@ -2,7 +2,7 @@
 @plugin "@tailwindcss/typography";
 
 @plugin "daisyui" {
-  themes: autumn --default, forest --prefersdark;
+  themes: fantasy --default, synthwave --prefersdark;
 }
 
 /* Pagefind styled with daisyUI tokens */
