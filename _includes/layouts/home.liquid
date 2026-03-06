@@ -21,11 +21,11 @@ layout: base
     {{ content }}
   </div>
 
-  <div class="not-prose w-full max-w-7xl mx-auto mb-8 p-6">
+  <div class="not-prose w-full max-w-7xl mx-auto mb-8 px-6">
     <h2 class="text-3xl font-bold m-5">Recently Modified Notes</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
       {% for entry in collections.modifiedNotes %}
-        {% assign img = entry.data.banner | default: entry.data.cover %}
+        {% assign img = entry.data.cover | default: entry.data.banner %}
         {% if img %}
           <div class="card bg-base-100 image-full w-full shadow-sm">
             <figure>
@@ -33,6 +33,9 @@ layout: base
             </figure>
             <div class="card-body">
               <h2 class="card-title">{{ entry.data.title }}</h2>
+              {% if entry.date %}
+                <p class="text-sm opacity-70">{{ entry.data.modified | date: '%a, %b %d, %Y' }}</p>
+              {% endif %}
               <p>{{ entry.data.description }}</p>
               <div class="card-actions justify-end">
                 <a href="{{ entry.url }}" class="btn btn-soft btn-secondary">Read More</a>
@@ -43,6 +46,9 @@ layout: base
           <div class="card bg-secondary text-secondary-content w-full">
             <div class="card-body">
               <h2 class="card-title">{{ entry.data.title }}</h2>
+              {% if entry.date %}
+                <p class="text-sm opacity-70">{{ entry.data.modified | date: '%a, %b %d, %Y' }}</p>
+              {% endif %}
               <p>{{ entry.data.description }}</p>
               <div class="card-actions justify-end">
                 <a href="{{ entry.url }}" class="btn btn-soft btn-secondary">Read More</a>

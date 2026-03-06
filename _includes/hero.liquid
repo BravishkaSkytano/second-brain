@@ -5,7 +5,7 @@
         {% image cover, title, "max-w-sm rounded-lg shadow-2xl" %}
         <div>
           {% if page.fileSlug contains '.' %}
-            {% render 'breadcrumbs', page: page, collections: collections, showCurrent: false %}
+            {% render 'breadcrumbs', page: page, collections: collections %}
           {% endif %}
           <h1 class="text-5xl font-bold">{{ title }}</h1>
           {% if description %}
