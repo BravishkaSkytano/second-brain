@@ -1,27 +1,27 @@
+function cleanWikiLink(link) {
+  if (!link) return;
+
+  // Remove surrounding [[ ]]
+  let cleaned = link.replace(/^\[\[/, "").replace(/\]\]$/, "");
+
+  // Remove alias if present [[Page|Alias]]
+  cleaned = cleaned.split("|")[0];
+
+  return cleaned.trim();
+}
+
 export default {
-  permalink: (data) => {
-    const slug = data.page.fileSlug;
-
-    // Only apply dot logic if file has dots
-    if (!slug.includes(".")) {
-      return "/" + slug + "/";
-    }
-
-    const parts = slug.split(".");
-    return "/" + parts.join("/") + "/";
-  },
-
+  title: (data) => data.page.fileSlug,
+  permalink: "{{ page.filePathStem | slugify }}/",
   eleventyNavigation: (data) => {
-    const slug = data.page.fileSlug;
-    const parts = slug.split(".");
+    if (!data.title) return;
 
     const nav = {
-      key: slug,
-      title: data.title || parts[parts.length - 1],
+      key: data.title,
     };
 
-    if (parts.length > 1) {
-      nav.parent = parts.slice(0, -1).join(".");
+    if (data.parent) {
+      nav.parent = cleanWikiLink(data.parent);
     }
 
     return nav;
