@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "npx @11ty/eleventy",
-    "start": "npx @11ty/eleventy --serve --quiet",
+    "start": "npx @11ty/eleventy --serve",
     "test": "npx @11ty/eleventy --dryrun",
     "clean": "rimraf _site .cache",
     "pagefind": "npx -y pagefind --site _site"
@@ -38,7 +38,6 @@
   },
   "dependencies": {
     "@photogabble/eleventy-plugin-interlinker": "^1.1.2",
-    "markdown-it-anchor": "^9.2.0",
     "markdown-it-mark": "^4.0.0",
     "markdown-it-obsidian-callouts": "^0.3.3"
   }

@@ -12,7 +12,6 @@ import Image from "@11ty/eleventy-img";
 import interlinker from "@photogabble/eleventy-plugin-interlinker";
 import markdownIt from "markdown-it";
 import markdownItMark from "markdown-it-mark";
-import markdownItAnchor from "markdown-it-anchor";
 import mdItObsidianCallouts from "markdown-it-obsidian-callouts";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
@@ -50,6 +49,12 @@ export default async function (eleventyConfig) {
   // Point eleventy-img cache to a dedicated folder
   process.env.ELEVENTY_IMG_CACHE = path.join(".cache", "eleventy-img");
 
+  // If your passthrough copy gets heavy and cumbersome, add this line
+  // to emulate the file copy on the dev server. Learn more:
+  // https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve
+
+  eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+
   // Copy the contents the output folder
   // For example, `./public/css/` ends up in `_site/css/`
   eleventyConfig.addPassthroughCopy({
@@ -66,23 +71,6 @@ export default async function (eleventyConfig) {
   eleventyConfig.addWatchTarget("_includes/css/*.css");
   // Watch images for the image pipeline.
   eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpg,jpeg,gif}");
-
-  // Per-page bundles, see https://github.com/11ty/eleventy-plugin-bundle
-  // Bundle <style> content and adds a {% css %} paired shortcode
-  // eleventyConfig.addBundle("css", {
-  //   toFileDirectory: "css",
-  //   // Add all <style> content to `css` bundle (use <style eleventy:ignore> to opt-out)
-  //   // Supported selectors: https://www.npmjs.com/package/posthtml-match-helper
-  //   bundleHtmlContentFromSelector: "style",
-  // });
-
-  // Bundle <script> content and adds a {% js %} paired shortcode
-  // eleventyConfig.addBundle("js", {
-  //   toFileDirectory: "js",
-  //   // Add all <script> content to the `js` bundle (use <script eleventy:ignore> to opt-out)
-  //   // Supported selectors: https://www.npmjs.com/package/posthtml-match-helper
-  //   bundleHtmlContentFromSelector: "script",
-  // });
 
   let options = {
     // Enable HTML tags in source
@@ -123,13 +111,7 @@ export default async function (eleventyConfig) {
 
   let md = markdownIt(options)
     .use(markdownItMark) // ==highlighted== text
-    .use(markdownItAnchor, {
-      // automatic heading IDs
-      permalink: true, // optional: adds a link symbol
-      permalinkClass: "header-anchor",
-      permalinkSymbol: "¶",
-    });
-  md.use(mdItObsidianCallouts); // Obsidian-style callouts, e.g. > [!NOTE] This is a note.
+    .use(mdItObsidianCallouts); // Obsidian-style callouts, e.g. > [!NOTE] This is a note.
 
   eleventyConfig.setLibrary("md", md);
 
@@ -206,18 +188,17 @@ export default async function (eleventyConfig) {
     },
   );
 
-  function findNavItem(nav, key) {
-    for (const item of nav) {
-      const itemKey = item.key || item.data?.eleventyNavigation?.key;
-      if (!itemKey) continue;
-      if (itemKey === key) return item;
-      if (item.children && item.children.length) {
-        const found = findNavItem(item.children, key);
-        if (found) return found;
-      }
-    }
-    return null;
-  }
+  eleventyConfig.addLayoutAlias("base", "layouts/base.liquid");
+  eleventyConfig.addLayoutAlias("home", "layouts/home.liquid");
+  eleventyConfig.addLayoutAlias("page", "layouts/page.liquid");
+
+  eleventyConfig.addCollection("modifiedNotes", function (collectionApi) {
+    return collectionApi
+      .getAll()
+      .filter((item) => item.data.modified instanceof Date)
+      .sort((a, b) => b.data.modified - a.data.modified)
+      .slice(0, 12); // 👈 limit here
+  });
 
   eleventyConfig.addCollection("sectionPages", function (collectionApi) {
     return collectionApi
@@ -228,26 +209,6 @@ export default async function (eleventyConfig) {
           numeric: true,
         }),
       );
-  });
-
-  // Features to make your build faster (when you need them)
-
-  // If your passthrough copy gets heavy and cumbersome, add this line
-  // to emulate the file copy on the dev server. Learn more:
-  // https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve
-
-  // eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
-
-  eleventyConfig.addLayoutAlias("base", "layouts/base.liquid");
-  eleventyConfig.addLayoutAlias("home", "layouts/home.liquid");
-  eleventyConfig.addLayoutAlias("page", "layouts/page.liquid");
-
-  eleventyConfig.addCollection("modifiedNotes", function (collectionApi) {
-    return collectionApi
-      .getFilteredByGlob("content/**/*.md")
-      .filter((item) => item.data.modified instanceof Date)
-      .sort((a, b) => b.data.modified - a.data.modified)
-      .slice(0, 12); // 👈 limit here
   });
 
   return {
