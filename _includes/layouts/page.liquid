@@ -6,7 +6,7 @@ layout: base
   id="top"
   class="prose prose-sm md:prose-base w-full max-w-4xl mx-auto xl:my-8 shadow-md"
 >
-  {% assign title = page.data.title | default: page.fileSlug %}
+  {% assign title = title | default: page.fileSlug %}
   <!-- Hero Section -->
   {% render 'hero',
     title: title,
