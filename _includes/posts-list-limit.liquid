@@ -1,0 +1,28 @@
+<div class="columns-3xs gap-4">
+  {% for entry in collection limit: 25 %}
+    {% assign img = entry.data.cover | default: entry.data.banner %}
+    {% assign title = entry.title | default: entry.page.fileSlug %}
+    <div class="card bg-primary text-primary-content shadow-sm break-inside-avoid-column mb-4">
+      {% if img %}
+        <figure>
+          {% image img, title %}
+        </figure>
+      {% endif %}
+      <div class="card-body">
+        <h2 class="card-title">{{ title }}</h2>
+        {% if entry.date %}
+          <p class="text-sm opacity-70">{{ entry.data.modified | date: '%a, %b %d, %Y' }}</p>
+        {% endif %}
+        <p>{{ entry.data.description }}</p>
+        <div class="card-actions justify-end">
+          {% for tag in entry.data.tags %}
+            <div class="badge badge-outline">{{ tag }}</div>
+          {% endfor %}
+        </div>
+        <div class="mt-4">
+          <a href="{{ entry.url }}" class="btn btn-soft btn-primary btn-block">Read More</a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

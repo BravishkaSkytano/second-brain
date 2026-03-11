@@ -3,7 +3,6 @@ layout: base
 ---
 <main
   id="top"
-  class="flex-1 prose prose-sm md:prose-base w-full max-w-4xl mx-auto xl:my-8"
 >
   <!-- Hero Section -->
   {% render 'hero',
@@ -12,51 +11,123 @@ layout: base
     date: date,
     modified: modified,
     banner: banner,
-    cover: cover,
-    page: page,
-    collections: collections
+    cover: cover
   %}
-  <div class="bg-base-100 text-base-content p-6">
-    <!-- Page Content -->
-    {{ content }}
-  </div>
 
-  <div class="not-prose w-full max-w-7xl mx-auto mb-8 px-6">
-    <h2 class="text-3xl font-bold m-5">Recently Modified Notes</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
-      {% for entry in collections.modifiedNotes %}
-        {% assign img = entry.data.cover | default: entry.data.banner %}
-        {% if img %}
-          <div class="card bg-base-100 image-full w-full shadow-sm">
-            <figure>
-              {% image img, entry.data.title %}
-            </figure>
-            <div class="card-body">
-              <h2 class="card-title">{{ entry.data.title }}</h2>
-              {% if entry.date %}
-                <p class="text-sm opacity-70">{{ entry.data.modified | date: '%a, %b %d, %Y' }}</p>
+  <div class="m-5">
+    <h2 class="text-3xl font-bold m-5">Collections</h2>
+    <div class="tabs tabs-box text-base-content ">
+      <input type="radio" name="my_tabs" class="tab" aria-label="All" checked="checked">
+      <div class="tab-content bg-base-100 border-base-300 p-6">
+        <div class="columns-3xs gap-4">
+          {% for entry in collections.all limit: 25 reversed %}
+            {% assign img = entry.data.cover | default: entry.data.banner %}
+            {% assign title = entry.data.title | default: entry.page.fileSlug %}
+            <div class="card bg-secondary text-secondary-content shadow-sm break-inside-avoid-column mb-4">
+              {% if img %}
+                <figure>
+                  {% image img, title %}
+                </figure>
               {% endif %}
-              <p>{{ entry.data.description }}</p>
-              <div class="card-actions justify-end">
-                <a href="{{ entry.url }}" class="btn btn-soft btn-secondary">Read More</a>
+              <div class="card-body">
+                <h2 class="card-title">{{ title }}</h2>
+                {% if entry.date %}
+                  <p class="text-sm opacity-70">{{ entry.data.modified | date: '%a, %b %d, %Y' }}</p>
+                {% endif %}
+                <p>{{ entry.data.description }}</p>
+                <div class="card-actions justify-end">
+                  {% for tag in entry.data.tags %}
+                    <div class="badge badge-outline">{{ tag }}</div>
+                  {% endfor %}
+                </div>
+                <div class="mt-4">
+                  <a href="{{ entry.url }}" class="btn btn-soft btn-secondary btn-block">Read More</a>
+                </div>
               </div>
             </div>
-          </div>
-        {% else %}
-          <div class="card bg-secondary text-secondary-content w-full">
-            <div class="card-body">
-              <h2 class="card-title">{{ entry.data.title }}</h2>
-              {% if entry.date %}
-                <p class="text-sm opacity-70">{{ entry.data.modified | date: '%a, %b %d, %Y' }}</p>
-              {% endif %}
-              <p>{{ entry.data.description }}</p>
-              <div class="card-actions justify-end">
-                <a href="{{ entry.url }}" class="btn btn-soft btn-secondary">Read More</a>
-              </div>
-            </div>
-          </div>
-        {% endif %}
-      {% endfor %}
+          {% endfor %}
+        </div>
+      </div>
+
+      <input type="radio" name="my_tabs" class="tab" aria-label="Art">
+      <div class="tab-content bg-base-100 border-base-300 p-6">
+        {% render 'posts-list-limit', collection: collections.art %}
+        <div class="text-center mt-8">
+          <a href="/art/" class="btn btn-wide btn-secondary">View All in Art</a>
+        </div>
+      </div>
+
+      <input type="radio" name="my_tabs" class="tab" aria-label="History">
+      <div class="tab-content bg-base-100 border-base-300 p-6">
+        {% render 'posts-list-limit', collection: collections.history %}
+        <div class="text-center mt-8">
+          <a href="/history/" class="btn btn-wide btn-secondary">View All in History</a>
+        </div>
+      </div>
+
+      <input type="radio" name="my_tabs" class="tab" aria-label="Inbox">
+      <div class="tab-content bg-base-100 border-base-300 p-6">
+        {% render 'posts-list-limit', collection: collections.inbox %}
+        <div class="text-center mt-8">
+          <a href="/inbox/" class="btn btn-wide btn-secondary">View All in Inbox</a>
+        </div>
+      </div>
+
+      <input type="radio" name="my_tabs" class="tab" aria-label="Literature">
+      <div class="tab-content bg-base-100 border-base-300 p-6">
+        {% render 'posts-list-limit', collection: collections.literature %}
+        <div class="text-center mt-8">
+          <a href="/literature/" class="btn btn-wide btn-secondary">View All in Literature</a>
+        </div>
+      </div>
+
+      <input type="radio" name="my_tabs" class="tab" aria-label="Personal">
+      <div class="tab-content bg-base-100 border-base-300 p-6">
+        {% render 'posts-list-limit', collection: collections.personal %}
+        <div class="text-center mt-8">
+          <a href="/personal/" class="btn btn-wide btn-secondary">View All in Personal</a>
+        </div>
+      </div>
+
+      <input type="radio" name="my_tabs" class="tab" aria-label="Philosophy">
+      <div class="tab-content bg-base-100 border-base-300 p-6">
+        {% render 'posts-list-limit', collection: collections.philosophy %}
+        <div class="text-center mt-8">
+          <a href="/philosophy/" class="btn btn-wide btn-secondary">View All in Philosophy</a>
+        </div>
+      </div>
+
+      <input type="radio" name="my_tabs" class="tab" aria-label="Science">
+      <div class="tab-content bg-base-100 border-base-300 p-6">
+        {% render 'posts-list-limit', collection: collections.science %}
+        <div class="text-center mt-8">
+          <a href="/science/" class="btn btn-wide btn-secondary">View All in Science</a>
+        </div>
+      </div>
+
+      <input type="radio" name="my_tabs" class="tab" aria-label="Technology">
+      <div class="tab-content bg-base-100 border-base-300 p-6">
+        {% render 'posts-list-limit', collection: collections.technology %}
+        <div class="text-center mt-8">
+          <a href="/technology/" class="btn btn-wide btn-secondary">View All in Technology</a>
+        </div>
+      </div>
+
+      <input type="radio" name="my_tabs" class="tab" aria-label="Theology">
+      <div class="tab-content bg-base-100 border-base-300 p-6">
+        {% render 'posts-list-limit', collection: collections.theology %}
+        <div class="text-center mt-8">
+          <a href="/theology/" class="btn btn-wide btn-secondary">View All in Theology</a>
+        </div>
+      </div>
+
+      <input type="radio" name="my_tabs" class="tab" aria-label="Worlds">
+      <div class="tab-content bg-base-100 border-base-300 p-6">
+        {% render 'posts-list-limit', collection: collections.worlds %}
+        <div class="text-center mt-8">
+          <a href="/worlds/" class="btn btn-wide btn-secondary">View All in Worlds</a>
+        </div>
+      </div>
     </div>
   </div>
 </main>

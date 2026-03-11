@@ -4,14 +4,16 @@
       <div class="hero-content flex-col lg:flex-row">
         {% image cover, title, "max-w-sm rounded-lg shadow-2xl" %}
         <div>
-          {% if page.fileSlug contains '.' %}
-            {% render 'breadcrumbs', page: page, collections: collections %}
-          {% endif %}
           <h1 class="text-5xl font-bold">{{ title }}</h1>
           {% if description %}
             <p class="py-6">
               {{ description }}
             </p>
+          {% endif %}
+          {% if tags %}
+            {% for tag in tags %}
+              <div class="badge badge-outline">{{ tag }}</div>
+            {% endfor %}
           {% endif %}
 
           {% if date %}
@@ -25,20 +27,22 @@
     </div>
   {% else %}
     {% if banner %}
-      {% image banner, title %}
+      {% image banner, title, "w-full" %}
     {% endif %}
     <div class="hero bg-primary text-primary-content p-6">
       <div class="hero-content text-center">
         <div>
-          <!-- Breadcrumbs -->
-          {% if page.fileSlug contains '.' %}
-            {% render 'breadcrumbs', page: page, collections: collections %}
-          {% endif %}
           <h1 class="text-5xl font-bold">{{ title }}</h1>
           {% if description %}
             <p class="py-6">
               {{ description }}
             </p>
+          {% endif %}
+
+          {% if tags %}
+            {% for tag in tags %}
+              <div class="badge badge-outline">{{ tag }}</div>
+            {% endfor %}
           {% endif %}
 
           {% if date %}

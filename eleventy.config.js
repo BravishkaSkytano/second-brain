@@ -200,15 +200,114 @@ export default async function (eleventyConfig) {
       .slice(0, 12); // 👈 limit here
   });
 
-  eleventyConfig.addCollection("sectionPages", function (collectionApi) {
-    return collectionApi
-      .getAll()
-      .filter((item) => item.data.eleventyNavigation)
-      .sort((a, b) =>
-        a.page.fileSlug.localeCompare(b.page.fileSlug, undefined, {
-          numeric: true,
-        }),
-      );
+  eleventyConfig.addCollection("inbox", function (collectionsApi) {
+    return collectionsApi
+      .getFilteredByGlob("content/Inbox/**/*.md")
+      .sort(function (a, b) {
+        //return a.date - b.date; // sort by date - ascending
+        return b.date - a.date; // sort by date - descending
+        //return a.inputPath.localeCompare(b.inputPath); // sort by path - ascending
+        //return b.inputPath.localeCompare(a.inputPath); // sort by path - descending
+      });
+  });
+
+  eleventyConfig.addCollection("art", function (collectionsApi) {
+    return collectionsApi
+      .getFilteredByGlob("content/Art/**/*.md")
+      .sort(function (a, b) {
+        //return a.date - b.date; // sort by date - ascending
+        return b.date - a.date; // sort by date - descending
+        //return a.inputPath.localeCompare(b.inputPath); // sort by path - ascending
+        //return b.inputPath.localeCompare(a.inputPath); // sort by path - descending
+      });
+  });
+
+  eleventyConfig.addCollection("history", function (collectionsApi) {
+    return collectionsApi
+      .getFilteredByGlob("content/History/**/*.md")
+      .sort(function (a, b) {
+        //return a.date - b.date; // sort by date - ascending
+        return b.date - a.date; // sort by date - descending
+        //return a.inputPath.localeCompare(b.inputPath); // sort by path - ascending
+        //return b.inputPath.localeCompare(a.inputPath); // sort by path - descending
+      });
+  });
+
+  eleventyConfig.addCollection("literature", function (collectionsApi) {
+    return collectionsApi
+      .getFilteredByGlob("content/Literature/**/*.md")
+      .sort(function (a, b) {
+        //return a.date - b.date; // sort by date - ascending
+        return b.date - a.date; // sort by date - descending
+        //return a.inputPath.localeCompare(b.inputPath); // sort by path - ascending
+        //return b.inputPath.localeCompare(a.inputPath); // sort by path - descending
+      });
+  });
+
+  eleventyConfig.addCollection("personal", function (collectionsApi) {
+    return collectionsApi
+      .getFilteredByGlob("content/Personal/**/*.md")
+      .sort(function (a, b) {
+        //return a.date - b.date; // sort by date - ascending
+        return b.date - a.date; // sort by date - descending
+        //return a.inputPath.localeCompare(b.inputPath); // sort by path - ascending
+        //return b.inputPath.localeCompare(a.inputPath); // sort by path - descending
+      });
+  });
+
+  eleventyConfig.addCollection("philosophy", function (collectionsApi) {
+    return collectionsApi
+      .getFilteredByGlob("content/Philosophy/**/*.md")
+      .sort(function (a, b) {
+        //return a.date - b.date; // sort by date - ascending
+        return b.date - a.date; // sort by date - descending
+        //return a.inputPath.localeCompare(b.inputPath); // sort by path - ascending
+        //return b.inputPath.localeCompare(a.inputPath); // sort by path - descending
+      });
+  });
+
+  eleventyConfig.addCollection("science", function (collectionsApi) {
+    return collectionsApi
+      .getFilteredByGlob("content/Science/**/*.md")
+      .sort(function (a, b) {
+        //return a.date - b.date; // sort by date - ascending
+        return b.date - a.date; // sort by date - descending
+        //return a.inputPath.localeCompare(b.inputPath); // sort by path - ascending
+        //return b.inputPath.localeCompare(a.inputPath); // sort by path - descending
+      });
+  });
+
+  eleventyConfig.addCollection("technology", function (collectionsApi) {
+    return collectionsApi
+      .getFilteredByGlob("content/Technology/**/*.md")
+      .sort(function (a, b) {
+        //return a.date - b.date; // sort by date - ascending
+        return b.date - a.date; // sort by date - descending
+        //return a.inputPath.localeCompare(b.inputPath); // sort by path - ascending
+        //return b.inputPath.localeCompare(a.inputPath); // sort by path - descending
+      });
+  });
+
+  eleventyConfig.addCollection("theology", function (collectionsApi) {
+    return collectionsApi
+      .getFilteredByGlob("content/Theology/**/*.md")
+      .sort(function (a, b) {
+        //return a.date - b.date; // sort by date - ascending
+        return b.date - a.date; // sort by date - descending
+        //return a.inputPath.localeCompare(b.inputPath); // sort by path - ascending
+        //return b.inputPath.localeCompare(a.inputPath); // sort by path - descending
+      });
+  });
+
+  eleventyConfig.addCollection("worlds", function (collectionsApi) {
+    return collectionsApi
+      .getFilteredByGlob("content/Worlds/**/*.md")
+      .sort(function (a, b) {
+        //return a.date - b.date; // sort by date - ascending
+        return b.date - a.date; // sort by date - descending
+        //return a.inputPath.localeCompare(b.inputPath); // sort by path - ascending
+        //return b.inputPath.localeCompare(a.inputPath); // sort by path - descending
+      });
   });
 
   return {
