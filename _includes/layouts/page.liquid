@@ -4,8 +4,9 @@ layout: base
 <main
   data-pagefind-body
   id="top"
-  class="flex-1 prose prose-sm md:prose-base w-full max-w-4xl mx-auto xl:my-8"
+  class="prose prose-sm md:prose-base w-full max-w-4xl mx-auto xl:my-8 shadow-md"
 >
+  {% assign title = page.data.title | default: page.fileSlug %}
   <!-- Hero Section -->
   {% render 'hero',
     title: title,
@@ -14,8 +15,7 @@ layout: base
     modified: modified,
     banner: banner,
     cover: cover,
-    page: page,
-    collections: collections
+    tags: tags
   %}
   <div class="bg-base-100 text-base-content p-6">
     {% if needsUpdate %}
@@ -49,74 +49,21 @@ layout: base
     {% endif %}
     <!-- Page Content -->
     {{ content }}
-
-    <!-- Backlinks -->
-    {% if backlinks.length > 0 %}
-      <h2>Backlinks</h2>
-      <ul>
-        {% for link in backlinks %}
-          <li>
-            <a href="{{ link.url }}">{{ link.title }}</a>
-          </li>
+    {% if tags %}
+      <div class="divider"></div>
+      <p>
+        Filed under:
+        {% for tag in tags %}
+          <a href="/tags/{{ tag }}">#{{ tag }}</a>
         {% endfor %}
-      </ul>
+      </p>
     {% endif %}
-    <div class="not-prose">
-      <!-- Breadcrumbs -->
-      {% assign prefix = page.fileSlug | append: '.' %}
-      {% assign crumbs = collections.all
-        | where_exp: 'item', 'item.fileSlug != page.fileSlug and item.fileSlug contains prefix'
-      %}
-
-      {% if crumbs.size == 0 %}
-        <div class="flex w-full flex-col">
-          <div class="divider divider-primary"></div>
-        </div>
-        {% render 'breadcrumbs', page: page, collections: collections %}
-      {% endif %}
-    </div>
   </div>
-
-  <!-- Children -->
-  {% assign children = collections.sectionPages | where: 'data.eleventyNavigation.parent', eleventyNavigation.key %}
-  {% if children.size > 0 %}
-    <div class="not-prose w-full max-w-7xl mx-auto mb-8 px-6" data-pagefind-ignore>
-      <h2 class="text-center text-3xl font-bold m-8">Children</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
-        {% for entry in children %}
-          {% assign img = entry.data.cover | default: entry.data.banner %}
-          {% if img %}
-            <div class="card bg-base-100 image-full w-full shadow-sm">
-              <figure>
-                {% image img, entry.data.title %}
-              </figure>
-              <div class="card-body">
-                <h2 class="card-title">{{ entry.data.title }}</h2>
-                {% if entry.date %}
-                  <p class="text-sm opacity-70">{{ entry.date | date: '%a, %b %d, %Y' }}</p>
-                {% endif %}
-                <p>{{ entry.data.description }}</p>
-                <div class="card-actions justify-end">
-                  <a href="{{ entry.url }}" class="btn btn-soft btn-secondary">Read More</a>
-                </div>
-              </div>
-            </div>
-          {% else %}
-            <div class="card bg-secondary text-secondary-content w-full">
-              <div class="card-body">
-                <h2 class="card-title">{{ entry.data.title }}</h2>
-                {% if entry.date %}
-                  <p class="text-sm opacity-70">{{ entry.date | date: '%a, %b %d, %Y' }}</p>
-                {% endif %}
-                <p>{{ entry.data.description }}</p>
-                <div class="card-actions justify-end">
-                  <a href="{{ entry.url }}" class="btn btn-soft btn-secondary">Read More</a>
-                </div>
-              </div>
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
+  {% if backlinks.length > 0 %}
+    <!-- Backlinks -->
+    <div class="not-prose">
+      <h2 class="text-3xl font-bold m-5">Backlinks</h2>
+      {% render 'posts-list', collection: backlinks %}
     </div>
   {% endif %}
 </main>
