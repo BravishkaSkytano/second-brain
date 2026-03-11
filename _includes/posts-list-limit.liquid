@@ -1,5 +1,5 @@
 <div class="columns-3xs gap-4">
-  {% for entry in collection limit: 25 %}
+  {% for entry in collection limit: 15 %}
     {% assign img = entry.data.cover | default: entry.data.banner %}
     {% assign title = entry.title | default: entry.page.fileSlug %}
     <div class="card bg-primary text-primary-content shadow-sm break-inside-avoid-column mb-4">
