@@ -1,3 +1,4 @@
+{% assign title = page.title | default: page.fileSlug %}
 <!doctype html>
 <html lang="en">
   <head>
@@ -35,32 +36,14 @@
   </head>
 
   <body class="bg-neutral text-neutral-content">
-    <!-- Drawer container -->
-    <div class="drawer lg:drawer-open">
-      <input id="site-drawer" type="checkbox" class="drawer-toggle">
+    <!-- Navbar -->
+    {% render 'nav', title: site.title %}
+    <!-- Navbar -->
 
-      <!-- Main page content -->
-      <div class="drawer-content flex flex-col min-h-screen">
-        <!-- Navbar -->
-        {% render 'nav', title: site.title %}
-        <!-- Navbar -->
+    {{ content }}
 
-        {{ content }}
-
-        <!-- Footer -->
-        {% render 'footer', author: site.author.name, eleventy: eleventy.generator %}
-      </div>
-
-      <!-- Sidebar -->
-      <div class="drawer-side">
-        <!-- Overlay (click to close on mobile) -->
-        <label for="site-drawer" class="drawer-overlay"></label>
-        <aside class="w-80 bg-primary text-primary-content min-h-full p-4">
-          {% assign navTree = collections.all | eleventyNavigation %}
-          {% render 'sidebar', navTree: navTree, page: page %}
-        </aside>
-      </div>
-    </div>
+    <!-- Footer -->
+    {% render 'footer', author: site.author.name, eleventy: eleventy.generator %}
 
     <div class="fab">
       <a href="#top" class="btn btn-lg btn-circle btn-accent">^</a>
