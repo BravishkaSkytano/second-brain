@@ -17,85 +17,23 @@ layout: base
   <div class="m-5">
     <h2 class="text-3xl font-bold m-5">Collections</h2>
     <div class="tabs tabs-box text-base-content ">
-      <input type="radio" name="my_tabs" class="tab" aria-label="Inbox" checked="checked">
-      <div class="tab-content bg-base-100 border-base-300 p-6">
-        {% render 'posts-list-limit', collection: collections.inbox %}
-        <div class="text-center mt-8">
-          <a href="/inbox/" class="btn btn-wide btn-secondary btn-outline">View All in Inbox</a>
+      {% for tag in site.mainCollections %}
+        <input
+          type="radio"
+          name="my_tabs"
+          class="tab"
+          aria-label="{{ tag | capitalize }}"
+          {% if forloop.first %}
+            checked="checked"
+          {% endif %}
+        >
+        <div class="tab-content bg-base-100 border-base-300 p-6">
+          {% render 'posts-list-limit', collection: collections[tag] %}
+          <div class="text-center mt-8">
+            <a href="/{{ tag }}/" class="btn btn-wide btn-secondary btn-outline">View All in {{ tag | capitalize }}</a>
+          </div>
         </div>
-      </div>
-
-      <input type="radio" name="my_tabs" class="tab" aria-label="Art">
-      <div class="tab-content bg-base-100 border-base-300 p-6">
-        {% render 'posts-list-limit', collection: collections.art %}
-        <div class="text-center mt-8">
-          <a href="/art/" class="btn btn-wide btn-secondary btn-outline">View All in Art</a>
-        </div>
-      </div>
-
-      <input type="radio" name="my_tabs" class="tab" aria-label="History">
-      <div class="tab-content bg-base-100 border-base-300 p-6">
-        {% render 'posts-list-limit', collection: collections.history %}
-        <div class="text-center mt-8">
-          <a href="/history/" class="btn btn-wide btn-secondary btn-outline">View All in History</a>
-        </div>
-      </div>
-
-      <input type="radio" name="my_tabs" class="tab" aria-label="Literature">
-      <div class="tab-content bg-base-100 border-base-300 p-6">
-        {% render 'posts-list-limit', collection: collections.literature %}
-        <div class="text-center mt-8">
-          <a href="/literature/" class="btn btn-wide btn-secondary btn-outline">View All in Literature</a>
-        </div>
-      </div>
-
-      <input type="radio" name="my_tabs" class="tab" aria-label="Personal">
-      <div class="tab-content bg-base-100 border-base-300 p-6">
-        {% render 'posts-list-limit', collection: collections.personal %}
-        <div class="text-center mt-8">
-          <a href="/personal/" class="btn btn-wide btn-secondary btn-outline">View All in Personal</a>
-        </div>
-      </div>
-
-      <input type="radio" name="my_tabs" class="tab" aria-label="Philosophy">
-      <div class="tab-content bg-base-100 border-base-300 p-6">
-        {% render 'posts-list-limit', collection: collections.philosophy %}
-        <div class="text-center mt-8">
-          <a href="/philosophy/" class="btn btn-wide btn-secondary btn-outline">View All in Philosophy</a>
-        </div>
-      </div>
-
-      <input type="radio" name="my_tabs" class="tab" aria-label="Science">
-      <div class="tab-content bg-base-100 border-base-300 p-6">
-        {% render 'posts-list-limit', collection: collections.science %}
-        <div class="text-center mt-8">
-          <a href="/science/" class="btn btn-wide btn-secondary btn-outline">View All in Science</a>
-        </div>
-      </div>
-
-      <input type="radio" name="my_tabs" class="tab" aria-label="Technology">
-      <div class="tab-content bg-base-100 border-base-300 p-6">
-        {% render 'posts-list-limit', collection: collections.technology %}
-        <div class="text-center mt-8">
-          <a href="/technology/" class="btn btn-wide btn-secondary btn-outline">View All in Technology</a>
-        </div>
-      </div>
-
-      <input type="radio" name="my_tabs" class="tab" aria-label="Theology">
-      <div class="tab-content bg-base-100 border-base-300 p-6">
-        {% render 'posts-list-limit', collection: collections.theology %}
-        <div class="text-center mt-8">
-          <a href="/theology/" class="btn btn-wide btn-secondary btn-outline">View All in Theology</a>
-        </div>
-      </div>
-
-      <input type="radio" name="my_tabs" class="tab" aria-label="Worlds">
-      <div class="tab-content bg-base-100 border-base-300 p-6">
-        {% render 'posts-list-limit', collection: collections.worlds %}
-        <div class="text-center mt-8">
-          <a href="/worlds/" class="btn btn-wide btn-secondary btn-outline">View All in Worlds</a>
-        </div>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </main>

@@ -37,7 +37,7 @@
 
   <body class="bg-neutral text-neutral-content">
     <!-- Navbar -->
-    {% render 'nav', title: site.title %}
+    {% render 'nav', title: site.title, mainCollections: site.mainCollections, collections: collections %}
     <!-- Navbar -->
 
     {{ content }}

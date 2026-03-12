@@ -1,0 +1,15 @@
+<ul>
+  {% for node in tree %}
+    <li>
+      <a href="/{{ path | append: node[0] }}/">
+        {{ node[0] }}
+      </a>
+
+      {% assign childPath = path | append: node[0] | append: '/' %}
+
+      {% if node[1].children.size > 0 %}
+        {% render 'tag-tree.liquid', tree: node[1].children, path: childPath %}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
