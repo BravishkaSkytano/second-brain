@@ -1,26 +1,10 @@
 <div class="columns-3xs gap-4">
-  {% for entry in collection limit: 15 %}
-    {% assign img = entry.data.cover | default: entry.data.banner %}
-    {% assign title = entry.data.title | default: entry.page.fileSlug %}
+  {% for tag in tree limit: 15 %}
     <div class="card bg-secondary text-secondary-content shadow-sm break-inside-avoid-column mb-4">
-      {% if img %}
-        <figure>
-          {% image img, title %}
-        </figure>
-      {% endif %}
       <div class="card-body">
-        <h2 class="card-title">{{ title }}</h2>
-        {% if entry.date %}
-          <p class="text-sm opacity-70">{{ entry.data.modified | date: '%a, %b %d, %Y' }}</p>
-        {% endif %}
-        <p>{{ entry.data.description }}</p>
-        <div class="card-actions justify-end">
-          {% for tag in entry.data.tags %}
-            <div class="badge badge-outline">{{ tag }}</div>
-          {% endfor %}
-        </div>
+        <h2 class="card-title">{{ tag.name | capitalize }}</h2>
         <div class="mt-4">
-          <a href="{{ entry.url }}" class="btn btn-soft btn-secondary btn-block">Read More</a>
+          <a href="{{ tag.name }}/" class="btn btn-soft btn-secondary btn-block">Read More</a>
         </div>
       </div>
     </div>

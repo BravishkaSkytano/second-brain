@@ -192,6 +192,16 @@ export default async function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("home", "layouts/home.liquid");
   eleventyConfig.addLayoutAlias("page", "layouts/page.liquid");
 
+  function sortTree(node) {
+    const entries = Object.values(node);
+
+    entries.forEach((entry) => {
+      entry.children = sortTree(entry.children);
+    });
+
+    return entries.sort((a, b) => a.name.localeCompare(b.name));
+  }
+
   eleventyConfig.addCollection("tagTree", function (collectionApi) {
     const tree = {};
 
@@ -216,7 +226,7 @@ export default async function (eleventyConfig) {
       });
     });
 
-    return tree;
+    return sortTree(tree);
   });
 
   return {
