@@ -28,7 +28,7 @@ layout: base
           {% endif %}
         >
         <div class="tab-content bg-base-100 border-base-300 p-6">
-          {% assign childPath = path | append: tag.name %}
+					{% capture childPath %}/{{ tag.name }}/{% endcapture %}
           {% render 'posts-list-limit', tree: tag.children, path: childPath %}
           <div class="text-center mt-8">
             <a href="/{{ tag.name }}/" class="btn btn-wide btn-secondary btn-outline"
