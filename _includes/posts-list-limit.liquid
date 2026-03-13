@@ -4,7 +4,7 @@
       <div class="card-body">
         <h2 class="card-title">{{ tag.name | capitalize }}</h2>
         <div class="mt-4">
-          <a href="{{ tag.name }}/" class="btn btn-soft btn-secondary btn-block">Read More</a>
+          <a href="{{ path | append: tag.name }}/" class="btn btn-soft btn-secondary btn-block">Read More</a>
         </div>
       </div>
     </div>
