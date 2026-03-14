@@ -1,11 +1,11 @@
-<ul class="space-y-1 text-body list-disc list-inside">
+<ul class="ps-3 mt-2 space-y-1 list-disc list-inside">
   {% for tag in tree %}
     <li>
       <a href="/{{ path | append: tag.name }}/" class="font-medium text-fg-brand hover:underline">
         {{ tag.name }}
       </a>
 
-      {% assign childPath = path | append: tag.name %}
+      {% capture childPath %}{{ path }}{{ tag.name | append: '/' }}{% endcapture %}
 
       {% if tag.children.size > 0 %}
         {% render 'tag-tree.liquid', tree: tag.children, path: childPath %}
