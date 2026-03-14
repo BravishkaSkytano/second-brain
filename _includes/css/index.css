@@ -1,121 +1,159 @@
 @import "tailwindcss";
-@plugin "@tailwindcss/typography";
 
-@plugin "daisyui" {
+/* @plugin "daisyui" {
   themes: fantasy --default, synthwave --prefersdark;
+} */
+
+/* choose one of the following */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "flowbite/src/themes/default"; */
+
+/* MINIMAL THEME
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import "flowbite/src/themes/minimal";
+*/
+
+/* ENTERPRISE THEME
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import "flowbite/src/themes/enterprise";
+*/
+
+/* PLAYFUL THEME */
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+@import "flowbite/src/themes/playful";
+
+
+/* MONO THEME
+@import "flowbite/src/themes/mono";
+*/
+
+@plugin "flowbite/plugin";
+@plugin "flowbite-typography";
+@source "../../node_modules/flowbite";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer components {
+
+  /* Base Callout */
+
+  .callout {
+    @apply my-4 overflow-hidden rounded-lg border p-4 pl-5 bg-blue-50 border-blue-200 dark:bg-blue-900/20 dark:border-blue-800;
+  }
+
+  /* Title */
+
+  .callout-title {
+    @apply flex items-center gap-1 text-sm font-semibold leading-tight;
+  }
+
+  .callout-title-icon {
+    @apply flex items-center shrink-0 w-5 h-5;
+  }
+
+  .callout-title-inner {
+    @apply font-semibold;
+  }
+
+  .callout-title-inner strong,
+  .callout-title-inner b {
+    @apply font-bold;
+  }
+
+  /* Content */
+
+  .callout-content {
+    @apply mt-1 overflow-x-auto text-sm text-gray-700 dark:text-gray-300;
+  }
+
+  /* Collapsible */
+
+  details.callout>.callout-title {
+    @apply cursor-pointer;
+  }
+
+  .callout-fold {
+    @apply w-5 h-5 transition-transform duration-150;
+  }
+
+  details[open].callout>.callout-title>.callout-fold {
+    @apply rotate-90;
+  }
+
+  details:not([open]).callout>.callout-title>.callout-fold {
+    @apply -rotate-90;
+  }
+
+  /* Default / Info */
+
+  .callout:not([data-callout]),
+  .callout[data-callout="info"] {
+    @apply bg-blue-50 border-blue-200 text-blue-900 dark:bg-blue-900/20 dark:border-blue-800 dark:text-blue-300;
+  }
+
+  /* Todo */
+
+  .callout[data-callout="todo"] {
+    @apply bg-blue-50 border-blue-200 dark:bg-blue-900/20 dark:border-blue-800;
+  }
+
+  /* Success */
+
+  .callout[data-callout="success"],
+  .callout[data-callout="check"],
+  .callout[data-callout="done"] {
+    @apply bg-green-50 border-green-200 text-green-900 dark:bg-green-900/20 dark:border-green-800 dark:text-green-300;
+  }
+
+  /* Warning */
+
+  .callout[data-callout="warning"],
+  .callout[data-callout="caution"],
+  .callout[data-callout="attention"] {
+    @apply bg-yellow-50 border-yellow-200 text-yellow-900 dark:bg-yellow-900/20 dark:border-yellow-800 dark:text-yellow-300;
+  }
+
+  /* Error */
+
+  .callout[data-callout="danger"],
+  .callout[data-callout="error"],
+  .callout[data-callout="bug"],
+  .callout[data-callout="fail"] {
+    @apply bg-red-50 border-red-200 text-red-900 dark:bg-red-900/20 dark:border-red-800 dark:text-red-300;
+  }
+
+  /* Tip */
+
+  .callout[data-callout="tip"],
+  .callout[data-callout="hint"] {
+    @apply bg-cyan-50 border-cyan-200 text-cyan-900 dark:bg-cyan-900/20 dark:border-cyan-800 dark:text-cyan-300;
+  }
+
+  /* Example */
+
+  .callout[data-callout="example"] {
+    @apply bg-purple-50 border-purple-200 text-purple-900 dark:bg-purple-900/20 dark:border-purple-800 dark:text-purple-300;
+  }
+
+  /* Summary */
+
+  .callout[data-callout="abstract"],
+  .callout[data-callout="summary"],
+  .callout[data-callout="tldr"] {
+    @apply bg-teal-50 border-teal-200 text-teal-900 dark:bg-teal-900/20 dark:border-teal-800 dark:text-teal-300;
+  }
+
+  /* Quote */
+
+  .callout[data-callout="quote"],
+  .callout[data-callout="cite"] {
+    @apply bg-gray-100 border-gray-300 text-gray-700 dark:bg-gray-800 dark:border-gray-600 dark:text-gray-300;
+  }
+
 }
 
 /* Pagefind styled with daisyUI tokens */
 :root {
-  --pagefind-ui-scale: 1;
-
-  /* Use daisyUI theme colors */
-  --pagefind-ui-primary: var(--color-accent);
-  --pagefind-ui-text: var(--color-secondary-content);
-  --pagefind-ui-background: inherit;
-  --pagefind-ui-border: var(--color-neutral);
-  --pagefind-ui-tag: var(--color-accent);
-
-  --pagefind-ui-border-width: 1px;
-  --pagefind-ui-border-radius: 0.5rem;
-  --pagefind-ui-image-border-radius: 0.75rem;
-  --pagefind-ui-image-box-ratio: 3 / 2;
-
   --pagefind-ui-font: inherit;
-}
-
-
-/* Obsidian callouts */
-/* Base callout */
-.prose .callout {
-  @apply block rounded-box p-4 my-6 border border-base-300 bg-base-200 text-base-content shadow-sm;
-}
-
-/* Title */
-.prose .callout .callout-title {
-  @apply flex items-start gap-2 font-semibold mb-2 text-base;
-}
-
-/* Title inner */
-.prose .callout .callout-title-inner {
-  @apply font-semibold;
-}
-
-/* Content spacing fix inside prose */
-.prose .callout .callout-content> :first-child {
-  @apply mt-0;
-}
-
-.prose .callout .callout-content> :last-child {
-  @apply mb-0;
-}
-
-/* Collapsible summary */
-.prose details.callout summary {
-  @apply cursor-pointer list-none;
-}
-
-.prose details.callout[open] .callout-fold {
-  @apply rotate-90;
-}
-
-.prose .callout-fold {
-  @apply transition-transform duration-150;
-}
-
-/* Note / Info / Todo */
-.prose .callout[data-callout="note"],
-.prose .callout[data-callout="info"],
-.prose .callout[data-callout="todo"] {
-  @apply border-info bg-info/10 text-base-content;
-}
-
-/* Success / Done */
-.prose .callout[data-callout="success"],
-.prose .callout[data-callout="check"],
-.prose .callout[data-callout="done"] {
-  @apply border-success bg-success/10 text-base-content;
-}
-
-/* Question / Warning / Caution */
-.prose .callout[data-callout="question"],
-.prose .callout[data-callout="help"],
-.prose .callout[data-callout="faq"],
-.prose .callout[data-callout="warning"],
-.prose .callout[data-callout="caution"],
-.prose .callout[data-callout="attention"] {
-  @apply border-warning bg-warning/10 text-base-content;
-}
-
-/* Error / Danger / Fail */
-.prose .callout[data-callout="failure"],
-.prose .callout[data-callout="bug"],
-.prose .callout[data-callout="danger"],
-.prose .callout[data-callout="error"] {
-  @apply border-error bg-error/10 text-base-content;
-}
-
-/* Tip / Hint / Important */
-.prose .callout[data-callout="tip"],
-.prose .callout[data-callout="hint"],
-.prose .callout[data-callout="important"] {
-  @apply border-accent bg-accent/10 text-base-content;
-}
-
-/* Example */
-.prose .callout[data-callout="example"] {
-  @apply border-secondary bg-secondary/10 text-base-content;
-}
-
-/* Summary / Abstract / TLDR */
-.prose .callout[data-callout="summary"],
-.prose .callout[data-callout="abstract"],
-.prose .callout[data-callout="tldr"] {
-  @apply border-primary bg-primary/10 text-base-content;
-}
-
-/* Quote / Cite */
-.prose .callout[data-callout="quote"],
-.prose .callout[data-callout="cite"] {
-  @apply border-neutral bg-neutral/20 text-neutral-content italic;
 }

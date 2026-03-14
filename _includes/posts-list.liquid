@@ -1,28 +1,22 @@
-<div class="columns-3xs gap-4">
-  {% for entry in collection %}
-    {% assign img = entry.data.cover | default: entry.data.banner %}
-    {% assign title = entry.data.title | default: entry.page.fileSlug %}
-    <div class="card bg-secondary text-secondary-content shadow-sm break-inside-avoid-column mb-4">
+{% for entry in collection reversed %}
+  <div class="break-inside-avoid-column mb-5 bg-neutral-primary-soft block max-w-sm border border-default rounded-base shadow-xs">
+    <a href="{{ entry.url }}">
+      {% assign img = entry.data.cover | default: entry.data.banner %}
+      {% assign title = entry.data.title | default: entry.page.fileSlug %}
       {% if img %}
-        <figure>
-          {% image img, title %}
-        </figure>
+        {% image img, title, "rounded-t-base" %}
       {% endif %}
-      <div class="card-body">
-        <h2 class="card-title">{{ title }}</h2>
+      <div class="p-6">
+        <h5 class="my-2 text-2xl font-semibold tracking-tight text-heading">
+          {{ title }}
+        </h5>
         {% if entry.date %}
-          <p class="text-sm opacity-70">{{ entry.data.modified | date: '%a, %b %d, %Y' }}</p>
+          <p class="mb-2 text-sm opacity-70">{{ entry.date | date: '%a, %b %d, %Y' }}</p>
         {% endif %}
-        <p>{{ entry.data.description }}</p>
-        <div class="card-actions justify-end">
-          {% for tag in entry.data.tags %}
-            <div class="badge badge-outline">{{ tag }}</div>
-          {% endfor %}
-        </div>
-        <div class="mt-4">
-          <a href="{{ entry.url }}" class="btn btn-soft btn-secondary btn-block">Read More</a>
-        </div>
+        <p class="text-body">
+          {{ entry.data.description }}
+        </p>
       </div>
-    </div>
-  {% endfor %}
-</div>
+    </a>
+  </div>
+{% endfor %}

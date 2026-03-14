@@ -38,7 +38,7 @@ export default async function (eleventyConfig) {
   // Drafts, see also _data/eleventyDataSchema.js
   eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
     if (data.draft) {
-      data.title = `${data.title} (draft)`;
+      data.title = `${data.page.fileSlug} (draft)`;
     }
 
     if (data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
@@ -59,9 +59,10 @@ export default async function (eleventyConfig) {
   // For example, `./public/css/` ends up in `_site/css/`
   eleventyConfig.addPassthroughCopy({
     "./public/": "/",
-    // "./content/img/": "/img/",
+    "./content/img/**/*": "/img/",
     // "./_includes/css/": "/css/",
-    // "./_includes/js/": "/js/",
+    "./_includes/js/": "/js/",
+    "./node_modules/flowbite/dist/flowbite.min.js": "/js/flowbite.min.js",
   });
 
   // Run Eleventy when these files change:

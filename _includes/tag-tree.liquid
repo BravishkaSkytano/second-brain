@@ -1,14 +1,14 @@
-<ul>
-  {% for node in tree %}
+<ul class="space-y-1 text-body list-disc list-inside">
+  {% for tag in tree %}
     <li>
-      <a href="/{{ path | append: node[0] }}/">
-        {{ node[0] }}
+      <a href="/{{ path | append: tag.name }}/" class="font-medium text-fg-brand hover:underline">
+        {{ tag.name }}
       </a>
 
-      {% assign childPath = path | append: node[0] | append: '/' %}
+      {% assign childPath = path | append: tag.name %}
 
-      {% if node[1].children.size > 0 %}
-        {% render 'tag-tree.liquid', tree: node[1].children, path: childPath %}
+      {% if tag.children.size > 0 %}
+        {% render 'tag-tree.liquid', tree: tag.children, path: childPath %}
       {% endif %}
     </li>
   {% endfor %}

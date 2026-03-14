@@ -6,17 +6,4 @@ export default {
     name: "Yoela O",
     url: "https://bravishkaskytano.github.io/",
   },
-  mainCollections: [
-    "century",
-    "subject",
-    "culture",
-    "religion",
-    "theme",
-    "style",
-    "period",
-    "Bible",
-    "type",
-    "person",
-    "course",
-  ],
 };
