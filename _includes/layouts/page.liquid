@@ -5,8 +5,6 @@ layout: base
   data-pagefind-body
   class="mx-auto format lg:format-lg dark:format-invert format-red p-6"
 >
-  {% assign title = title | default: page.fileSlug %}
-
   {% if needsUpdate %}
     <div class="callout" data-callout="bug">
       <div class="callout-title">
@@ -72,7 +70,7 @@ layout: base
     </div>
   {% endif %}
   <div class="not-format">
-    {% if tags %}
+    {% if tags and index != true %}
       <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center items-center sm:space-y-0 md:space-x-4 mt-4">
         {% for tag in tags %}
           <a

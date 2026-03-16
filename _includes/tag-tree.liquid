@@ -1,15 +1,19 @@
 <ul class="ps-3 mt-2 space-y-1 list-disc list-inside">
   {% for tag in tree %}
-    <li>
-      <a href="/{{ path | append: tag.name }}/" class="font-medium text-fg-brand hover:underline">
-        {{ tag.name }}
-      </a>
+    {% if tag.name == 'idx' or tag.name == 'meta_idx' %}
+      {% break %}
+    {% else %}
+      <li>
+        <a href="/{{ path | append: tag.name }}/" class="font-medium text-fg-brand hover:underline">
+          {{ tag.name }}
+        </a>
 
-      {% capture childPath %}{{ path }}{{ tag.name | append: '/' }}{% endcapture %}
+        {% capture childPath %}{{ path }}{{ tag.name | append: '/' }}{% endcapture %}
 
-      {% if tag.children.size > 0 %}
-        {% render 'tag-tree.liquid', tree: tag.children, path: childPath %}
-      {% endif %}
-    </li>
+        {% if tag.children.size > 0 %}
+          {% render 'tag-tree.liquid', tree: tag.children, path: childPath %}
+        {% endif %}
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>

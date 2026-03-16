@@ -1,4 +1,4 @@
-{% assign title = title | default: page.fileSlug | capitalize %}
+{% assign title = title | default: page.fileSlug %}
 <!doctype html>
 <html lang="en">
   <head>
@@ -46,7 +46,8 @@
         date: date,
         modified: modified,
         cover: cover,
-        tags: tags
+        tags: tags,
+        index: index
       %}
     {% else %}
       {% render 'hero',
@@ -55,7 +56,8 @@
         date: date,
         modified: modified,
         banner: banner,
-        tags: tags
+        tags: tags,
+        index: index
       %}
     {% endif %}
     {{ content }}
