@@ -4,50 +4,52 @@ layout: base
 <div class="mx-auto max-w-screen-2xl p-6">
   <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 justify-between">
     {% for tag in collections.tagTree %}
-      <div>
-        <div class="callout" data-callout="summary">
-          <div class="callout-title">
-            <div class="callout-title-icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="lucide lucide-list"
-              >
-                <line x1="8" x2="21" y1="6" y2="6"></line><line x1="8" x2="21" y1="12" y2="12"></line><line x1="8" x2="21" y1="18" y2="18"></line><line x1="3" x2="3.01" y1="6" y2="6"></line><line x1="3" x2="3.01" y1="12" y2="12"></line><line x1="3" x2="3.01" y1="18" y2="18"></line>
-              </svg>
-            </div>
-            <div class="callout-title-inner">
-              {{ tag.name | capitalize }}
-            </div>
-            <div>
-              <a href="/{{ tag.name }}/">
+      {% if tag.children.size > 0 %}
+        <div>
+          <div class="callout" data-callout="summary">
+            <div class="callout-title">
+              <div class="callout-title-icon">
                 <svg
-                  class="h-5 w-5 ml-2"
-                  aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
-                  fill="none"
                   viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-list"
                 >
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 14v4.833A1.166 1.166 0 0 1 16.833 20H5.167A1.167 1.167 0 0 1 4 18.833V7.167A1.166 1.166 0 0 1 5.167 6h4.618m4.447-2H20v5.768m-7.889 2.121 7.778-7.778"/>
+                  <line x1="8" x2="21" y1="6" y2="6"></line><line x1="8" x2="21" y1="12" y2="12"></line><line x1="8" x2="21" y1="18" y2="18"></line><line x1="3" x2="3.01" y1="6" y2="6"></line><line x1="3" x2="3.01" y1="12" y2="12"></line><line x1="3" x2="3.01" y1="18" y2="18"></line>
                 </svg>
-              </a>
+              </div>
+              <div class="callout-title-inner">
+                {{ tag.name | capitalize }}
+              </div>
+              <div>
+                <a href="/{{ tag.name }}/">
+                  <svg
+                    class="h-5 w-5 ml-2"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 14v4.833A1.166 1.166 0 0 1 16.833 20H5.167A1.167 1.167 0 0 1 4 18.833V7.167A1.166 1.166 0 0 1 5.167 6h4.618m4.447-2H20v5.768m-7.889 2.121 7.778-7.778"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            {% capture childPath %}{{ tag.name | append: '/' }}{% endcapture %}
+            <div class="callout-content mt-4">
+              {% render 'tag-tree', tree: tag.children, path: childPath %}
             </div>
           </div>
-          {% capture childPath %}{{ tag.name | append: '/' }}{% endcapture %}
-          <div class="callout-content mt-4">
-            {% render 'tag-tree', tree: tag.children, path: childPath %}
-          </div>
         </div>
-      </div>
+      {% endif %}
     {% endfor %}
   </div>
 </div>
