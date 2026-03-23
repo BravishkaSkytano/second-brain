@@ -3,12 +3,14 @@
     {% if tag.name == 'idx' or tag.name == 'meta_idx' %}
       {% break %}
     {% else %}
+      {% assign tagName = tag.name | remove: '_' %}
+      {% capture tagPath %}{{ path | append: tagName }}{% endcapture %}
       <li>
-        <a href="/{{ path | append: tag.name }}/" class="font-medium text-fg-brand hover:underline">
-          {{ tag.name }}
+        <a href="/{{ tagPath }}/" class="font-medium text-fg-brand hover:underline">
+          {{ tagName }}
         </a>
 
-        {% capture childPath %}{{ path }}{{ tag.name | append: '/' }}{% endcapture %}
+        {% capture childPath %}{{ path }}{{ tagName | append: '/' }}{% endcapture %}
 
         {% if tag.children.size > 0 %}
           {% render 'tag-tree.liquid', tree: tag.children, path: childPath %}
